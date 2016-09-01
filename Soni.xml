@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <oneplus2>
+            <Filename>ResurrectionRemix-M-v5.7.3-20160831-oneplus2.zip</Filename>
+            <RomUrlafh
+                id="rom"
+                title="Rom"
+d                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=24591000424961608</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/marshmallow/CHANGELOG.mkdn</ChangelogUrl>
+            <OpenGappsUrl
+                id="open_gapps"
+                title="OpenGApps"
+                description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
+            <BanksGappsUrl
+            	id="banks_gapps"
+            	title="BaNkS Dynamic GApps"
+            	description="Download BaNkS latest GApps">http://download.dirtyunicorns.com/files/gapps/Banks/</BanksGappsUrl>
+	</oneplus2>
+    </Stable>
+</SlimOTA>
