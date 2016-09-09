@@ -2,15 +2,19 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <oneplus2>
-            <Filename>ResurrectionRemix-M-v5.7.3-20160831-oneplus2.zip</Filename>
+            <Filename>ResurrectionRemix-M-v5.7.3-20160909-oneplus2.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=24591000424961608</RomUrl>
+                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?w=files&flid=105028</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
                 description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/marshmallow/CHANGELOG.mkdn</ChangelogUrl>
+	    <MyChangelogUrl
+                id="changelog"
+                title="Custom Changes"
+                description="View Changes">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog.txt</MyChangelogUrl>                
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
