@@ -2,7 +2,7 @@
 
 Latest CM and Resurrection Remix updated sources.
 OTA fixed for unofficial builds.
-Rotation vector fix.
+Rotation vector fix.(Next version will have new approach)
 SystemUI: Hide unprovisioned SIMs
 Rom and Kernel compiled with UberTC 4.9.4
 UberMallow UberTC optimizations added.
@@ -16,5 +16,4 @@ KCAL implemented in stock kernel.
 Bugs yet to squash.
 
 ----
-Certain apps are not visible in "Apps with usage access" but that's Resurrection Remix issue not a local issue as reported in bacon thread too.
-Settings - Privacy - Privacy Guard - Advanced - Bootup Force Close.
+Certain apps are not visible in "Apps with usage access" but that's Resurrection Remix issue not a local issue as reported in bacon thread too. 
