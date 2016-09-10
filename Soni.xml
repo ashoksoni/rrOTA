@@ -11,10 +11,10 @@
                 id="changelog"
                 title="Changelog"
                 description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/marshmallow/CHANGELOG.mkdn</ChangelogUrl>
-	    <LocalChangesUrl
-                id="localchanges"
-                title="LocalChanges"
-                description="View Local Changelog">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog</LocalChangesUrl>                
+	    <UnofficialChangelogUrl
+                id="unofficialchange"
+                title="Unofficial Changelog"
+                description="View local changes">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog</UnofficialChangelogUrl>                
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
