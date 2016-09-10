@@ -14,7 +14,7 @@
 	    <UnofficialChangelogUrl
                 id="unofficialchange"
                 title="Unofficial Changelog"
-                description="View local changes">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog</UnofficialChangelogUrl>                
+                description="View local changes done by me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog</UnofficialChangelogUrl>                
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
