@@ -9,7 +9,7 @@ UberMallow UberTC optimizations added.
  - Srict aliasing, graphite, GCC only, and cortex-a15 tunings
  - Remove strict from key files and ensure that things stay aosp if not enabled.
  - Add CLANG_O3 option for clang-made files.
-KCAL implemented in stock kernel.
+KCAL implemented in stock kernel. (Some unwanted commits added but no side effects, I'll remove them in next build). 
 
 -----------------------
 
