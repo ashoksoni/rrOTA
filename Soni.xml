@@ -12,7 +12,7 @@
                 title="Changelog"
                 description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/marshmallow/CHANGELOG.mkdn</ChangelogUrl>
 	    <MyChangelogUrl
-                id="changelog"
+                id="mychangelog"
                 title="Custom Changes"
                 description="View Changes">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog.txt</MyChangelogUrl>                
             <OpenGappsUrl
