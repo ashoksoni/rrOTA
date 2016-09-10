@@ -6,7 +6,7 @@
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?w=files&flid=105028</RomUrl>
+                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=24694152805485166</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -14,7 +14,7 @@
 	    <LocalChangesUrl
                 id="localchanges"
                 title="LocalChanges"
-                description="View Local Changes">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog.txt</LocalChangesUrl>                
+                description="View Local Changelog">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog</LocalChangesUrl>                
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
