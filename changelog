@@ -15,10 +15,9 @@ KCAL implemented in stock kernel. (Some unwanted commits added but no side effec
 13.09.2016
 
 Latest CM and Resurrection Remix sources synced.
-Rotation vector fix.(Next version with wrapper)
-KCal implementaiton is much better now, removed not needed commits and it's better now. 
+Rotation vector fix.(New approach with wrapper)
+KCal implementation is much clearer now, Removed not needed commits and it's only few commits now. 
 Usb: Gadget: mass_storage: added sysfs entry for cdrom to LUNs (To support DriveDroid properly to switch between USB/CD-ROM)
-tri_state_key: allow more key codes for extra modes.
 More will be added tomorrow if I find something before I start building.. 
 
 
