@@ -12,13 +12,20 @@ UberMallow UberTC optimizations added.
 KCAL implemented in stock kernel. (Some unwanted commits added but no side effects, I'll remove them in next build). 
 
 -----------------------
+
 13.09.2016
 
 Latest CM and Resurrection Remix sources synced.
 Rotation vector fix.(New approach with wrapper)
 KCal implementation is much clearer now, Removed not needed commits and it's only few commits now. 
 Usb: Gadget: mass_storage: added sysfs entry for cdrom to LUNs (To support DriveDroid properly to switch between USB/CD-ROM)
-More will be added tomorrow if I find something before I start building.. 
+
+Notification slider: add extra options
+
+- Option to ignore slider in zen auto mode. 
+- Extra notification modes (ring and vibrate). 
+
+
 
 
 Bugs yet to squash. (Mostly by CM or RR team)
