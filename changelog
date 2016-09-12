@@ -12,8 +12,17 @@ UberMallow UberTC optimizations added.
 KCAL implemented in stock kernel. (Some unwanted commits added but no side effects, I'll remove them in next build). 
 
 -----------------------
+13.09.2016
 
-Bugs yet to squash.
+Latest CM and Resurrection Remix sources synced.
+Rotation vector fix.(Next version with wrapper)
+KCal implementaiton is much better now, removed not needed commits and it's better now. 
+Usb: Gadget: mass_storage: added sysfs entry for cdrom to LUNs (To support DriveDroid properly to switch between USB/CD-ROM)
+More will be added tomorrow if I find something before I start building.. 
+
+
+Bugs yet to squash. (Mostly by CM or RR team)
 
 ----
 Certain apps are not visible in "Apps with usage access" but that's Resurrection Remix issue not a local issue as reported in bacon thread too. 
+FC in Privacy Guard - That's again not a rom problem as this doesn't happen on clean flash. Use default themes and don't use excessive mods like xposed etc.
