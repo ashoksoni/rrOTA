@@ -18,6 +18,7 @@ Latest CM and Resurrection Remix sources synced.
 Rotation vector fix.(Next version with wrapper)
 KCal implementaiton is much better now, removed not needed commits and it's better now. 
 Usb: Gadget: mass_storage: added sysfs entry for cdrom to LUNs (To support DriveDroid properly to switch between USB/CD-ROM)
+tri_state_key: allow more key codes for extra modes.
 More will be added tomorrow if I find something before I start building.. 
 
 
