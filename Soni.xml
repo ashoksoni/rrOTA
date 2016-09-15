@@ -18,7 +18,7 @@
 	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
-                description="Miscellaneous">https://www.androidfilehost.com/?w=files&flid=113050</MiscUrl>                
+                description="Miscellaneous">https://www.androidfilehost.com/?w=files&amp;flid=113050</MiscUrl>                
 	    <CreditsUrl
                 id="credits"
                 title="Credits"
