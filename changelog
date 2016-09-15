@@ -30,3 +30,4 @@ Bugs yet to squash. (Mostly by CM or RR team)
 _____________________________________________
 Certain apps are not visible in "Apps with usage access" but that's Resurrection Remix issue not a local issue as reported in bacon thread too. 
 FC in Privacy Guard - That's again not a rom problem as this doesn't happen on clean flash. Use default themes and don't use excessive mods like xposed etc.
+ -- I am yet to find the actual coz of this fc but that has to be a reason of a mod or something. Will try to find the coz on a clean install but don't report it though.
