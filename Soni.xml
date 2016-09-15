@@ -15,14 +15,14 @@
                 id="unofficialchange"
                 title="Unofficial Changelog"
                 description="Local Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog</UnofficialChangelogUrl>                
-	    <Misc
+	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
-                description="Miscellaneous">https://www.androidfilehost.com/?w=files&flid=113050</Misc>                
-	    <Credits
+                description="Miscellaneous">https://www.androidfilehost.com/?w=files&flid=113050</MiscUrl>                
+	    <CreditsUrl
                 id="credits"
                 title="Credits"
-                description="Thanks to you all">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/Credits</Credits>                
+                description="Thanks to you all">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/Credits</CreditsUrl>                
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
