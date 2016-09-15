@@ -15,14 +15,18 @@
                 id="unofficialchange"
                 title="Unofficial Changelog"
                 description="Local Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelog</UnofficialChangelogUrl>                
+	    <Misc
+                id="misc"
+                title="Miscellaneous"
+                description="Miscellaneous">https://www.androidfilehost.com/?w=files&flid=113050</Misc>                
+	    <Credits
+                id="credits"
+                title="Credits"
+                description="Thanks to you all">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/Credits</Credits>                
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
                 description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
-            <BanksGappsUrl
-            	id="banks_gapps"
-            	title="BaNkS Dynamic GApps"
-            	description="Download BaNkS latest GApps">http://download.dirtyunicorns.com/files/gapps/Banks/</BanksGappsUrl>
 	</oneplus2>
     </Stable>
 </SlimOTA>
