@@ -26,6 +26,14 @@ Notification slider: add extra options
 - Extra notification modes (ring and vibrate). 
 _________________________________________________________________________________________________________________________
 
+15.09.2016
+
+Latest CM and Resurrection Remix sources synced. (If any)
+Bug fixed - Touch Screen playing havoc when hw keys disabled through menu option. Had no impact if the same was done using qs tile.
+ ---- Courtesy Grarak
+ Will add more if I able to add anything else. This is it for the now.
+_________________________________________________________________________________________________________________________
+
 Bugs yet to squash. (Mostly by CM or RR team)
 _____________________________________________
 Certain apps are not visible in "Apps with usage access" but that's Resurrection Remix issue not a local issue as reported in bacon thread too. 
