@@ -26,12 +26,12 @@ Notification slider: add extra options
 - Extra notification modes (ring and vibrate). 
 _________________________________________________________________________________________________________________________
 
-15.09.2016
+15.09.2016 (Released the kernel only since no changes in rom sources) 
 
-Latest CM and Resurrection Remix sources synced. (If any)
 Bug fixed - Touch Screen playing havoc when hw keys disabled through menu option. Had no impact if the same was done using qs tile.
  ---- Courtesy Grarak
- Will add more if I able to add anything else. This is it for the now.
+
+Find the kernel in misc folder from rrOTA. 
 _________________________________________________________________________________________________________________________
 
 Bugs yet to squash. (Mostly by CM or RR team)
