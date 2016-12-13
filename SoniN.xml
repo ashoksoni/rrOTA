@@ -2,23 +2,23 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <oneplus2>
-            <Filename>ResurrectionRemix-M-v5.7.3-20160914-UNOFFICIAL-oneplus2.zip</Filename>
+            <Filename>ResurrectionRemix-N-v5.8.0-20161213-UNOFFICIAL-oneplus2.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=24727376692772908</RomUrl>
+                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=673368273298916453</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
+                description="View Changelog">https://github.com/ashoksoni/rrOTA/blob/master/CHANGELOG.mkdn</ChangelogUrl>
 	    <UnofficialChangelogUrl
                 id="unofficialchange"
                 title="Unofficial Changelog"
-                description="Local Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelogN</UnofficialChangelogUrl>                
+                description="Local Changes By Me">https://github.com/ashoksoni/rrOTA/blob/master/changelogN.mkdn</UnofficialChangelogUrl>                
 	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
-                description="Miscellaneous">https://www.androidfilehost.com/?w=files&amp;flid=113050</MiscUrl>                
+                description="Miscellaneous">https://www.androidfilehost.com/?w=files&amp;flid=113050</MiscUrl>         
 	    <CreditsUrl
                 id="credits"
                 title="Credits"
