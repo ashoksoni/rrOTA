@@ -14,7 +14,7 @@
 	    <UnofficialChangelogUrl
                 id="unofficialchange"
                 title="Unofficial Changelog"
-                description="Local Changes By Me">https://github.com/ashoksoni/rrOTA/blob/master/changelogN.mkdn</UnofficialChangelogUrl>                
+                description="Local Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelogN.mkdn</UnofficialChangelogUrl>                
 	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
