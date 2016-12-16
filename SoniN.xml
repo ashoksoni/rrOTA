@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <oneplus2>
-            <Filename>ResurrectionRemix-N-v5.8.0-20161213-UNOFFICIAL-oneplus2.zip</Filename>
+            <Filename>ResurrectionRemix-N-v5.8.0-20161216-UNOFFICIAL-oneplus2.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=673368273298916453</RomUrl>
+                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=745425885120693835</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"

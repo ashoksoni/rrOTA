@@ -1,24 +1,25 @@
- ▼ Unofficial Changelog.
+Unofficial Changelog
 
- ▼ 13th Dec 2016
+13th Dec 2016
+-------------
 
- ▪ First unofficial build.
- 
- ▪ Latest CM and Resurrection Remix updated sources (android-7.1.1_r6) - 13th Dec 2016, 6pm IST
- 
- ▪ OTA fixed for unofficial builds.
- 
- ▪ KCAL implemented in stock kernel.
- 
- ▪  Usb: Gadget: mass_storage: added sysfs entry for cdrom to LUNs (To support DriveDroid properly to switch between USB/CD-ROM)
- 
- ▪ Notification slider: add extra options.
-      * Option to ignore slider in zen auto mode.
-      * Extra notification modes (ring and vibrate)
- 
- ▪ InputMethodService: Disable fullscreen keyboard.
- 
- ▪  Added support for fake signatures
-      *for microG GmsCore (http://forum.xda-developers.com/showpost.php?p=63131189&postcount=1)
- 
- ▪ Gello is not in the rom for now. (Giving build errors)
+First unofficial build.
+Latest CM and Resurrection Remix updated sources (android-7.1.1_r6) - 13th Dec 2016, 6pm IST
+OTA fixed for unofficial builds.
+KCAL implemented in stock kernel.
+Usb: Gadget: mass_storage: added sysfs entry for cdrom to LUNs (To support DriveDroid properly to switch between USB/CD-ROM)
+Notification slider: add extra options.
+	* Option to ignore slider in zen auto mode.
+	* Extra notification modes (ring and vibrate)
+InputMethodService: Disable fullscreen keyboard.
+Added support for fake signatures
+	* for microG GmsCore (http://forum.xda-developers.com/showpost.php?p=63131189&postcount=1)
+Gello is not in the rom for now. (Giving build errors)
+
+16th Dec 2016
+-------------
+
+Stock Kernel Fixes
+
+Fix: Security vulnerability CVE-2015-8966
+Fix: Security vulnerability CVE-2016-8655
