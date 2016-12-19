@@ -2,6 +2,192 @@
  ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
+ ▼ 12/19/2016
+
+
+ ▪ project build/
+ ▪ 3ba365f OMS7-N: adb shell command to access OverlayManagerService
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 397d9e9 Merge remote-tracking branch 'upstream/cm-14.1' into cm-14.1
+
+ ▪ project device/oppo/common/
+ ▪ d6340a8 Merge remote-tracking branch 'upstream/cm-14.1' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ 18a219f SystemUI: Use own drawables for QS expand icon
+ ▪ a088470 Derp fixed in -  Allow prevention of doze notification color inversion
+ ▪ 894bdd0 1/2 - Add support for Fake Signatures. enabled by dynamic spoofing - Fix
+ ▪ bbd0a16 Revert "1/2 - Add support for Fake Signatures. enabled by dynamic spoofing."
+ ▪ a19d258 OMS7-N: ApplicationsState: add filter for Substratum icon overlays [1/2]
+ ▪ 4d5abed Themes: Expose various QuickSettings text colors
+ ▪ c077504 Allow custom alpha for notification shade bg color
+ ▪ a070409 Ambient notification inversion compatible with OMS7 (2/2)
+ ▪ df3cca4 Notification dynamic colors bool compatible with OMS7 (2/2)
+ ▪ 0b823b6 Move from cr colors to rr colors.
+ ▪ 194889c Themes: Expose nav bar tuner colors
+ ▪ 60b5274 Allow prevention of doze notification color inversion
+ ▪ 3773327 Derp fixed in -  Notifications: Expose a bool to disable dynamic colors.
+ ▪ c80a998 Notifications: Expose a bool to disable dynamic colors
+ ▪ 2d1a8ea SystemUI: Expose QS edit item decoration background color
+ ▪ 57ad14e Themes: Allow Resolver List BG to be fully themed
+ ▪ 0da9918 Themes: Make resolver list fully themeable
+ ▪ 00b2064 Themes: Allow Navbar ripple color to be themed
+ ▪ 8c12449 Themes: Allow Permission Icons to be fully themed
+ ▪ a5ced7a Themes: Allow Immersive cling colors to be fully themed
+ ▪ e6bfb8d Themes: Expose resolver hardcoded colors
+ ▪ b81b235 N-Extras: Add dynamic theme fonts support
+ ▪ 0f9cce4 N-Extras: AudioService: Allow system effect sounds to be themed
+ ▪ f050277 N-Extras: Add dynamic theme BootAnimation support
+ ▪ 207ada2 OMS7-N: ApplicationsState: add filter for Substratum overlays [1/2]
+ ▪ ae8de35 Resource Runtime Overlay: Repair damages to Zygote runtime overlays
+ ▪ fc624f6 OMS7-N: Implement multi-target enable/disable and disable-all [11/11]
+ ▪ 662be87 OMS7-N: Do not enforce code policy limiting overlay installation [10/11]
+ ▪ 196d1ae OMS7-N: Persistence on boot through OverlayManagerServiceImpl [9/11]
+ ▪ 9d1acb2 OMS7-N: Disable Zygote preloaded drawables [8/11]
+ ▪ fa17912 OMS7-N: installd: add command 'rmidmap' [7/11]
+ ▪ 45b3791 OMS7-N: Fix memory leak during idmap creation [6/11]
+ ▪ 1041969 OMS7-N: idmap: suppress print for padded resources [5/11]
+ ▪ 36c7468 OMS7-N: Set EXTRA_REPLACING correctly in ACTION_PACKAGE_ADDED [4/11]
+ ▪ f408fe7 OMS7-N: Integrate OverlayManagerService into framework [3/11]
+ ▪ 6e82620 OMS7-N: Introduce the OverlayManagerService [2/11]
+ ▪ 190fbde OMS7-N: Support tagging resources as OK to overlay [1/11]
+ ▪ 545da85 InputMethodService: Disable fullscreen keyboard.
+ ▪ c8bfe8e 1/2 - Add support for Fake Signatures. enabled by dynamic spoofing.
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ ccc5b0b tri_state_key: allow more key codes for extra modes
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 9feb022 Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_packages_apps_PhoneCommon into oms
+
+ ▪ project packages/apps/Settings/
+ ▪ 6c47221 Hide the "show/hide overlays" when no overlay installed
+ ▪ 0c4480e Exclude overlays from the app counter
+ ▪ 5a16e8b Settings: Expose LinearColorBar default colors
+ ▪ 56b6f26 Settings: Expose storage icon colors
+ ▪ 20c760d Settings: Expose gesture settings switchbar
+ ▪ a2815f7 OMS7-N: Apps: show/hide Substratum icon overlays [2/2]
+ ▪ b02c0eb Add back a helper pref that holds a system setting.
+ ▪ 7d6a7fa OMS7-N: Apps: show/hide Substratum overlays [2/2]
+ ▪ 1d3f04c Expose dashboard category and tile color
+ ▪ 79272a1 Themes: Expose condition card colors
+ ▪ d6692c0 Settings: Expose storage summary text
+ ▪ 75c671e 2/2 - Add support for Fake Signatures. enabled by dynamic spoofing.
+ ▪ 15a02f8 Merge remote-tracking branch 'upstream/nougat' into nougat
+ ▪ ce7d1c6 Add ferrari maintainer (#638)
+
+ ▪ project vendor/cm/
+ ▪ e62d44d Merge remote-tracking branch 'upstream/nougat' into nougat
+
+ ▼ 12/18/2016
+
+
+ ▪ project android/
+ ▪ bf56192 Update README.mkdn
+
+ ▪ project device/oppo/common/
+ ▪ 72bcb2d Automatic translation import
+
+ ▪ project hardware/qcom/fm/
+ ▪ f0dda9e Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 0726d88 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 794758b Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ ebd2f7d Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ 8e70f2f Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ bd595be Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ eac59d5 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ c0d86c2 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ f6e4362 camera2: Ask for PREVENT_POWER_KEY, not PREVENT_SYSTEM_KEYS permission
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 3f413e4 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 2fe8914 Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ 5187937 Automatic translation import
+
+ ▪ project packages/apps/Screencast/
+ ▪ 7e5714a Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ e4bdb84 Merge pull request #636 from rodman01/nougat
+ ▪ dc6f701 Merge pull request #637 from webhaikal/nougat
+ ▪ f93e8fd Move onyx to Oneplus category
+ ▪ 018d07b Add SAMSUNG GT-I9305 Maintainer
+ ▪ b707baa Merge pull request #635 from SanjayVarun/nougat
+ ▪ 7b022bf Add OnePlus X Maintainer
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 2e1593c Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 8462b44 Automatic translation import
+
+ ▪ project packages/apps/SoundRecorder/
+ ▪ 45a9e20 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 2a27b9b Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ c9637ec Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 6a6307d Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ a328ecb Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 1d663e0 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ ccdac6b Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ c1b207e Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ b7255ae Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 8286a31 Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 8ade979 vendor: add RR_BUILDTYPE
+ ▪ 6bfc168 Update github changelog and readme
+
+ ▪ project vendor/cmsdk/
+ ▪ 1b312ad Automatic translation import
+
+ ▼ 12/17/2016
+
+
+ ▪ project android/
+ ▪ 8a11671 manifest: track own art/skia
+
+ ▪ project frameworks/base/
+ ▪ 240d9cf Remove Uneeded Style
+
  ▼ 12/16/2016
 
 
@@ -12,16 +198,18 @@
  ▪ project device/qcom/common/
  ▪ 5a54ae4 extractors: Split 32/64 makefiles
 
- ▪ project frameworks/base/
- ▪ e444d8c Merge remote-tracking branch 'upstream/nougat' into nougat
-
  ▪ project kernel/oneplus/msm8994/
  ▪ ea4bc72 arm: fix handling of F_OFD_... in oabi_fcntl64()
  ▪ 86b280b packet: fix race condition in packet_set_ring
 
+ ▪ project packages/apps/AudioFX/
+ ▪ c5a438a Automatic translation import
+
  ▪ project packages/apps/Settings/
  ▪ 73c349b Merge remote-tracking branch 'upstream/nougat' into nougat
- ▪ 847cc22 Add LG L Fino Maintainer
+
+ ▪ project packages/apps/Snap/
+ ▪ 51281be Automatic translation import
 
  ▪ project vendor/qcom/binaries/
  ▪ 4d4d7ec graphic: Split msm8916 32 and 64 bit makefiles
@@ -33,6 +221,9 @@
  ▪ bc43789 Do not limit threads upon calling legacy GNU make
  ▪ 42a270b Merge github.com:google/kati into HEAD
 
+ ▪ project device/oneplus/oneplus2/
+ ▪ 04e7a16 oneplus2: Pull gps.conf from H2OS
+
  ▪ project external/vim/
  ▪ a7b10a8 Merge tag 'v8.0.0133' into HEAD
 
@@ -43,15 +234,37 @@
  ▪ ab8fa40 FWB:Add a Switch to Enable Disable Dyanamic Navbar[1/2]
  ▪ 3e498b9 base: dynamic navbar colors
 
+ ▪ project frameworks/native/
+ ▪ cebe843 OMS7-N: installd: add command 'rmidmap'
+
+ ▪ project packages/apps/Contacts/
+ ▪ 0264b53 Themes: Expose hardcoded layout and styles colors
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ adee700 Themes: Expose hardcoded contact tile text colors
+
+ ▪ project packages/apps/Dialer/
+ ▪ f1dd4f2 Themes: InCallUI dialpad digits color
+ ▪ 3a31b73 Themes: Separate background color from text color
+
+ ▪ project packages/apps/ExactCalculator/
+ ▪ 6086d8d Themes: Expose hard coded background in java
+ ▪ 3545341 Themes: Expose all elevations
+
  ▪ project packages/apps/PhoneCommon/
  ▪ 42419ca Automatic translation import
+ ▪ 12d51be Themes: Make dialpad seperator line theme-able
 
  ▪ project packages/apps/Settings/
+ ▪ 847cc22 Add LG L Fino Maintainer
  ▪ b063c36 Bring Back Small QS Tilex [2/2]
  ▪ d5c94b5 Settings:Add a Switch to Enable Disable Dyanamic Navbar[2/2]
 
- ▪ project vendor/cm/
- ▪ 92eeedd Adding Support for masquerade for OMS.
+ ▪ project system/bt/
+ ▪ 69d13f7 Bluetooth: silence logspam
+
+ ▪ project system/sepolicy/
+ ▪ cc2c3c5 OMS7-N: Add service 'overlay' to service_contexts
 
  ▼ 12/14/2016
 
@@ -73,8 +286,6 @@
  ▪ bca4f83 Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_frameworks_av into nougat
 
  ▪ project frameworks/base/
- ▪ 0d7fc4d Merge remote-tracking branch 'upstream/nougat' into nougat
- ▪ 4dfb609 Revert "SystemUI: Hide unprovisioned SIMs"
  ▪ 2006790 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
  ▪ 31f0227 Store Network Mode selected in subId Table.
  ▪ f6c5a04 Merge tag 'android-7.1.1_r6' into HEAD
@@ -83,12 +294,6 @@
  ▪ 3efb79b Automatic translation import
  ▪ 4098d8f core: cm_symbols: Remove deprecated <private-symbols>
  ▪ 9153de0 Add large battery percentage and also the switch for it. (#159)
- ▪ 398506c InputMethodService: Disable fullscreen keyboard.
- ▪ c2c2109 SystemUI: Hide unprovisioned SIMs
- ▪ e852727 core: Add support for fake signatures, enabled per app by dynamic permission
-
- ▪ project frameworks/opt/telephony/
- ▪ 225d8cf telephony: Respect user nw mode, handle DSDS non-multi-rat.
 
  ▪ project kernel/oneplus/msm8994/
  ▪ 1e6e04b Enabling KCAL in kernel configuration file.
@@ -124,6 +329,7 @@
  ▪ d285a8f Automatic translation import
 
  ▪ project vendor/cm/
+ ▪ 92eeedd Adding Support for masquerade for OMS.
  ▪ 159460d vendor: changelog allow export of days_to_log
  ▪ 09189d5 Add Reliance Jio India IMS volte apn's
  ▪ 558a43b Fix Reliance Jio India APNs.
@@ -134,7 +340,6 @@
 
  ▪ project vendor/cmsdk/
  ▪ 3fdfa0f Automatic translation import
- ▪ 5be83e5 Revert "cmsdk: Add device-specific strings"
 
  ▼ 12/13/2016
 
@@ -145,6 +350,9 @@
  ▪ project build/
  ▪ 4a0aeb8 Merge tag 'android-7.1.1_r6' into cm-14.1
 
+ ▪ project frameworks/opt/telephony/
+ ▪ 225d8cf telephony: Respect user nw mode, handle DSDS non-multi-rat.
+
  ▪ project packages/apps/Bluetooth/
  ▪ 7d2f2d1 jni: fix merge failure
 
@@ -154,9 +362,6 @@
  ▪ project packages/apps/PhoneCommon/
  ▪ 9a66046 Automatic translation import
 
- ▪ project packages/apps/Settings/
- ▪ 24fd4ff Adding unofficial to few places
-
  ▪ project packages/apps/SetupWizard/
  ▪ e89bc04 SetupWizard: always prompt the user to setup a lockscreen
 
@@ -165,6 +370,9 @@
 
  ▪ project packages/services/CMAudioService/
  ▪ b26686e Automatic translation import
+
+ ▪ project vendor/cmsdk/
+ ▪ 5be83e5 Revert "cmsdk: Add device-specific strings"
 
  ▼ 12/12/2016
 
@@ -196,6 +404,7 @@
  ▪ 0d10624 Enable support for groups in External contacts accounts
 
  ▪ project packages/apps/Settings/
+ ▪ 24fd4ff Adding unofficial to few places
  ▪ 9c5ce8d Remove hide Clock array
  ▪ 353da0a Added maintainer for Samsung Note int n7000 (#630)
 
@@ -264,4 +473,62 @@
 
  ▪ project vendor/oneplus/
  ▪ 78548c7 onyx: Update Blobs
+
+ ▼ 12/10/2016
+
+
+ ▪ project art/
+ ▪ bd76a0a Art: Disable FDO_SUPPORT [1/2] *this allows ccache to work on art/skia and increases build times by 10+ minutes
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ d602132 sepolicy: Address more denials
+ ▪ 1c7c50a Update blob hashes
+
+ ▪ project external/skia/
+ ▪ 7c15eb3 Skia: Disable FDO_SUPPORT [2/2] *this allows ccache to work on art/skia and increases build times by 10+ minutes
+
+ ▪ project external/vim/
+ ▪ 63de19e patch 8.0.0130 Problem:    Configure uses "ushort" while the Vim code doesn't. Solution:   Use "unsigned short" instead. (Fredrik Fornwall, closes #1314)
+ ▪ 0df3c7f patch 8.0.0129 Problem:    Parallel make still doesn't work. (Lewis Muir) Solution:   Define OBJ_MAIN.
+ ▪ 7089237 patch 8.0.0128 Problem:    Display test fails on MS-Windows. Solution:   Set 'isprint' to "@".
+ ▪ 73fd498 patch 8.0.0127 Problem:    Cancelling completion still inserts text when formatting is done             for 'textwidth'. (lacygoill) Solution:   Don't format when CTRL-E was typed. (Hirohito Higashi,             closes #1312)
+ ▪ 6270660 patch 8.0.0126 Problem:    Display problem with 'foldcolumn' and a wide character.             (esiegerman) Solution:   Don't use "extra" but an allocated buffer. (Christian Brabandt,             closes #1310)
+ ▪ eaaa9bb patch 8.0.0125 Problem:    Not enough testing for entering Ex commands. Solution:   Add test for CTRL-\ e {expr}. (Dominique Pelle)
+
+ ▪ project frameworks/base/
+ ▪ ee4669e Fix Smart PullDown
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 3941619 policy_hal: Fix mismerges
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ 1b182cc policy_hal: Fix mismerges
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ f3d5f7f policy_hal: Fix mismerges
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 9c27ca1 policy_hal: Fix mismerges
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 592a45c policy_hal: Fix mismerges
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 00734dd policy_hal: Fix mismerges
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 2d302a2 policy_hal: Fix mismerges
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ a30b212 Revert "camera: sensor: Remove OIS burst write"
+
+ ▪ project vendor/cm/
+ ▪ bb8de97 Fix an typo
+ ▪ c7486e1 Merge pull request #55 from bhb27/nougat
+ ▪ e84389f vendor: Changelog add a 60s timeout
+ ▪ b48e189 Add spaces under the paragraph and some edits
+ ▪ a80c0f0 Ask changelog for how many days
+
+ ▪ project vendor/cmsdk/
+ ▪ 41eab0f cmsdk: Use ConnectivityManager to manage tethering
 
