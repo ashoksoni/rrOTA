@@ -11,10 +11,10 @@
                 id="changelog"
                 title="Changelog"
                 description="View Changelog">https://github.com/ashoksoni/rrOTA/blob/master/CHANGELOG.mkdn</ChangelogUrl>
-	    <UnofficialChangelogUrl
-                id="unofficialchange"
-                title="Unofficial Changelog"
-                description="Local Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelogN.mkdn</UnofficialChangelogUrl>                
+	    <Goodies
+                id="goodies"
+                title="Goodies"
+                description="Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelogN.mkdn</Goodies>
 	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
