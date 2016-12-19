@@ -11,10 +11,10 @@
                 id="changelog"
                 title="Changelog"
                 description="View Changelog">https://github.com/ashoksoni/rrOTA/blob/master/CHANGELOG.mkdn</ChangelogUrl>
-	    <Goodies
-                id="goodies"
+	    <UnofficialChangelogUrl
+                id="unofficialchange"
                 title="Goodies"
-                description="Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelogN.mkdn</Goodies>
+                description="Changes By Me">https://github.com/ashoksoni/rrOTA/blob/master/changelogN.mkdn</UnofficialChangelogUrl>                
 	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
@@ -22,7 +22,7 @@
 	    <CreditsUrl
                 id="credits"
                 title="Credits"
-                description="Thanks to you all">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/CreditsN</CreditsUrl>                
+                description="Thank you">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/CreditsN</CreditsUrl>                
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
