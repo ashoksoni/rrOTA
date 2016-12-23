@@ -11,7 +11,6 @@ Data activity icon in statusbar.
 Added fastscroll to the Manage applications screen.
 Open app when clicking on icon in App Info screen.
 Added policy to SELinux to allow ViPER4Android in enforcing mode.
-add package name to app info.
 Custom Gesture actions.
 Revert "InputMethodService: Disable fullscreen keyboard."
 	- as RR added back all keyboard IME features back.
