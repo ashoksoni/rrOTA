@@ -14,7 +14,7 @@
 	    <UnofficialChangelogUrl
                 id="unofficialchange"
                 title="Goodies"
-                description="Changes By Me">https://github.com/ashoksoni/rrOTA/blob/master/changelogNop2.mkdn</UnofficialChangelogUrl>                
+                description="Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelogNop2.mkdn</UnofficialChangelogUrl>                
 	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
@@ -43,7 +43,7 @@
 	    <UnofficialChangelogUrl
                 id="unofficialchange"
                 title="Goodies"
-                description="Changes By Me">https://github.com/ashoksoni/rrOTA/blob/master/changelogNop3.mkdn</UnofficialChangelogUrl>                
+                description="Changes By Me">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/changelogNop3.mkdn</UnofficialChangelogUrl>                
 	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
