@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <oneplus2>
-            <Filename>ResurrectionRemix-N-v5.8.0-20161219-oneplus2-UNOFFICIAL.zip</Filename>
+            <Filename>RR-N-v5.8.0-20161222-oneplus2-UNOFFICIAL.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=457095661767123744</RomUrl>
+                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=529152257862690148</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -14,7 +14,7 @@
 	    <UnofficialChangelogUrl
                 id="unofficialchange"
                 title="Goodies"
-                description="Changes By Me">https://github.com/ashoksoni/rrOTA/blob/master/changelogN.mkdn</UnofficialChangelogUrl>                
+                description="Changes By Me">https://github.com/ashoksoni/rrOTA/blob/master/changelogNop2.mkdn</UnofficialChangelogUrl>                
 	    <MiscUrl
                 id="misc"
                 title="Miscellaneous"
@@ -28,5 +28,34 @@
                 title="OpenGApps"
                 description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
 	</oneplus2>
+    </Stable>
+    <Stable>
+        <oneplus3>
+            <Filename>RR-N-v5.8.0-20161223-oneplus3-UNOFFICIAL.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=529152257862690148</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View Changelog">https://github.com/ashoksoni/rrOTA/blob/master/CHANGELOG.mkdn</ChangelogUrl>
+	    <UnofficialChangelogUrl
+                id="unofficialchange"
+                title="Goodies"
+                description="Changes By Me">https://github.com/ashoksoni/rrOTA/blob/master/changelogNop3.mkdn</UnofficialChangelogUrl>                
+	    <MiscUrl
+                id="misc"
+                title="Miscellaneous"
+                description="Miscellaneous">https://www.androidfilehost.com/?w=files&amp;flid=113050</MiscUrl>         
+	    <CreditsUrl
+                id="credits"
+                title="Credits"
+                description="Thank you">https://raw.githubusercontent.com/ashoksoni/rrOTA/master/CreditsN</CreditsUrl>                
+            <OpenGappsUrl
+                id="open_gapps"
+                title="OpenGApps"
+                description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
+	</oneplus3>
     </Stable>
 </SlimOTA>

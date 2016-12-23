@@ -1,0 +1,19 @@
+Unofficial Changelog
+
+22th Dec 2016
+-------------
+
+OMS complete support
+Partial screenshot aborted by user: Show a less troubled warning.
+Screenshot tile: single tap to choose the mode, long press to fire.
+Data activity icon in statusbar.
+	- No switch yet to turn it off, enabled by default.
+Added fastscroll to the Manage applications screen.
+Open app when clicking on icon in App Info screen.
+Added policy to SELinux to allow ViPER4Android in enforcing mode.
+add package name to app info.
+Custom Gesture actions.
+Revert "InputMethodService: Disable fullscreen keyboard."
+	- as RR added back all keyboard IME features back.
+
+--- Most of the features of op2 are already in this build. Let me know if I missed something.
