@@ -1,5 +1,21 @@
 Unofficial Changelog
 
+27th Dec 2016
+-------------
+
+Latest CM and RR sources till 27th December 2016, 10am IST.
+Fixed - Bug in Gestures. (Removed extra Haptic feedback option)
+Reverted "InputMethodService: Disable fullscreen keyboard."
+	- as RR added back all keyboard IME features back.
+
+Noticeable base updates by RR
+	- Implemented XOSP Blur personalization options
+	- Blur: Color Filters implementation
+	- Ported PA battery circle style
+	- Toast animations are working fine again.
+	- Custom Toast Color Options
+	- Recents: Allow closing empty view via tapping
+
 22th Dec 2016
 -------------
 

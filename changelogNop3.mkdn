@@ -1,9 +1,24 @@
 Unofficial Changelog
 
+27th Dec 2016
+-------------
+
+Latest CM and RR sources till 27th December 2016, 10am IST.
+Fixing Device model in About.
+
+Noticeable base updates by RR
+	- Implemented XOSP Blur personalization options
+	- Blur: Color Filters implementation
+	- Ported PA battery circle style
+	- Toast animations are working fine again.
+	- Custom Toast Color Options
+	- Recents: Allow closing empty view via tapping
+
 22th Dec 2016
 -------------
 
-OMS complete support
+Substratum OMS support is added.
+	- Remember if you get an error applying a theme or the theme doesn't give you desire results, report it to the dev not here.
 Partial screenshot aborted by user: Show a less troubled warning.
 Screenshot tile: single tap to choose the mode, long press to fire.
 Data activity icon in statusbar.
@@ -14,5 +29,10 @@ Added policy to SELinux to allow ViPER4Android in enforcing mode.
 Custom Gesture actions.
 Revert "InputMethodService: Disable fullscreen keyboard."
 	- as RR added back all keyboard IME features back.
-
---- Most of the features of op2 are already in this build. Let me know if I missed something.
+OTA for unofficial builds.
+Notification slider: add extra options.
+	* Option to ignore slider in zen auto mode.
+	* Extra notification modes (ring and vibrate)
+Support for fake signatures
+	* for microG GmsCore (http://forum.xda-developers.com/showpost.php?p=63131189&postcount=1)
+Gello is not in the rom for now. (Giving build errors)
