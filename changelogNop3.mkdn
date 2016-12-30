@@ -1,5 +1,10 @@
 Unofficial Changelog
 
+30th Dec 2016
+-------------
+
+Just sources updated which in turned fixed some issues. Check change log for details.
+
 27th Dec 2016
 -------------
 
