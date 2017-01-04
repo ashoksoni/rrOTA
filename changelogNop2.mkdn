@@ -4,7 +4,7 @@ Unofficial Changelog
 ------------
 
 Moved from CM to LineageOS.
-Sources updated till 3rd Jan 2017, 11.30am IST.
+Sources updated till 3rd Jan 2017, 11.30pm IST.
 Fixed duplication in miscellaneous settings.
 Set animation scaling to 0.6.
 Signature spoofing option moved to Developer options.
