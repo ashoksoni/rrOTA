@@ -1,5 +1,26 @@
 Unofficial Changelog
 
+3rd Jan 2017
+------------
+
+Moved from CM to LineageOS.
+Sources updated till 3rd Jan 2017, 11.30am IST.
+Fixed duplication in miscellaneous settings.
+Set animation scaling to 0.6.
+Signature spoofing option moved to Developer options.
+Used Uber Toolchain for building this time with many optimizations as follows:
+	- Strict aliasing, graphite, GCC only, and cortex-a15 tunings.
+	- Remove strict from key files (controlled from uber.mk) and ensure that things stay aosp if not enabled.
+	- Added CLANG_O3 option for clang-made files (since more and more android is built with clang)
+	- Remove an annoying -g (for building purposes only)
+Disable Gello apk building commit reverted as that's disabled through vendor option now and will be build only when they fix the maven issue themselves.
+
+Main changes in Sources
+
+Show battery info on lockscreen when charging
+Support separate encryption/lockscreen passwords
+Header items + Date time Positions.
+
 30th Dec 2016
 -------------
 
