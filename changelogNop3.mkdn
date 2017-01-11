@@ -1,5 +1,24 @@
 Unofficial Changelog
 
+11th Jan 2017
+------------
+
+Sources updated till 11th Jan 2017, 10.30am IST.
+January Security Patches
+Show link to Google Play
+	- Added a shortcut to app's google play link in app's details.
+
+Stock Kernel Changes
+	- USB Fast charge enabled.
+	- Slider key settings fixed. Choosed options stick now.
+----------------------------------------------------------------
+A new Test build is available under Test builds folder on my afh account.
+
+Changes include other than the stable ones are..
+
+ Testing aptX Codec for oneplus3/3t.
+ Trying to make Daydream VR work with oneplus3/3t.
+
 4th Jan 2017
 ------------
 

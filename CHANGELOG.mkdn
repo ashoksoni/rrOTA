@@ -60,6 +60,8 @@
  ▪ a375bf9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_system_sepolicy into oms
 
  ▪ project vendor/cm/
+ ▪ 06f9e9b Trying to make Daydream VR work with oneplus3/3t.
+ ▪ 5fdda8e Testing aptX Codec for oneplus3/3t.
  ▪ b6be4c8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
 
  ▼ 01/10/2017
