@@ -10,7 +10,7 @@ Show link to Google Play
 
 Stock Kernel Changes
 	- USB Fast charge enabled.
-	- Slider key settings fixed. Choosed options stick now.
+	- Slider key settings fixed. Chosen options stick now.
 ----------------------------------------------------------------
 A new Test build is available under Test builds folder on my afh account.
 
