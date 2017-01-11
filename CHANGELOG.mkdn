@@ -2,303 +2,390 @@
  ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
- ▼ 01/03/2017
+ ▼ 01/11/2017
 
 
- ▪ project build/
- ▪ 74358aa Get the N Optimization party started
-
- ▪ project device/oneplus/oneplus3/
- ▪ 99e5f5b Revert "Gello building disabled due to Maven error."
-
- ▪ project frameworks/base/
- ▪ 686707c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
- ▪ 3a5fc15 SystemUI: Expose switch bar title
- ▪ 1ab607c Bring back quick install with N adaptations
- ▪ cae5cc9 OMS: StrictMode and files under /data/system/theme/
- ▪ 4d6df22 ActivateableNotificationView: re-inflate on configuration change
- ▪ aa7b844 Themes: Expose QS battery
- ▪ 3d6ea33 base: Set animation scaling to 0.6
- ▪ dfa0a45 Clean up Pulse Tile
- ▪ 3506bda Language toggle QS
- ▪ d8fb9dc Fix battery bug on Header DateTime Positions
- ▪ d99f10d Header Date+Time positions [1/2]
- ▪ 0aa98ca QS Header Icon settings [1/2]
-
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 12980ba hwc2: Only set display_width and display_height when equal to zero
-
- ▪ project kernel/oneplus/msm8996/
- ▪ d0d2d9b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ f26b6ce Revert "ecryptfs: forbid opening files without mmap handler"
-
- ▪ project packages/apps/Settings/
- ▪ 0882ef6 Edit: Settings:Add Maintainer Name in About Device
- ▪ a430095 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ a3010d6 Edit high school student style strings
- ▪ 7504f8e Settings:Add Maintainer Name in About Device
- ▪ 4d187e9 Expose color for external settings icons
- ▪ 67c5b03 Header items + Date time Positions [2/2]
- ▪ 8ce1299 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ ded80a4 Moving signature spoofing choice to Development section.
- ▪ c5cf36f Fix maintainers list
- ▪ 05194ad Add configurations shortcut to settings homescreen activities - fix other shortcut icon drawables
-
- ▪ project vendor/cm/
- ▪ a9c131a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 4043f22 Update github changelog
- ▪ b8a0eee Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 17ce2b1 Edit build-types
- ▪ cbd65e4 Merge pull request #62 from AndropaX/patch-1
- ▪ 91eea10 Add experimental build type
-
- ▼ 01/02/2017
-
+ ▪ project android/
+ ▪ 8b34ba8 Track rr storage manager
 
  ▪ project build/
- ▪ bcf2bd6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into oms
+ ▪ 30c497c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into oms
 
  ▪ project device/oneplus/oneplus2/
- ▪ a8fc9cb Revert "Gello disabled."
-
- ▪ project device/oppo/common/
- ▪ 407c5c3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
-
- ▪ project frameworks/base/
- ▪ 437e07e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
-
- ▪ project packages/apps/Contacts/
- ▪ 1690e65 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into HEAD
-
- ▪ project packages/apps/PhoneCommon/
- ▪ 5aedf4d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into cm-14.1
-
- ▪ project packages/apps/ResurrectionOTA/
- ▪ e5f1ce8 Update ota app icon - matching with circular n icon design
-
- ▪ project packages/apps/Settings/
- ▪ afa01b1 Derp fixed.
- ▪ 2a0f0e6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ cae9d3e Add configurations shortcut to settings icon - fix other shortcut icon drawables
-
- ▪ project vendor/cm/
- ▪ 67317a6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 08f4895 Remove xmas build-type
- ▪ 44b5710 Cyanogenmod >> Lineage * Change necessary bits to support our project move
-
- ▪ project vendor/oneplus/
- ▪ 30c034b oneplus2: Import OnePlus2Oxygen_14_OTA_027_all_1612271635
-
- ▼ 01/01/2017
-
-
- ▪ project android/
- ▪ 3fd3495 manifest: Cyanogen >> Lineage
-
- ▪ project build/
- ▪ bc0a136 Build: Cyanogen >> Lineage * Change necessary bits to support our project move
- ▪ aabec1c build: envsetup: Ensure that we can always run roomservice
- ▪ 39e71af core: finish using PRIVATE_RECOVERY_OUT rather than hard-coding "RECOVERY"
-
- ▪ project frameworks/opt/telephony/
- ▪ 0663988 SubscriptionController: Make sure cis are not null
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ d686cf1 Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ 3cdc522 Automatic translation import
-
- ▪ project vendor/cm/
- ▪ 8c22ad1 cm: Remove def_notif_count overlay
- ▪ 44ff529 sepolicy: Address new bluetooth denial
- ▪ 1905e70 build: repopick: point to LineageOS gerrit
-
- ▪ project vendor/cmsdk/
- ▪ 13bd2b7 cmsdk: Cyanogen >> Lineage
- ▪ f66111d cmsdk: Deprecate STATS_COLLECTION_REPORTED CMSetting
-
- ▼ 12/31/2016
-
-
- ▪ project android/
- ▪ ae982c7 manifest: don't track Launcher3
- ▪ c6a4d93 manifest: only clone latest rev of chromium prebuilts
-
- ▪ project frameworks/base/
- ▪ 66a2ff3 Battery custom charging symbol near pct: show also on keyguard
- ▪ e3aaed7 [2/2] frameworks_base: show battery info on lockscreen when charging
- ▪ 5040dbd Telephony: Don't crash for too long baseband version
- ▪ f5fad23 SystemUI: Initialize state linked volume
- ▪ cce9663 Battery icon: fix getDrawable for new Android API
- ▪ bb4c629 [1/2] base: support separate encryption/lockscreen passwords
- ▪ 1abbf65 Add wakelock option for flashlight
- ▪ 1021798 StatusBarIconView: Enable notification icon count by default
- ▪ 96fc51e SettingsProvider: Remove def_notif_count overlay
- ▪ c535099 Automatic translation import
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 3a0cb30 Automatic translation import
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 52955f8 Merge pull request #1 from Aashish15/patch-1
- ▪ 7c10de1 Fix Derp
- ▪ 291b55c Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ bc0b85f show battery info on lockscreen when charging [2/2]
- ▪ a962dc8 statusbar icons: Enable notification icon count by default
- ▪ b4b4104 Automatic translation import
- ▪ aa06c52 Expose option to change the device hostname.
- ▪ 80f92ae Remove LED pulsation when device isn't capable of it
- ▪ f6dde61 Settings: display: Add wake on plug switch
- ▪ 7510868 Merge pull request #652 from lordeko/patch-2
- ▪ 63863be Automatic translation import
- ▪ e69760e Add Hlte maintainer
-
- ▪ project vendor/cm/
- ▪ 05f4158 gello: don't build gello until maven is fixed
-
- ▼ 12/30/2016
-
+ ▪ 2f57090 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
 
  ▪ project device/oneplus/oneplus3/
- ▪ dcd8d6a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 72eae69 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
 
- ▪ project device/sony/odin/
- ▪ 608e508 Rename defconfig
-
- ▪ project frameworks/base/
- ▪ b18d31f Automatic translation import
- ▪ 1f72e4d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 3790d0e Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.10' into cm-14.1-caf-8916
-
- ▪ project hardware/qcom/camera/
- ▪ 702f237 camera: remove is-vendor-board-platform,QCOM check for kernel deps
-
- ▪ project hardware/qcom/display-caf/msm8916/
- ▪ eda3b27 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.10' into cm-14.1-caf-8916
-
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 420f0a1 hwc2: Handle empty lists in AcceptDisplayChanges
- ▪ 46ff2a6 msm8996: hwc2: check for null layers in layer map
- ▪ bb2d518 hwc2 : Fix layer updating flag
- ▪ db11764 gralloc: Return an error if the buffer was not mapped
- ▪ b6284a2 Revert "Revert "gralloc: Default to 601 color space""
- ▪ 3a95498 hwc2: Workaround use after free by surfaceflinger
- ▪ b2ba26f hwc2: Update composition types on AcceptDisplayChanges
- ▪ 8ad5b82 Revert "gralloc: Default to 601 color space"
- ▪ 4845057 gralloc: Disable UBWC for writeback buffers
- ▪ f2225c8 hwc2: Initialize color mode to native
- ▪ 6b50329 hwc2 : Allow only top most cursor layer
- ▪ 57f81b6 Revert "gralloc: Return an error if the buffer was not mapped"
- ▪ 7a794ad hwc2: Fix solid fill
- ▪ 1cff9c5 sdm:hwc2: Store higher order mode id in case of clash
- ▪ 4fddd51 gralloc: Return an error if the buffer was not mapped
- ▪ 4c94a81 hwc2: Fix retire fences
- ▪ d0b819c hwc2: Always store a release fence if a layer is presented
- ▪ 47fb16d hwc2: Use current frames retire fence only for the primary
- ▪ 81b1d0b 8996/HWC2: Return this frame's retire fence
- ▪ c71ad4a hwc2: Remove default mode application at boot.
- ▪ 74c49b7 hwc2: Support HWC2_CAPABILITY_SKIP_CLIENT_COLOR_TRANSFORM
- ▪ 2b80b32 Merge tag 'LA.UM.5.5.r1-02200-8x96.0' of git://codeaurora.org/platform/hardware/qcom/display into caf
-
- ▪ project hardware/qcom/media-caf/msm8916/
- ▪ 4c3361b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.10' into cm-14.1-caf-8916
-
- ▪ project kernel/sony/apq8064/
- ▪ e31eacc fusion3: Rename defconfigs
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 882ca3e Automatic translation import
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 81d04f8 Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ a5f581c Automatic translation import
- ▪ 1851a32 Merge pull request #650 from jhenrique09/patch-2
- ▪ 1690ff2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
-
- ▼ 12/29/2016
-
-
- ▪ project frameworks/av/
- ▪ 5af1b48 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into HEAD
+ ▪ project device/oppo/common/
+ ▪ 42e105b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
 
  ▪ project frameworks/base/
- ▪ a2c8082 Automatic translation import
- ▪ 7454709 Fix lockscreen clock font reset issue - Do not refresh ui when device sleeping
+ ▪ 6d25b8e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ fab37e9 Automatic translation import
 
- ▪ project packages/apps/CMFileManager/
- ▪ 774bd78 CMFileManager: rebrand to LineageOS
+ ▪ project frameworks/native/
+ ▪ 0fba9b2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into cm-14.1
 
- ▪ project packages/apps/Email/
- ▪ d47c6a3 Merge "Automatic translation import" into cm-14.1
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 32e1354 Automatic translation import
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 1310c81 Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ 2ced461 Fix Toast Icon Color title
- ▪ 981adfa Automatic translation import
- ▪ 5b3aae7 Merge pull request #649 from jhenrique09/patch-1
-
- ▪ project packages/apps/masquerade/
- ▪ bf57c24 OMS7-N: Allow Play Store to filter out OMS-only themes
-
- ▪ project packages/services/Telecomm/
- ▪ abfa5f1 Automatic translation import
- ▪ e69cb80 Fix incorrect key in Maps
-
- ▪ project packages/services/Telephony/
- ▪ 33ae395 Automatic translation import
- ▪ fad30ba Automatic translation import
-
- ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/
- ▪ 51296f5 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/
- ▪ 68973b7 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/
- ▪ 326ed87 Initial commit
-
- ▼ 12/28/2016
-
-
- ▪ project frameworks/base/
- ▪ 6c114f0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
- ▪ eaf7433 Automatic translation import
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 5e486c2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into cm-14.1
 
  ▪ project kernel/oneplus/msm8996/
- ▪ c144cc8 arm: dts: disable partial update for s6e3fa5 panel
- ▪ 4f5073f ARM: dts: 15811: Target different GPU firmware image name
- ▪ 6f6f703 Import 15811
+ ▪ d0507cf OnePlus updates
+ ▪ 5057bda defconfig: Enable Fastcharge
+ ▪ ce464a9 drivers: misc: implement usb fast charge mode
+ ▪ 35f0910 tri state key fixes
+ ▪ 34dbf6c tri_state_key: allow more key codes for extra modes
+ ▪ 001d82d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 8b1fc86 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into cm-14.1
 
  ▪ project packages/apps/Dialer/
- ▪ b291672 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
- ▪ 24ae1be Automatic translation import
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 5b8a91e Automatic translation import
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 633e162 Automatic translation import
+ ▪ 15e98a1 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
 
  ▪ project packages/apps/Settings/
- ▪ 776dd53 Fix battery bar style string in array
- ▪ ab73669 Fix navbar height-width seekbar units
- ▪ 0960821 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 87c565c Fix typo
- ▪ 23f63ad Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ eaabf39 Automatic translation import
+ ▪ b8dfeef Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ 3391384 SetupWizard: fix Vision Settings crash
+ ▪ a920196 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 4e4b719 Enable smart storage manager - activate some configs
+ ▪ 8a80a1c InstalledApp: show link to Google Play
+ ▪ 4187b28 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ ba5d5ca Automatic translation import
 
- ▪ project vendor/oneplus/
- ▪ c5d96cf oneplus3: Add op3t
+ ▪ project packages/apps/StorageManager/
+ ▪ 4012df1 Expose storage manager settings colors
+
+ ▪ project system/sepolicy/
+ ▪ a375bf9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_system_sepolicy into oms
+
+ ▪ project vendor/cm/
+ ▪ b6be4c8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+ ▼ 01/10/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 16c69ec Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ f5b2496 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 45a3347 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 1f8795e Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ fb441a4 Settings: Add custom lcd density pixel option to interface settings - Much needed so have to be there
+ ▪ 4fa660e Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ f04089b Sim-Settings: Don't allow empty sim name
+ ▪ 7a83c0f Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 52a78fd SetupWizard: rebrand to LineageOS
+
+ ▪ project packages/services/Telephony/
+ ▪ 834c7cc Telephony: Number of slot should start with 1
+
+ ▪ project vendor/cm/
+ ▪ 846a356 http_prebuilt: Implement archive of artifacts
+
+ ▼ 01/09/2017
+
+
+ ▪ project android/
+ ▪ 3131932 manifest: android-7.1.1_r6 -> android-7.1.1_r9
+
+ ▪ project build/
+ ▪ ed56bfb core: move platform-specific helper macros to target makefiles
+ ▪ be7d044 Merge tag 'android-7.1.1_r9' into cm-14.1
+
+ ▪ project device/qcom/common/
+ ▪ 9e514ea extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm
+ ▪ 9f615d1 extractors: Update msm8996 graphics blobs info
+
+ ▪ project frameworks/av/
+ ▪ e4540bb Merge tag 'android-7.1.1_r9' into cm-14.1
+ ▪ e62ad5d Revert "Revert "Stagefright: Allow setting high-framerates in CameraSource""
+
+ ▪ project frameworks/base/
+ ▪ dfbecd9 Fix 'android-7.1.1_r9' merge
+ ▪ ef7170b SystemUI: remove 'hide clock' option from clock position tunable
+ ▪ a894d46 Tethering: Fix number of device connected
+ ▪ 64adf50 Merge tag 'android-7.1.1_r9' into cm-14.1
+ ▪ 6efe565 SystemUI: Remove unused string
+ ▪ f4a09f7 Remove leftover power menu profile resources
+ ▪ f6a1987 core: Fix camel case
+
+ ▪ project packages/apps/CMParts/
+ ▪ 1403be4 CMParts: remove 'hide clock' option from clock position tunable
+
+ ▪ project packages/apps/Messaging/
+ ▪ 013b177 Messaging: String improvements
+ ▪ 363e668 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 1da47a0 Fix clock settings values - Edit string
+ ▪ 6d543dc Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 200f742 Settings: android-7.1.1_r6 -> android-7.1.1_r9
+
+ ▪ project packages/services/Telephony/
+ ▪ 619157a Merge tag 'android-7.1.1_r9' into cm-14.1
+
+ ▪ project vendor/cm/
+ ▪ a960600 build: core: include platform helper macros in target makefiles
+ ▪ 9289c27 build: envsetup: Update CAF remote
+ ▪ 11a24c9 build: qcom_target: Define MSM_VIDC_TARGET_LIST
+ ▪ 3910986 build: qcom_target: Clean up QCOM_HARDWARE_VARIANT checks
+ ▪ 5d67995 envsetup: Fix indentation of eat function
+ ▪ 6a6d223 Update github changelog
+
+ ▪ project vendor/cmsdk/
+ ▪ 0876797 cmsdk: fix update path for version 7
+ ▪ 366bca7 cmsdk: remove 'hide clock' option from clock position tunable
+
+ ▪ project vendor/qcom/binaries/
+ ▪ 02ababe msm8996: graphics: Add 32bit libmm-disp-apis and libmm-qdcm
+
+ ▼ 01/08/2017
+
+
+ ▪ project build/
+ ▪ 707fd27 Fix zip title
+ ▪ 90f4763 build: Replace pushd with cd
+ ▪ bd8aeb4 lunch: Use cd - instead of popd
+ ▪ 8a70ece envsetup: Tweak nested executed commands
+ ▪ 04c8bb8 envsetup: Combine nested else; if into elif in check_product()
+ ▪ 072ee2e build: core: Rebrand CM_VERSION to LINEAGE_VERSION
+ ▪ 8a73a81 build: support lineage device trees
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 42565f6 oneplus2: Rebrand device project to LineageOS
+ ▪ cfe8731 Update audio and wifi from latest OOS
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 3d6a452 op3: update for LineageOS
+
+ ▪ project external/icu/
+ ▪ 554db26 Merge tag 'android-7.1.1_r9' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ f827dbc Automatic translation import
+ ▪ 6c30f1d Automatic translation import
+
+ ▪ project frameworks/native/
+ ▪ cc92c1b Merge tag 'android-7.1.1_r9' into cm-14.1
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 5e95ac2 hal: Additional checks for dedicated VOIP input
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ 584bfb8 Merge tag 'android-7.1.1_r9' into cm-14.1
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ d419bb6 Revert "dts: Update from OOS"
+ ▪ f39ce3d Rebrand to lineageos
+ ▪ 503b13a dts: Update from OOS
+
+ ▪ project packages/apps/CMParts/
+ ▪ 725c7fa CMParts: Match pulse speed to frameworks default
+ ▪ 714be45 Fix handling of auto power save summary.
+ ▪ b151d5d CMParts: Properly fix auto-power-save string format exception
+ ▪ 7131c1d CMParts: rebrand to LineageOS
+ ▪ ecf966c Automatic translation import
+ ▪ e339229 CMParts: statusbar: Enable notification icon count by default
+ ▪ 4766948 CMParts: fix untranslatable translation
+ ▪ 9bb4957 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ cdfc529 Calendar: String improvements
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 6e8cff6 Merge tag 'android-7.1.1_r9' into cm-14.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ b17617c Automatic translation import
+ ▪ 86c8de1 Automatic translation import
+ ▪ 271a8a0 Automatic translation import
+ ▪ 52544c4 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 7df8752 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ a65b818 Automatic translation import
+ ▪ 898075a Automatic translation import
+ ▪ 0e5b351 Bluetooth/Wifi: center empty view and set textAppearance to medium
+ ▪ 6f29fae [2/2] settings: support setting a separate encryption password
+
+ ▪ project packages/services/Telecomm/
+ ▪ f5f30ae Telecomm: Fix error due to protected broadcast
+
+ ▪ project packages/services/Telephony/
+ ▪ 7c13af2 Telephony: Further improve network selection
+ ▪ 09a5e83 Telephony: Improve NetworkSelection
+
+ ▪ project system/sepolicy/
+ ▪ 794dbf1 fix denials for rootfs:lnk_file
+
+ ▪ project vendor/cm/
+ ▪ 90fdb2c Merge pull request #64 from BurakTheNexusDede/nougat
+ ▪ 1a28837 build: include lineage releasekey in recovery
+ ▪ b90061c build: remove deprecated recovery keys
+ ▪ cd0c0cf extract_utils: Update smali/backsmali to v2.2b4
+ ▪ 887b076 extract_utils: Update backsmali command
+ ▪ 99f9612 envsetup: Fix check for deprecated CM device tree
+ ▪ 1034b1d tools: getb64key - print the base64 version of a PEM public key file
+ ▪ 0a4087f vendor: Add a task for getting prebuilts via http
+ ▪ 62e1795 cm: support lineage device trees
+ ▪ d4502ed Update github changelog
+ ▪ 61a56e1 Enable Google Assistant on all devices.
+
+ ▼ 01/07/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 59c1733 Automatic translation import
+ ▪ 510e98d Automatic translation import
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ d414d15 hal: Dynamically load the correct path for HUAWEI_SOUND_PARAM_PATH
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ becbb2f hal: Dynamically load the correct path for HUAWEI_SOUND_PARAM_PATH
+
+ ▪ project packages/apps/Dialer/
+ ▪ cefb74a Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 812a34c Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ f03e521 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ dd1248b Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 1c032d2 Automatic translation import
+ ▪ 482b98d adding .25x and .75x animation speeds into Nougat.
+ ▪ ad37ee0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+
+ ▼ 01/06/2017
+
+
+ ▪ project android/
+ ▪ e7fb235 Merge pull request #89 from MobiusM/nougat
+ ▪ 85e8fb9 We are in 2017
+
+ ▪ project build/
+ ▪ 184a969 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into oms
+
+ ▪ project device/oppo/common/
+ ▪ 0fe22d9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
+ ▪ e8591cc oppo-common: configpanel: Commonize button settings strings translations
+
+ ▪ project frameworks/base/
+ ▪ 9518776 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 0e9859f Automatic translation import
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ 95ccc85 policy_hal: Fix mismerges
+ ▪ b24ef94 audio policy: fix capture indication to sound trigger service.
+ ▪ 3f05588 audio policy: fix media volume after ringtone
+ ▪ 1e29be0 Revert "hal: Add abstraction for soundtrigger session"
+ ▪ 8c2743e hal: Don't try to record using 3-mic unless we mean it
+ ▪ a8490ea hal: Haxed header
+ ▪ ab64a44 audio: Fix flac offload not working
+ ▪ bd04719 hal: Fix build with HDMI disabled
+ ▪ f4e5f48 audio: Fix complilation warnings under Clang
+ ▪ 1394524 msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled
+ ▪ 04ed235 audio: Extend platform parser to allow device name aliasing
+ ▪ 326d03c hal: post_proc: enabled / disable volume listener based on prop
+ ▪ 966b853 hal: Support the audio amplifier hook
+ ▪ 284d304 hal: Allow building hardware audio encoders
+ ▪ 7d10d9a audio: Use direct project pathmap
+
+ ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ 3dfb72a sdm: Always include kernel headers
+ ▪ 3c389e0 Fix duplicate copy file rules
+ ▪ 5ab047e display: Cleanup flags
+ ▪ 381813d Don't build lights module if vendor supplies it
+ ▪ 8908ec8 display: Use project pathmap
+
+ ▪ project hardware/qcom/keymaster/
+ ▪ 9fa20f3 keymaster: add support for samsung 'skeymast'
+
+ ▪ project hardware/qcom/media-caf/msm8937/
+ ▪ 64e0fc1 mm-video: Disable proprietary extension
+ ▪ becaa72 venc: Fix VQZip issue
+ ▪ d322c9f vidc: Fix makefiles
+ ▪ 0e5dd32 media: Avoid collision with FFMPEG plugin
+ ▪ 671cbd6 media: Use project pathmap
+
+ ▪ project packages/apps/Browser/
+ ▪ b565222 Search engines: Add DuckDuckGo FR
+
+ ▪ project packages/apps/Dialer/
+ ▪ b2cbbdd Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
+ ▪ 9fb8fc8 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ e689ad1 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 2f64551 Merge pull request #656 from micky387/nougat
+ ▪ c3ac7ed Settings: Set root access options appropriately
+ ▪ 1e75929 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 8ec6740 Add button settings strings
+
+ ▪ project vendor/cm/
+ ▪ b2b2f8c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ d23e6a6 Update github changelog
+
+ ▼ 01/05/2017
+
+
+ ▪ project android/
+ ▪ 051a962 Update README.mkdn
+
+ ▪ project build/
+ ▪ 75c937b Merge branch 'fix-maintainer-name' into nougat
+
+ ▪ project external/zlib/
+ ▪ b666691 Revert "Upgrade to zlib 1.2.10."
+
+ ▪ project frameworks/base/
+ ▪ 8be9ce2 Automatic translation import
+ ▪ 6a6a5c9 Automatic translation import
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ de99de6 op3: update for LineageOS
+
+ ▪ project packages/apps/Dialer/
+ ▪ e5b717b Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 62de222 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ a10b1aa PackageInstaller: Show current & new version
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 2f6be61 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ c572c78 Automatic translation import
+ ▪ e92aaf1 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 3f92dde Snap: Remove storage menu if no external storage available
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 4464b7a Fix malformed XML
+ ▪ e46e4d5 Add strings for fingerprint sensor wake-up
 

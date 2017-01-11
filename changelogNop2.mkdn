@@ -1,5 +1,13 @@
 Unofficial Changelog
 
+11th Jan 2017
+-------------
+
+Sources updated till 11th Jan 2017, 10.30am IST.
+January Security Patches
+Show link to Google Play
+	- Added a shortcut to app's google play link in app's details.
+
 3rd Jan 2017
 ------------
 
