@@ -1,5 +1,52 @@
 Unofficial Changelog
 
+18th Jan 2017
+------------
+
+Since I have issues building with UberTC coz of binutils, I am building with Stock chain and that's why all uberTC related optimizations are reverted though I am hopeful to get them back soon.
+
+Sources updated till 18th Jan 2017, 11pm IST.
+
+DUI Smartbar: double tap to sleep on navbar
+Navbar tile: one tap to enable/disable, long tap to choose nav type
+Navbar dt2sleep code improvements
+Lockscreen charging info: real time values
+Lockscreen charging: Formatting improvements
+MediaScanner behavior on boot. 
+Add preference for EdgeGesture service (Block gesture touch events).
+added animation transition mode 0.75 and 0.25.
+Development Settings: Add QS to toggle Show touches (Add them through qs)
+Development Settings: Add QS to toggle Disable HW Overlays (Add them through qs)
+Make Data/Wifi activity icon in statusbar optional. (SystemUI Tuner)
+Custom QS header images
+Custom header extensions
+Bring back Screw'd notification headers.
+Fix wrong peek height of the notification panel.
+QS Headers: Don't cut off Brightness slider & button.
+Added "Accept all files" option for incoming files via BT.
+Partition information menu and Extra info. (About Phone - Extra Information)
+API to restart SystemUI without root
+Allow faster app switching
+Disable bluetooth by default - By default it was ON on first boot on Nougat so disabled it.
+Fix DUI navbar edit logspam
+logcat: fix SuperSU related spam
+Avoid RuntimeException and log spam.
+	- Stopping Google Play Services to have free reign and do whatever they want with the other Google apps.
+Webview_packages: fix incorrect signatures
+Webview_packages: correct signature definition for Chrome Stable
+Webview_packages: prefer the more powerful webview pac
+doze: allow grayscale even if invert boolean is false
+Show contacts with phone numbers only
+
+Kernel Changes:
+Enable sdcardfs
+Attemp to fix echo.
+
+(Comes with source updates)
+Fixed - Option to use volume keys to control media volume anytime
+Header Packs: Add back all RR and PitchBlack smart header Packs[/QUOTE]
+Added CAF task manager back in.
+
 11th Jan 2017
 ------------
 
