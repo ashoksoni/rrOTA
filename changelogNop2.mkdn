@@ -1,5 +1,22 @@
 Unofficial Changelog
 
+18th Jan 2017
+-------------
+
+Sources updated till 18th Jan 2017, 11pm IST.
+Lockscreen charging info: real time values
+Navbar tile: one tap to enable/disable, long tap to choose nav type
+Fixed - Option to use volume keys to control media volume anytime (Comes with source updates)
+Header Packs: Add back all RR and PitchBlack smart header Packs
+DUI Smartbar: double tap to sleep on navbar
+Navbar dt2sleep code improvements
+API to restart SystemUI without root
+Fix DUI navbar edit logspam
+Lockscreen charging: Formatting improvements
+logcat: fix SuperSU related spam
+doze: allow grayscale even if invert boolean is false
+Show contacts with phone numbers only
+
 16th Jan 2017
 -------------
 
