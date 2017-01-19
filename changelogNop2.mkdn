@@ -1,5 +1,23 @@
 Unofficial Changelog
 
+19th Jan 2017
+-------------
+
+Sources updated till 19th Jan 2017, 1pm IST.
+
+(Comes with sources update)
+Battery light: 100% charged level
+RecentsView: Add an Extra Condition for Making FAB And Clear Recents Invisible
+FAB Recents Clear All improvements
+RecentsView: Clean up FAB calls
+SystemUİ : Fix QS brightness slider margin
+Launch default music player on headset connect
+Update button backlight brightness in real time
+Add QS brightness switch to QS advanced settings
+Add volume link notification switch
+Add new feature of One-hand UI Mode - Smartbar
+Add Wakelock Blocker
+
 18th Jan 2017
 -------------
 

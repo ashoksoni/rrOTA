@@ -2,8 +2,86 @@
  ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
+ ▼ 01/19/2017
+
+
+ ▪ project build/
+ ▪ 39602ec98 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into oms
+ ▪ 76938d93b Revert "build: Enable custom ccache cache dir for Android"
+
+ ▪ project frameworks/base/
+ ▪ 8993e64a354 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 6890f45dadc Fw_base - Battery light: 100% charged level (1/2)
+ ▪ d18b75ef06b Fix Stack Action Button Not Dissapearing on Empty View
+ ▪ c9da5f89ab5 RecentsView: Add an Extra Condition for Making FAB And Clear Recents Invisible
+ ▪ b040971ddc4 FAB Recents Clear All improvements
+ ▪ 603faca2a91 RecentsView: Clean up FAB calls
+ ▪ bd2db7ddb87 SystemUİ : Fix QS brightness slider margin
+ ▪ d05f017fff5 Task manager : Fix close button paddings and more
+ ▪ 83d2478f810 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 970e91d92f6 AudioService: Launch default music player on headset connect
+ ▪ 9df3b14c11d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 3e35351c7b4 Task manager :More materiallize UI
+
+ ▪ project frameworks/native/
+ ▪ 9605f0777 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into cm-14.1
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ d515e9e336ca Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/CMParts/
+ ▪ 80fff0b CMParts - Battery light: 100% charged level (2/2)
+ ▪ 41b7076 Use valid network resources in getNetworkModeString()
+ ▪ 8aa7852 CMParts: profiles: Remove old PagerTabStrip hack
+ ▪ 65a4e0c ButtonBacklight: Preview timeout once user stops dragging
+ ▪ 2496a32 CMParts: Update button backlight brightness in real time
+ ▪ 1bcdbb6 ExpandedDesktop: Don't re-populate the app list in rebuild()
+ ▪ d8038df CMParts: Fix expandable desktop
+
+ ▪ project packages/apps/DUI/
+ ▪ 90f3fa4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+
+ ▪ project packages/apps/Dialer/
+ ▪ 2c0d33580 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
+ ▪ 1eeef74fd Dialer: Fix translations
+ ▪ 7872a8616 Move CAF strings to cm_strings and fix wrong line breaks.
+
+ ▪ project packages/apps/Settings/
+ ▪ 4715aac2a8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ fd48fa1936 Edit misc settings - move switches to top & update some icons
+ ▪ f9aa855be8 Settings: Add QS brightness switch to QS advanced settings
+ ▪ 9f8a68bf41 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ c9d6fbb877 Settings: Launch default music player on headset connect
+ ▪ 5c416c5d8c Settings: Add volume link notification switch
+ ▪ 10aa6d6928 Move notif volume pref on top of increasing ring pref
+ ▪ 186cc8814b Settings: per-app cellular data and wifi restrictions
+ ▪ 7f1cbf8f03 Settings: Fix translations
+ ▪ 14eb8e6d0a Allow restricted profiles on phones
+ ▪ 9c48ccd5a9 Settings: Improve hotspot timeout strings
+ ▪ 26f180f8e8 Settings: Let's get to choose keyboard again in Settings.
+
+ ▪ project packages/services/Telephony/
+ ▪ be4c093b Telephony: Fix translations
+
+ ▪ project system/sepolicy/
+ ▪ 55b39e9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_system_sepolicy into oms
+ ▪ 6325aab domain: Create a dummy domain for qc's rmt and let it access /dev/mem
+
+ ▪ project vendor/cm/
+ ▪ 68df45b0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 4a3d00e8 Sepolicy: Add perm for find cmstatusbar
+ ▪ fd2eee2a cm: config: Remove obsolete props
+ ▪ ff8d5e15 cm: build: kernel: Remove obsolete checks
+
+ ▪ project vendor/cmsdk/
+ ▪ df0b255 cmsdk: Fix @deprecated annotation mismatch warnings
+ ▪ c66a504 cmsdk: Update README references for LineageOS
+
  ▼ 01/18/2017
 
+
+ ▪ project android/
+ ▪ c2b5352 Track Own FW native and system core
 
  ▪ project device/oneplus/oneplus2/
  ▪ 129f335 Lockscreen charging info: real time values [3/4]
@@ -12,6 +90,12 @@
  ▪ 0cbd180 Lockscreen charging info: real time values [3/4]
 
  ▪ project frameworks/base/
+ ▪ a8d3187a02a Lockscreen charging info: real time values [1/4]
+ ▪ dbab15c38af One handed mode toggle [1/3]
+ ▪ 0d71257c4ba Add new feature of One-hand UI Mode [1/3]
+ ▪ 9b6cdee5876 DUI: Smartbar: double tap to sleep [1/3]
+ ▪ ae49d47b18d DUI: Fix navbar edit logspam
+ ▪ 832d785fa9c Fw_base - Wakelock Blocker [1/2]
  ▪ 83836f26c16 Navbar tile: one tap to enable/disable, long tap to choose nav type
  ▪ f1d45dbd316 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
  ▪ 1d2d617597a SystemUI: Task manager UI improvements & scrollable task list
@@ -29,7 +113,43 @@
  ▪ cbb3ecfce84 logcat: fix SuperSU related spam E/ActivityManager( 4885): Sending non-protected broadcast eu.chainfire.supersu.NativeAccess from system uid 0 pkg null 09-16 23:35:48.711 E/ActivityManager( 4885): java.lang.Throwable 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17695) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18256) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2755) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.os.Binder.execTransact(Binder.java:565)
  ▪ 150e5aa71bc doze: allow grayscale even if invert boolean is false
 
+ ▪ project frameworks/native/
+ ▪ 0fb6c9ae6 Add new feature of One-hand UI Mode [2/3]
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 5a0343c5ff8a msm: ipa: fix the potential heap overflow on wan-driver
+ ▪ 38d7558c6915 msm: kgsl: Fix overflow in sharedmem cache range operation function
+ ▪ 17d27be919a1 ASoC: soc: prevent risk of buffer overflow
+ ▪ fe9d7f0d7b3d msm: crypto: Fix integer over flow check in qce driver
+ ▪ e67436776f4b net: ping: Fix stack buffer overflow in ping_common_sendmsg()
+ ▪ bc9d9ddc611f ASoC: qdsp6v2: fix potential bug of infinite loop
+ ▪ 5d00528ccb2f diag: Fix possible kernel addresses leak
+ ▪ 5e66f844f7a8 diag: dci: avoid out of bounds memory access
+ ▪ 3bf37ca064c3 sched: Fix integer overflow in sched_update_nr_prod()
+ ▪ e9b946e204f5 ANDROID: video: adf: Avoid directly referencing user pointers
+ ▪ 973be2f9ec7a ASoC: msm: Add Buffer overflow check
+ ▪ 2a8a59f1a0f2 qcedev: Validate Source and Destination addresses
+ ▪ 8ab204088769 msm: crypto: Fix integer over flow check in qcrypto driver
+ ▪ a520738296ee msm: msm_bus: limit max chars read by sscanf
+ ▪ df16c3daf795 ASoC: msm: set pointers to NULL after kfree
+ ▪ c1862521f25e qseecom: Fix stack out of bounds issue
+ ▪ ab733990909d usb: Avoid exposing kernel addresses
+ ▪ ee207b5f688a ASoC: msm: q6dspv2: fix potentional information leak
+ ▪ c1ea062ac987 ion: blacklist %p kptr_restrict
+ ▪ f179d91f6fc0 binder: blacklist %p kptr_restrict
+ ▪ 105c5b75d256 cgroup: prefer %pK to %p
+ ▪ 808ff62f0cb1 misc: qcom: qdsp6v2: initialize config_32
+ ▪ 17f23e8535a6 misc: qcom: qdsp6v2: initialize wma_config_32
+ ▪ c49c3397ed19 ANDROID: trace: net: use %pK for kernel pointers
+ ▪ 67c29df05e62 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ ce7acab906b9 Enable sdcardfs
+
  ▪ project packages/apps/DUI/
+ ▪ d742b36 DUI:Smartbar:Turn off One Handed UI by default[1/2]
+ ▪ e17f896 DUI: Smartbar: One handed mode toggle [2/3]
+ ▪ dc80aa6 DUI: SmartBar: D2TS code improvements
+ ▪ ff5b360 DUI: Smartbar: Add new feature of One-hand UI Mode [3/3]
+ ▪ d3c1071 DUI: Smartbar: double tap to sleep [2/3]
  ▪ 2c444c9 Navbar dt2sleep code improvements
  ▪ 7fca32b Smartbar: double tap to sleep on navbar [2/3]
 
@@ -37,6 +157,11 @@
  ▪ 97dea49fe Show contacts with phone numbers only
 
  ▪ project packages/apps/Settings/
+ ▪ aee56adf54 Smartbar:Turn off One Handed UI by default [2/2]
+ ▪ 91c37ee62a Fix Wakelockblocker Fragment and Update Icon
+ ▪ 9975a8c271 One handed mode toggle [3/3]
+ ▪ 938c6f13c4 DUI: Smartbar: double tap to sleep [3/3]
+ ▪ 6d4080e7b3 Settings: - Wakelock Blocker [2/2]
  ▪ 7b4ffe932a Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
  ▪ c0e83b258d Fix typo
  ▪ bccf2ac9fd Merge pull request #663 from amitash/patch-1
@@ -48,7 +173,7 @@
  ▪ 466953efac MediaScanner behavior on boot [3/3]
 
  ▪ project system/core/
- ▪ 910fbb4de Lockscreen charging info: real time values [2/4]
+ ▪ 8426bd003 Lockscreen charging info: real time values [2/4]
 
  ▼ 01/17/2017
 
@@ -66,7 +191,6 @@
  ▪ b81cedd op3: Add seclabel to bluetooth related services
  ▪ 5415127 op3: Address SELinux denials
  ▪ 773d48e op3: restart cam preview after picture taken
- ▪ 03fcf44 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
 
  ▪ project frameworks/base/
  ▪ 8fdd563e7b1 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
@@ -114,9 +238,6 @@
  ▪ b516be3 Use BOARD_HAVE_QCOM_FM flag
  ▪ febb559 Revert "fm: do not build for BCM FM devices"
 
- ▪ project kernel/oneplus/msm8996/
- ▪ 2a661b6a577a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
  ▪ project packages/apps/CMUpdater/
  ▪ 08f68c0 Updater: rebrand
 
@@ -136,579 +257,4 @@
  ▪ a4797198 overlay: Enable Visual Voicemail for Verizon devices
  ▪ eef86026 build: kernel: build arm kernel modules with -fno-pic
  ▪ f86d2f7a http_prebuilt: Improve retrieval of artifacts from archive
-
- ▪ project vendor/oneplus/
- ▪ d98e04d Merge branch 'cm-14.1' of https://github.com/TheMuppets/proprietary_vendor_oneplus into cm-14.1
-
- ▼ 01/16/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ f5a2b7d op3: Stop using legacy open for cameras
- ▪ 8c1fa22 Revert "op3: disable sound trigger"
- ▪ a419a8c op3: Add README.md
- ▪ 16e20ce op3: Remove LED happy dance
- ▪ fe332e5 op3: Don't hardcode network mode for SIM2
-
- ▪ project frameworks/base/
- ▪ 2453b5a6972 MediaScanner behavior on boot [2/3]
- ▪ 000fdd9d93b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
-
- ▪ project hardware/intel/common/omx-components/
- ▪ 5abed81 omx-component: fix video corruption
-
- ▪ project hardware/intel/img/psb_video/
- ▪ 72b4180 Encode: correctly handle VAConfig attributes on medfield/CTP
- ▪ e987d59 Fix video encoding on clovertrail
- ▪ 399140b Add clovertrail support (based on the tree at 686e11709b57bc57ee94c3166f187fec959fd43b)
- ▪ 747765a Cleanup pvr_drv_video makefile for clovertrail support
-
- ▪ project hardware/qcom/fm/
- ▪ 4c0b246 fm: do not build for BCM FM devices
-
- ▪ project packages/apps/Bluetooth/
- ▪ b60ebb2f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Bluetooth into cm-14.1
- ▪ 6780e581 Add "Accept all files" option for incoming files via BT [2/3]
-
- ▪ project packages/apps/OmniStyle/
- ▪ c2f87a1 Bring back Screw'd headers
-
- ▪ project packages/apps/PackageInstaller/
- ▪ d14b8b60 Make permissions fragment header match settings style
-
- ▪ project packages/apps/Snap/
- ▪ 32825fcb8 Snap: CAF strings cleanup second interation
-
- ▪ project vendor/oneplus/
- ▪ 9e94fb1 op3: Update blobs
- ▪ f468160 op3: Add radio images
- ▪ 2cda4c3 op3: Update blobs from Open Beta 9
- ▪ 2613256 op3: Update to official N blobs
-
- ▼ 01/15/2017
-
-
- ▪ project bootable/recovery/
- ▪ 41ed544 recovery: Fix "Wipe data" wrong "System reset" naming
-
- ▪ project build/
- ▪ 4ef018f4c Revert "Get the N Optimization party started"
-
- ▪ project device/oneplus/oneplus3/
- ▪ c8e9421 Revert (2/2) op3: Add pocketmode app"
- ▪ a931956 op3: perflock: Changes in the initialization of perf lock
- ▪ 40033b0 op3: Set device bring up year
- ▪ 2300183 op3: Update build fingerprint
- ▪ c212dfd Revert "op3: Enable legacy HAL1 hackage"
- ▪ 8974d6a op3: Update camera blobs
- ▪ 6fb16d6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
-
- ▪ project device/oppo/common/
- ▪ 2ac8a0b ConfigPanel:Use pixel accent colors
-
- ▪ project device/qcom/common/
- ▪ 4d5a288 extractors: Add msm8952 blobs
-
- ▪ project kernel/oneplus/msm8996/
- ▪ bf18f9d4f26f Enable sdcardfs
-
- ▪ project packages/apps/Bluetooth/
- ▪ 36ec67c2 cleanup unused resource strings
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 9c2613b Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ fe4e4c36db Minor grammar corrections
- ▪ d75ffe987b Automatic translation import
-
- ▼ 01/14/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ a0715ba op3: Add radio filesmap
- ▪ 1a972a7 op3: Switch to XML audio policy configuration
- ▪ 244790d op3: Update ramdisk from LA.UM.5.5.r1-02200-8x96.0
- ▪ 0286acb op3: Correct the name of the frp partition
- ▪ 2732dd5 op3: Add net_raw group to ril-daemon
- ▪ f3fb5a9 op3: Build libgnsspps.so
- ▪ e74263c op3: ril: add required change to get ril loaded
- ▪ 9b2456b op3: Copy ril headers from ril-caf
- ▪ 316e074 op3: Update bloblist for official N blobs
- ▪ ba79dfc op3: Update GPS hal from upstream
- ▪ 034e2a5 op3: Update IPACM for new BSP
- ▪ b6c7d0c op3: Misc updates from official N
- ▪ 6a0ce6d oneplus3: remove lteOnCdmaDevice from system.prop
-
- ▪ project frameworks/base/
- ▪ 42cdcb0ff43 Automatic translation import
- ▪ dd6c18fc86d Fix QuickQS visibility at non-first page
- ▪ 6af73b3e1fe Allow faster app switching
- ▪ 7935cbfea39 Settings: add development animation transition mode 0.75 and 0.25
- ▪ 30a4e6b7e0b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
-
- ▪ project kernel/oneplus/msm8996/
- ▪ b3917bfc2807 Merge branch 'linux-3.18.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1
- ▪ a02282021272 qcacld-2.0: Update to LA.UM.5.5.c1-06000-8x96.0
-
- ▪ project packages/apps/OmniStyle/
- ▪ 18ec106 Change header image(s) layout
-
- ▪ project packages/apps/Settings/
- ▪ b5e64a62aa Automatic translation import
- ▪ 650692abc1 Development Settings: Add QS to toggle Show touches
- ▪ 0cb0c06aca Development Settings: Add QS to toggle Disable HW Overlays
- ▪ 50214c5328 Fix Dev settings FC after edgegesture merge
- ▪ a9cfc32040 Settings: Add preference for EdgeGesture service.
- ▪ e8b4601adb Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
-
- ▪ project packages/apps/Snap/
- ▪ 65bec4983 Snap: Fix missing untranslatables
-
- ▪ project packages/providers/MediaProvider/
- ▪ d80de2c MediaScanner behavior on boot [1/3]
-
- ▪ project system/bt/
- ▪ cc99880c bt: Allowed WBS to be disabled when building with QTI_SW
-
- ▪ project vendor/cm/
- ▪ 1412b0f3 disable bluetooth by default
-
- ▪ project vendor/oneplus/
- ▪ 399ed25 Attemp to fix echo.
-
- ▪ project vendor/qcom/binaries/
- ▪ a78a120 msm8952: Add graphics blobs
-
- ▼ 01/13/2017
-
-
- ▪ project build/
- ▪ 3338833a0 Remove Feedback Directed Optimization support
- ▪ cbb98b2bc Remove bootclasspath handling for Jack
- ▪ 40636627d Remove static libraries from Jack classpath
-
- ▪ project device/qcom/common/
- ▪ f666741 Revert "extractors: Update msm8996 graphics blobs info"
- ▪ 8db80fa Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm"
-
- ▪ project frameworks/base/
- ▪ cc57f366cd6 webview_packages: fix incorrect signatures
- ▪ b95aea1bdc3 webview_packages: correct signature definition for Chrome Stable
- ▪ 875dadf5549 webview_packages: prefer the more powerful webview packages
- ▪ 89303b56cb8 Automatic translation import
- ▪ 412b662a872 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 5899a2943e0a soc: qcom: glink: Fix uninitialized return value
- ▪ f2a2cb332d77 drivers: soc: add size checks and update log messages
- ▪ 7643afcfbd3e soc: qcom: build kryo perf events only for MSM8996
- ▪ 3d23ceeca09a soc: qcom: glink_ssr: Fix uninitialized variable
- ▪ d98ad524f906 soc: qcom: flush persistent kmaps and fixmap mappings for subsystem mdt
- ▪ 25e40babb0bd coresight: fix the dangling pointer issues on coresight
- ▪ 95c0a2ad16b2 memshare: Add support to listen to SUBSYS_RAMDUMP_NOTIFICATION
- ▪ ed9c359c5274 soc: qcom: smp2p: Fix kernel address leak
- ▪ ee468a0d4790 soc: qcom: rpm-smd: wait till all active set acks are cleared
- ▪ a52ceda8c2ec soc: qcom: protect kernel text from other bus masters
- ▪ 644922264abe msm: mink: Adding SMCInvoke Driver
- ▪ c974292e8c2c soc: qcom: ssr: Return from acknowledgment wait if modem is crashed
- ▪ 255e3ea13604 socinfo: Export API for getting SOC serial number
- ▪ a55b2a0ceabc qcom: PMRESR register read returns zero for un supported group events
- ▪ cfa7a45bed61 qcom: ssr: Fix possible overflow when copying firmware name
- ▪ 495808527e6c soc: qcom: spm: Poll for the PMIC_STATE after updating the VCTL register
- ▪ 023946ced683 socinfo: Add support for ADP platform
- ▪ 012f317ad1c1 soc: qcom: bam_dmux: create Rx work queue with WQ_UNBOUND
- ▪ 6f7937812518 soc: qcom: Add new scm API support in function scm_set_boot_addr
- ▪ d53b5637a6a6 soc: qcom: pil: Proxy vote for QPIC clock during modem boot
- ▪ 522f8fabde9e soc: qcom: boot_marker: change module load order
- ▪ 69a2f12a637d drivers: soc: Add buffer overflow check for svc send request
- ▪ e69a1e4852fc soc: qcom: pil: timeouts to be disabled from pil-imem
- ▪ b1a765eb9ce7 soc: qcom: boot_marker: pass formatted buffer to marker
- ▪ deb6834f8741 soc: qcom: pil-q6v5: Update cx_max to INT_MAX while voting for CX rail
- ▪ d6b863003b58 drivers: soc: qcom: system_stats: Support for System stats
- ▪ 7756f9db3467 soc: qcom: pil: Allow the MBA memory to be dynamic or a carveout
- ▪ a442a24c473a soc: qcom: boot_stats: Add boot KPI markers
- ▪ fbca637eace9 drivers: soc: Add intent notification callback for APR Glink
- ▪ 6d1be018a386 soc: qcom: bam_dmux: exit ul_wakeup() thread in SSR case
- ▪ 931e1eb6aacd soc: qcom: pil-q6v5: Update max voltage level to INT_MAX for CX rail
- ▪ d29c31e2a913 msm: watchdog: Initialize delay_time variable with 0
- ▪ a821512f3d17 memshare: Synchronize memory allocation and free operations
- ▪ 6e8397c36f42 soc: qcom: Return failure when subsystem descriptor is NULL
- ▪ 4692c51d9f4e soc: qcom: remoteqdss: Implement the remaining message types
- ▪ cc71249375ab soc: qcom: remoteqdss: Implement the new communication protocol
- ▪ 8f90d1cfb920 soc: qcom: add support for the socinfo v0.12 format
- ▪ 7a6c907b8b54 soc: qcom: Add offlining state to subsystem private state machine
- ▪ 9b21bdec1070 spcom: add ION buffer support
- ▪ 649a668cc45f soc: qcom: jtagv8: disable the etm save-restore based on soc version
- ▪ ae854983546a soc: qcom: Add support for gladiator error reporting v2
- ▪ 0e6cca059768 soc: qcom: pil: Make provision for collecting complete subsystem dump
- ▪ f0bd5b74fbc0 soc: qcom: fix spcom getting the file dentry
- ▪ 68ab4230b2ea qcom: subsystem_restart: Ignore SSR requests during system reboot/shutdown
- ▪ 7481c3c64e71 icnss: Update WLAN mode in wlan_firmware_service
- ▪ 237b0e231179 icnss: Allocate msa memory in icnss_probe
- ▪ c222605f58fb drivers: soc: Fix implicit typecast warning
- ▪ 54c8a83d38a4 soc: qcom: pil-mss: Add scm call to inform TZ of modem area
- ▪ fc021df45191 soc: qcom: Use scm_is_secure_device() API to find secure boot or not
- ▪ 3c18ccfb778d qcom: scm: provide scm_is_secure_device() api
- ▪ ab2ec17cdf2a drivers: soc: Add transport info when APR opens a channel
- ▪ f100eda795c7 drivers: soc: put APR Tx buffer back into queue in error scenario
- ▪ e18db9840582 drivers: soc: Fix possible APR null pointer dereference
- ▪ 54663e394b4a icnss: Add support of skiping QMI
- ▪ 4055da87b8c7 msm: secure_buffer: Add WLAN support
- ▪ 05e12fd03cb3 icnss: Update WLFW QMI messages
- ▪ b1aef61e422a soc: qcom: service-locator: add enable module parameter
- ▪ 3cf11b22bcd9 trace, scm: trace scm calls
- ▪ bec95c7c72c2 soc: qcom: gladiator_hang: Increase the max threshold value
- ▪ 93e71f575fe5 defconfig: arm: msm: Enable MSM_TZ_SMMU for msmtitanium
- ▪ 75e90b3efb36 soc: qcom: Increase the retry timeout to 2 seconds
- ▪ a7d74d9a520d soc: qcom: bam_dmux: Fix race condition between power up and power down
- ▪ 412d805c3ecf soc: qcom: pil-q6v5: Read the written value back in reset sequence
- ▪ 797b1df81e30 msm: socinfo: Add socinfo for wearable platforms
- ▪ 9088bac1f437 socinfo: Add MSM8996AU automotive support
- ▪ c27dce3e2dc8 soc: qcom: Add generic irq handler for secure processor
- ▪ 3330f1857b82 soc: qcom: Avoid double free of inrush current mitigation driver
- ▪ 042a9b6555cb soc: qcom: pil-q6v5: Add support to read acc register value and override it
- ▪ 4026bb9e1c63 APR: Add G-link transport layer for packet routing
- ▪ 5fe318b2b366 memshare: Add support for hypervisor mapping
- ▪ ea10fa79ee25 soc: qcom: sysmon: Enable back MSM_SYSMON_COMM interface support
- ▪ cec58624d7ca soc: qcom: Add debugfs interface for enabling SOC debug events
- ▪ 97881c5d80c4 soc: qcom: Correct the logic to determine if device is secure boot or not.
- ▪ fe31c6b76781 soc: qcom: flush persistent kmaps and fixmap mappings for MBA
- ▪ 0131eae2ee81 usb: gadget: Support endpoint allocation by ep name
- ▪ 189bc22ddb6b msm: gsi: update channel scratch structures
- ▪ e4e834306092 msm: gsi: update MHI channel scratch
- ▪ c1b1da3181f0 usb: f_serial: Add function suspend/resume for super-speed wakeup
- ▪ 665ba67fb10d usb: debug: Add a macro for logging pr_info messages
- ▪ aa1784619b67 usb: gadget: gsi: Handle EVT_HOST_READY event in STATE_INITIALIZED state
- ▪ 56d0ba39e431 usb: f_gsi: Update connection parameters for GSI channels
- ▪ dd303ae3a3f5 usb: gadget: gsi: Optimize TRB's buffer allocation functionality
- ▪ 7e08d284be33 usb: gadget: gsi: Use pm_runtime related API from state machine
- ▪ a947082626d4 usb: gadget: f_gsi: Use 16KB buffer with each TRB for MBIM DL
- ▪ 831e2c008401 usb: gadget: f_gsi: Increase USB GSI OUT TRBs from 7 to 31 for ECM
- ▪ 3266a35a2c78 usb: gadget: gsi: Fix reporting of USB device's usage count
- ▪ 8bbb7784038f Revert "usb: gadget: gsi: Decrement USB gadget pm usage count on cable disconnect"
- ▪ 299f8f7ce3bb USB: dwc3-msm: Perform DBM config/unconfig under spinlock protection
- ▪ 1f7b395311f2 USB: dwc3: msm: Check endpoint status and request NULL or not
- ▪ cc56d44b8787 USB: dwc3-msm: Add module parameter to disable host mode
- ▪ 27a361a94f93 USB: dwc3-msm: Check endpoint status and request queued or not first
- ▪ 5319635676b6 USB: gadget: Unconfigure bam2bam endpoints during suspend
- ▪ d888e3d9fa83 USB: dwc3-msm: Don't schedule sm_work initially during probe
- ▪ 60d9857ddffa USB: dwc3-msm: Disable DBM endpoint in msm_ep_unconfig if no req queued
- ▪ 75a785238164 usb: dwc3: Skip check for U3 when handling Function Suspend
- ▪ 761d8f829680 USB: dwc3-msm: Enable power event irq in case of host bus suspend
- ▪ 47a23107864f USB: dwc3-msm: Turn on iface_clk before accessing AHB2PHY registers
- ▪ 4593553905de usb: dwc3-msm: Fix restart usb work functionality
- ▪ 495e46cb7278 usb: gadget: gsi: Decrement USB gadget pm usage count on cable disconnect
- ▪ 1fe989ba59fe usb: f_gsi: Fix resume handling by making PM calls
- ▪ 8700a46b9ee8 usb: f_gsi: Set RNDIS DL aggr size based on host DL buffer size
- ▪ d2b46bdd1236 usb: f_gsi: Report Function Remote Wake capabilities
- ▪ 417d9a2f3012 usb: f_gsi: Send Function Suspend state to GSI EP OP for suspend
- ▪ bf3bbe5e6e53 usb: f_gsi: Fix IP address assigment failure on RNDIS enable/disable
- ▪ 6e2eb0321d42 usb: f_gsi: Add support for DPL suspend/resume
- ▪ e3c17d60866c iommu: Add domain attribute for getting page table info
- ▪ 0c91cb3b3605 iommu: Add {enable,disable}_config_clocks ops
- ▪ 14c2e11a38c6 iommu: Add tlbi_domain op
- ▪ 064f1dd002a7 iommu: Add DOMAIN_ATTR_FAST for requesting a fast domain
- ▪ 9aeb430afacb iommu: msm: use phys_addr_t for PA in secure mapping
- ▪ f9fc742f8875 iommu/iommu-debug: Make debug driver 32 bit compatible
- ▪ 7eac7038cfe6 iommu: dma-mapping-fast: Remove unused #define
- ▪ e2f9337130d2 iommu/iommu-debug:: initialize variables before use
- ▪ 8821dc25c2a3 iommu/io-pgtable-fast: validate data before use
- ▪ 9f254e2e1555 iommu/iommu-debug: Do a software table walk if ATOS fails
- ▪ 5dc4fdddedeb iommu: msm: Remove IRQF_TRIGGER_RISING flag while registering interrupt
- ▪ ec3b7ebc84d2 iommu/arm-smmu: Don't enable/disable clocks in inv_range_nosync
- ▪ 5160028f17da iommu/io-pgtable-fast: Prove correctness of TLB maintenance
- ▪ ebe818190192 iommu/iommu-debug: Add debugfs file to enable config clocks
- ▪ 26e5e37286a3 iommu/iommu-debug: Add functional test for ARM DMA IOMMU mapper
- ▪ a987c6a8492b iommu/iommu-debug: Add functional tests for fast mapper
- ▪ 3c5b6d27dca9 iommu/iommu-debug: Add file for profiling the fast DMA APIs
- ▪ 10e0999c7b8d iommu: Add DMA mapper for io-pgtable-fast
- ▪ aa3348d7b22d arm64: dma_mapping: Support DOMAIN_ATTR_S1_BYPASS
- ▪ 0f3c4551beda iommu/arm-smmu: Implement DOMAIN_ATTR_PGTBL_INFO
- ▪ b06771cb5c54 iommu/arm-smmu: Implement {enable,disable}_config_clocks
- ▪ 707f982d1ca4 iommu/arm-smmu: Implement the .tlbi_domain op
- ▪ a5b5bb359422 iommu/iommu-debug: Add file for profiling fast mapper
- ▪ 38cc927fccff iommu/arm-smmu: Wire up io-pgtable-fast for domains that request it
- ▪ 3109d1c808db iommu/io-pgtable: Add fast page table mapper for ARMv8L
- ▪ a3db8e11170f iommu/arm-smmu: Implement .get_pgsize_bitmap for domain
- ▪ 180f192a6ebb iommu: Support dynamic pgsize_bitmap
- ▪ 3d0ce8acec42 iommu: Introduce DOMAIN_ATTR_S1_BYPASS
- ▪ b9ab641caf3b iommu: add new iommu_ops callback for adding an OF device
- ▪ f7a6659cbd76 iommu: provide early initialisation hook for IOMMU drivers
- ▪ e33a04202b0c iommu/iommu-debug: Maintain list of domains during alloc
- ▪ 47476ebc6a5b iommu/arm-smmu: Fix DOMAIN_ATTR_S1_BYPASS check
- ▪ 53955d0d2059 iommu/arm-smmu: Fix a Null pointer dereference
- ▪ ccdc127b1166 iommu/arm-smmu: Fix uninitialized use of variable error
- ▪ 9e080e07aa80 iommu/arm-smmu: Support DOMAIN_ATTR_S1_BYPASS
- ▪ c43b0971d883 Revert "iommu/arm-smmu: add DT option to avoid enabling translations on attach"
- ▪ 52f6a8c067d6 iommu/arm-smmu: Defer SMMU probe if clock-tree is not ready
- ▪ 31885a45813d iommu/arm-smmu: Check for static-cb option before requesting TZ
- ▪ 6a43b121e541 iommu/arm-smmu: Request TZ to change page table format to V8L
- ▪ aa10889ced3b soc: qcom: Expose TZ specific device id to other functions
- ▪ c013d202eeb4 iommu/arm-smmu: Add explicit restore_sec_cfg call at SMMU probe
- ▪ ffc009f42b2f iommu/arm-smmu: Make atomic scm call in slave side protection mode
- ▪ 5f539afe1674 iommu/arm-smmu: Add support for slave side protection
- ▪ 0f573aa272d3 iommu/arm-smmu: add option to enable static context bank allocation
- ▪ 8a173efad57b iommu/arm-smmu: Be explicit about security mechanism
- ▪ cbe6729e8463 msm: ipa: sync with LA.UM.5.5.r1-01800-8x96.0
- ▪ 64a1d834894e msm: ipa: fix ioctl input param validation
- ▪ e13999820a13 msm: ipa: fix skb recycle logic
- ▪ 30d1049ca08b msm: ipa: fix potential race condition ioctls
- ▪ e534a4d62e48 msm: ipa3: add mapping for IPA SMEM to SMMU
- ▪ c275d7155e76 msm: ipa: handle information leak on ADD_FLT_RULE_INDEX ioctl
- ▪ eeab4ca0ec5f msm: ipa: fix potential NULL deference on SMMU
- ▪ 6d12f7b4bc7c msm: ipa: allow dtsi based lan rx ring size
- ▪ c8bfa2f41c88 msm: ipa3: Fix unclocked access to IPA SMEM register
- ▪ b16cabe19d7a msm: ipa: add mhi test suite
- ▪ a645e0909efd msm: ipa: recycle skb for lan data path
- ▪ 5362c8af2e4e msm: ipa: do not use skb clones for lan clients
- ▪ 44f3a842e10c msm: ipa: fix multiple static analysis issues
- ▪ f2dd1f3ce7e8 msm: ipa: Add support for IPA unit-test framework
- ▪ ba055f6561d7 msm: ipa: IPA Disable API fix
- ▪ 377923fe5a5b msm: ipa: Add parameters validation to handle static analysis issues
- ▪ 3ed0719d0571 msm: ipa: fix IPA driver processing context delete logic
- ▪ 43b79361c92e msm: ipa3: add support for SMMU to USB
- ▪ dc9ee37aa211 msm: ipa3: changes to IPA USB APIs to support SMMU
- ▪ 87bc137bc117 msm: ipa: Neutrino IPA offload support
- ▪ fce7034a017d msm: ipa3: add support for additional mappings to smmu
- ▪ a55d30849578 msm: ipa: add support for configuring polling interval/sleep time
- ▪ dc46ad9839b3 msm: ipa3: fix packet handling for multiple buffers
- ▪ ffccc97fcffe msm: ipa: disconnect sequence change for USB 2.0
- ▪ 7e15de60cfe5 msm: ipa: do not use delay in SSR
- ▪ f79f602bde31 msm: ipa: Fix the memory leak on exception
- ▪ d9e6f1705cf5 msm: ipa3: don't check offset_entry when using DDR address
- ▪ 0f1da292cdab msm: ipa: update wan rx size buffer
- ▪ f636b08f7659 msm: ipa: print resource bandwidth in ipa rm
- ▪ 26369910071c msm: ipa: exit when hdr proc ctx table is full
- ▪ b6cf80aa846e msm: ipa: change default low watermark for rx buffers
- ▪ c7104e73cc0f msm: ipa3: Do not use APPS pipes for IPA kernel-test
- ▪ e18bae5b67dc msm: ipa3: fix the double ipa3_pre_init issue
- ▪ 7b21b16d6c7f msm: ipa2: fix wrong check for memory allocation
- ▪ 0d417133dc4e msm: ipa: Fix queuing the inactive timer work on perf cluster
- ▪ 01bfcca389d6 msm: ipa3: support use for 64bit DMA mask
- ▪ 90b7cbd324ad msm: ipa3: fix condition tested on ipahal wrapper
- ▪ 51b8ef3f5510 msm: ipa: fix delete dependency race condition
- ▪ f5f089531313 msm: ipa3: fix qmap deaggregation issue
- ▪ 07524f68516f msm: ipa: fix static analysis issues
- ▪ 772e59ddc4a0 msm: ipa3: fix dereferencing of offset_entry without check
- ▪ 4f8c567d98f5 msm: ipa3: lower turbo voting threshold
- ▪ 59ff98bbda39 msm: ipa: fix the order issue of meq128 equation
- ▪ a911f2a71f2d msm: ipa: Remove usage of stack memory
- ▪ c75bfac591e4 msm: ipa3: add ipa_mhi to ipa_clients
- ▪ c7e610934656 msm: ipa: header change for wlan VA mapping
- ▪ 779758d77c2e msm: ipa: header file change for WDI2.0
- ▪ 629d223523df msm: ipa3: remove odu_bridge functions from ipa.h
- ▪ 36bdef4c2bbc msm: ipa: support GRO feature on msmcobalt
- ▪ 9d13fa960add msm: ipa: enable power save to ODU
- ▪ 332853480a00 msm: ipa3: fix to read hw tables from debugfs
- ▪ cc9f684e755c msm: ipa: clear uC interrupt only before processing
- ▪ 913bdafcfbfc Revert "msm: ipa: clear uC interrupt only before processing"
- ▪ ed268823e82e msm: rmnet_ipa3: add RMNET_IOCTL_GET_SG_SUPPORT support
- ▪ 6d3dfbdf8ad8 msm: ipa3: fix odu debugfs
- ▪ 47619a254834 msm: ipa3: WA for incorrect state retention for GSI channel 20
- ▪ 8921a022b279 msm: ipa: add support for SMMU fastpath
- ▪ 80c94bfc8d5b msm: ipa: use 2 MEQ32 equations for MAC matching
- ▪ dc478cab016b msm: ipa3: make function names consistent with ipav2
- ▪ 962282e71959 msm: ipa3: add support for TX of sk_buff's with paged data
- ▪ 9c3510da6555 msm: ipa: Fix to memory leak when sending non-linear data
- ▪ 05beed591cab msm: ipa3: Send limited chained descriptors to IPA
- ▪ f44deca86405 msm: ipa3: drain UL data for ECM/RNDIS tethering
- ▪ 46ddf8500986 msm: ipa: Add NETIF_F_SG to RMNET_IPA's hw features
- ▪ 2e8b8509012d msm: ipa: add a general function for assert
- ▪ 1f4c4319393d msm: ipa3: Flush Filtering and Routing cache on SSR event
- ▪ d07d339930c4 msm: ipa3: Fix to release IPA clock during ap suspend
- ▪ a651682ec663 msm: ipa: Fix to accessing ipa_q6_clnt handle
- ▪ 2ca0456d5736 msm: ipa3: Move IPA headers building to IPAHAL
- ▪ c6492a5c04a2 msm: ipa3: rmnet_ipa: add IPC logging to common buffer
- ▪ 8bdcff29bcf9 msm: ipa3: mhi: add IPC logging to common buffer
- ▪ f2f89c3cfb8f msm: ipa: odu: change IPC logging to common buffer
- ▪ f52c9652f7f2 msm: ipa: usb: change IPC logging to common buffer
- ▪ 9acf9868007a msm: ipa: add IPC logging to IPA RM
- ▪ 617b3bfd014a msm: ipa: ipahal: change IPC logging to common buffer
- ▪ 7beac5f9035c msm: ipa3: allocate ipa_low IPC only when needed
- ▪ 2557097d6f85 msm: ipa3: use user parameter for GSI ring len
- ▪ 1d40948df0dc msm: ipa3: enable GSI doorbell mode GPI channels
- ▪ 47c2825926cc msm: ipa3: enable smart prefetch control for xDCI
- ▪ 3daae2220d57 msm: ipa3: enable smart prefetch control for MHI
- ▪ c4720baac3b7 msm: ipa3: fix the interrupt loop issue
- ▪ 0185b2e489ca msm: ipa3: fix WDI1.0 on mdmcalifornia
- ▪ 0d2c21a11696 msm: ipa: Fix to update the descriptor length in SG scenario
- ▪ a8d14ca6d486 msm: ipa: add support for DOMAIN_ATTR_S1_BYPASS
- ▪ addfb15c523c msm: ipa: Fix to release IPA clock during ap suspend
- ▪ 3d42e61527d0 msm: ipa: Fix to QMI initialization and polling state
- ▪ 3d42d1cd9a9f msm: ipa3: enable smart prefetch control for GPI
- ▪ 3807fe7967f1 msm: ipa: support WDI 2.0 suspend
- ▪ d94fa24eb32c msm: ipa: fix to handle deaggr error
- ▪ e4ccd480ff0b msm: ipa: Fix memory free issue
- ▪ d21544d2060e msm: ipa: change for WDI2.0
- ▪ b1a4fafe3398 ipa: Fix holb monitor response handling from Uc
- ▪ fbe4b471fc88 msm: ipa: Fix suspend bit clearing on disconnected pipe
- ▪ 72c11a44186b msm: ipa: unify IPA RM
- ▪ 71c797498861 msm: ipa: add common internal header
- ▪ 3889bf8a0d2a msm: ipa: fix hdr log print
- ▪ f46e8593c6e2 msm: ipa3: Add SSR support for IPA3.1
- ▪ 265ed742e1ae msm: ipa3: fix the qmap_id config in IPA-HW
- ▪ 27b15fd25ffa msm: ipa3: add support for MHI burst mode
- ▪ 131183cf5d61 Revert "msm: ipa: Decrement ipa clock count"
- ▪ 06f4a4ff2d18 msm: ipa: Fix warning messages
- ▪ 76e6617878b3 msm: ipa3: remove ul_dl sync from IPA MHI
- ▪ df063931d69c msm: ipa3: add support for FW loading on MSMs
- ▪ a692ce46c22e msm: ipa3: update resource configuration for DIAG and DMA RGs
- ▪ 70847f58d09b msm: ipa3: fix device hang issue if ipa_clk failed
- ▪ e4649955a9ef msm: ipa3: configure QMB HW max reads / writes
- ▪ 76504da1d6ec msm: ipa3: use vaddr instead of paddr to load IPA FWs
- ▪ 852068f8ae8d msm: ipa3: Add the ability to set dynamically HPS/DPS seq type
- ▪ e1da5530dce2 msm: ipa3: fix event ring allocation for CONS pipes
- ▪ ebdbc8be6e63 msm: ipa: fix to use valid ep index value
- ▪ ea17a075b7f2 msm: ipa3: add ipc logging support for ipahal
- ▪ a0b286d97e63 msm: ipa: add support for AGGR_SW_EOF_ACTIVE
- ▪ 72543c0a83b7 msm: ipa: fix to make sure IPA clock is on
- ▪ 7e31151630be msm: ipa: use timeout mechanism for holb monitoring command
- ▪ 804bd6654443 msm: ipa: fix multiple issues
- ▪ cac3ad14e753 msm: ipa: fix race condition when teardown pipe
- ▪ f4cc499be336 msm: ipa: protect qmi context using mutex
- ▪ 3842c59139a2 msm: ipa3:  add ipc logging for odu_bridge driver
- ▪ 80c33342dd60 msm: ipa3: Move IPA Status Packet parsing to IPAHAL
- ▪ c8a8c91c550a msm: ipa3: add odu_bridge to ipa_clients folder
- ▪ 8540bb009442 msm: ipa3: BUG on uC error
- ▪ 434c1339bd5c msm: ipa3: add ipc logging for ipa_usb driver
- ▪ f3e21108076d msm: rmnet_ipa3: fix the crash issue
- ▪ c123fce73301 msm: ipa3: Move IPA immediate commands building to IPAHAL
- ▪ c8f4420f26e9 msm: ipa3: Add IPA HAL layer I/S and registers support
- ▪ 4597bb5b3512 msm: ipa3: create ipa_clients folder and add USB client
- ▪ 4bf9154eade5 usb: gadget: f_gsi: Remove gadget restart while composition switch
- ▪ 7175e1566858 USB: dwc3-msm: Don't configure DBM for GSI endpoints
- ▪ e7d19305f5be USB: dwc3-msm: Disable Update xfer for DBM on ep disable or dequeue
- ▪ 1cfcc78416bc USB: dwc3-msm: Initialize DBM ep before BAM pipe reset
- ▪ 668cf61bad8c usb: dwc3: Allocate fixed h/w eps for GSI endpoints
- ▪ d49a7898f4b6 USB: dwc3-msm: Turn ON clocks before bringing PHYs out of suspend in resume
- ▪ b6937650b906 usb: f_gsi: Ignore supsend/resume events if data interface is not selected
- ▪ 3b7d2804caad usb: f_gsi: Configure fixed GSI endpoints and related EP OPs
- ▪ 7d94e66c3d8c usb: gadget: gsi: Fix error handling when memory allocation fails
- ▪ 725000cfa040 usb: gadget: f_gsi: Make the header file a local header
- ▪ 4d0382ac56a7 usb: gadget: f_gsi: Add handling of SET_CONTROL_LINE_STATE control request
- ▪ 0f4e96c029de usb: gadget: f_gsi: Avoid calling suspend again in case of func suspend
- ▪ cc4fef6beb6f usb: gadget: f_gsi: Add logging support
- ▪ b77d24b411a7 msm: gsi: data path statistics
- ▪ 84e1e0167f00 msm: ipa3: ensure IPA registers are dumped by modem
- ▪ 3c75592527d2 msm: ipa: fix the un-initialized variable issue
- ▪ 18313c4222c8 msm: ipa3: nullify FW IRAM before loading
- ▪ 6fb4a16ec031 msm: ipa: fix the printing of ipa resources
- ▪ 278fd8856939 msm: ipa: rmnet_ipa: unify global variables to a context
- ▪ feb1bf78b6f8 msm: ipa3: recycle skb for lan data path
- ▪ 099cd933853b msm: ipa3: do not use skb clones for lan clients
- ▪ 4cb3933b5f74 msm: ipa3: do not enable GSI from APPS
- ▪ 4aa6f934bb01 msm: ipa: Change BAM event threshold towards USB consumer pipe
- ▪ a7fbb9fe8c2c msm: ipa3: do not clear irq before register
- ▪ 6a28d99de836 msm: ipa: fix compilation issue with compat_ioctl
- ▪ 3c9e08804070 msm: ipa3: use new filter data members
- ▪ 0ea4e71a14d5 msm: ipa3: add ipc logging for ipa driver
- ▪ 62c0270d747a msm: ipa3: fix setting USB state to invalid before count is 0
- ▪ f1de9911f3d5 USB: dwc3-msm: Fix issue related to error recovery for ERRATIC ERROR
- ▪ d0be24ddefb0 usb: dwc3-msm: Don't issue power supply change for invalid charger
- ▪ f524928219a7 dwc3-msm: Fix race condition between USB PM suspend and cable connect
- ▪ 56c52cc6c640 usb: phy-msm-qusb: Add support for floating data lines detection
- ▪ 6d3f0e5efb58 usb: dwc3-msm: Fix restart usb work functionality
- ▪ 40b18230383e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ ce523e00d6d6 msm: camera: Avoid exposing kernel addresses
- ▪ 8c2e8eb0df4d msm: sensor: Adding mutex for actuator power down operations
- ▪ 366707878ae7 msm: cpp: Fix for buffer overflow in cpp.
- ▪ ee4262e55b24 msm: isp: do reg_update for config frame drop.
- ▪ 6f16c6b535d7 msm: sensor: validate the i2c table index before use
- ▪ f1fba59a84e8 msm: camera: cpp: Validate frame message before manipulating it.
- ▪ c156944ffda1 msm: camera: cpp: Add validation for v4l2 ioctl arguments
- ▪ 42577ed16ac5 msm: camera: Restructure data handling to be more robust
- ▪ bc023bf2a444 msm: sensor: Avoid potential stack overflow
-
- ▪ project packages/apps/CMUpdater/
- ▪ 7f7d8a0 DownloadCompleteIntentService: add missing import
-
- ▪ project packages/apps/Dialer/
- ▪ 768c1dab6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
- ▪ a695d4622 Automatic translation import
-
- ▪ project packages/apps/Email/
- ▪ 592c2e3f2 Revert "Add account"
-
- ▪ project packages/apps/OmniSwitch/
- ▪ ef097a9 Automatic translation import
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ d42fe7f Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ cf1ebf3dd9 Automatic translation import
- ▪ 854a4ca2ba Automatic translation import
- ▪ 660710e988 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
-
- ▪ project packages/apps/Snap/
- ▪ 69b66d262 Fix camera controls rotation.
- ▪ 2876bc5fb Snap: Replace strings
-
- ▪ project system/netd/
- ▪ 38e79bc NetD : Allow passing in interface names for wifi/data app restriction
-
- ▪ project vendor/cm/
- ▪ 45d37f6e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
-
- ▪ project vendor/qcom/binaries/
- ▪ dde8fac Revert "msm8996: graphics: Add 32bit libmm-disp-apis and libmm-qdcm"
- ▪ 4eba500 Revert "msm8996: graphics: Update from display.lnx.3.0.r9-rel"
-
- ▼ 01/12/2017
-
-
- ▪ project frameworks/base/
- ▪ f8a53aca977 Keyguard : Update default clock font - fix refreshLockFont
- ▪ c74f0d8adf8 Revert "Reduce default screenshot delay to 100ms" Joke ?? - Oh no 100ms ? is it a joke ? Must give some time for animations This reverts commit aa5c5a2513652e3732f143495b6df25c90016982.
- ▪ 2871bf8025a Automatic translation import
- ▪ 6d25b8ee811 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
-
- ▪ project hardware/intel/img/psb_headers/
- ▪ 7bb0667 Allow clovertrail to include vbp_loader.h header
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 42fd8b96 Fix security vulnerability: Equalizer command might allow negative indexes
- ▪ b9cbb876 Fix security vulnerability: Effect command might allow negative indexes
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 0e71fea71137 Revert "f2fs: reset default idle interval value"
- ▪ 254c780539f1 Merge branch 'linux-3.18.y' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into cm-14.1
- ▪ 29eb37f92718 Revert "Revert "Merge branch 'linux-3.18.y' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into HEAD""
-
- ▪ project packages/apps/CMUpdater/
- ▪ 2e8c54e CMUpdater: include ro.build.version.incremental in request
- ▪ 0796b21 CMUpdater: remove support for incremental updates
- ▪ 6e2947a Updater: support new server-side API
- ▪ d4a46d3 Updater: aapt rename package to org.lineageos.updater
- ▪ d95ffa2 verify the signature rather than md5
- ▪ 897de43 remove external storage permission
- ▪ 51218b8 Revert "CMUpdater: Check permissions for external storage"
- ▪ 11cc93b use a private directory for updates
- ▪ 9b073c7 make the download private
- ▪ 999e03c use DownloadManager's openDownloadedFile method
- ▪ 3d350c7 Revert "CMUpdater: Fix OTA on encrypted devices"
-
- ▪ project packages/apps/OmniSwitch/
- ▪ cb83b0a Automatic translation import
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 294efa0 Automatic translation import
- ▪ fedd9b9 Change app title - Do not translate app title
-
- ▪ project packages/apps/Settings/
- ▪ a91de2af8a Settings: Update some old settings fragments for nougat - App remover (update safety list) - Features - Changelog - Cleanups
- ▪ 6e0e8a85d9 Automatic translation import
- ▪ e7d0888f42 Fix CN translations error
- ▪ 1ca3f8e0b5 Automatic translation import
- ▪ ac12801be7 Enable cool color temperature option
-
- ▪ project packages/apps/Snap/
- ▪ acd228888 Snap: Fix whitespace issues
- ▪ 70cf903ed Snap: Fix untranslatable strings
-
- ▪ project vendor/cm/
- ▪ 00783d77 Update github changelog
- ▪ 06f9e9bf Trying to make Daydream VR work with oneplus3/3t.
- ▪ 5fdda8ee Testing aptX Codec for oneplus3/3t.
 
