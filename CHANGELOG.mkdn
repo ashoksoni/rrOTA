@@ -2,8 +2,65 @@
  ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
+ ▼ 01/20/2017
+
+
+ ▪ project build/
+ ▪ 477758032 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into oms
+ ▪ 874016d81 build sign_target_files_apks.py: clean tmp on exit
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 905fc94 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 316394e op3: Address sdcardfs SELinux denials
+
+ ▪ project frameworks/base/
+ ▪ 8a15a2e47f9 Fixing Notification Stream Title
+ ▪ b655eab153d Lockscreen charging: "mAh" to "mA"
+ ▪ dbbce20bcad update one handed "info" drawable color to pixel blue
+ ▪ c716a346c3f Fix visibility of single-line view in expanded group notification
+ ▪ 04952545b9a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 1e02699f798 SystemUI: Edit strings and mode edit drawable
+ ▪ ccd399f84ca Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 58b8478f4af Merge pull request #169 from micky387/nougat
+ ▪ dea76a86d5e Fix wrong peek height of the notification panel
+ ▪ b9e911b0d04 Fix 3g icon enable for H+ (#168)
+ ▪ 8716b2b9607 PlatLogo: Show RR platlogo when tapping on Android Version
+ ▪ 76d8dc633c6 SystemUI: add Notification volume stream title
+ ▪ 4e3580e9ab4 Readded Platinum Alarm sound as I miss it in newer builds.
+ ▪ 09f5c8a5821 Fix OmniSwitch non-protected broadcast logspam
+ ▪ 21f40b64e91 Statusbar: correctly align status bar icons
+ ▪ 59e672632f3 OMS: StrictMode and files under /data/system/theme/
+ ▪ 390144eb91d Themes: Expose manifest styles for themes
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 8158882a9553 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ 67c70dfdf6d7 tunnels: Fix an upstream mismerge
+ ▪ 568090f3a872 Removed duplication.
+ ▪ 1eece5bcb40d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ 4f184a5c171a Merge branch 'linux-3.18.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1
+
+ ▪ project packages/apps/Settings/
+ ▪ 734c328b27 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ f7a55a77ac About Resurrection : Reorganize for n
+ ▪ cc52c815a1 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ 96a743c4e2 Settings : Fix CPU info for all devices in device info settings
+ ▪ 11970e2064 Settings: Show RR device name in device info settings
+ ▪ 6489d13015 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ 4c1d6305c5 Settings: DeviceInfo: Clean up the PlatLogo checks
+ ▪ bbddc94475 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ 82ec8549fc Expose switchbar background color
+ ▪ 1446869c3b Expose dashboard category padding bottom
+ ▪ 5f3a16b2e1 Fix One Handed UI Switch Derp
+
+ ▪ project vendor/cm/
+ ▪ b63d8893 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 890aa826 Update github Changelog
+
  ▼ 01/19/2017
 
+
+ ▪ project android/
+ ▪ c2b5352 Track Own FW native and system core
 
  ▪ project build/
  ▪ 39602ec98 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into oms
@@ -22,101 +79,45 @@
  ▪ 970e91d92f6 AudioService: Launch default music player on headset connect
  ▪ 9df3b14c11d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
  ▪ 3e35351c7b4 Task manager :More materiallize UI
-
- ▪ project frameworks/native/
- ▪ 9605f0777 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into cm-14.1
-
- ▪ project kernel/oneplus/msm8996/
- ▪ d515e9e336ca Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
- ▪ project packages/apps/CMParts/
- ▪ 80fff0b CMParts - Battery light: 100% charged level (2/2)
- ▪ 41b7076 Use valid network resources in getNetworkModeString()
- ▪ 8aa7852 CMParts: profiles: Remove old PagerTabStrip hack
- ▪ 65a4e0c ButtonBacklight: Preview timeout once user stops dragging
- ▪ 2496a32 CMParts: Update button backlight brightness in real time
- ▪ 1bcdbb6 ExpandedDesktop: Don't re-populate the app list in rebuild()
- ▪ d8038df CMParts: Fix expandable desktop
-
- ▪ project packages/apps/DUI/
- ▪ 90f3fa4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
-
- ▪ project packages/apps/Dialer/
- ▪ 2c0d33580 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
- ▪ 1eeef74fd Dialer: Fix translations
- ▪ 7872a8616 Move CAF strings to cm_strings and fix wrong line breaks.
-
- ▪ project packages/apps/Settings/
- ▪ 4715aac2a8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ fd48fa1936 Edit misc settings - move switches to top & update some icons
- ▪ f9aa855be8 Settings: Add QS brightness switch to QS advanced settings
- ▪ 9f8a68bf41 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ c9d6fbb877 Settings: Launch default music player on headset connect
- ▪ 5c416c5d8c Settings: Add volume link notification switch
- ▪ 10aa6d6928 Move notif volume pref on top of increasing ring pref
- ▪ 186cc8814b Settings: per-app cellular data and wifi restrictions
- ▪ 7f1cbf8f03 Settings: Fix translations
- ▪ 14eb8e6d0a Allow restricted profiles on phones
- ▪ 9c48ccd5a9 Settings: Improve hotspot timeout strings
- ▪ 26f180f8e8 Settings: Let's get to choose keyboard again in Settings.
-
- ▪ project packages/services/Telephony/
- ▪ be4c093b Telephony: Fix translations
-
- ▪ project system/sepolicy/
- ▪ 55b39e9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_system_sepolicy into oms
- ▪ 6325aab domain: Create a dummy domain for qc's rmt and let it access /dev/mem
-
- ▪ project vendor/cm/
- ▪ 68df45b0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 4a3d00e8 Sepolicy: Add perm for find cmstatusbar
- ▪ fd2eee2a cm: config: Remove obsolete props
- ▪ ff8d5e15 cm: build: kernel: Remove obsolete checks
-
- ▪ project vendor/cmsdk/
- ▪ df0b255 cmsdk: Fix @deprecated annotation mismatch warnings
- ▪ c66a504 cmsdk: Update README references for LineageOS
-
- ▼ 01/18/2017
-
-
- ▪ project android/
- ▪ c2b5352 Track Own FW native and system core
-
- ▪ project device/oneplus/oneplus2/
- ▪ 129f335 Lockscreen charging info: real time values [3/4]
-
- ▪ project device/oneplus/oneplus3/
- ▪ 0cbd180 Lockscreen charging info: real time values [3/4]
-
- ▪ project frameworks/base/
  ▪ a8d3187a02a Lockscreen charging info: real time values [1/4]
  ▪ dbab15c38af One handed mode toggle [1/3]
  ▪ 0d71257c4ba Add new feature of One-hand UI Mode [1/3]
  ▪ 9b6cdee5876 DUI: Smartbar: double tap to sleep [1/3]
  ▪ ae49d47b18d DUI: Fix navbar edit logspam
  ▪ 832d785fa9c Fw_base - Wakelock Blocker [1/2]
- ▪ 83836f26c16 Navbar tile: one tap to enable/disable, long tap to choose nav type
- ▪ f1d45dbd316 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
- ▪ 1d2d617597a SystemUI: Task manager UI improvements & scrollable task list
- ▪ b98c4113c69 Option to use volume keys to control media volume anytime (2/2)
- ▪ 3c474ef6e4d NetworkManagement : Add ability to restrict app data/wifi usage
- ▪ 9ec2b5c0cb5 sensors: Allow opting out of default batch size
- ▪ 29263db6b7a CleanUp some whitespacing
- ▪ 99fb39bfc41 [SQUASHED] Frameworks: Cleanup and remove duplicate sounds
- ▪ 996b03563c2 Header Packs: Add back all RR and PitchBlack smart header Packs
- ▪ dce2fa8a1f5 DUI Smartbar: double tap to sleep on navbar [1/3]
- ▪ becd026cd1e Lockscreen charging info: real time values [1/4]
- ▪ 75cb7c76c77 Base: API to restart SystemUI without root Change-Id: I4ce4762bee82d40daf49bacc846786bc9a3d938f
- ▪ 3468734899b Fix DUI navbar edit logspam
- ▪ 8c290267704 Lockscreen charging: Formatting improvements
- ▪ cbb3ecfce84 logcat: fix SuperSU related spam E/ActivityManager( 4885): Sending non-protected broadcast eu.chainfire.supersu.NativeAccess from system uid 0 pkg null 09-16 23:35:48.711 E/ActivityManager( 4885): java.lang.Throwable 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17695) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18256) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2755) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.os.Binder.execTransact(Binder.java:565)
- ▪ 150e5aa71bc doze: allow grayscale even if invert boolean is false
 
  ▪ project frameworks/native/
+ ▪ 9605f0777 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into cm-14.1
  ▪ 0fb6c9ae6 Add new feature of One-hand UI Mode [2/3]
 
  ▪ project kernel/oneplus/msm8996/
+ ▪ 8433e5c9c830 Linux 3.18.47
+ ▪ d515e9e336ca Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ e6d48774bdd6 op3: defconfig: enable sdcardfs
+ ▪ 0119731baa9c ANDROID: sdcardfs: Fix locking issue with permision fix up
+ ▪ c5de8176f057 sdcardfs: Flag files as non-mappable
+ ▪ 06b9073cbe55 sdcardfs: Change magic value
+ ▪ 64ecaa3b42ce sdcardfs: Use per mount permissions
+ ▪ 9b6a96a24df9 sdcardfs: Add gid and mask to private mount data
+ ▪ 45247c3e4e48 sdcardfs: User new permission2 functions
+ ▪ 14cbc12f86a4 vfs: Add setattr2 for filesystems with per mount permissions
+ ▪ edd66d2712a2 vfs: Add permission2 for filesystems with per mount permissions
+ ▪ 0261eabe9325 vfs: Allow filesystems to access their private mount data
+ ▪ b3864c58afc4 mnt: Add filesystem private data to mount points
+ ▪ e05b8b7f730d sdcardfs: Move directory unlock before touch
+ ▪ b4fc387e6329 sdcardfs: fix external storage exporting incorrect uid
+ ▪ 81e8ac16d58c sdcardfs: Added top to sdcardfs_inode_info
+ ▪ d35c72278e51 sdcardfs: Switch package list to RCU
+ ▪ efe1ad20ff1a sdcardfs: Fix locking for permission fix up
+ ▪ af8aac3c92af sdcardfs: override umask on mkdir and create
+ ▪ d99944620140 Fix compilation error
+ ▪ d48a0885965e Revert "sdcardfs: Fix compilation issues"
+ ▪ fd8343afd588 Revert "sdcardfs: override umask on mkdir and create"
+ ▪ d25195a55f8a Revert "sdcardfs: Add support for parsing Android's package list"
+ ▪ f35a476618c9 Revert "sdcardfs: Fix locking"
+ ▪ 937d5e169ce4 Revert "sdcardfs: Added top to sdcardfs_inode_info"
+ ▪ f3d89490185a Revert "sdcardfs: Turn off packagelist fetching by default"
+ ▪ 594b9eb6293c BACKPORT: mm: avoid setting up anonymous pages into file mapping
  ▪ 5a0343c5ff8a msm: ipa: fix the potential heap overflow on wan-driver
  ▪ 38d7558c6915 msm: kgsl: Fix overflow in sharedmem cache range operation function
  ▪ 17d27be919a1 ASoC: soc: prevent risk of buffer overflow
@@ -144,8 +145,88 @@
  ▪ 67c29df05e62 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
  ▪ ce7acab906b9 Enable sdcardfs
 
+ ▪ project packages/apps/CMParts/
+ ▪ 80fff0b CMParts - Battery light: 100% charged level (2/2)
+ ▪ 41b7076 Use valid network resources in getNetworkModeString()
+ ▪ 8aa7852 CMParts: profiles: Remove old PagerTabStrip hack
+ ▪ 65a4e0c ButtonBacklight: Preview timeout once user stops dragging
+ ▪ 2496a32 CMParts: Update button backlight brightness in real time
+ ▪ 1bcdbb6 ExpandedDesktop: Don't re-populate the app list in rebuild()
+ ▪ d8038df CMParts: Fix expandable desktop
+
  ▪ project packages/apps/DUI/
+ ▪ 90f3fa4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
  ▪ d742b36 DUI:Smartbar:Turn off One Handed UI by default[1/2]
+
+ ▪ project packages/apps/Dialer/
+ ▪ 2c0d33580 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
+ ▪ 1eeef74fd Dialer: Fix translations
+ ▪ 7872a8616 Move CAF strings to cm_strings and fix wrong line breaks.
+
+ ▪ project packages/apps/Settings/
+ ▪ 4715aac2a8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ fd48fa1936 Edit misc settings - move switches to top & update some icons
+ ▪ f9aa855be8 Settings: Add QS brightness switch to QS advanced settings
+ ▪ 9f8a68bf41 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ c9d6fbb877 Settings: Launch default music player on headset connect
+ ▪ 5c416c5d8c Settings: Add volume link notification switch
+ ▪ 10aa6d6928 Move notif volume pref on top of increasing ring pref
+ ▪ 186cc8814b Settings: per-app cellular data and wifi restrictions
+ ▪ 7f1cbf8f03 Settings: Fix translations
+ ▪ 14eb8e6d0a Allow restricted profiles on phones
+ ▪ 9c48ccd5a9 Settings: Improve hotspot timeout strings
+ ▪ 26f180f8e8 Settings: Let's get to choose keyboard again in Settings.
+ ▪ aee56adf54 Smartbar:Turn off One Handed UI by default [2/2]
+ ▪ 91c37ee62a Fix Wakelockblocker Fragment and Update Icon
+ ▪ 9975a8c271 One handed mode toggle [3/3]
+ ▪ 938c6f13c4 DUI: Smartbar: double tap to sleep [3/3]
+ ▪ 6d4080e7b3 Settings: - Wakelock Blocker [2/2]
+
+ ▪ project packages/services/Telephony/
+ ▪ be4c093b Telephony: Fix translations
+
+ ▪ project system/sepolicy/
+ ▪ 55b39e9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_system_sepolicy into oms
+ ▪ 6325aab domain: Create a dummy domain for qc's rmt and let it access /dev/mem
+
+ ▪ project vendor/cm/
+ ▪ 68df45b0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 4a3d00e8 Sepolicy: Add perm for find cmstatusbar
+ ▪ fd2eee2a cm: config: Remove obsolete props
+ ▪ ff8d5e15 cm: build: kernel: Remove obsolete checks
+
+ ▪ project vendor/cmsdk/
+ ▪ df0b255 cmsdk: Fix @deprecated annotation mismatch warnings
+ ▪ c66a504 cmsdk: Update README references for LineageOS
+
+ ▼ 01/18/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 129f335 Lockscreen charging info: real time values [3/4]
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 0cbd180 Lockscreen charging info: real time values [3/4]
+
+ ▪ project frameworks/base/
+ ▪ 83836f26c16 Navbar tile: one tap to enable/disable, long tap to choose nav type
+ ▪ f1d45dbd316 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 1d2d617597a SystemUI: Task manager UI improvements & scrollable task list
+ ▪ b98c4113c69 Option to use volume keys to control media volume anytime (2/2)
+ ▪ 3c474ef6e4d NetworkManagement : Add ability to restrict app data/wifi usage
+ ▪ 9ec2b5c0cb5 sensors: Allow opting out of default batch size
+ ▪ 29263db6b7a CleanUp some whitespacing
+ ▪ 99fb39bfc41 [SQUASHED] Frameworks: Cleanup and remove duplicate sounds
+ ▪ 996b03563c2 Header Packs: Add back all RR and PitchBlack smart header Packs
+ ▪ dce2fa8a1f5 DUI Smartbar: double tap to sleep on navbar [1/3]
+ ▪ becd026cd1e Lockscreen charging info: real time values [1/4]
+ ▪ 75cb7c76c77 Base: API to restart SystemUI without root Change-Id: I4ce4762bee82d40daf49bacc846786bc9a3d938f
+ ▪ 3468734899b Fix DUI navbar edit logspam
+ ▪ 8c290267704 Lockscreen charging: Formatting improvements
+ ▪ cbb3ecfce84 logcat: fix SuperSU related spam E/ActivityManager( 4885): Sending non-protected broadcast eu.chainfire.supersu.NativeAccess from system uid 0 pkg null 09-16 23:35:48.711 E/ActivityManager( 4885): java.lang.Throwable 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17695) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18256) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2755) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.os.Binder.execTransact(Binder.java:565)
+ ▪ 150e5aa71bc doze: allow grayscale even if invert boolean is false
+
+ ▪ project packages/apps/DUI/
  ▪ e17f896 DUI: Smartbar: One handed mode toggle [2/3]
  ▪ dc80aa6 DUI: SmartBar: D2TS code improvements
  ▪ ff5b360 DUI: Smartbar: Add new feature of One-hand UI Mode [3/3]
@@ -157,11 +238,6 @@
  ▪ 97dea49fe Show contacts with phone numbers only
 
  ▪ project packages/apps/Settings/
- ▪ aee56adf54 Smartbar:Turn off One Handed UI by default [2/2]
- ▪ 91c37ee62a Fix Wakelockblocker Fragment and Update Icon
- ▪ 9975a8c271 One handed mode toggle [3/3]
- ▪ 938c6f13c4 DUI: Smartbar: double tap to sleep [3/3]
- ▪ 6d4080e7b3 Settings: - Wakelock Blocker [2/2]
  ▪ 7b4ffe932a Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
  ▪ c0e83b258d Fix typo
  ▪ bccf2ac9fd Merge pull request #663 from amitash/patch-1
@@ -174,87 +250,4 @@
 
  ▪ project system/core/
  ▪ 8426bd003 Lockscreen charging info: real time values [2/4]
-
- ▼ 01/17/2017
-
-
- ▪ project android/
- ▪ a816129 Track OmniStyle
-
- ▪ project bootable/recovery/
- ▪ e7597e9 minui: Skip EV_REL input devices.
-
- ▪ project device/oneplus/oneplus3/
- ▪ a5a39f0 oneplus3: Disable low-light noise and other unstable camera tweaks
- ▪ 20cea52 oneplus3: Disable ZSL
- ▪ ee80180 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
- ▪ b81cedd op3: Add seclabel to bluetooth related services
- ▪ 5415127 op3: Address SELinux denials
- ▪ 773d48e op3: restart cam preview after picture taken
-
- ▪ project frameworks/base/
- ▪ 8fdd563e7b1 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
- ▪ faf082214ff CleanUp some whitespacing
- ▪ ccbec683585 Option to use volume keys to control media volume anytime (2/2)
- ▪ ebb55d80fee [SQUASHED] Frameworks: Cleanup and remove duplicate sounds
- ▪ 6eebd05e520 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
- ▪ c69c964348a Fix summary for Data/Wifi activity arrows
- ▪ a1a57d24fa9 Header Packs: Add back all RR and PitchBlack Header Packs from M
- ▪ c5f73af74cb Make Data/Wifi activity icon in statusbar optional.
- ▪ fa8d84ba92d SystemUI: AssistManager - how is this supposed to ever work?
- ▪ ad18d017dc3 Fix wrong peek height of the notification panel
- ▪ f6fef898e1b Avoid RuntimeException and log spam
- ▪ 9f02a60ce10 [PackageManagerService]: Fixes can not boot issue.
- ▪ aaa5062d873 Add "Accept all files" option for incoming files via BT [1/3]
- ▪ 0db00483bf1 QS Headers: Don't cut off Brightness slider & button
- ▪ e37228b3c23 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
- ▪ 1a0ff791354 Fix SystemUI FC on Dynamic Density Change
- ▪ 3d7f2401f14 TaskManager Customizations [1/2]
- ▪ 2ca2e4de3df base: SystemUI: fix custom header dpi change behaviour
- ▪ 3369fd122ba TaskManager: Update UI and adapt For Nougat
- ▪ 2c9d08a1922 Fix Battery Text Visibility issues
- ▪ be4d5abb7ea [1/3] base: custom header extensions
- ▪ ff510e31ca2 Improve TM animation & use stock detail background
- ▪ eb6d271515c Use CircularReveal animation to show/hide task manager panel
- ▪ 0b6925169eb QS/TM : Update task manager UI & add fab button - Update and vectorize task close button + tint as accent color
- ▪ d5b0da139f7 TaskManager: Clean up calls in PSB
- ▪ 79c17cb9391 Reset the QS panel if task manager was visible last
- ▪ 8ba429368c6 Add more icons for the task manager switch
- ▪ 7c7018e4ee2 Update some Task Manager functions
- ▪ 8e03e4ec913 Fix TM string
- ▪ d0c86bfc39b Improve Task manager UI
- ▪ 8e7b42ecd58 Task manager improvements
- ▪ d7ba257c52c Expose the task manager values for themers
- ▪ bc98eceeaff Fixed the Task Manager bug described in the post below https://plus.google.com/101691799763674764197/posts/Z7XFJSfsCYz Change-Id: If4f3f3c67c80cd8be3111ea3dbc3ac1f3b6d7618
- ▪ eb384f73a98 CAF Task Manager switch [1/2]
- ▪ b4cdc398d03 Add task manager back in!
- ▪ a8fa37fffb1 Fix QuickQS visibility at non-first page
- ▪ c4379835be3 [1/2] base: SystemUI: custom QS header images
-
- ▪ project hardware/qcom/audio-caf/msm8974/
- ▪ e450f540 msm8974: Remove deprecated FM stuff.
-
- ▪ project hardware/qcom/fm/
- ▪ b516be3 Use BOARD_HAVE_QCOM_FM flag
- ▪ febb559 Revert "fm: do not build for BCM FM devices"
-
- ▪ project packages/apps/CMUpdater/
- ▪ 08f68c0 Updater: rebrand
-
- ▪ project packages/apps/Settings/
- ▪ 6db671ed24 Revert "adding .25x and .75x animation speeds into Nougat."
- ▪ 3cf7116aee Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ 5f953288e7 AICP to rr
- ▪ 778cba9a32 Settings:Task Manager Customizations [2/2]
- ▪ 01a55bfd86 [2/3] settings: custom header extensions
- ▪ 8b8e244635 CAF Task Manager Switch [2/2]
- ▪ 61fa6844a2 Header Image Packs and Shadows {SQUASHED}[2/2]
-
- ▪ project vendor/cm/
- ▪ f23c4d86 Removing double entry for masquerade.
- ▪ ff11f5ac Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 68b9709a Build Omni Style
- ▪ a4797198 overlay: Enable Visual Voicemail for Verizon devices
- ▪ eef86026 build: kernel: build arm kernel modules with -fno-pic
- ▪ f86d2f7a http_prebuilt: Improve retrieval of artifacts from archive
 

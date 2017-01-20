@@ -1,5 +1,17 @@
 Unofficial Changelog
 
+20th Jan 2017
+-------------
+
+Sources updated till 20th Jan 2017, 1pm IST.
+
+Notification Stream Title Fixed
+Lockscreen charging: "mAh" to "mA"
+update one handed "info" drawable color to pixel blue
+Fix visibility of single-line view in expanded group notification
+Fix One Handed UI Switch Derp
+Fix Ril related issues. (Hopefully, test and let me know)
+
 19th Jan 2017
 -------------
 
