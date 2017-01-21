@@ -1,5 +1,16 @@
 Unofficial Changelog
 
+21th Jan 2017
+-------------
+
+Sources updated till 21th Jan 2017, 6pm IST.
+
+OOS brightness values
+Disable low-light noise and other unstable camera tweaks
+Import QDCM configs for additional OnePlus 3T panels
+Windowmanager: Add support for blur effects
+Remove DUI Double tap to sleep duplication.
+
 20th Jan 2017
 -------------
 
