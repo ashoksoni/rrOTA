@@ -1,5 +1,23 @@
 Unofficial Changelog
 
+24th Jan 2017
+-------------
+
+Sources updated till 24th Jan 2017, 2pm IST.
+
+Add advanced location tile.
+Call recording automatically in dialer. Open you dialer, go into settings, then Sound and Vibration and then enable last option for ACR. If you don't have these options, nothing I can do about it. It could be a regional restriction.
+Gello in, AOSP Browser out.
+Remove Trebuchet since we already have pixel launcher.
+Fixed notification volume stream title
+Fixed 0.25x/0.75x Windows animations Scale - Check installation instructions again.
+Fixed DUI Double tap to sleep duplication.
+
+(Comes with sources update)
+Add support for lockscreen blur effects - To disable, go to Security - Click on Gear icon in front of Screen lock and disable the last option.
+HotspotTile: Don't reset the number of connected clients
+Masquerade updated to include security related patch.
+
 21th Jan 2017
 -------------
 

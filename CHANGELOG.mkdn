@@ -2,24 +2,244 @@
  ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
 
 
+ ▼ 01/24/2017
+
+
+ ▪ project android/
+ ▪ 8e4f782 Update README.mkdn
+ ▪ a57fa4b Update README.mkdn
+ ▪ 743bdf4 Update README.mkdn
+
+ ▪ project build/
+ ▪ f8dde04f0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into oms
+ ▪ e83832d8d core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE
+ ▪ c7145b80e core: include libf2fs_fmt_host_dyn in otatools
+ ▪ 333c62ec7 ota_from_target_files: Remove device dependent arguments
+ ▪ 575c96970 releasetools: support reading release keys out of some sort of command
+ ▪ 5bc92b0a9 releasetools: Add script to sign zips
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 1b6fb3d "op2: Turn on lockscreen blur"
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ f0e52f9 oneplus3: Disable ZSL
+ ▪ 665ae46 Revert "oneplus3: Import QDCM configs for additional OnePlus 3T panels"
+ ▪ 72fb7fc support for livedisplay calibration on new panels
+ ▪ 33ce899 op3: Switch to camera HAL3
+ ▪ 3e4e08a op3: ship prebuilt libril
+ ▪ d25ea25 oneplus3: Disable low-light noise and other unstable camera tweaks
+
+ ▪ project external/fsck_msdos/
+ ▪ df221ce Revert "fsck_msdos: Don't use Snapdragon LLVM"
+
+ ▪ project frameworks/av/
+ ▪ ebc5aae80 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+ ▪ project frameworks/base/
+ ▪ 9729ecce281 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 9be61fb05e1 add development animation transition mode 0.75 and 0.25
+ ▪ 62de71788c5 Arrays should be in one place - Notification stream title
+ ▪ adb47452744 Add Pulse Lava Lamp start and end colours (1/3)
+ ▪ 9262ae1587a Allow lid to send a generic COVER_CHANGED broadcast
+ ▪ ebdaee4ba99 SystemUI: HotspotTile: Don't reset the number of connected clients
+
+ ▪ project frameworks/native/
+ ▪ 67b4f120c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into oms
+
+ ▪ project packages/apps/CMParts/
+ ▪ 37a7661 Update contributors cloud db
+ ▪ 75d1b0d CMParts: Add reading mode strings
+
+ ▪ project packages/apps/DUI/
+ ▪ 3fd87db Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ 570bda5 Add Pulse Lava Lamp start and end colors (2/3)
+
+ ▪ project packages/apps/Settings/
+ ▪ ee218a9df2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ d03c83d93e Add Pulse Lava Lamp start and end colors (3/3)
+ ▪ 1a0039862d Remove my devices
+ ▪ d396dae1a2 Update resurrection_device_maintainers_strings.xml (#670)
+ ▪ 2d30943ba4 rpas: add Note 3 maintainer (#668)
+ ▪ 1bfdeec7f2 rpas: add HTC 10 maintainer (#667)
+ ▪ 69730682ff SoundSettings: Prevent NPE due to linked volumes change
+
+ ▪ project vendor/cm/
+ ▪ 0bf8e19c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 28480785 İmprove README
+
+ ▪ project vendor/cmsdk/
+ ▪ 5eb2779 Add generic support for Lid Cover Apps
+
+ ▼ 01/23/2017
+
+
+ ▪ project android/
+ ▪ 63bac0a Add image to README
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ d2f84dc op3: Disable FRP
+ ▪ a03bc64 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 4d67c8e Revert "op3: Make qcacld driver a module"
+ ▪ 73af2bb Revert "op3: Switch back to camera HAL1"
+
+ ▪ project frameworks/base/
+ ▪ 0c7a58981c0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ fafc051e4f6 fix IndexOutOfBoundsException in AccessibilityManagerService..manageServicesLocked
+ ▪ e4f6bb8b16c [BUG]fix OutOfBoundsException in DisplayContent.java
+ ▪ 9ce4e226b0e Fix clipping for date and time on QS
+ ▪ f99eb9b23ba StorageManager: Improve exception handling
+ ▪ 49ce6249ebf Fix window transformation related issue
+ ▪ e7802c7670e missing includes
+ ▪ 11f7f8e1ad0 Fix accounting for .vdex in dumpsys meminfo
+ ▪ 31446963c1f Add support for opening JAR/ZIP files via FD.
+ ▪ 3564cf7530c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 3ead980fac3 Automatic translation import
+ ▪ 519c44ffc19 Fix deprecated range_x calls.
+ ▪ 56645ab559d Avoid starving RT anims
+ ▪ 1784ebe857a Fix a memory leak.
+ ▪ 13966df9e4d QS - Fix race condition in accessibility
+ ▪ 575728c62f6 Dumps total size of primary storage.
+ ▪ 12e7202b85d Fix a use-of-uninitialized-value warning.
+ ▪ 239ccedb782 PackageDexOptimizer: fix typo in log message.
+ ▪ 3385bd5273a Enable mobile data always on.
+ ▪ e5a3548a998 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
+ ▪ 5b23f4b4471 Lockscreen charging: Formatting improvements
+ ▪ 626e0de998f Lockscreen charging: mAh to mA
+ ▪ 9f89d049015 [2/3] Re-introduce custom charging on/off sounds
+ ▪ ef670cabe0a [fingerprint]: make sure that daemon.cancelAuthentication() only execute once.
+ ▪ b55443ecfec DefaultPermissionGrantPolicy: Pass correct arguments
+ ▪ 9475c37df59 Fix visibility of single-line view in expanded group notification
+ ▪ 60eea3efe12 Fix gear not showing when rotation or RTL changed
+ ▪ 7b088bde27e Fix FAB not disappearing in multiwindow
+ ▪ c609353fbe2 Adjusted animation timing
+ ▪ 918c7606ae6 Fix clipping for edit screen of Quick Settings
+ ▪ d4a7353fb8a Frequently used OpenGL ES methods whitelisted for fast JNI path
+ ▪ 473224a0c58 Add advanced location tile
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 37f832f2 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+ ▪ a2549f55 hal: Shush some debug logging
+
+ ▪ project hardware/qcom/display-caf/msm8952/
+ ▪ 5826a4427 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 631558f777ea Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ b50983579a54 op3: Make qcacld driver opt-in
+
+ ▪ project packages/apps/Dialer/
+ ▪ 18687e019 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
+ ▪ 9f87c76aa Dialer:call recording automatically.
+ ▪ ba7568987 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 3f3287f Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ ee3afca Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ da9ff72 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ b584fee64d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ 5e48606411 rpas: add HTC 10 maintainer (#667)
+ ▪ d6abee5632 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 508ec6a4a0 Revert "Settings: dashboard tile layout config"
+ ▪ 2443104e8d Revert "Settings: Remove Dashboard summary Switch from Dashboard Settings"
+ ▪ 60e76a5f45 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ a01b6a7727 Automatic translation import
+ ▪ 65fab280c3 Merge pull request #666 from RMarchetto96/patch-1
+ ▪ ab88990491 Revert "[3/3] Settings: Add CMParts charging sound settings preference"
+ ▪ dd0bd1547a Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ c1b0933c05 Update resurrection_device_maintainers_strings.xml
+ ▪ 02d5ca441c Settings: Remove Dashboard summary Switch from Dashboard Settings
+ ▪ 873c87a3c3 Settings: dashboard tile layout config
+ ▪ a8d314adec [3/3] Settings: Add CMParts charging sound settings preference
+ ▪ 5c7957d0a8 Revert "Revert "adding .25x and .75x animation speeds into Nougat.""
+
+ ▪ project packages/apps/Snap/
+ ▪ e0a3c03cf Correctly return to film strip after editing a picture.
+
+ ▪ project packages/apps/masquerade/
+ ▪ 1c402c5 Release 20P: Initiate the caller package checking system
+
+ ▪ project system/extras/su/
+ ▪ bce2976 su: Enable Wall and fix build
+
+ ▪ project vendor/cm/
+ ▪ 6c4cd4e1 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ b598f4af Features fix format add image to README
+ ▪ 55f6a961 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ dd27ec38 Gello: fixed (#67)
+
+ ▼ 01/22/2017
+
+
+ ▪ project android/
+ ▪ 2793e34 Add crowdin link to README
+
+ ▪ project build/
+ ▪ db03738fb Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into oms
+ ▪ 57c104a95 Revert "Get the N Optimization party started"
+ ▪ 134b01206 Remove Feedback Directed Optimization support
+ ▪ 8588c6df9 Get the N Optimization party started
+ ▪ e1814beb0 Fixing envsetup.sh
+ ▪ 434408518 So Jack memory issue won't occur.
+ ▪ 4983eb6df OMS7-N: adb shell command to access OverlayManagerService
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 11a92dc Remove NFC tile.
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 36def06 OOS brightness values
+ ▪ d1ba506 oneplus3: Import QDCM configs for additional OnePlus 3T panels
+ ▪ 61c1fdb Revert "op3: Copy ril headers from ril-caf"
+ ▪ 1540ee5 Revert "op3: ril: add required change to get ril loaded"
+ ▪ a0f8bb1 Revert "op3: Add net_raw group to ril-daemon"
+ ▪ f2e1601 Revert "op3: Add radio filesmap"
+ ▪ 37eff5e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 4256a4e Lockscreen charging info: real time values [3/4]
+ ▪ b1c5d9c Revert (2/2) op3: Add pocketmode app"
+ ▪ 3746981 oneplus3: remove lteOnCdmaDevice from system.prop
+
+ ▪ project hardware/qcom/display-caf/msm8952/
+ ▪ d7f88613d gralloc: allow forcing old pixel alignment
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 0592c5ed3768 proc: Remove verifiedbootstate flag from /proc/cmdline
+
+ ▪ project packages/apps/Settings/
+ ▪ 90de617b07 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+ ▪ 7722fadafd Settings : Update RR icon names for themers
+ ▪ 0f2d3cb0b3 Add dialog to configuration restart ui fab button action
+ ▪ bf48f3a52d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
+
+ ▪ project vendor/cm/
+ ▪ 18d3bbb9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ b2ae086b Remove Trebuchet.
+ ▪ 16a8ef0e Update features list and readme
+
+ ▪ project vendor/oneplus/
+ ▪ 3398396 op3t: readd prebuilt libril
+ ▪ d6a3b5d Remove radio images because these are different for the 3 and 3T
+ ▪ 584ae18 Add OnePlus 3T graphics drivers
+
  ▼ 01/21/2017
 
 
  ▪ project android/
  ▪ 94cf385 Switch to our chromium-webview fork
 
- ▪ project device/oneplus/oneplus3/
- ▪ 8afc790 OOS brightness values
- ▪ 85cea02 oneplus3: Disable low-light noise and other unstable camera tweaks
- ▪ f193faa oneplus3: Import QDCM configs for additional OnePlus 3T panels
- ▪ 922f73b op3: Address sdcardfs SELinux denials
- ▪ 4256a4e Lockscreen charging info: real time values [3/4]
- ▪ b1c5d9c Revert (2/2) op3: Add pocketmode app"
- ▪ 3746981 oneplus3: remove lteOnCdmaDevice from system.prop
+ ▪ project build/
+ ▪ e70b517bc Merge pull request #20 from ashoksoni/changes
+ ▪ 5dd055a48 Remove bootclasspath handling for Jack
+ ▪ faa2b415e Remove static libraries from Jack classpath
 
  ▪ project frameworks/base/
- ▪ 7a3b9ebea45 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
  ▪ e0e776a75ff windowmanager: Add support for blur effects
+ ▪ d0c6259d0dd Fixing notification volume stream title
+ ▪ 802b344cb06 Automatic translation import
 
  ▪ project hardware/qcom/display-caf/msm8952/
  ▪ ee2bb0e4f Fix duplicate copy file rules
@@ -27,6 +247,9 @@
  ▪ project packages/apps/Dialer/
  ▪ badff83e6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into oms
  ▪ e3eaedb63 Automatic translation import
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 8c7a61f Fix NPE with actionbar title
 
  ▪ project packages/apps/OmniSwitch/
  ▪ b3d3d2c Automatic translation import
@@ -38,7 +261,6 @@
  ▪ 833d8cd Automatic translation import
 
  ▪ project packages/apps/Settings/
- ▪ bf48f3a52d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
  ▪ fd907a5571 Add SystemUI restart prompt dialog to Helpers class
  ▪ 6d67f1966c Update configuration entry
  ▪ 9b396a635a Settings: edit a string
@@ -51,51 +273,9 @@
  ▪ d25876342b Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
  ▪ 9fb8410ce9 Revert "settings: Remove lock screen blur stuff breaking build"
  ▪ 60206ca7ce Automatic translation import
+ ▪ 883f2a321f Remove DUI Double tap to sleep duplication.
 
  ▪ project vendor/cm/
  ▪ 852573ad Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
  ▪ 22513979 Update features list
-
- ▼ 01/20/2017
-
- ▪ project build/
- ▪ 5dd055a48 Remove bootclasspath handling for Jack
- ▪ faa2b415e Remove static libraries from Jack classpath
- ▪ 874016d81 build sign_target_files_apks.py: clean tmp on exit
-
- ▪ project frameworks/base/
- ▪ b655eab153d Lockscreen charging: "mAh" to "mA"
- ▪ dbbce20bcad update one handed "info" drawable color to pixel blue
- ▪ c716a346c3f Fix visibility of single-line view in expanded group notification
- ▪ 04952545b9a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
- ▪ 1e02699f798 SystemUI: Edit strings and mode edit drawable
- ▪ ccd399f84ca Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into oms
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 8158882a9553 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ 67c70dfdf6d7 tunnels: Fix an upstream mismerge
- ▪ 568090f3a872 Removed duplication.
- ▪ 1eece5bcb40d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ 4f184a5c171a Merge branch 'linux-3.18.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-14.1
-
- ▪ project packages/apps/OmniStyle/
- ▪ 8c7a61f Fix NPE with actionbar title
-
- ▪ project packages/apps/Settings/
- ▪ 883f2a321f Remove DUI Double tap to sleep duplication.
- ▪ 734c328b27 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ f7a55a77ac About Resurrection : Reorganize for n
- ▪ cc52c815a1 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oms
- ▪ 96a743c4e2 Settings : Fix CPU info for all devices in device info settings
- ▪ 11970e2064 Settings: Show RR device name in device info settings
-
- ▪ project packages/services/Telecomm/
- ▪ cb804328 Telecomm: Set MSIM audio params using the proper ID
-
- ▪ project vendor/cm/
- ▪ c0c52a9f apns: Add Freedompop foggmobile APN
- ▪ 72259047 build: Append -dtb to kernel image name if TARGET_KERNEL_APPEND_DTB is set
- ▪ ecc4cef0 extract_utils: Detect output existence before moving it for backup
- ▪ b63d8893 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 890aa826 Update github Changelog
 
