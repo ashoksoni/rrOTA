@@ -1,5 +1,21 @@
 Unofficial Changelog
 
+28th Jan 2017
+-------------
+
+Sources updated till 28th Jan 2017, 3pm IST.
+
+Revert "Add advanced location tile"
+Add 3Minit battery mod
+Statusbar: Gracefully adapt 3Minit Battery hook for AOSP
+Owls headers from AOSIP.
+Add 5th number row to AOSP keyboard.
+Trebuchet is back.
+
+Stock Kernel
+Fixed the failed SafetyNet CTS check. 
+
+
 24th Jan 2017
 -------------
 
