@@ -1,5 +1,24 @@
 Unofficial Changelog
 
+1st Feb 2017
+-------------
+
+Sources updated till 1st Feb, 5pm IST.
+
+RR official OMS support.
+Official version bumped to 5.8.1
+Launch SuperSU from Settings
+Launch Substratum from Settings
+Used Uber Toolchain again for building with many optimizations as follows:
+- Strict aliasing, graphite, GCC only, and cortex-a15 tunings.
+- Remove strict from key files (controlled from uber.mk) and ensure that things stay aosp if not enabled.
+- Added CLANG_O3 option for clang-made files (since more and more android is built with clang)
+- Remove an annoying -g (for building purpose only)
+
+(Comes with sources update)
+Dashboard tile layout config
+Disable lock screen blur by default
+
 28th Jan 2017
 -------------
 
