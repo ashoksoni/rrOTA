@@ -3,6 +3,8 @@ Unofficial Changelog
 8th Feb 2017
 -------------
 
+Update pulled back as play services fc on clean flash.
+
 [B][COLOR="Red"]Would suggest a clean flash as too many framework base related changes...[/COLOR][/B]
 
 [B][COLOR="Blue"]No Gestures other than double tap to wake, and Double tap to sleep on statusbar and click on power button twice for the camera.
