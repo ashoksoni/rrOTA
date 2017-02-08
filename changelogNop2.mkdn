@@ -1,5 +1,57 @@
 Unofficial Changelog
 
+8th Feb 2017
+-------------
+
+[B][COLOR="Red"]Would suggest a clean flash as too many framework base related changes...[/COLOR][/B]
+
+[B][COLOR="Blue"]No Gestures other than double tap to wake, and Double tap to sleep on statusbar and click on power button twice for the camera.
+Please don't ask for them, they will be added when available or if I succeed. Your asking won't make it happen sooner.[/COLOR][/B].
+
+Sources updated till 8th Feb, 11am IST.
+
+BootAnimation: Play boot/shutdown animation and music
+- Add/Replace system/media/shutdownanimation.zip with your own zip and set 644 permissions to make it your shutdownn animation.
+- Add/Replace system/media/boot.wav with your own wav audio file and set 644 permissions to make it your boot sound.
+- Add/Replace system/media/shutdown.wav with your own wav audio file and set 644 permissions to make it your shutdown sound.
+Drop PicoTTS
+Allow unlocked USB data access
+Tile: Lockscreen - Enable it to start your phone to with lock or without lock if disabled.
+DND tile: Longpress when active to show detail view.
+Mock Location is off by default.
+Added a protected broadcast for Masquerade events.
+GestureInputFilter: stop the battery drain. (Read more detail on git)
+Add Random effects to system animations. (requested by someone)
+Revert "Add advanced location tile" (requested by someone)
+Show USB Mode Dialog when connecting to pc.
+Renamed Substratum to Themes and moved to Customization category.
+3minit Battery Settings free version 4.1.1 preinstalled.
+Substratum v561 preinstalled.
+Round Icons are reverted. Will try to add a switch in future if receive such requests.
+OpenDelta is included but don't get too excited. It's still WIP. I need some free time to make it work on server side and that'll take some time.
+Dependies for OpenDelta
+
+(Comes with sources update)
+Fix recents thumbnails for one hand mode
+Bluetooth: Fix Default BT turn on
+AlarmsBlocker Made by @faust93. Based on WakelockBlocker by @maxwen
+SystemUI: PowerNotification: Add up button to fragment
+Add one handed mode action
+WiFi Hotspot: use new on/off logic
+Slidetouch listener only on navbar view
+Remove cube in, cube out animations for configurations tabs (this will fix the issue one user reported)
+Settings: Add status bar tap to sleep pref to gestures
+Settings: gesture: Add CMParts touchscreen gesture settings
+Disable statusbar superuser indicator by default
+Update qs settings on dpi change
+Fix playing screenshot's sound when camera's sounds off
+Fix Battery Text Visibility issues - Reported by so many. I guess this'll put an end to those posts ;)
+Added AOSCP Battery Style (still having issues so the switch is hidden, will work on it later. This is just to remind myself that it needs to be fixed.)
+
+Stock Kernel
+usb-gadget: support USB keyboard
+App - [URL="https://play.google.com/store/apps/details?id=remote.hid.keyboard.client"]USB Keyboard[/URL]
+
 1st Feb 2017
 -------------
 
