@@ -3,6 +3,13 @@ Unofficial Changelog
 10th Feb 2017
 -------------
 
+Update 2.
+
+Old way of gestures so we wouldn't have to wait for LOS to implement them, who know how long it will be so we are going back the way it was.
+
+10th Feb 2017
+-------------
+
 [B][COLOR="Blue"]No Gestures other than double tap to wake, and Double tap to sleep on statusbar and click on power button twice for the camera.
 More gestures will be added when they are merged in sources, so have patience and don't ask..[/COLOR][/B].
 
