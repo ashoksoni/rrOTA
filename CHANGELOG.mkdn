@@ -2,15 +2,157 @@
  ▼ Resurrection Remix Nougat Ver 5.8.1 Changelog
 
 
- ▼ 02/08/2017
+ ▼ 02/10/2017
 
 
  ▪ project frameworks/base/
+ ▪ f84220ef5be Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 91219fc1d05 Revert "[1/2] base: expose rebootCustom for OpenDelta"
+ ▪ 7e1a93cf05f Revert "Dependies for OpenDelta rebootCustom"
+ ▪ 43509754d63 Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ 71b49b8 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 79fee4f Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ ef8d286 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ c9494b2 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 742345381d Revert "OpenDelta Settings"
+ ▪ 53167cd2ad Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 822828b8f9 Automatic translation import
+ ▪ 69e300ca27 Update Zenfone Laser/Selfie (Device Name) (#687)
+ ▪ 39b708adbb Safe headset volume option (2 of 2)
+ ▪ 99930d2661 add-device-Z00D (#686)
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 3d3519e Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 678971d12 Snap: Fix filtering of unsupported HFR/HSR modes
+ ▪ 46c1ac46e Automatic translation import
+ ▪ fe100c6e5 Snap: Fix max brightness and power shutter settings
+ ▪ 84752f915 Snap: VideoModule: Update flash status on preference change
+ ▪ 75de9ea72 Snap: Replace noisy debug line
+ ▪ 342b61771 Snap: VideoModule: Restore check on mPreferenceRead
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ ececf7776 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into cm-14.1
+ ▪ 56685bfcf Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 6bbc51e Automatic translation import
+
+ ▪ project system/media/
+ ▪ 57fc1b82 audio_route: Add support to set complete byte arrays
+
+ ▪ project vendor/cm/
+ ▪ f64daf97 Revert "Build OpenDelta"
+
+ ▼ 02/09/2017
+
+
+ ▪ project build/
+ ▪ df4e7a6fd Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ 4adb10ef1 Revert "Bringup system-squisher for Nougat (1/2)"
+ ▪ fb3c39cff Revert "Makefile: Fix Squisher Logic"
+ ▪ 399be0297 Use 'release-keys' for build tag
+ ▪ e5f968f84 Makefile: Fix Squisher Logic
+ ▪ feb729cce Bringup system-squisher for Nougat (1/2)
+ ▪ 11d054916 Mock Location should be off!
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ d1f46c0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ 09be39ea739 Fw_base - Safe headset volume option (1 of 2)
+ ▪ d71f30ed2a4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ e54b12e6df6 Automatic translation import
+ ▪ 18a10be8f1d Revert "Revert "Use round icons""
  ▪ 409f52ea670 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
  ▪ a73633a9fcb Dependies for OpenDelta rebootCustom
  ▪ faec675df46 [1/2] base: expose rebootCustom for OpenDelta
  ▪ e3bc4e24f4c BootAnimation: Play boot/shutdown animation and music
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 11214c45fb8 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 7ba63f0b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Bluetooth into cm-14.1
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 85cd4dd CMUpdater: Add title when collapsed
+ ▪ e3a471d UpdatesActivity: don't check for updates on every resume
+
+ ▪ project packages/apps/Calendar/
+ ▪ 573612e8 Calendar: Fix check for things to import
+ ▪ 7315b87c Calendar: Prevent NPE
+
+ ▪ project packages/apps/Dialer/
+ ▪ 937b90be9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat
+ ▪ f38a5963c Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 8c9d49e Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 3e48f73 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 4d54b14 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 0e22ec5877 OpenDelta Settings
+ ▪ c33c6aff97 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 32e27a42f2 Settings: Fix pulse activity typo
+ ▪ 8a2329e8c8 Automatic translation import
+ ▪ 54ea7e79ff Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▪ project packages/apps/Snap/
+ ▪ 8613b0502 Snap: VideoModule: properly update focus settings when switching between cameras
+ ▪ 8c64fae39 Snap: Fix zoom in video mode
+ ▪ 8ba41f452 Snap: Remove touch AF/AEC option
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ 9484d15 Revert "telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE"
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 659ccee Automatic translation import
+
+ ▼ 02/08/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 9d32740 op3: doze: Protect com.android.systemui.doze.pulse
+ ▪ e919a34 op3: doze: Set different timings for wave and pocket detection
+ ▪ 4882013 op3: doze: Cleanup
+
+ ▪ project frameworks/base/
  ▪ f022a1a4af5 Automatic translation import
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 1edb4732ffb BACKPORT: aio: mark AIO pseudo-fs noexec
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 30d2aeb Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 0d12073b Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ 81c2530 Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 4245c6e Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ d8743b6d Automatic translation import
 
  ▪ project packages/apps/Dialer/
  ▪ ab3760ffa Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat
@@ -42,26 +184,33 @@
  ▪ b4114dd Automatic translation import
 
  ▪ project packages/apps/Settings/
- ▪ 2c3a4fecd4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ c03a977166 OpenDelta Settings
  ▪ aa880de424 Add Pixel XL maintainer
  ▪ ca94032d38 Add ZUK Z1 (ham) maintainer (#685)
  ▪ 337d35cfa5 Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 42a4e55 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 1d0b8aca3 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 36c1213 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ a6fc233 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 655b92a Automatic translation import
 
  ▼ 02/07/2017
 
 
  ▪ project build/
- ▪ 44c5ec94f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
  ▪ 48a868bc0 Merge pull request #23 from Chippa-a/nougat
  ▪ 2aa150531 dumpvar: Remove unnecessary print variables
- ▪ 2cf835f54 Drop PicoTTS
- ▪ 22e19f720 Revert "Bringup system-squisher for Nougat (1/2)"
- ▪ ab1c45788 Revert "Makefile: Fix Squisher Logic"
 
  ▪ project device/oneplus/oneplus2/
- ▪ 12f9060 op2: Support more gestures
- ▪ 06a8c79 op2: Switch to the CMHW touchscreen gestures implementation
  ▪ a922e24 Add Lockscreen tile.
 
  ▪ project frameworks/base/
@@ -97,29 +246,18 @@
  ▪ 5875c575e5 Add Maintainer for Lenovo A6000 (#682)
  ▪ 0a2b2baa68 Automatic translation import
 
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ d1bc43f WallpaperPicker: bring back cm wallpapers
+ ▪ 1dde84a WallpaperPicker: update icon
+ ▪ 66b854f WallpaperPicker: materialize delete icon
+ ▪ 6c33146 WallpaperPicker: bump gradle
+
  ▪ project vendor/cm/
  ▪ 9d0cea19 Shutdown animation is in.
  ▪ 23ed4053 Revert "Bringup system-squisher for Nougat (2/2)"
 
  ▼ 02/06/2017
 
-
- ▪ project build/
- ▪ eb1adbd74 Makefile: Fix Squisher Logic
- ▪ 9746a9cb5 Bringup system-squisher for Nougat (1/2)
- ▪ 3fcf1a0e4 build: Use -march=native for host
- ▪ a6c91f1bd Make sure to include WebViewGoogle if present
- ▪ 934e19407 Eng: Include in user build filter
- ▪ a053ffea4 Mock Location should be off!
- ▪ 2c2dd4b0c Remove Debug from Eng
- ▪ cebd3f989 Do not build test stuff for eng builds
- ▪ 450ddf095 Remove MOAR Bloat
- ▪ d1aeda391 build: Set ANDROID_BUILD_TOP earlier
- ▪ eebad71a4 build: dynamically fix ARM erratum cortex-a53-843419
- ▪ 9b5c3ae5f build: force rebuild build.prop
- ▪ 97a212cdb Don't build recovery at all
- ▪ 6afbf8d76 core: arm: use -mfloat-abi=softfp instead of -msoft-float
- ▪ 0861ee4a5 Use 'release-keys' for build tag
 
  ▪ project device/oneplus/oneplus3/
  ▪ f6a590f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
@@ -447,239 +585,4 @@
  ▪ project vendor/cm/
  ▪ 33179e59 Revert "Revert "Gello: fixed""
  ▪ de970cf5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
-
- ▼ 02/02/2017
-
-
- ▪ project android/
- ▪ 63bdcf4 Track our external google
- ▪ 05fe737 android: switch to LineageOS recorder
-
- ▪ project device/oneplus/oneplus3/
- ▪ e164b16 fixing a potential race condition
- ▪ 9ee1b85 fixing a race condition on MsgTask::destroy()
- ▪ ae5e60c update gps.conf
- ▪ 311f4c3 oneplus3: Don't vibrate for T2W
- ▪ 089de9b op3: s6e3fa5: add QDCM configuration
- ▪ 047b155 op3: Update README for 3t
- ▪ 2ba17a8 op3: Add support for op3t
- ▪ 8835354 op3: Update to N camera blobs
- ▪ 28240d1 Revert "op3: Remove obsolete Snap overlay"
- ▪ 3c02b75 op3: Support more gestures
- ▪ 3a8d35f op3: Switch to the CMHW touchscreen gestures implementation
-
- ▪ project device/oppo/common/
- ▪ 3b923ed Automatic translation import
- ▪ 7a3ae38 common: Switch to the CMHW touchscreen gestures implementation
-
- ▪ project device/qcom/common/
- ▪ b136210 power: Remove POWER_HINT_AUDIO
-
- ▪ project frameworks/base/
- ▪ 44686289e31 GlobalScreenShot:Fix Unused Calls
- ▪ 2a042d7d581 Update qs settings on dpi change
- ▪ c5e40ab4e4c [1/2] base: SystemUI: header pack config enhancements
- ▪ eb8041d2efe Fix playing screenshot's sound when camera's sounds off
- ▪ 9666bc2b187 PhoneWindowManager: Support multiple key handlers
- ▪ adf3c54f269 SystemUI: Never link nofication volume on non-voice capable devices
- ▪ 96e38ebff60 core: more descriptive vendor image mismatch message
- ▪ dbcaebfabed Revert "Frameworks: fix living wallpaper exception when reboot"
- ▪ 467a7b71116 Merge pull request #175 from micky387/nougat
- ▪ 26a7bb22c11 Fix Battery Text Visibility issues (update)
-
- ▪ project frameworks/native/
- ▪ dc42b2b6a gralloc1: Acquire mutex early in release
- ▪ a47962154 sf1 : Avoid resetting skip flag for dim layer
- ▪ a4527c381 surfaceflinger: Increase SurfaceFlinger dump buffer size to 16k.
- ▪ 85c7cf120 Preserve app data if neither ce nor de have xattr user.default
-
- ▪ project hardware/libhardware/
- ▪ f29cb1f hardware: power: Remove POWER_HINT_AUDIO
- ▪ 4be06d8 Revert "power: Add support for camera preview in powerHAL"
-
- ▪ project hardware/qcom/fm/
- ▪ a02172a Automatic translation import
-
- ▪ project kernel/oneplus/msm8996/
- ▪ f27e5761e02 input: synaptics_s3320: Support all gestures
- ▪ 361680816a3 input: synaptics_s3320: Clean up gesture handling
-
- ▪ project packages/apps/AudioFX/
- ▪ 68476c6 Automatic translation import
-
- ▪ project packages/apps/Bluetooth/
- ▪ 8fc4ad33 Automatic translation import
-
- ▪ project packages/apps/CMBugReport/
- ▪ b23a2ac Automatic translation import
-
- ▪ project packages/apps/CMFileManager/
- ▪ ff821d4 Automatic translation import
-
- ▪ project packages/apps/CMParts/
- ▪ 6694859 CMParts: Move status bar tap to sleep pref to Settings
- ▪ 9665e1d CMParts: Add touchscreen gesture settings and keyhandler
- ▪ e8261dd CMParts: buttons: Remove double tap power for camera setting
- ▪ fe53ebe Automatic translation import
-
- ▪ project packages/apps/CMUpdater/
- ▪ 6fba07c Automatic translation import
-
- ▪ project packages/apps/Calendar/
- ▪ e7899e8d Automatic translation import
-
- ▪ project packages/apps/CellBroadcastReceiver/
- ▪ 7f56ce1 Automatic translation import
-
- ▪ project packages/apps/Dialer/
- ▪ 3ea64e391 Automatic translation import
-
- ▪ project packages/apps/Eleven/
- ▪ bb82223 Automatic translation import
-
- ▪ project packages/apps/Messaging/
- ▪ cfdcc79 Automatic translation import
-
- ▪ project packages/apps/OmniStyle/
- ▪ 726a9bb OmniStyle: add Syed header pack
- ▪ 1353ec7 OmniStyle: add creator meta data for header packs
-
- ▪ project packages/apps/Settings/
- ▪ 049d0fc25d Remove cube in, cube out animations for configurations tabs
- ▪ 6c02870c0d Settings: Add status bar tap to sleep pref to gestures
- ▪ b881ecf3c2 Settings: gesture: Add CMParts touchscreen gesture settings
-
- ▪ project packages/apps/SetupWizard/
- ▪ fdf1c87 Automatic translation import
- ▪ cd34a58 Build org.cyanogenmod.platform.internal as static library
-
- ▪ project packages/apps/Snap/
- ▪ 289e67784 Automatic translation import
-
- ▪ project packages/apps/ThemeChooser/
- ▪ ed41164 Automatic translation import
-
- ▪ project packages/apps/Trebuchet/
- ▪ 3778f4deb Automatic translation import
-
- ▪ project packages/providers/DataUsageProvider/
- ▪ be55cf6 Automatic translation import
-
- ▪ project packages/providers/DownloadProvider/
- ▪ e346efc Automatic translation import
-
- ▪ project packages/providers/WeatherProvider/
- ▪ 67824b6 Automatic translation import
-
- ▪ project packages/resources/devicesettings/
- ▪ b857442 Automatic translation import
-
- ▪ project packages/services/CMAudioService/
- ▪ 9d998c1 Automatic translation import
-
- ▪ project packages/services/Telecomm/
- ▪ 7b087f59 CallAudioModeStateMachineTest: fix compilation
-
- ▪ project packages/services/Telephony/
- ▪ 4ca68a0f MobileNetworkSettings: Read and write USER_NETWORK_MODE
- ▪ 57e02a76 Automatic translation import
- ▪ b1a17ec0 Automatic translation import
-
- ▪ project packages/services/ThemeManagerService/
- ▪ 149b09d Automatic translation import
-
- ▪ project packages/services/WeatherService/
- ▪ dc3564a Automatic translation import
-
- ▪ project vendor/cm/
- ▪ ef85831e cm: overlay: Settings: Enable gesture settings
- ▪ f030ff9c cm: add LineageOS recorder
- ▪ 20435357 Revert "Gello: fixed"
- ▪ 0a1e2801 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
-
- ▪ project vendor/cmsdk/
- ▪ b26d017 cmsdk: Add touchscreen gestures support
- ▪ 51dc7e3 cmsdk: Add DeviceKeyHandler overlays
- ▪ 8a30161 Automatic translation import
- ▪ 3b1686c Automatic translation import
-
- ▪ project vendor/oneplus/
- ▪ bc9c4dc op3: Add op3t adreno firmware
- ▪ 4eb4943 op3: Update to OxygenOS 4.0.2 blobs
- ▪ 5901467 op3: Update to N camera blobs
-
- ▼ 02/01/2017
-
-
- ▪ project build/
- ▪ 8f9c0f134 Derp#
- ▪ 1937cf6d0 So Jack memory issue won't occur.
- ▪ 5cd8ccd23 Get the N Optimization party started
- ▪ 091f3e981 OMS7-N: adb shell command to access OverlayManagerService
- ▪ 0657aecf5 Remove Feedback Directed Optimization support
-
- ▪ project device/oneplus/oneplus3/
- ▪ db2b1ff op3: Add TrustZone assertion
- ▪ 9d73719 op3: Enable Wifi calling
- ▪ db37abe Revert "op3: Fix installing stock build"
- ▪ 0723eea ipacm: Fix KW issues
- ▪ 1387022 ipacm: Fix race condition between nat delete rule and update timestamp
-
- ▪ project frameworks/opt/hardware/
- ▪ 3a49878 cmhw: Add TouchscreenGestures API
-
- ▪ project hardware/qcom/display-caf/msm8960/
- ▪ f27984c7b hwc: clear HWC_SKIP_LAYER flag for all layers under opaque layer
-
- ▪ project kernel/oneplus/msm8996/
- ▪ eee5f91c4ef input: synaptics_s3320: Commonize gesture flags
- ▪ 5bdc89ff264 Revert "msm: camera: isp: Handle standby mode for B+M"
- ▪ 2f01a398da6 qcacld-2.0: Update to LA.UM.5.5.r1-02800-8x96.0
- ▪ 7da2bbec3e7 Merge tag 'LA.UM.5.5.r1-02800-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into cm-14.1-bringup
- ▪ 1ab7bc483f9 sg_write()/bsg_write() is not fit to be called under KERNEL_DS
- ▪ b981abe1447 netlink: Fix dump skb leak/double free
- ▪ 5a9f9217c21 ALSA: pcm : Call kill_fasync() in stream lock
- ▪ 13833b2eb67 net: avoid signed overflows for SO_{SND|RCV}BUFFORCE
- ▪ 7e4c598a17a ring-buffer: Prevent overflow of size in ring_buffer_resize()
- ▪ 56f637b1b08 packet: fix race condition in packet_set_ring
- ▪ 6a674899097 HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands
- ▪ 01bb16f1099 usbnet: cleanup after bind() in probe()
- ▪ 290deb07e32 USB: cdc-acm: more sanity checking
- ▪ 75cc79d2377 netfilter: x_tables: check for size overflow
- ▪ 05489f211ce pipe: limit the per-user amount of pages allocated in pipes
- ▪ 7940da778a1 ALSA: hrtimer: Fix stall by hrtimer_cancel()
- ▪ bd4967e5eeb Input: aiptek - fix crash on detecting device without endpoints
- ▪ 2eae6da4950 BACKPORT: mm: avoid setting up anonymous pages into file mapping
- ▪ 935d8ff9e0a net: llc: use correct size for sysctl timeout entries
-
- ▪ project packages/apps/Gallery2/
- ▪ e457e7e75 Gallery2: Fix crash when using locations view
-
- ▪ project packages/apps/OmniStyle/
- ▪ 338bd87 OmniStyle: add wallpaper contribution and picker
-
- ▪ project packages/apps/Settings/
- ▪ 6321232014 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 4de12cc39e Add Xiaomi Mi5 (gemini) maintainer (#679) (#679)
- ▪ 008772fdcd Add themes to dashboard
- ▪ a387ea0d73 Add Zenfone 5 (T00F) maintainer (#678)
- ▪ cc0ec1e132 Settings: Expose configutations fab button colors
- ▪ 71baaa7e8b Derp# QS Header title strings.
- ▪ bf7787380e Lockscreen charging info: real time values [4/4].
- ▪ 176522409c Add "Accept all files" option for incoming files via BT [3/3]
- ▪ 5f762510a2 Partition information menu and Extra info
- ▪ d597ae5d0b MediaScanner behavior on boot [3/3]
- ▪ 0169e9357a AICP to rr
- ▪ 4558629023 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ abaf85bf7d Settings: Expose configutations fab button colors
- ▪ 511b2c0689 withdraw name from maintainer for htc10 and z3 (#677)
-
- ▪ project packages/apps/SetupWizard/
- ▪ 4e218b6 Remove Google Play Services dependency
-
- ▪ project system/sepolicy/
- ▪ 2d20429 Merge pull request #1 from ashoksoni/nougat
-
- ▪ project vendor/cm/
- ▪ 5064a4c6 Update github changelog
 

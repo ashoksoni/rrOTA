@@ -1,14 +1,25 @@
 Unofficial Changelog
 
+10th Feb 2017
+-------------
+
+[B][COLOR="Blue"]No Gestures other than double tap to wake, and Double tap to sleep on statusbar and click on power button twice for the camera.
+More gestures will be added when they are merged in sources, so have patience and don't ask..[/COLOR][/B].
+
+Sources updated till 10th Feb, 11am IST.
+
+Fixed Google Play service force close.
+Revert "Revert "Use round icons""
+Revert Drop PicoTTS
+Safe headset volume option - Sounds -> other sounds
+More Delta updater fixes but still postponed till I find a hosting service to provide direct download links to the app.
+
 8th Feb 2017
 -------------
 
-Update pulled back as play services fc on clean flash.
+Update pulled back as play service fc on clean flash.
 
 [B][COLOR="Red"]Would suggest a clean flash as too many framework base related changes...[/COLOR][/B]
-
-[B][COLOR="Blue"]No Gestures other than double tap to wake, and Double tap to sleep on statusbar and click on power button twice for the camera.
-Please don't ask for them, they will be added when available or if I succeed. Your asking won't make it happen sooner.[/COLOR][/B].
 
 Sources updated till 8th Feb, 11am IST.
 
@@ -22,7 +33,7 @@ Tile: Lockscreen - Enable it to start your phone to with lock or without lock if
 DND tile: Longpress when active to show detail view.
 Mock Location is off by default.
 Added a protected broadcast for Masquerade events.
-GestureInputFilter: stop the battery drain. (Read more detail on git)
+GestureInputFilter: stop the battery drain. (Read more details on git)
 Add Random effects to system animations. (requested by someone)
 Revert "Add advanced location tile" (requested by someone)
 Show USB Mode Dialog when connecting to pc.
@@ -32,6 +43,7 @@ Substratum v561 preinstalled.
 Round Icons are reverted. Will try to add a switch in future if receive such requests.
 OpenDelta is included but don't get too excited. It's still WIP. I need some free time to make it work on server side and that'll take some time.
 Dependies for OpenDelta
+Added AOSCP Battery Style (still having issues so the switch is hidden, will work on it later. This is just to remind myself that it needs to be fixed.)
 
 (Comes with sources update)
 Fix recents thumbnails for one hand mode
@@ -48,7 +60,6 @@ Disable statusbar superuser indicator by default
 Update qs settings on dpi change
 Fix playing screenshot's sound when camera's sounds off
 Fix Battery Text Visibility issues - Reported by so many. I guess this'll put an end to those posts ;)
-Added AOSCP Battery Style (still having issues so the switch is hidden, will work on it later. This is just to remind myself that it needs to be fixed.)
 
 Stock Kernel
 usb-gadget: support USB keyboard
