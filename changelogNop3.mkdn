@@ -1,5 +1,70 @@
 Unofficial Changelog
 
+21st Feb 2017
+
+Sources updated till 21st Feb, 6pm IST.
+
+RR Base version updated to 5.8.2
+
+Configuration qs tile longclick opens OpenDelta now.
+Wired headset: make ringtone audio focus customizable
+Define priority for callerinfo selection
+Fix inconsistant display number format issue in Messaging application
+telephony: Hack GSM and LTE signal strength
+Framework: Add Fade in and Fade out effect to Recents FAB
+
+Disable wpa_supplicant log spam
+Turn the spam off
+location: silence log spilling
+Keyguard: disable logspilling debug
+
+Add Phh Superuser dashboard tile
+Add Magisk Manager dashboard option
+Settings: Change magisk dashboard icon
+Properly remove root access under DevSettings (if Magisk installed, next version will check for SuperSU too)
+Add VOLTE new icon (with switch)
+Hotspot Tile: longclick should open Tethering settings
+Add longpress action for data saver QS tiles - 
+
+Caffeine Tile long press action for infinity, 20m is also added.
+Disable ongoing statusbar ime switcher notification
+Allow to set Ripple on other buttons for Home button only pixel animation
+Allow to set pixel animation for the home button only
+
+Increase Zenmode max hour limit from 12 to 24
+long click actions for Heads up to default
+Reset battery stats
+
+display fstype for mounted volumes
+autobrightness Tweaks
+lock rotation on SetupWizard
+Shutdownanimation, boot and shutdown audio files, all in.
+
+Wifi Speed modification - WCNSS_qcom_cfg.ini
+
+Revert "Testing aptX Codec for oneplus3/3t", native support is added for this.
+remove cm updater since we have OpenDelta and also we didn't use it at all.
+
+OMS7 related:
+graphics: ADB "N" icon compatible with OMS7
+Bring back main dashboard background color
+Expose Keyguard affordance circle background
+
+(Comes with sources update)
+SmartBar: Pixel button animation support
+Bring in initial Pixel Navbar animation resources
+Make Power Menu Emergency Panel Optional
+Added Slim Recents
+Net monitor: fix visual glitch on statusbar expand when autohide enabled
+QS Stroke: Fix Stroke Not applying with Blur
+Show infinity for large notification counts
+Correctly Fix SB weather always showing on left
+base: instrumentation: fix protected apps intents
+Hide Lockscreen emergency button - under Lockscreen security
+Separate one handed mode icons
+Fix one handed mode triggering tapjacking protection - This may only work with OneHanded mode or in all cases, didn't test.
+Unlock keystore with fingerprint after reboot
+
 10th Feb 2017
 -------------
 

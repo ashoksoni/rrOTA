@@ -1,0 +1,12 @@
+Errors or bugs that I know about so don't report about them please.
+
+22.02.2017 build
+
+- Editing qs tiles structure produces some artifacts for a split of a second and then disappear. This is because of scrolling qs animations and the Team is looking into it.
+- Delta updates not working. They are still not 100% perfect as I am still fiddling with naming convention etc, as soon as it's perfect, I will mention that.
+- If you don't have any pattern or pin lock, Emergency button switch doesn't hide Emergency button. You need to set a lock, that's the bug introduced after adding the Emergency button removal commits. I am testing to see if this can be fixed. For now this is in RR sources and the ream is already aware about this. You have to use a pattern/pin lock to overcome this issue.
+----
+
+Anymore, you tell me and I will add them here only if I can reproduce them at my end.
+
+Thanks.
