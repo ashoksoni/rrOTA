@@ -1,5 +1,42 @@
 Changelog
 
+23rd Feb 2017
+
+Sources updated till 23st Feb, 5pm IST.
+
+(Mod) WakeBlock: Blocking the drain before it’s too late.
+Credits to @GioBozza (https://forum.xda-developers.com/member.php?u=7087071)
+
+You need wakeblock app to use this mod. Visit this thread for more info.
+https://forum.xda-developers.com/nexus-6p/general/wakeblock-blocking-drain-late-t3526313
+
+Remove root access under Development Settings if SuperSu installed.
+
+Fixes:
+Changelog should be for 5.8.2 now.
+Removing Unofficial from the OTA updates.
+Fix execution of userinit.sh and allow executing usefull commands from userinit.sh.
+Fix "unknown" action in Custom Gestures. It is default for defaults actions.
+
+OpenDelta:
+Adding OPENDELTA_BUILDTYPE (SONI) in builds name so OpenDelta can fetch updates for op2/op3/op3t.
+OpenDelta is fixed properly now. We will know for sure once I build my next update. :)
+
+For whoever interested to know the issue.
+
+App checks for the build_type (official or unofficial), it gets disabled if find unofficial build. I made changes in source code so app jumps over the condition
+and still checks for updates. This was needed as I build official and unofficial builds now. It wasn't needed earlier.
+I am sure there could be other ways to fix this if I knew Java better but for now this works.
+
+Removed:
+Shutdown animation, boot/shutdown sounds.
+- For testing something, they may come back in future.
+3minit Battery Settings apk removed. Download the free app from my AFH/oneplus2/Misc folder.
+
+(Comes with sources update)
+Revert "All tile scroller for quickbar settings
+Revert "Auto calculate quickbar tiles amount" - Now you can select no. of small qs tiles.
+
 21st Feb 2017
 
 Sources updated till 21st Feb, 6pm IST.

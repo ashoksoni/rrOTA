@@ -1,46 +1,79 @@
 
- ▼ Resurrection Remix Nougat Ver 5.8.1 Changelog
+ ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
+
+ ▼ 02/23/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ e549f203 sepolicy: fix execution of userinit.sh and allow executing usefull commands from userinit.sh.
+ ▪ eb4e75e0 system.prop modifications for Battery and Performance
+ ▪ 5608c41d Wifi: Enable 2.4GHz channel bonding
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ e29366e sepolicy: fix execution of userinit.sh and allow executing usefull commands from userinit.sh.
+ ▪ 4bd509e op3: disable wpa_supplicant log spam
+ ▪ 8a08a3c support for livedisplay calibration on new panels
+ ▪ b158808 Revert "op3: s6e3fa5: add QDCM configuration"
+ ▪ 9f6ab1c op3: support VoLTE
+ ▪ 5d9a238 Wifi: Enable 2.4GHz channel bonding
+ ▪ 4a76d30 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ a16c509 op3: Allow users to adjust button brightness
+
+ ▪ project device/oppo/common/
+ ▪ c23d83b Set unknown action to default.
+
+ ▪ project frameworks/base/
+ ▪ e4c97270748 SQAUSHED : Gesture Settings
+ ▪ d45fde8ef7c Revert "BootAnimation: Play boot/shutdown animation and music"
+ ▪ 58e5be76c6f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 561fcc952b7 WakeBlock: Blocking the drain before it’s too late
+ ▪ 6b719621849 Turn the spam off
+ ▪ 0471a61e355 base: location: silence log spilling
+ ▪ da4d36d49b4 Keyguard: disable logspilling debug
+ ▪ 5058695adba Configuration qs tile longclick opens OpenDelta now.
+ ▪ 1d60e494295 Wired headset: make ringtone audio focus customizable [1/3]
+ ▪ 663dcffeba7 Fix RTL layout with membar 'free ram' text
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 8371012ebff misc: fpc1020: Increase fingerprintd nice value when screen is off
+ ▪ 7f7c5e74fb4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/DUI/
+ ▪ d62793f Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ 2da9889 Allow to set Ripple on other buttons for Home button only pixel animation [1/2]
+ ▪ 3a2191f Smartbar: allow to set pixel ani for the home button only [1/2]
+
+ ▪ project packages/apps/OpenDelta/
+ ▪ 5046c25 Always return true to check official version..
+
+ ▪ project packages/apps/Settings/
+ ▪ c15b66593b Removing Unofficial from the OTA updates.
+ ▪ b2d917c3e5 Properly remove root access under DevSettings - SuperSU
+ ▪ 001a56bf84 Derp#
+ ▪ 97b6891c07 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ fd90a28946 Wired headset: make ringtone audio focus customizable [3/3]
+ ▪ 39974f3663  Allow to set Ripple on other buttons for Home button only pixel animation [2/2]
+ ▪ a1210e66e4 Smartbar: allow to set pixel ani for the home button only [2/2]
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ ec3dcce SetupWizard: Increment version
+ ▪ 63aaa30 SetupWizard: Don't crash when missing Google SUW
+
+ ▪ project packages/services/Telecomm/
+ ▪ 49f9cde2 Wired headset: make ringtone audio focus customizable [3/3]
+
+ ▪ project vendor/cm/
+ ▪ dd208f0d SQAUSH - Gesture Settings
+ ▪ cb69bef0 Revert "Add 3minit Battery Settings free version 4.1.1"
+ ▪ 701b0910 Revert "Shutdownanimation, boot and shutdown audio files, all in."
 
  ▼ 02/22/2017
 
 
- ▪ project device/oneplus/oneplus2/
- ▪ 4f42a034 Changed ro.product.name in small letters
- ▪ d753629e system.prop modifications for Battery and Performance
- ▪ 4526dc27 Wifi Speed modification - WCNSS_qcom_cfg.ini
-
- ▪ project device/oneplus/oneplus3/
- ▪ 891b38f Changed ro.product.name in small letters
-
  ▪ project frameworks/base/
- ▪ 491acc76c02 SQAUSHED : Gesture Settings
- ▪ b095d922c06 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
  ▪ 3f83c8bab6d Settings: add development animation transition mode 0.75 and 0.25
  ▪ 1fdf834341e Automatic translation import
- ▪ 51fed4929d8 Turn the spam off
- ▪ 910142c68f5 base: location: silence log spilling
- ▪ 71eca0d69ed Keyguard: disable logspilling debug
- ▪ cb508d8ebbd Configuration qs tile longclick opens OpenDelta now.
- ▪ bc6f58af338 Revert "All tile scroller for quickbar settings [1/2]"
- ▪ 8887f0e5a1d Revert "Auto calculate quickbar tiles amount"
- ▪ c745ca5e461 Revert "SystemUI: Fix QS tiles fancy animation layout glitch and mergin"
- ▪ 3164ace6128 Wired headset: make ringtone audio focus customizable [1/3]
- ▪ dd0ec9a87be Define priority for callerinfo selection
- ▪ 375065a3d4a Fix inconsistant display number format issue in Messaging application
- ▪ ceb381e5636 Derped in Wifi/Data Connectivity Arrows
- ▪ 7197dd1f7d2 telephony: Hack GSM and LTE signal strength
- ▪ 4e693271a1b Framework: Add Fade in and Fade out effect to Recents FAB
- ▪ 8d1e6052999 Themes: Expose Keyguard affordance circle background
- ▪ 7ce681751a4 replace new volte icon
- ▪ 80b9201ece7 Add VOLTE icon
- ▪ 921d7591598 Increase Zenmode max hour limit from 12 to 24
- ▪ d5d4b42e2d2 Revert long click actions for Heads up to default
- ▪ 574418e721c Revert "Add back data saver long click action"
- ▪ 96ffea55aa9 Reset battery stats [1/2] (extracted from https://github.com/CyanogenMod/android_frameworks_base/commit/910397f2390d6821a006991ed6035c76cbc74897 by @xyyx)
- ▪ cc15ae0c0dd Caffeine Tile long press action for infinity.
- ▪ 0797759c867 graphics: ADB "N" icon compatible with OMS7
- ▪ cc0f77a0620 Fw_base - Safe headset volume option (1 of 2)
 
  ▪ project packages/apps/Dialer/
  ▪ fcad093a0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat
@@ -50,104 +83,25 @@
  ▪ 5f555fa Automatic translation import
 
  ▪ project packages/apps/OpenDelta/
- ▪ 44142cc For RR delta updates
+ ▪ 22fb277 For RR delta updates
 
  ▪ project packages/apps/ResurrectionOTA/
  ▪ fe46f7a Automatic translation import
 
  ▪ project packages/apps/ResurrectionStats/
  ▪ 038829c Automatic translation import
- ▪ f745580 V5.8.2
 
  ▪ project packages/apps/Settings/
- ▪ 67bcf6045c Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 930d88b42b Removing Unofficial from the OTA updates.
  ▪ 2acedc3919 Automatic translation import
- ▪ 612b96acc6 Properly remove root access under DevSettings - SuperSU
- ▪ 59194a3056 Wired headset: make ringtone audio focus customizable [2/3]
- ▪ d7f562c4a8 Derp#
- ▪ 9199d3dc2f Allow to set Ripple on other buttons for Home button only pixel animation [2/2]
- ▪ 3d56566422 Allow to set pixel animation for the home button only [2/2]
- ▪ 8b0075b645 Revert "Scrollable Small QS tiles [2/2]"
- ▪ 98dadecf39 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 8b80d4ebc3 Properly remove root access under DevSettings
- ▪ a7e61104af Settings: Change magisk dashboard icon
- ▪ eb85a511d3 Add longpress action for data saver QS tiles
- ▪ 39cc9815bf Bring back main dashboard background color
- ▪ 89f766bfe2 Reset battery stats [2/2]
 
  ▪ project vendor/cm/
- ▪ d842cdaa SQAUSH - Gesture Settings
- ▪ eb2cb64e Adding OPENDELTA_BUILDTYPE variant
+ ▪ 111cda0d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ bfe154c9 Changelog should be for 5.8.2 now (#72)
+ ▪ 13416f73 Adding OPENDELTA_BUILDTYPE variant
  ▪ 801d414a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
  ▪ a8b8ab97 Disable ongoing statusbar ime switcher notification [1/2]
- ▪ 3491e5e7 Features: add OMS support to feature list (#71)
- ▪ 1afa7872 common: lock rotation on SetupWizard
- ▪ 8148e5a0 seapp_contexts updated -
- ▪ a4757256 Revert "Testing aptX Codec for oneplus3/3t."
- ▪ 9d159daa Testing aptX Codec for oneplus3/3t.
- ▪ b1e12cb2 Revert "Bringup system-squisher for Nougat (2/2)"
- ▪ fa33ab91 Bringup system-squisher for Nougat (2/2)
- ▪ b84b756d Shutdownanimation, boot and shutdown audio files, all in.
 
  ▪ project vendor/cmsdk/
  ▪ 794476e SQUASHED : Gesture Settings
  ▪ 4ac3459 Merge branch 'nougat' of https://github.com/ResurrectionRemix/cm_platform_sdk into nougat
-
- ▼ 02/21/2017
-
-
- ▪ project build/
- ▪ b59cb792d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ 2bd1ec785 Mock Location should be off!
-
- ▪ project device/oneplus/oneplus2/
- ▪ 220e0dea Fixing sepolicy
-
- ▪ project device/oneplus/oneplus3/
- ▪ dd16d6d Wifi Speed modification - WCNSS_qcom_cfg.ini
-
- ▪ project device/qcom/common/
- ▪ 2f412a4 Revert "Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm""
- ▪ ea99b0c extractors: Update msm8996 graphics blobs info
-
- ▪ project frameworks/base/
- ▪ 7d025f29f49 BootAnimation: Play boot/shutdown animation and music
- ▪ 9dcd7d59e06 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ e2fb61d5ce4 Automatic translation import
- ▪ 0c95c0ced81 base: instrumentation: fix protected apps intents
-
- ▪ project kernel/oneplus/msm8994/
- ▪ c7942539cbd7 Revert "Going permissive now."
- ▪ b3db706c9f48 SafetyNet bypass: Show androidboot.verifiedbootstate=green
- ▪ 481db7401f20 Going permissive now.
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 0016b42633c Revert "Going permissive now."
- ▪ c548e30f893 Going permissive now.
-
- ▪ project packages/apps/DUI/
- ▪ f967ff0 Disable ongoing statusbar ime switcher notification [2/2]
- ▪ bdbefe5 Allow to set Ripple on other buttons for Home button only pixel animation [1/2]
- ▪ d2995e5 Allow to set pixel animation for the home button only [1/2]
- ▪ 6b3a123 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
- ▪ 8cf78de SmartBar: Pixel button animation support [2/3]
- ▪ 2a42d94 Bring in initial Pixel Navbar animation resources [1/?]
-
- ▪ project packages/apps/Settings/
- ▪ a58e4fa037 SmartBar: Add Pixel to button animation settings [3/3]
- ▪ 19c00c74dc Add device Z010D (#701)
- ▪ 30286c3201 Update Device Maintainer for Cancro. (#699)
-
- ▪ project packages/apps/Snap/
- ▪ b2f33fadf Snap: Allow switching beyond just 2 cameras
-
- ▪ project packages/services/Telecomm/
- ▪ 49de8220 Wired headset: make ringtone audio focus customizable [3/3]
-
- ▪ project vendor/oneplus/
- ▪ 1932f01 Ok.
-
- ▪ project vendor/qcom/binaries/
- ▪ f293bf5 msm8996: graphics: Update to LA.UM.5.5.r1-02200-8x96.0
 
