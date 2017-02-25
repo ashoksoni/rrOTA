@@ -1,5 +1,21 @@
 Unofficial Changelog
 
+Changelog
+
+25th Feb 2017
+
+Sources updated till 25th Feb, 11.30am IST.
+
+Fix TaskManager Running services, earlier it was showing installed apps, now it's showing running services as it should.
+Secure mode enabled in OpenDelta and version is now v1.1
+
+(Comes with sources update)
+"Emergency call button on Swipe lock Screen."
+"Hide Lockscreen emergency button"
+Fix automatic zen rules.
+Fix Disabler during automatic rules switch, it wasn't sticking before.
+All accounts are visible in Account section now, earlier it was only Google accounts.
+
 23rd Feb 2017
 
 Sources updated till 23st Feb, 5pm IST.
