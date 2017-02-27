@@ -2,9 +2,14 @@ Unofficial Changelog
 
 Changelog
 
-25th Feb 2017
+27th Feb 2017
 
-Sources updated till 25th Feb, 11.30am IST.
+Sources updated till 27th Feb, 6.30pm IST.
+
+February security patch level.
+
+Add dashboard summary for Additional buttons.
+Backup option added in OpenDelta. (Read post #3 (FAQs) for more info.
 
 Fix TaskManager Running services, earlier it was showing installed apps, now it's showing running services as it should.
 Secure mode enabled in OpenDelta and version is now v1.1
