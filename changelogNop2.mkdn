@@ -1,5 +1,21 @@
 Changelog
 
+28th Feb 2017
+
+Sources updated till 28th Feb, 11.30am IST.
+
+Commits for off-screen gestures are merged with stock kernel as well device related commits so it should be better now. Also tons of other commits merged for op2 kernel.
+
+Commits for fixing WIFI NPE merged, whoever was having fc issue earlier should check whether it is fixed now or not.
+
+Fixed:
+Dialer fc
+Correct double tap to wake
+doze: Set different timings for wave and pocket detection
+ 
+Removed:
+* Front camera video recording is broken with Snap so it's not included. Use any other third party camera or OOS camera.
+
 27th Feb 2017
 
 Sources updated till 27th Feb, 6.30pm IST.

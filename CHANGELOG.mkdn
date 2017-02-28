@@ -2,294 +2,115 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
- ▼ 02/27/2017
+ ▼ 02/28/2017
 
 
- ▪ project android/
- ▪ cc0b06e Temp: Switch to Another masquerade repo
+ ▪ project device/oneplus/oneplus2/
+ ▪ a52a50dd sepolicy: fix execution of userinit.sh and allow executing usefull commands from userinit.sh.
+ ▪ 471a460b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+ ▪ 6dbfea75 system.prop modifications for Battery and Performance
+ ▪ fdb5cad6 Wifi: Enable 2.4GHz channel bonding
+ ▪ 586dd6a3 rootdir: kill wpa_supplicant log spam
+ ▪ 1b66a0cf op2: Tweak autobrightness
+ ▪ 7499c8db Add Lockscreen tile.
+ ▪ 6767b03d oneplus2: dexopt everything when building the boot image
+ ▪ 51eba194 Don't build Snap for now
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ ef76cf4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 2aabaa8 Revert "op3: add aptX codec support"
 
  ▪ project device/oppo/common/
  ▪ 3f103ab oppo_common: Add dashboard summary
  ▪ b605e7f ConfigPanel:Use pixel accent colors
  ▪ 11c35ae Notification slider: add extra options - Option to ignore slider in zen auto mode - Extra notification modes (ring and vibrate)
 
- ▪ project hardware/qcom/audio-caf/msm8974/
- ▪ 45552c3 hal: Remove duplicated HFP if branch (mismerge)
+ ▪ project frameworks/base/
+ ▪ eb83dd8472d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ c3dd19e73aa Automatic translation import
 
- ▪ project hardware/qcom/display-caf/apq8084/
- ▪ 90b39d3 Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into cm-14.1-caf-8084
- ▪ 5e179af Revert "gralloc: Add a switch to use 16 byte pixel alignment"
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 59c39516 Revert "Wifi: provide runtime logging option in WifiP2pService"
+ ▪ 1cfcdc18 WiFi: Fix possible NPE
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 45552c30 hal: Remove duplicated HFP if branch (mismerge)
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 12eb1fbfef77 Revert "Going permissive now."
+ ▪ 4184f2d3fe95 SafetyNet bypass: Show androidboot.verifiedbootstate=green
+ ▪ 12c7d20dbd7b Going permissive now.
+ ▪ ecfd176078b0 usb-gadget: support USB keyboard
+ ▪ de69c93b0fb9 tri_state_key: allow more key codes for extra modes
+ ▪ cafb8b3092e6 packet: fix race condition in packet_set_ring
+ ▪ 91512376d97c Enabling KCAL in kernel configuration file.
+ ▪ 55ed8329a1bd msm: mdss: Import KCAL post-processing driver [v2] (squashed)
+ ▪ 113740527f1d msm: mdss: Updates to KCAL post-processing driver (squashed)
+ ▪ 0690f719de4e usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs
+ ▪ c96a28868cc1 Merge commit '2684cba5695eae9212cb6c4352246c01c241dd1e' into HEAD
+ ▪ 9f8a906771aa Merge commit '4116c34313a4e9cec39d757cca4bb1def771dc66' into HEAD
+ ▪ 3474e0d9b21e input: synaptics: Enable all gestures
+ ▪ 62b170bcd823 qcacld-2.0: Import LA.BF64.1.2.3-01310-8x94.0
+
+ ▪ project packages/apps/Dialer/
+ ▪ 616b5878b Dialer:call recording automatically.
+ ▪ cf3e360e1 Automatic translation import
+ ▪ 8b4780106 Revert "Use TabLayout for DSDA tabs."
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ eeefb21 Automatic translation import
 
  ▪ project packages/apps/OpenDelta/
- ▪ ab16d62 How about backup?
+ ▪ 93f5cf9 More options added for backup.
+ ▪ 6d90a7b How about backup?
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ a278bec Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 1fe9102 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ aaa0de1db9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ c17bd08d64 Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ c4702cfe Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ cc1247fd backuptool: Preserve symlinks
+
+ ▼ 02/27/2017
+
+
+ ▪ project android/
+ ▪ cc0b06e Temp: Switch to Another masquerade repo
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ d9ca41d2 Correct double tap node
+ ▪ 01eab51a oneplus2: doze: Protect com.android.systemui.doze.pulse
+ ▪ 4703fc96 oneplus2: doze: Set different timings for wave and pocket detection
+ ▪ 0056df0f oneplus2: doze: Cleanup
+ ▪ c6f77b34 oneplus2: Switch to the CMHW touchscreen gestures implementation
+ ▪ c9dc8666 oneplus2: Add seclabel to bluetooth related services
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 727d95e3 hal: Update active input stream for Voip when voip input started
+ ▪ 51d45fad audio: acquire lock for compress voip close input/output stream
+
+ ▪ project hardware/qcom/display-caf/apq8084/
+ ▪ 2e2f18a63 gralloc: Add a switch to use 16 byte pixel alignment
+ ▪ 90b39d3bd Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into cm-14.1-caf-8084
+ ▪ 5e179af9b Revert "gralloc: Add a switch to use 16 byte pixel alignment"
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ d3050f37 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Bluetooth into cm-14.1
 
  ▪ project packages/apps/SetupWizard/
  ▪ 0c7b92a SetupWizard: Fix landscape
 
  ▪ project packages/apps/Snap/
- ▪ 774797c Focus only when tapping the preview
- ▪ 32d2eda Allow to re-open Snap from recent menu
+ ▪ 774797c77 Focus only when tapping the preview
+ ▪ 32d2eda35 Allow to re-open Snap from recent menu
 
  ▪ project vendor/cm/
- ▪ cc1247f backuptool: Preserve symlinks
-
- ▼ 02/26/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ 557420e sepolicy: Address denials
- ▪ 2507c50 Revert "sepolicy: Address denials"
- ▪ 5735cde Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
- ▪ bf415eb op2: doze: Protect com.android.systemui.doze.pulse
- ▪ 09adef9 op2: doze: Set different timings for wave and pocket detection
- ▪ 10930a3 op2: doze: Cleanup
- ▪ 50843cc op2: Switch to the CMHW touchscreen gestures implementation
- ▪ b9dcddd sepolicy: fix execution of userinit.sh and allow executing usefull commands from userinit.sh.
- ▪ 2775713 system.prop modifications for Battery and Performance
- ▪ c5bf6af Wifi: Enable 2.4GHz channel bonding
- ▪ 161c96d rootdir: kill wpa_supplicant log spam
- ▪ 1b4bea1 op2: Tweak autobrightness
- ▪ 3ebfd7f Add Lockscreen tile.
- ▪ f2f86f2 oneplus2: dexopt everything when building the boot image
- ▪ 284940f Set initial copyright year
- ▪ 213cd0b oneplus2: Hide sRGB toggle in developer options
- ▪ 7c0d927 sepolicy: Address denials
- ▪ 3a7dc77 oneplus2: Re-enable blur
-
- ▪ project hardware/qcom/audio-caf/msm8960/
- ▪ 727d95e hal: Update active input stream for Voip when voip input started
- ▪ 51d45fa audio: acquire lock for compress voip close input/output stream
-
- ▪ project hardware/qcom/media-caf/apq8084/
- ▪ e1c1f5a Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into LA.BF.2.1.2_rb1.16
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 7ef9afe input: synaptics_s3320: Commonize Gestures
- ▪ 2396741 qcacld-2.0: update to Release 4.0.11.202
-
- ▪ project packages/apps/Bluetooth/
- ▪ d3050f3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Bluetooth into cm-14.1
-
- ▪ project packages/apps/Snap/
- ▪ 0467f54 Automatic translation import
- ▪ 48f0e42 Snap: CaptureModule: lock exposure also when precapture trigger is started
-
- ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/
- ▪ f3ca0be Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/
- ▪ 51a06e7 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/
- ▪ 54bf9bf Initial commit
-
- ▪ project vendor/qcom/opensource/cryptfs_hw/
- ▪ 144e832 cryptfs_hw: Add support for is_hw_fde_enabled routine
-
- ▼ 02/25/2017
-
-
- ▪ project android/
- ▪ dc90f5d manifest: android-7.1.1_r9 -> android-7.1.1_r21
-
- ▪ project build/
- ▪ 0107553 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ 114055a Merge tag 'android-7.1.1_r21' into cm-14.1
- ▪ bca289f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ 12f3c95 build: always copy recovery.img to BOOTABLE_IMAGES.
- ▪ 7f28bb3 Add dumpvar for WITH_GMS
- ▪ 3a95f4b core: include getb64key.py in otatools
- ▪ 2032d1d ota_from_target_files: CalculateFingerprint when dump fingerprints
- ▪ f685027 Add dumpvar for WITH_SU
-
- ▪ project device/oneplus/oneplus3/
- ▪ 9e619e9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
-
- ▪ project device/oppo/common/
- ▪ d0e080d Automatic translation import
-
- ▪ project device/qcom/common/
- ▪ 1a1248b power: replace strncpy with strlcpy
-
- ▪ project frameworks/av/
- ▪ 4a6bb0d Merge tag 'android-7.1.1_r21' into cm-14.1
- ▪ 7750f38 ACodec: Fix video autoscaling on old OMX decoders
-
- ▪ project frameworks/base/
- ▪ 0c7a29d Revert "SQAUSHED : Gesture Settings"
- ▪ e69bf94 SQAUSHED : Gesture Settings
- ▪ d6f7e13 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 73a00cd Revert "Fix QuickQS visibility at non-first page"
- ▪ d47be6c Dependies for OpenDelta rebootCustom
- ▪ 8546318 [1/2] base: expose rebootCustom for OpenDelta
- ▪ 6f7e30a SystemUI: Add config to disable HumanInteractionClassifier
- ▪ bc9f8ed Automatic translation import
- ▪ ee49489 Revert "Emergency call button on Swipe lock Screen."
- ▪ 9dc712a Revert "Hide Lockscreen emergency button [1/2]"
- ▪ ba9a4bc Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ d00b760 Merge tag 'android-7.1.1_r21' into cm-14.1
- ▪ 676b40a Pulse: allow custom opacity for solid line renderer [2/3]
- ▪ fd46b3f Pulse: Moar bars for solid line renderer [2/3]
- ▪ 18426989 Fix slim recents duplicate entries
- ▪ 80081b8 Ticker: We need to center it horozontal, not vertical
- ▪ c853642 Ticker: Center Ticker layout vertically in statusbar view
- ▪ 2a54d2a Fix TaskManager Running services [1/2] (#177)
- ▪ be092ae Fix automatic zen rules.
- ▪ 6cde8a1 DocumentsUI: use 'Files' icon and text for icon
- ▪ e9c382a Bluetooth: Fix setting app stoped when unpair device
-
- ▪ project frameworks/native/
- ▪ 8ce9604 Merge tag 'android-7.1.1_r21' into cm-14.1
- ▪ 72839b9 libEGL: Only enable WORKAROUND_BUG_10194508 with board flag
-
- ▪ project frameworks/opt/hardware/
- ▪ e2b77bc Revert "Revert "cmhw: Add TouchscreenGestures API""
- ▪ 556762f Revert "cmhw: Add TouchscreenGestures API"
- ▪ ca48b0c Revert "cmhw: Allow LiveDisplay to check if GPU transform is used"
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 0f5f200 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
- ▪ project packages/apps/Bluetooth/
- ▪ f323dc0 Add "Accept all files" option for incoming files via BT [2/3]
- ▪ d484cab Automatic translation import
- ▪ f355923 Automatic translation import
-
- ▪ project packages/apps/CMParts/
- ▪ ad5107d Revert "SQUASHED : Gesture Settings"
- ▪ 42d7ad8 SQUASHED : Gesture Settings
- ▪ cc00362 CMParts: Restructure status bar settings
- ▪ b6c7f0b CMParts: Fix email and browser intents
- ▪ 670c2ec Automatic translation import
- ▪ 2fbcf82 CMParts: Replace variable for setup wizard complete
- ▪ d02f378 Automatic translation import
- ▪ e0ed192 CMParts: Add strings for sRGB
- ▪ 5bb856b Revert "Touchscreen gestures: remove CM Setup Wizard dependency"
-
- ▪ project packages/apps/Calendar/
- ▪ 4a2393e Automatic translation import
-
- ▪ project packages/apps/CellBroadcastReceiver/
- ▪ 346b2a3 Automatic translation import
-
- ▪ project packages/apps/Contacts/
- ▪ e055a35 Automatic translation import
- ▪ d385e38 Automatic translation import
-
- ▪ project packages/apps/ContactsCommon/
- ▪ a205f7e Automatic translation import
- ▪ bfa8ab1 Automatic translation import
-
- ▪ project packages/apps/DUI/
- ▪ a721276 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
- ▪ b39961b Pulse: allow custom opacity for solid line renderer [1/3]
- ▪ ba72265 Pulse: Moar bars for solid line renderer [1/3]
-
- ▪ project packages/apps/Dialer/
- ▪ 73b6db8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat
- ▪ 33abb31 Automatic translation import
- ▪ fb85139 Automatic translation import
- ▪ 3cc3af8 Use TabLayout for DSDA tabs.
-
- ▪ project packages/apps/Email/
- ▪ e29763c Automatic translation import
-
- ▪ project packages/apps/Gello/
- ▪ dea8419 Automatic translation import
-
- ▪ project packages/apps/Messaging/
- ▪ be76523 Automatic translation import
- ▪ 8d3c467 Merge tag 'android-7.1.1_r21' into cm-14.1
- ▪ 4c8acd6 Automatic translation import
-
- ▪ project packages/apps/OpenDelta/
- ▪ e2f59d1 Reverting to rebootCustom.
- ▪ 4ead040 Enabling secure mode.
- ▪ 160ca9f Upping the version to v1.1
-
- ▪ project packages/apps/PhoneCommon/
- ▪ 952a5f0 Automatic translation import
- ▪ 0cb1362 Normall -> Normal typo in strings
-
- ▪ project packages/apps/Recorder/
- ▪ 7a11f99 Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ 32976fb Revert "SQUASHED - Gesture Settings"
- ▪ 2befb13 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 988c8a0 Fix Pulse Settings Fc
- ▪ a511747 Fix BUild
- ▪ 9fe6f2b Update build number to r21
- ▪ 3619285 Revert "Revert "Properly Fix Settings FC in Lockscreen Security""
- ▪ 50ec085  Pulse: allow custom opacity for solid line renderer [3/3]
- ▪ fc7faf5 Pulse: Moar bars for solid line renderer [3/3]
- ▪ f45a40f Revert "Lockscreen Emergency Button Switch [2/2]"
- ▪ 7f7dfd8 Revert "Settings: Fix FC on devices without finger print scanner"
- ▪ 01f5c7a Revert "Revert "Settings: Fix FC on devices without finger print scanner""
- ▪ 51e4933 Revert "Properly Fix Settings FC in Lockscreen Security"
- ▪ 13f2b20 Revert "Remove Dependecy on Emergency Button Switch"
- ▪ 0dd9186 Fix TTS engine label text wrapping
- ▪ f5409aa Automatic translation import
- ▪ 9d8c482 Automatic translation import
- ▪ acbfc77 Fix TaskManager Running services [2/2] (#706)
- ▪ 48c5b83 Revert "Settings:Change the way of email account displayed"
- ▪ 82b9fcd Improve layout of app ops details screen.
-
- ▪ project packages/apps/SetupWizard/
- ▪ 66ac309 Automatic translation import
-
- ▪ project packages/apps/ThemeChooser/
- ▪ a8f967a Automatic translation import
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ a2eadaa Automatic translation import
-
- ▪ project packages/inputmethods/LatinIME/
- ▪ 3b43f6c latinime: change accent colors to pixel blue
- ▪ 2afd6ee Fixing layouts and adding 5th row to QWERTZ.
- ▪ 76a8b1c Add 5th number row to keyboard.
-
- ▪ project packages/resources/devicesettings/
- ▪ 587aaa1 Automatic translation import
- ▪ f6ceba9 Automatic translation import
-
- ▪ project packages/services/Telephony/
- ▪ bcb0926 Automatic translation import
- ▪ d4157b3 Automatic translation import
-
- ▪ project system/core/
- ▪ cf3c8a3 Merge tag 'android-7.1.1_r21' into cm-14.1
-
- ▪ project system/sepolicy/
- ▪ d3c6052 Merge tag 'android-7.1.1_r21' into cm-14.1
-
- ▪ project vendor/cm/
- ▪ 20588ef Revert "SQAUSH - Gesture Settings"
- ▪ e88311a SQAUSH - Gesture Settings
- ▪ 11be499 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 189ba03 Update github changelog
- ▪ 2bcf560 Update github changelog
- ▪ 853924e Use releasekey instead of platform for extra recovery keys
- ▪ c88a7cd build: Pass path into grep instead of using cat
- ▪ d0fce77 overlay: enable productivity_device for DocumentsUI
- ▪ 3d87c4b vendor: support more text types
- ▪ c56c14d apn: Updating Movistar Argentina APN
-
- ▪ project vendor/cmsdk/
- ▪ 603c256 Revert "SQUASHED : Gesture Settings"
- ▪ b4e0a04 SQUASHED : Gesture Settings
- ▪ 22014c4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/cm_platform_sdk into nougat
- ▪ 8155c99 Automatic translation import
- ▪ 0c75bfe CMSettingsProvider: remove per-user cursor observation
- ▪ 0859764 cmsdk: Remove launch boost support
- ▪ 311515b Automatic translation import
- ▪ dba81b3 Add a proper description for CM_SETUP_WIZARD_COMPLETED deprecation
- ▪ 6171436 cmsdk: Deprecate CM_SETUP_WIZARD_COMPLETED
- ▪ 8baffef Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
- ▪ 79b5f88 Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
- ▪ cbd94da Automatic translation import
+ ▪ 7450d8ef Update Features.mkdn
 

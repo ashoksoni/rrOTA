@@ -1,7 +1,14 @@
 Unofficial Changelog
 
-Changelog
+28th Feb 2017
 
+Sources updated till 28th Feb, 11.30am IST.
+
+Commits for fixing WIFI NPE merged, whoever was having fc issue earlier should check whether it is fixed now or not.
+
+Fixed:
+Dialer fc
+ 
 27th Feb 2017
 
 Sources updated till 27th Feb, 6.30pm IST.
