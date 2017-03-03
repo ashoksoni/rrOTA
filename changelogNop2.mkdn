@@ -1,5 +1,22 @@
 Changelog
 
+03rd March 2017
+
+Sources updated till 03rd March, 3.30pm IST.
+
+Building with Snapdragon LLVM Compiler 3.8.8
+Surprise for pirates. If you get a finger, don't ask why. :p
+Enable Tethering (Needed for some specific apps)
+-  net.tethering.noprovisioning=true
+Change None to All Notifications in Slider options.
+- None was visible when selecting English (India).
+Adding cleanflash option in OpenDelta.
+
+(Comes with sources update)
+Add kill button to notification guts. Long press on a notification to kill the app.
+Weather QS tile.
+- Go to advanced qs settings and configure from there.
+
 28th Feb 2017
 
 Sources updated till 28th Feb, 11.30am IST.

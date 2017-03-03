@@ -2,39 +2,233 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
+ ▼ 03/03/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ c82175b Fix "ordered comparison between pointer and zero".
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 1ae523e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ baf86cc op3: Import adreno blobs
+ ▪ cf7592b Revert "Revert "op3: add aptX codec support""
+
+ ▪ project device/qcom/common/
+ ▪ e16dea2 common: remove extractors
+
+ ▪ project external/nano/
+ ▪ 6c16f4a2 nano: src: Don't set userdata to NULL
+ ▪ 4d6f2487 nano: Make revision.h a stub
+ ▪ b881f6c0 nano: Update makefile for new nanorc path
+
+ ▪ project frameworks/base/
+ ▪ ba18c049c99 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 08f8d36402b SystemUI:Add MemBar to Slim Recents [1/2]
+ ▪ 87c3d908651 Automatic translation import
+ ▪ c4a35151f0f More finger.. :p
+ ▪ c7363720957 LuckyPatcher Carnt sniffer
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 4a7e001acd2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ ce6f43722 Dialer:call recording automatically.
+ ▪ a61c589e7 InCallUI: SmartMute
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 6d3e143 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 90c1e1eb00 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ c8c3cc5bf0 Settings: Add MemBar to Slim Recents [2/2]
+ ▪ 2493e02f06 Automatic translation import
+
+ ▪ project vendor/oneplus/
+ ▪ 7620268 Add files via upload
+ ▪ e706516 Delete ims.apk
+ ▪ 48daf23 oneplus2: Stop using shared grahpic blobs
+ ▪ a6d45e2 oneplus2: Import OnePlus2Oxygen_14_OTA_027_all_1612271635
+
+ ▼ 03/02/2017
+
+
+ ▪ project android/
+ ▪ e42d809 Fix derp
+ ▪ b277e8e Track OmniJaws
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 589d4a4c Building with Snapdragon LLVM Compiler 3.8.8
+ ▪ 70f569ab Adding weather tile.
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 5b4dbb2 Building with Snapdragon LLVM Compiler 3.8.8
+ ▪ 440ca89 Adding lockscreen tile.
+
+ ▪ project external/nano/
+ ▪ 398f609f nano: Add nanorc
+ ▪ 88e50a12 nano: Add android makefile
+ ▪ 8651670c nano: Add config.h and revision.h
+ ▪ b8d4fcbd nano: Fix build under android
+ ▪ c511262e nano: Include stdio.h
+ ▪ 33a3ca6c nano: Don't ignore config.h & revision.h
+
+ ▪ project frameworks/base/
+ ▪ 081cd1a70ac Moving some strings
+ ▪ 61c44ab250c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ aefd2888a7b Automatic translation import
+ ▪ 314c9c57276 ImageHelper: take into account drawables might be none of BitmapDrawable or VectorDrawable
+ ▪ 9fa1c0e8278 Reset battery stats [1/2]
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ d03b7042 Add "Accept all files" option for incoming files via BT [2/3]
+ ▪ c01c8f02 AVRCP: Add null pointer check
+
+ ▪ project packages/apps/Settings/
+ ▪ 2ce2d0725c Moving some strings.
+ ▪ de99fdcb84 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ d4296bfc9f Automatic translation import
+ ▪ 85e942c625 Edit a string
+ ▪ bd053b3e50 Add Slim Dslv Classes and Fix Slim Recent Sidebar
+ ▪ eb94256174 Settings: Fix Configurations FC
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 7378f65 Matching with the system theme colors
+
+ ▪ project vendor/cm/
+ ▪ f7e7e1e6 Substratum updated to v563
+ ▪ 9e46f5bc backuptool: Preserve symlinks
+ ▪ 8d8f06a8 Revert "SQAUSH - Gesture Settings"
+ ▪ 5a7ab9f8 SQAUSH - Gesture Settings
+ ▪ 63c4917e Revert "Shutdownanimation, boot and shutdown audio files, all in."
+ ▪ eddd0240 Adding OPENDELTA_BUILDTYPE variant
+ ▪ e7a24960 Disable ongoing statusbar ime switcher notification [1/2]
+ ▪ fab54e6e common: lock rotation on SetupWizard
+ ▪ 5ae2cde5 seapp_contexts updated -
+ ▪ 7901733c Trying to make Daydream VR work with oneplus3/3t.
+ ▪ ff4eed98 Revert "Bringup system-squisher for Nougat (2/2)"
+ ▪ 6209a9d9 Bringup system-squisher for Nougat (2/2)
+ ▪ 0bb1d766 Shutdownanimation, boot and shutdown audio files, all in.
+ ▪ 16acc65d Add Substratum v561
+ ▪ 35134e1c Build OpenDelta
+ ▪ d4e77c01 disable bluetooth by default
+ ▪ b7468979 overlay: Add good looking icons for DeskClock
+
+ ▼ 03/01/2017
+
+
+ ▪ project build/
+ ▪ 676cc4866 Mock Location should be off!
+ ▪ 35e058d08 Derp#
+ ▪ b0c762b09 So Jack memory issue won't occur.
+ ▪ 768bc155b Get the N Optimization party started
+ ▪ 6d17ef5d0 OMS7-N: adb shell command to access OverlayManagerService
+ ▪ 522f39df9 Remove Feedback Directed Optimization support
+ ▪ 114c2a9f3 Revert "Build: Add Superuser chooser script"
+ ▪ e637a7ef6 Build: Add Superuser chooser script
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ b2d68cd8 Enable Tethering
+ ▪ cafd052a sepolicy: fix execution of userinit.sh and allow executing usefull commands from userinit.sh.
+ ▪ e45c32fb system.prop modifications for Battery and Performance
+ ▪ 375b3957 Wifi: Enable 2.4GHz channel bonding
+ ▪ 10d5b2b5 rootdir: kill wpa_supplicant log spam
+ ▪ a844e8bc op2: Tweak autobrightness
+ ▪ 3fca6db2 Add Lockscreen tile.
+ ▪ 3e4ad1dd oneplus2: dexopt everything when building the boot image
+ ▪ 4aba1a5d Remove NFC tile.
+ ▪ 72a3c80d Lockscreen charging info: real time values [3/4]
+ ▪ b1425aa7 Revert "Gello disabled."
+ ▪ 3293ee2c Gello disabled.
+ ▪ 679e0df4 Fixing OP2 model name in About phone.
+ ▪ 2cc45f62 Fix WiFi drop-outs on A2003
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 3863b83 Enable Tethering
+ ▪ d7254d9 sepolicy: fix execution of userinit.sh and allow executing usefull commands from userinit.sh.
+ ▪ c5f3e9c op3: disable wpa_supplicant log spam
+ ▪ bd1f29f support for livedisplay calibration on new panels
+ ▪ 5f912c9 Revert "op3: s6e3fa5: add QDCM configuration"
+ ▪ 8305c70 op3: support VoLTE
+ ▪ 6876b20 Wifi: Enable 2.4GHz channel bonding
+ ▪ be07f4f Lockscreen charging info: real time values [3/4]
+
+ ▪ project device/oppo/common/
+ ▪ c84bc38 Change None to All Notifications
+
+ ▪ project frameworks/base/
+ ▪ a5d90f251b6 [1/2] base: SystemUI: OmniJaws qs tile integration
+ ▪ b67a7806432 Add kill button to notification guts [1/2]
+ ▪ 7a84069dff0 [1/2] base: SystemUI: config to hide status bar on lock screen
+ ▪ 7d12cee6efa ImageHelper: take into account drawables might be none of BitmapDrawable or VectorDrawable
+ ▪ 6f4a7cdf138 Slim recents: don't show content when device is locked
+ ▪ 775e4a76319 Slim recents app sidebar [1/2]
+ ▪ 4061768c363 Slim recents: fix sometimes missing entries
+ ▪ 6dc635ea2d1 Merge pull request #179 from bhb27/nougat
+ ▪ 42045db885a Base: KeyguardStatusView: Fix weather items NPE
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 27c23ef4 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 610f5f5f Revert "visualizer: do not apply calibration on audio routed to afe proxy"
+
+ ▪ project hardware/qcom/display-caf/msm8952/
+ ▪ 7b73a212e Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8952/
+ ▪ 726d5c537 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 9ce016b204e Revert "Going permissive now."
+ ▪ 86813ede79e Going permissive now.
+ ▪ 83da55b92bf defconfig: enable KCAL
+ ▪ e5540743c74 msm: mdss: KCAL: disable igc update
+ ▪ f07b8146f0e msm: mdss: KCAL: Send a pp display commit when changes are made
+ ▪ eb69dd88664 mdss mdp: kcal for mdss_mdp_v1_7
+ ▪ 0dd94d26cdc defconfig: Enable Fastcharge
+ ▪ d2190106b27 drivers: misc: implement usb fast charge mode
+ ▪ 0602f5f2ec9 tri state key fixes
+ ▪ f6707183135 tri_state_key: allow more key codes for extra modes
+ ▪ 1dd41f3193c proc: Remove verifiedbootstate flag from /proc/cmdline
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 6360a26 CellBroadcastReceiver: Match defaults  for channel 60 alerts to bool config
+
+ ▪ project packages/apps/OpenDelta/
+ ▪ 3838a81 Adding cleanflash option.
+
+ ▪ project packages/apps/Settings/
+ ▪ 54629a53a8 Settings: add OmniJaws config
+ ▪ 067d790efb Reset battery stats [2/2]
+ ▪ a4d3ea1e0b Kill button for notification guts - setting [2/2]
+ ▪ 396840783b [2/2]Settings: config to hide status bar on lock screen
+ ▪ 566eb626b9 Slim recents app sidebar [2/2]
+ ▪ 12993a594b Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ f64d789052 Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 742d3b83 Build OmniJaws
+ ▪ ffcef33d Revert "Disable SU by default"
+ ▪ 17be747d Revert "Vendor: Add Superuser chooser script"
+ ▪ 709fd4c8 Vendor: Add Superuser chooser script
+ ▪ 7ad8df84 Disable SU by default
+ ▪ 4a87c283 update Clock to v5.0.1
+
  ▼ 02/28/2017
 
 
  ▪ project device/oneplus/oneplus2/
- ▪ a52a50dd sepolicy: fix execution of userinit.sh and allow executing usefull commands from userinit.sh.
- ▪ 471a460b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
- ▪ 6dbfea75 system.prop modifications for Battery and Performance
- ▪ fdb5cad6 Wifi: Enable 2.4GHz channel bonding
- ▪ 586dd6a3 rootdir: kill wpa_supplicant log spam
- ▪ 1b66a0cf op2: Tweak autobrightness
- ▪ 7499c8db Add Lockscreen tile.
- ▪ 6767b03d oneplus2: dexopt everything when building the boot image
  ▪ 51eba194 Don't build Snap for now
 
  ▪ project device/oneplus/oneplus3/
- ▪ ef76cf4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 70280c0 oneplus3: Clean RIL headers
  ▪ 2aabaa8 Revert "op3: add aptX codec support"
 
- ▪ project device/oppo/common/
- ▪ 3f103ab oppo_common: Add dashboard summary
- ▪ b605e7f ConfigPanel:Use pixel accent colors
- ▪ 11c35ae Notification slider: add extra options - Option to ignore slider in zen auto mode - Extra notification modes (ring and vibrate)
-
  ▪ project frameworks/base/
- ▪ eb83dd8472d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
  ▪ c3dd19e73aa Automatic translation import
 
  ▪ project frameworks/opt/net/wifi/
  ▪ 59c39516 Revert "Wifi: provide runtime logging option in WifiP2pService"
- ▪ 1cfcdc18 WiFi: Fix possible NPE
-
- ▪ project hardware/qcom/audio-caf/msm8974/
- ▪ 45552c30 hal: Remove duplicated HFP if branch (mismerge)
 
  ▪ project kernel/oneplus/msm8994/
  ▪ 12eb1fbfef77 Revert "Going permissive now."
@@ -52,8 +246,17 @@
  ▪ 3474e0d9b21e input: synaptics: Enable all gestures
  ▪ 62b170bcd823 qcacld-2.0: Import LA.BF64.1.2.3-01310-8x94.0
 
+ ▪ project kernel/oneplus/msm8996/
+ ▪ b08a67ebabd misc: fpc1020: Increase fingerprintd nice value when screen is off
+ ▪ 29027aef0d3 ANDROID: ext4 crypto: Disables zeroing on truncation when there's no key
+ ▪ d87f59b5a64 UPSTREAM: udp: properly support MSG_PEEK with truncated buffers
+ ▪ 5e3a5932347 UPSTREAM: l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind()
+ ▪ 852c6a4bd33 ANDROID: mnt: remount should propagate to slaves of slaves
+ ▪ 4d1d584cc71 ANDROID: sdcardfs: support direct-IO (DIO) operations
+ ▪ 1658189b7d2 ANDROID: sdcardfs: implement vm_ops->page_mkwrite
+ ▪ e30f10f8a64 Revert "sdcardfs: Flag files as non-mappable"
+
  ▪ project packages/apps/Dialer/
- ▪ 616b5878b Dialer:call recording automatically.
  ▪ cf3e360e1 Automatic translation import
  ▪ 8b4780106 Revert "Use TabLayout for DSDA tabs."
 
@@ -71,12 +274,14 @@
  ▪ 1fe9102 Automatic translation import
 
  ▪ project packages/apps/Settings/
- ▪ aaa0de1db9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
  ▪ c17bd08d64 Automatic translation import
 
- ▪ project vendor/cm/
- ▪ c4702cfe Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ cc1247fd backuptool: Preserve symlinks
+ ▪ project packages/apps/SetupWizard/
+ ▪ 50cb6ac SetupWizard: Remove uneeded category
+
+ ▪ project packages/services/OmniJaws/
+ ▪ ffe09d9 OmniJaws: Materialize UI and change theme to Pixel blue
+ ▪ 0e728a9 [2/2] OmniJaws: set sail to new shores
 
  ▼ 02/27/2017
 
@@ -92,24 +297,24 @@
  ▪ c6f77b34 oneplus2: Switch to the CMHW touchscreen gestures implementation
  ▪ c9dc8666 oneplus2: Add seclabel to bluetooth related services
 
- ▪ project hardware/qcom/audio-caf/msm8960/
- ▪ 727d95e3 hal: Update active input stream for Voip when voip input started
- ▪ 51d45fad audio: acquire lock for compress voip close input/output stream
+ ▪ project device/oppo/common/
+ ▪ 3f103ab oppo_common: Add dashboard summary
+ ▪ b605e7f ConfigPanel:Use pixel accent colors
+ ▪ 11c35ae Notification slider: add extra options - Option to ignore slider in zen auto mode - Extra notification modes (ring and vibrate)
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 1cfcdc18 WiFi: Fix possible NPE
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 45552c30 hal: Remove duplicated HFP if branch (mismerge)
 
  ▪ project hardware/qcom/display-caf/apq8084/
  ▪ 2e2f18a63 gralloc: Add a switch to use 16 byte pixel alignment
  ▪ 90b39d3bd Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into cm-14.1-caf-8084
  ▪ 5e179af9b Revert "gralloc: Add a switch to use 16 byte pixel alignment"
 
- ▪ project packages/apps/Bluetooth/
- ▪ d3050f37 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Bluetooth into cm-14.1
-
  ▪ project packages/apps/SetupWizard/
  ▪ 0c7b92a SetupWizard: Fix landscape
-
- ▪ project packages/apps/Snap/
- ▪ 774797c77 Focus only when tapping the preview
- ▪ 32d2eda35 Allow to re-open Snap from recent menu
 
  ▪ project vendor/cm/
  ▪ 7450d8ef Update Features.mkdn
