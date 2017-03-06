@@ -1,5 +1,14 @@
 Unofficial Changelog
 
+06th March 2017
+
+Sources updated till 06th March, 11.30pm IST.
+
+Use 'release-keys' for build tag
+Hide Lockscreen emergency button
+SystemUI: remove debug logging
+SystemUI: dont hide navbar for screenshot crop
+
 03rd March 2017
 
 Sources updated till 03rd March, 3.30pm IST.
