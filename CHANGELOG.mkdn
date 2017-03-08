@@ -2,6 +2,130 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
+ ▼ 03/08/2017
+
+
+ ▪ project build/
+ ▪ eff824a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 21492d4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ ed23aa3 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 5371b0d Revert "Revert "Add advanced location tile""
+ ▪ 164017f Automatic translation import
+ ▪ a534c84 QS: Location Easy Toggle [1/2]
+
+ ▪ project hardware/intel/img/psb_video/
+ ▪ 2c744ac psb_video : remember good old moorefield
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 938e782 display: Fix ColorMetaData
+ ▪ d5d627d display-caf: msm8996: Use ColorMetaData in SDM in hwc2
+ ▪ 718be10 display-caf: 8996: Add color metadata to libgralloc1
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 9e88f08 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ eaa3e77 Dialer:call recording automatically.
+ ▪ 07ae475 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 70743a0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 8f0c30e Make permissions fragment header match settings style
+ ▪ 0d31469 PackageInstaller: Show current & new version
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ c212c06 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 77bd345 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 908bc1e Automatic translation import
+ ▪ f0b06ab Move Slim Recent Sidebar Settings outside sidebar fragment
+ ▪ 3d0d6a1 Settings: Use seekbar to allow setting arbitrary animation values @dwitherell updated to incorporate support friendly internal approach KreAch3R - AnimationScalePreference: better max/default/digits values
+ ▪ 87adc1c Location Easy toggle [2/2]
+
+ ▪ project packages/apps/Snap/
+ ▪ 404e429 Snap: grant android.permission.RECEIVE_BOOT_COMPLETED permisions
+
+ ▪ project packages/services/OmniJaws/
+ ▪ e36d6ed Remove Weather icon pack pref
+
+ ▪ project vendor/oneplus/
+ ▪ 68ff8f7 op3: Update to 7.1.1 blobs
+ ▪ 8377c3b op3: Update adreno blobs
+
+ ▼ 03/07/2017
+
+
+ ▪ project android/
+ ▪ a80568f  manifest: android-7.1.1_r21 -> android-7.1.1_r25
+
+ ▪ project bootable/recovery/
+ ▪ 9664707 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project build/
+ ▪ 51dfa9b Merge tag 'android-7.1.1_r25' into cm-14.1
+ ▪ 66960a1 build: core: Remove BUILD_TINY_ANDROID checks
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 71c60cb op3: Update for stock 7.1.1 blobs
+
+ ▪ project external/boringssl/
+ ▪ 956cfef Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project external/libnfc-nci/
+ ▪ 9a85f1a Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/av/
+ ▪ 7e3313e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+ ▪ 71a8e2f Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ 713e1cc Merge tag 'android-7.1.1_r25' into nougat
+ ▪ 6dfe853 SystemUI: Update PB statusbar logo
+ ▪ bd9a2e8 Automatic translation import
+
+ ▪ project frameworks/native/
+ ▪ 7815330 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 6a3e585 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project hardware/intel/common/libmix/
+ ▪ a8c22a8 Libmix : Add proper support for LP blobs Asus Zenfone 2 still needs the good old way of setting GrallocMod
+
+ ▪ project hardware/intel/common/omx-components/
+ ▪ 904d128 omx-ccomponents : Zenfone 2 cannot properly utilize flushmode switch to test HandleFormatchange() directly instead of testing flushmode
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 938f77d Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ 5cab2bb Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 9796771 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 1c9fa2e Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/Settings/
+ ▪ 5d35960 Fix Unclickable Color Picker in App Sidebar Settings Fragment
+ ▪ b5b98a0 Update Build ID to NOF27B
+ ▪ 4d333ea Small edits for summaries (#712)
+ ▪ a4e4c8c Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 8bf0578 Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ bd8866c Telephony: Fix mobile network settings for CDMA without LTE
+
  ▼ 03/06/2017
 
 
@@ -23,13 +147,16 @@
  ▪ 4e9fc87 base: volume dialog: hide headers on all streams if requested
  ▪ 48f6c61 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
 
- ▪ project packages/apps/Dialer/
- ▪ d20e969 Dialer:call recording automatically.
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 14eb24c Clean code, avoid warnings
 
  ▪ project packages/apps/Settings/
  ▪ 2679a77 Hide Lockscreen emergency button [2/2]
  ▪ e7cb0f3 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ a87a61b Settings: Expose expanded desktop app title text color
+
+ ▪ project packages/services/Telephony/
+ ▪ a80560d Merge pull request #7 from ashoksoni/nougat
+ ▪ addae6f Fix window leak when split-screen is released
 
  ▪ project vendor/cm/
  ▪ 567140f Substratum updated to v563
@@ -55,6 +182,9 @@
  ▼ 03/05/2017
 
 
+ ▪ project frameworks/av/
+ ▪ 93c6eb9 stagefright: allow multiple custom OMXPlugins
+
  ▪ project frameworks/base/
  ▪ f855060 Slim Recent: fix scroll lag when Auto Expand and improve RecyclerView performances
  ▪ ebff64d Slim Recent: materialoze card text font
@@ -67,6 +197,20 @@
  ▪ project hardware/qcom/audio-caf/msm8916/
  ▪ 1e33348 hal: dolby: Only set C_KEY if ACDB License is enabled.
 
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ daf6387 policy_hal: Fix mismerges
+ ▪ b19cd09 audio policy: fix capture indication to sound trigger service.
+ ▪ 1a7ddf2 audio policy: fix media volume after ringtone
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 5dc3774 mm-video-v4l12: update stride info for YUV420P and YUV420SP
+ ▪ f0b7ad5 mm-video-v4l2: vdec: fix fps issues in arbitrary mode
+ ▪ c8ff894 apq8084: Kill logspam
+ ▪ 39f5c42 mm-video: venc: Correct a typo in variable name
+ ▪ 5d8cba9 mm-core: Kill logspam
+ ▪ 3d984fa mm-video-v4l2: vidc: vdec: handle flush while codec config ETB for hevc decoder
+ ▪ d526b31 mm-video-v4l2: vdec: Exit if default set format failed for output port also
+
  ▪ project packages/apps/CMParts/
  ▪ cf7aea8 Automatic translation import
  ▪ ac7b974 [2/3] CMParts: single hand for hardware keys
@@ -75,6 +219,7 @@
  ▪ f2a26fb Automatic translation import
 
  ▪ project packages/apps/Settings/
+ ▪ a87a61b Settings: Expose expanded desktop app title text color
  ▪ d6b0e82 Automatic translation import
 
  ▪ project system/sepolicy/
@@ -91,351 +236,4 @@
  ▪ project vendor/cmsdk/
  ▪ 6faef17 Automatic translation import
  ▪ 4f9da16 [3/3] cmsdk: single hand for hw keys
-
- ▼ 03/04/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ 1ae523e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
- ▪ baf86cc op3: Import adreno blobs
-
- ▪ project frameworks/base/
- ▪ c19d4f7 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ cd05a07 Automatic translation import
- ▪ 8acb770 Add a protected broadcast for Masquerade events
- ▪ 6ae0214 Revert "Ticker: We need to center it horizontal"
- ▪ 2c27901 base: qs weather: be nice to people without OmniJaws
- ▪ 2c8a811 Ticker: We need to center it horizontal
- ▪ 20c214d Revert "Ticker: Center Ticker layout vertically in statusbar view"
- ▪ 544570a Revert "Ticker: We need to center it horozontal, not vertical"
- ▪ 1369ad0 Allow disabling of FC dialogs [1/2]
- ▪ 95bc5a2 Disable quick pulldown by default
- ▪ 186ae65 Clean up CAF translations - second try
- ▪ 69b3926 Fingerprints: Increase MAX_FAILED_ATTEMPTS to 10
- ▪ 8e46eb7 OmniJaws: Fix More Settings Intent
-
- ▪ project hardware/cyanogen/
- ▪ acd2816 livedisplay: Always use SDM if TARGET_USES_SDM is set
- ▪ 0e74e30 livedisplay: Update board targets
- ▪ f6954da livedisplay: Remove tabs in the makefile
- ▪ 2de09c4 livedisplay: Include test makefile
-
- ▪ project packages/apps/Bluetooth/
- ▪ 8353926 Add "Accept all files" option for incoming files via BT [2/3]
- ▪ 949846c Automatic translation import
-
- ▪ project packages/apps/CMParts/
- ▪ 8716c49 Update style to match the one of Settings
- ▪ 42ab728 Disable quick pulldown by default
- ▪ bb0b68b CMParts: activate nfc trigger for system profiles
- ▪ b4ab507 Automatic translation import
- ▪ 2b2d92f CMParts: KeyHandler: Add User to broadcast
- ▪ 4817402 Automatic translation import
-
- ▪ project packages/apps/CellBroadcastReceiver/
- ▪ 1e04c6f Automatic translation import
-
- ▪ project packages/apps/Dialer/
- ▪ 2d349aa Automatic translation import
-
- ▪ project packages/apps/PackageInstaller/
- ▪ 5cf7219 Make permissions fragment header match settings style
- ▪ be696ee PackageInstaller: Show current & new version
-
- ▪ project packages/apps/Settings/
- ▪ b66b706 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ c108ca3 Automatic translation import
- ▪ 71d5089 Settings: Add overlay for hiding wifi region code
- ▪ aa4d544 Automatic translation import
- ▪ 6f32baf Configurations:Disable quick pulldown by default
- ▪ f2d0e36 Allow disabling of FC dialogs [2/2]
-
- ▪ project packages/inputmethods/LatinIME/
- ▪ 70b613c latinime: change accent colors to pixel blue
- ▪ e83ea3d Fixing layouts and adding 5th row to QWERTZ.
- ▪ c140ac2 Add 5th number row to keyboard.
-
- ▪ project packages/providers/MediaProvider/
- ▪ 9d74be3 MediaScanner behavior on boot [1/3]
-
- ▪ project packages/services/Telephony/
- ▪ 992fbb6 CallFeatureSettings: Only show call barring option if QTI package installed
-
- ▪ project system/core/
- ▪ 7c2b14d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
-
- ▪ project system/sepolicy/
- ▪ dca54be sepolicy: fix themed sounds
- ▪ b6ce77f sepolicy: fix themed boot animation
- ▪ 1d57f55 Introduce sepolicy exceptions for theme assets
- ▪ 39a6cd4 Allow apps in /system/priv-app to call and execute su commands
-
- ▪ project vendor/cm/
- ▪ ad73331 vendor: sepolicy: Add priv_app to neverallow rule
- ▪ e0c8d9c vendor: selinux denials
- ▪ 3ed552a vendor: remove /data/system/theme(/.*)? duplicate
- ▪ 6467296 Disable quick pulldown by default
- ▪ fd6f484 vendor: remove old apns symlink
- ▪ 3244eeb backuptool: Preserve the SELinux context of the files
- ▪ 366d45c backuptool: Don't rely on the order of the elements in the list
- ▪ 9634759 backuptool: Preserve symlinks
-
- ▪ project vendor/cmsdk/
- ▪ 11c5a24 CMPartsPreference: Update PreferenceScreen theme
- ▪ 6a5693a Automatic translation import
-
- ▪ project vendor/oneplus/
- ▪ 7620268 Add files via upload
- ▪ e706516 Delete ims.apk
-
- ▼ 03/03/2017
-
-
- ▪ project bootable/recovery/
- ▪ c82175b Fix "ordered comparison between pointer and zero".
-
- ▪ project device/oneplus/oneplus2/
- ▪ 589d4a4 Building with Snapdragon LLVM Compiler 3.8.8
-
- ▪ project device/oneplus/oneplus3/
- ▪ cf7592b Revert "Revert "op3: add aptX codec support""
- ▪ 5b4dbb2 Building with Snapdragon LLVM Compiler 3.8.8
-
- ▪ project device/oppo/common/
- ▪ 55b410d Automatic translation import
-
- ▪ project device/qcom/common/
- ▪ e16dea2 common: remove extractors
-
- ▪ project external/nano/
- ▪ 6c16f4a nano: src: Don't set userdata to NULL
- ▪ 4d6f248 nano: Make revision.h a stub
- ▪ b881f6c nano: Update makefile for new nanorc path
-
- ▪ project frameworks/base/
- ▪ ba18c04 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 08f8d36 SystemUI:Add MemBar to Slim Recents [1/2]
- ▪ 87c3d90 Automatic translation import
- ▪ c4a3515 More finger.. :p
- ▪ c736372 LuckyPatcher Carnt sniffer
- ▪ 081cd1a Moving some strings
-
- ▪ project hardware/qcom/fm/
- ▪ d206506 Automatic translation import
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 4a7e001 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
- ▪ project packages/apps/AudioFX/
- ▪ 15a3618 Automatic translation import
-
- ▪ project packages/apps/Calendar/
- ▪ 903f21f Automatic translation import
-
- ▪ project packages/apps/Camera2/
- ▪ dd44706 Automatic translation import
-
- ▪ project packages/apps/CertInstaller/
- ▪ 564b511 Automatic translation import
-
- ▪ project packages/apps/Dialer/
- ▪ a61c589 InCallUI: SmartMute
-
- ▪ project packages/apps/Eleven/
- ▪ 9dca75c Automatic translation import
-
- ▪ project packages/apps/Email/
- ▪ d39fd55 Automatic translation import
-
- ▪ project packages/apps/Exchange/
- ▪ 2571fdd Automatic translation import
-
- ▪ project packages/apps/Gallery2/
- ▪ bd422e3 Automatic translation import
-
- ▪ project packages/apps/Gello/
- ▪ 03ef482 Automatic translation import
-
- ▪ project packages/apps/HTMLViewer/
- ▪ 994555e Automatic translation import
-
- ▪ project packages/apps/KeyChain/
- ▪ 6028cc7 Automatic translation import
-
- ▪ project packages/apps/ManagedProvisioning/
- ▪ 39d4bce Automatic translation import
-
- ▪ project packages/apps/Nfc/
- ▪ e2790c8 Automatic translation import
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 6d3e143 Automatic translation import
-
- ▪ project packages/apps/PackageInstaller/
- ▪ 8cb86a7 Automatic translation import
-
- ▪ project packages/apps/Profiles/
- ▪ 560fabf Automatic translation import
-
- ▪ project packages/apps/Recorder/
- ▪ 60000a4 Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ 90c1e1e Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ c8c3cc5 Settings: Add MemBar to Slim Recents [2/2]
- ▪ 2493e02 Automatic translation import
- ▪ 2ce2d07 Moving some strings.
- ▪ de99fdc Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project packages/apps/SetupWizard/
- ▪ be35cfc Automatic translation import
-
- ▪ project packages/apps/Snap/
- ▪ cccbfcd Automatic translation import
-
- ▪ project packages/apps/Stk/
- ▪ 5190806 Automatic translation import
-
- ▪ project packages/apps/Tag/
- ▪ c8f1f62 Automatic translation import
-
- ▪ project packages/apps/Terminal/
- ▪ b1e9212 Automatic translation import
-
- ▪ project packages/apps/ThemeChooser/
- ▪ 2f63e2e Automatic translation import
-
- ▪ project packages/apps/Trebuchet/
- ▪ a120fdb Automatic translation import
-
- ▪ project packages/apps/TvSettings/
- ▪ 60d1008 Automatic translation import
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ e009b45 Automatic translation import
-
- ▪ project packages/apps/WallpaperPicker/
- ▪ cda46d3 Automatic translation import
-
- ▪ project packages/inputmethods/LatinIME/
- ▪ a876e0f Automatic translation import
-
- ▪ project packages/providers/BookmarkProvider/
- ▪ 7217810 Automatic translation import
-
- ▪ project packages/providers/CallLogProvider/
- ▪ e8ab293 Automatic translation import
-
- ▪ project packages/providers/ContactsProvider/
- ▪ c591c90 Automatic translation import
-
- ▪ project packages/providers/DataUsageProvider/
- ▪ aae8c60 Automatic translation import
-
- ▪ project packages/providers/DownloadProvider/
- ▪ 2f32c14 Automatic translation import
-
- ▪ project packages/providers/MediaProvider/
- ▪ d202ca3 Automatic translation import
-
- ▪ project packages/providers/TelephonyProvider/
- ▪ e683619 Automatic translation import
-
- ▪ project packages/providers/ThemesProvider/
- ▪ f635268 Automatic translation import
-
- ▪ project packages/providers/UserDictionaryProvider/
- ▪ 959822e Automatic translation import
-
- ▪ project packages/providers/WeatherProvider/
- ▪ 8ea6ba7 Automatic translation import
-
- ▪ project packages/resources/devicesettings/
- ▪ 3cc11e1 Automatic translation import
-
- ▪ project packages/screensavers/Basic/
- ▪ fa7caf5 Automatic translation import
-
- ▪ project packages/screensavers/PhotoTable/
- ▪ 8da9209 Automatic translation import
-
- ▪ project packages/services/CMAudioService/
- ▪ 9a7f56d Automatic translation import
-
- ▪ project packages/services/LiveLockScreenService/
- ▪ a3b52e2 Automatic translation import
-
- ▪ project packages/services/ThemeManagerService/
- ▪ 6e9277d Automatic translation import
-
- ▪ project packages/services/WeatherService/
- ▪ 57658ce Automatic translation import
-
- ▪ project packages/wallpapers/LivePicker/
- ▪ aa48c07 Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
- ▪ 949058a Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
- ▪ 168a6c2 Automatic translation import
-
- ▪ project vendor/oneplus/
- ▪ 48daf23 oneplus2: Stop using shared grahpic blobs
- ▪ a6d45e2 oneplus2: Import OnePlus2Oxygen_14_OTA_027_all_1612271635
-
- ▼ 03/02/2017
-
-
- ▪ project android/
- ▪ e42d809 Fix derp
- ▪ b277e8e Track OmniJaws
-
- ▪ project device/oneplus/oneplus2/
- ▪ 70f569a Adding weather tile.
-
- ▪ project device/oneplus/oneplus3/
- ▪ 440ca89 Adding lockscreen tile.
-
- ▪ project external/nano/
- ▪ 398f609 nano: Add nanorc
- ▪ 88e50a1 nano: Add android makefile
- ▪ 8651670 nano: Add config.h and revision.h
- ▪ b8d4fcb nano: Fix build under android
- ▪ c511262 nano: Include stdio.h
- ▪ 33a3ca6 nano: Don't ignore config.h & revision.h
-
- ▪ project frameworks/base/
- ▪ 61c44ab Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ aefd288 Automatic translation import
- ▪ 314c9c5 ImageHelper: take into account drawables might be none of BitmapDrawable or VectorDrawable
- ▪ 9fa1c0e Reset battery stats [1/2]
- ▪ a5d90f2 [1/2] base: SystemUI: OmniJaws qs tile integration
- ▪ b67a780 Add kill button to notification guts [1/2]
- ▪ 7a84069 [1/2] base: SystemUI: config to hide status bar on lock screen
- ▪ 7d12cee ImageHelper: take into account drawables might be none of BitmapDrawable or VectorDrawable
- ▪ 6f4a7cd Slim recents: don't show content when device is locked
- ▪ 775e4a7 Slim recents app sidebar [1/2]
- ▪ 4061768 Slim recents: fix sometimes missing entries
-
- ▪ project packages/apps/Bluetooth/
- ▪ c01c8f0 AVRCP: Add null pointer check
-
- ▪ project packages/apps/Settings/
- ▪ d4296bf Automatic translation import
- ▪ 85e942c Edit a string
- ▪ bd053b3 Add Slim Dslv Classes and Fix Slim Recent Sidebar
- ▪ eb94256 Settings: Fix Configurations FC
- ▪ 54629a5 Settings: add OmniJaws config
- ▪ 067d790 Reset battery stats [2/2]
- ▪ a4d3ea1 Kill button for notification guts - setting [2/2]
- ▪ 3968407 [2/2]Settings: config to hide status bar on lock screen
- ▪ 566eb62 Slim recents app sidebar [2/2]
- ▪ 12993a5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project packages/services/OmniJaws/
- ▪ 7378f65 Matching with the system theme colors
-
- ▪ project vendor/cm/
- ▪ 742d3b8 Build OmniJaws
 

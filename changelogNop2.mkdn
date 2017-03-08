@@ -1,5 +1,17 @@
 Changelog
 
+08th March 2017
+
+Sources updated till 08th March, 1.30pm IST.
+
+Readded Advanced location tile as the Easy toggle for it is in.
+
+(Comes with sources update)
+android-7.1.1_r25 (March Security Patches)
+QS: Location Easy Toggle
+Remove Weather icon pack pref (Change IconPacks from Advanced QS settings)
+Fix Unclickable Color Picker in App Sidebar Settings Fragment
+
 06th March 2017
 
 Sources updated till 06th March, 11.30pm IST.

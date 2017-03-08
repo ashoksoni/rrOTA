@@ -1,5 +1,19 @@
 Unofficial Changelog
 
+08th March 2017
+
+Sources updated till 08th March, 1.30pm IST.
+
+Readded Advanced location tile as the Easy toggle for it is in.
+Snap camera should be working now. (Google camera might be broken)
+
+(Comes with sources update)
+Update to 7.1.1 blobs (Flash latest firmware available in xda thread's OP)
+android-7.1.1_r25 (March Security Patches)
+QS: Location Easy Toggle
+Remove Weather icon pack pref (Change IconPacks from Advanced QS settings)
+Fix Unclickable Color Picker in App Sidebar Settings Fragment
+
 06th March 2017
 
 Sources updated till 06th March, 11.30pm IST.
