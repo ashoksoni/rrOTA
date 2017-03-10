@@ -1,5 +1,22 @@
 Changelog
 
+10th March 2017
+
+Sources updated till 10th March, 3pm IST.
+
+Redesigned Substratum icon
+Always show screen on time
+Enable storage manager settings.
+Substratum updated to v604
+PackageInstaller: Add tint mode to icons
+
+(Comes with sources update)
+Rename Masquerade to ThemeInterfacer
+Switch to Magisk as the built in root
+Make secondary camera package list opt out
+Fix cut off notification sounds
+Rootless OMS Commits merged
+
 08th March 2017
 
 Sources updated till 08th March, 1.30pm IST.
