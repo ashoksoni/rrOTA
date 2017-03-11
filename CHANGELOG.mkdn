@@ -2,6 +2,75 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
+ ▼ 03/11/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 651b158 sepolicy: address fb manager fc caused by denial.
+
+ ▪ project frameworks/base/
+ ▪ 5e53e23 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 4e9657e Properly Fix Emergency Fragment in Power Menu
+ ▪ cb31c8b Revert "Fix Emergency Fragment in Power Menu"
+ ▪ 4c3cb91 More Fixes to Power Confirmation Dialog
+ ▪ 90e05a6 base: OmniSwitch: add hook to handle multi window dock events better
+ ▪ 4dbfa6a base: qs weather: Start Google Weather on LongClick
+ ▪ 28ee4fa Update OmniSwitchConstants
+ ▪ 8ef4896 Slim Recent: make multiwindow more robust and fix first run after reboot
+ ▪ f451bd1 Exclude Slim Recent from tap outside task bounds functionality
+ ▪ cba6b61 Slim Recent: change App info icon for longpress header options
+ ▪ 622b11d Slim Recent: make dragForMultiwin smooth and dock app up/down following the gesture
+ ▪ 574af18 Slim Recent lastapp toggle: better app animation
+ ▪ 7811daf Slim Recent: aosp toggle behavior, one tap to show panel another one for lastapp
+ ▪ 28f578b Slim Recent: longpress then drag up/down the app to run it on multiwindow
+ ▪ 9c53390 Slim recents OneHandMode thumbnails: free up memory after crop
+ ▪ 7aef392 Slim Recent apps previews: add OneHandMode support
+ ▪ 9199e48 Slim Recent: disable all debug logs
+ ▪ 4895be3 Slim Recent: move to BaseStatusBar and add native multiwindow capatibility
+ ▪ 9d9fe1b Slim Recent: remove slimscreenpinning, we run the aosp one
+ ▪ 21e5c16 Slim recents: make longpress options size better when small
+ ▪ 1c53b76 Slim Recent: pinch-in to clear all: pixelblue warning color, 0.7f opacity
+ ▪ 213280c Slim Recent: remove card shadow for a cleaner UI
+ ▪ 67c60ee GlobalActions: ShutDown Confirmation Dialog Switch [1/2]
+ ▪ 9a95b7d base: add TYPE_PHONE to excludeWindowTypeFromTapOutTask
+ ▪ 8e63ac7 Partial screenshot: fix SystemUI fc
+ ▪ 3886432 Fix shutdown confirmation dialog
+ ▪ f00f3d1 GlobalActions: Confirm power off
+ ▪ 6dc4108 Slim recents membar: longclick to clear [1/2]
+ ▪ b51366b Kill app from notification button: don't allow when device locked
+ ▪ 6d665a7 Fix Emergency Fragment in Power Menu
+
+ ▪ project packages/apps/Dialer/
+ ▪ a057f69 Dialer:call recording automatically.
+ ▪ f30402b Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ e78700a Automatic translation import
+ ▪ f53865f Remove DayNight from styles.xml
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ aba3cd6 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 69e01a1 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ f13f8b8 Fixing an FC in lockscreen settings.
+ ▪ 1ff116e Settings: Update Substratum dashboard icon
+ ▪ 7088bdb Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 3b24c9c Automatic translation import
+ ▪ 5a2f19e Slim Recents: Longpress Membar to Clear Recents [2/2]
+ ▪ 4fa94d8 ShutDown Confirmation Dialog Switch [2/2]
+ ▪ 063022f Remove Mi 4s support (#713)
+
+ ▪ project vendor/cm/
+ ▪ 60d5edb Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 35a8a90 Switch to Magisk as the built in root [1/2]
+ ▪ e4a61f3 Disable SU by default
+ ▪ 2f4820f qcom: Automatically set TARGET_USES_COLOR_METADATA for msm8996/8
+ ▪ e9b30f3 vendor: Rename Masquerade to ThemeInterfacer
+ ▪ 9ebc0d1 vendor: sepolicy: Add priv_app to neverallow rule
+
  ▼ 03/10/2017
 
 
@@ -23,23 +92,12 @@
 
  ▪ project frameworks/base/
  ▪ 1580b79 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ a77229a Automatic translation import
 
  ▪ project packages/apps/Bluetooth/
  ▪ a7d1db2 Add "Accept all files" option for incoming files via BT [2/3]
 
- ▪ project packages/apps/Dialer/
- ▪ 35743a9 Dialer:call recording automatically.
- ▪ fa03af5 Automatic translation import
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 3f247b5 Automatic translation import
-
  ▪ project packages/apps/OpenDelta/
  ▪ 762b640 Trying BB as Backend server for Delta updates.
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 300cbee Automatic translation import
 
  ▪ project packages/apps/Settings/
  ▪ 133a321 Redesigned Substratum icon
@@ -47,7 +105,6 @@
  ▪ c0941c7 Enable storage manager settings.
  ▪ 2e9ef23 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
  ▪ a1f4d69 Automatic translation import
- ▪ da40529 Automatic translation import
 
  ▪ project packages/inputmethods/LatinIME/
  ▪ f1d2366 latinime: change accent colors to pixel blue
@@ -89,6 +146,7 @@
  ▪ 8f79d85 Automatic translation import
 
  ▪ project frameworks/base/
+ ▪ a77229a Automatic translation import
  ▪ 79aa74e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
  ▪ b6a280f Add advanced location tile
  ▪ fa51fed VolumeDialog: Fix mismerge
@@ -115,6 +173,9 @@
  ▪ project packages/apps/CellBroadcastReceiver/
  ▪ c5515d2 Automatic translation import
 
+ ▪ project packages/apps/Dialer/
+ ▪ fa03af5 Automatic translation import
+
  ▪ project packages/apps/Eleven/
  ▪ 44f4f1e Automatic translation import
 
@@ -138,7 +199,11 @@
  ▪ project packages/apps/Recorder/
  ▪ f5d35df Automatic translation import
 
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 300cbee Automatic translation import
+
  ▪ project packages/apps/Settings/
+ ▪ da40529 Automatic translation import
  ▪ a00c109 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
  ▪ a30a443 Properly remove root access under DevSettings
  ▪ f662568 Settings: Change magisk dashboard icon
@@ -228,50 +293,4 @@
 
  ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
  ▪ 4d3a56b Automatic translation import
-
- ▼ 03/08/2017
-
-
- ▪ project frameworks/base/
- ▪ a518e09 Revert "Add a protected broadcast for Masquerade events"
- ▪ cf23b7b base: Force authorize all calling packages by Masquerade (2/3)
- ▪ 0834966 OMS7: Rootless Security Update Preparation for March 2017
- ▪ 164017f Automatic translation import
- ▪ a534c84 QS: Location Easy Toggle [1/2]
-
- ▪ project hardware/intel/img/psb_video/
- ▪ 2c744ac psb_video : remember good old moorefield
-
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 938e782 display: Fix ColorMetaData
- ▪ d5d627d display-caf: msm8996: Use ColorMetaData in SDM in hwc2
- ▪ 718be10 display-caf: 8996: Add color metadata to libgralloc1
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 9e88f08 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
- ▪ project packages/apps/Messaging/
- ▪ 70743a0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat
-
- ▪ project packages/apps/Settings/
- ▪ 4b59fc2 Development: Allow all Masquerade calling packages for debugging (3/3)
- ▪ 908bc1e Automatic translation import
-
- ▪ project packages/apps/Snap/
- ▪ 99f0e2e Revert "SnapdragonCamera: Camera switches from bayer and mono on switching to front camera"
- ▪ 404e429 Snap: grant android.permission.RECEIVE_BOOT_COMPLETED permisions
-
- ▪ project packages/services/OmniJaws/
- ▪ e36d6ed Remove Weather icon pack pref
-
- ▪ project vendor/cm/
- ▪ 917f9f5 vendor: Rename Masquerade to ThemeInterfacer
- ▪ 98089e0 Revert "Vendor: Switch to Magisk as the built in root [1/2]"
- ▪ cf8c278 Revert "Revert "vendor: remove /data/system/theme(/.*)? duplicate""
- ▪ 4274cd6 Revert "Revert "vendor: selinux denials""
- ▪ 33ebec1 Revert "Revert "vendor: sepolicy: Add priv_app to neverallow rule""
-
- ▪ project vendor/oneplus/
- ▪ 68ff8f7 op3: Update to 7.1.1 blobs
- ▪ 8377c3b op3: Update adreno blobs
 

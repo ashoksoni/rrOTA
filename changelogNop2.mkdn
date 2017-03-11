@@ -1,5 +1,21 @@
 Changelog
 
+11th March 2017
+
+Sources updated till 11th March, 9.25pm IST.
+
+Fixed FC in lockscreen - security settings.
+Update Substratum dashboard icon
+
+(Comes with sources update)
+Properly Fix Emergency Fragment in Power Menu
+More Fixes to Power Confirmation Dialog
+qs weather: Start Google Weather on LongClick
+GlobalActions: ShutDown Confirmation Dialog Switch
+Partial screenshot: fix SystemUI fc (very rare cases)
+Fix shutdown confirmation dialog
+Kill app from notification button: don't allow when device locked
+
 10th March 2017
 
 Sources updated till 10th March, 3pm IST.
