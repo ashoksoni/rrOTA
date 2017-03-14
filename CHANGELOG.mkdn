@@ -2,295 +2,131 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
- ▼ 03/11/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ 651b158 sepolicy: address fb manager fc caused by denial.
-
- ▪ project frameworks/base/
- ▪ 5e53e23 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 4e9657e Properly Fix Emergency Fragment in Power Menu
- ▪ cb31c8b Revert "Fix Emergency Fragment in Power Menu"
- ▪ 4c3cb91 More Fixes to Power Confirmation Dialog
- ▪ 90e05a6 base: OmniSwitch: add hook to handle multi window dock events better
- ▪ 4dbfa6a base: qs weather: Start Google Weather on LongClick
- ▪ 28ee4fa Update OmniSwitchConstants
- ▪ 8ef4896 Slim Recent: make multiwindow more robust and fix first run after reboot
- ▪ f451bd1 Exclude Slim Recent from tap outside task bounds functionality
- ▪ cba6b61 Slim Recent: change App info icon for longpress header options
- ▪ 622b11d Slim Recent: make dragForMultiwin smooth and dock app up/down following the gesture
- ▪ 574af18 Slim Recent lastapp toggle: better app animation
- ▪ 7811daf Slim Recent: aosp toggle behavior, one tap to show panel another one for lastapp
- ▪ 28f578b Slim Recent: longpress then drag up/down the app to run it on multiwindow
- ▪ 9c53390 Slim recents OneHandMode thumbnails: free up memory after crop
- ▪ 7aef392 Slim Recent apps previews: add OneHandMode support
- ▪ 9199e48 Slim Recent: disable all debug logs
- ▪ 4895be3 Slim Recent: move to BaseStatusBar and add native multiwindow capatibility
- ▪ 9d9fe1b Slim Recent: remove slimscreenpinning, we run the aosp one
- ▪ 21e5c16 Slim recents: make longpress options size better when small
- ▪ 1c53b76 Slim Recent: pinch-in to clear all: pixelblue warning color, 0.7f opacity
- ▪ 213280c Slim Recent: remove card shadow for a cleaner UI
- ▪ 67c60ee GlobalActions: ShutDown Confirmation Dialog Switch [1/2]
- ▪ 9a95b7d base: add TYPE_PHONE to excludeWindowTypeFromTapOutTask
- ▪ 8e63ac7 Partial screenshot: fix SystemUI fc
- ▪ 3886432 Fix shutdown confirmation dialog
- ▪ f00f3d1 GlobalActions: Confirm power off
- ▪ 6dc4108 Slim recents membar: longclick to clear [1/2]
- ▪ b51366b Kill app from notification button: don't allow when device locked
- ▪ 6d665a7 Fix Emergency Fragment in Power Menu
-
- ▪ project packages/apps/Dialer/
- ▪ a057f69 Dialer:call recording automatically.
- ▪ f30402b Automatic translation import
-
- ▪ project packages/apps/OmniSwitch/
- ▪ e78700a Automatic translation import
- ▪ f53865f Remove DayNight from styles.xml
-
- ▪ project packages/apps/ResurrectionOTA/
- ▪ aba3cd6 Automatic translation import
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 69e01a1 Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ f13f8b8 Fixing an FC in lockscreen settings.
- ▪ 1ff116e Settings: Update Substratum dashboard icon
- ▪ 7088bdb Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 3b24c9c Automatic translation import
- ▪ 5a2f19e Slim Recents: Longpress Membar to Clear Recents [2/2]
- ▪ 4fa94d8 ShutDown Confirmation Dialog Switch [2/2]
- ▪ 063022f Remove Mi 4s support (#713)
-
- ▪ project vendor/cm/
- ▪ 60d5edb Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 35a8a90 Switch to Magisk as the built in root [1/2]
- ▪ e4a61f3 Disable SU by default
- ▪ 2f4820f qcom: Automatically set TARGET_USES_COLOR_METADATA for msm8996/8
- ▪ e9b30f3 vendor: Rename Masquerade to ThemeInterfacer
- ▪ 9ebc0d1 vendor: sepolicy: Add priv_app to neverallow rule
-
- ▼ 03/10/2017
+ ▼ 03/15/2017
 
 
  ▪ project build/
- ▪ 51c277b Use 'release-keys' for build tag
- ▪ df6a31c Mock Location should be off!
- ▪ 9d0eb6c Derp#
- ▪ f02a478 So Jack memory issue won't occur.
- ▪ ac7b53b Get the N Optimization party started
- ▪ 8beff61 OMS7-N: adb shell command to access OverlayManagerService
- ▪ 1b3fa37 Remove Feedback Directed Optimization support
- ▪ 74bd3c4 build: copy recovery.img to BOOTABLE_IMAGES only when it's actually used
+ ▪ d3512f6 Remove abort logic (MultiROM fix)
+ ▪ daaa9dd Disable the after flash image verification
 
- ▪ project device/oppo/common/
- ▪ 9e4d6f1 Change None to All Notifications
- ▪ dced46a oppo_common: Add dashboard summary
- ▪ d22ea48 ConfigPanel:Use pixel accent colors
- ▪ de99e39 Notification slider: add extra options - Option to ignore slider in zen auto mode - Extra notification modes (ring and vibrate)
+ ▪ project device/oneplus/oneplus2/
+ ▪ 3a888c9 Adding these values supposed to make wifi calling works, so let us see.
+ ▪ 584d51b Enable Night display
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ c76dfbc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
 
  ▪ project frameworks/base/
- ▪ 1580b79 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ cae2e5c ThemeSafety: Introduce App Crash Intent
+ ▪ 692437f Night auto brightness: restore user brightness values also after reboot
+ ▪ 338e9ad Wider night light auto low brightness action
+ ▪ d9fc79e Merge the two night light options into one
+ ▪ d76b7dc Night mode tile brightness: allow to set a different value [1/2]
+ ▪ bea121e Night tile: automatically set a lower brightness when active [1/2]
+ ▪ e2660ba SubscriptionManager: remove unprovisioned sims from the list of active subscriptions
 
- ▪ project packages/apps/Bluetooth/
- ▪ a7d1db2 Add "Accept all files" option for incoming files via BT [2/3]
+ ▪ project packages/apps/Settings/
+ ▪ 5da5a42 Night light brightness options into Settings
+ ▪ 41caed7 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 48f96bf HTC 10: Add tabp0le maintainer (#717)
+ ▪ f763a03 Add crackling maintainer (#716)
+ ▪ 91828f2 Clean up SIM enable toggle implementation
+ ▪ 4c2eb7e Settings: port manual provisiong support
+
+ ▪ project packages/services/Telephony/
+ ▪ 6c375c6 CallFeatureSettings: Fix NPE
+
+ ▪ project vendor/cm/
+ ▪ 8c319a8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ ba3ce80 New default icons
+ ▪ 2605899 Revert "Shutdownanimation, boot and shutdown audio files, all in."
+ ▪ a3522f5 Substratum updated to v604
+ ▪ 9f3c5dd Shutdownanimation, boot and shutdown audio files, all in.
+ ▪ 64d3c56 Add Substratum v561
+ ▪ 2bd540f Adding OPENDELTA_BUILDTYPE variant
+ ▪ 18b99c6 Disable ongoing statusbar ime switcher notification [1/2]
+ ▪ 66e85e3 common: lock rotation on SetupWizard
+ ▪ a0d7cb2 seapp_contexts updated -
+ ▪ 19f0116 Trying to make Daydream VR work with oneplus3/3t.
+ ▪ 9753c61 Build OpenDelta
+ ▪ 76eb898 disable bluetooth by default
+
+ ▼ 03/14/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ bafbf2c Enable Night display
+
+ ▪ project frameworks/base/
+ ▪ b58e2d8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ f6338a2 ShutdownThread: Fix Device rebooting when power off confirm button pressed
+ ▪ 598252b Statusbar weather: fix text hidden settings
+
+ ▪ project hardware/cyanogen/
+ ▪ 6e2dfc6 livedisplay: SDM: Fix display mode handling
+
+ ▪ project hardware/qcom/media-caf/msm8974/
+ ▪ 4ff5e65 mm-video-v4l2: vdec: Fix makefile derp introduced in d443c0d
 
  ▪ project packages/apps/OpenDelta/
- ▪ 762b640 Trying BB as Backend server for Delta updates.
+ ▪ 6295a28 Revert "Trying BB as Backend server for Delta updates."
 
  ▪ project packages/apps/Settings/
- ▪ 133a321 Redesigned Substratum icon
- ▪ 5422671 Always show screen on time
- ▪ c0941c7 Enable storage manager settings.
- ▪ 2e9ef23 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ a1f4d69 Automatic translation import
+ ▪ e951e3f Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 0a46070 Lockscreen Shortcuts: Fix System Icon Selector
 
- ▪ project packages/inputmethods/LatinIME/
- ▪ f1d2366 latinime: change accent colors to pixel blue
- ▪ 2acb19c Fixing layouts and adding 5th row to QWERTZ.
- ▪ 6265e08 Add 5th number row to keyboard.
+ ▼ 03/13/2017
 
- ▪ project vendor/cm/
- ▪ 2eed17c Substratum updated to v604
- ▪ 0655645 Substratum updated to v563
- ▪ 7dd5560 Revert "SQAUSH - Gesture Settings"
- ▪ 2d2bc8a SQAUSH - Gesture Settings
- ▪ dca5ba6 Revert "Shutdownanimation, boot and shutdown audio files, all in."
- ▪ 952d824 Adding OPENDELTA_BUILDTYPE variant
- ▪ f2fc82c Disable ongoing statusbar ime switcher notification [1/2]
- ▪ 219d834 common: lock rotation on SetupWizard
- ▪ 9142fe9 seapp_contexts updated -
- ▪ b15f61c Trying to make Daydream VR work with oneplus3/3t.
- ▪ 332e6f4 Revert "Bringup system-squisher for Nougat (2/2)"
- ▪ e0f4783 Bringup system-squisher for Nougat (2/2)
- ▪ f4a5d6e Shutdownanimation, boot and shutdown audio files, all in.
- ▪ 3bbe1d2 Add Substratum v561
- ▪ 1b004fb Build OpenDelta
- ▪ 594ac52 disable bluetooth by default
- ▪ 62f2313 overlay: Add good looking icons for DeskClock
-
- ▼ 03/09/2017
-
-
- ▪ project android/
- ▪ 066f60b Masquerade --> ThemeInterfacer [rootless] (#99)
-
- ▪ project build/
- ▪ bd62fba Build: Switch to Magisk as the built in root [2/2]
-
- ▪ project device/oneplus/oneplus3/
- ▪ 40a5575 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
-
- ▪ project device/oppo/common/
- ▪ 8f79d85 Automatic translation import
 
  ▪ project frameworks/base/
- ▪ a77229a Automatic translation import
- ▪ 79aa74e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ b6a280f Add advanced location tile
- ▪ fa51fed VolumeDialog: Fix mismerge
- ▪ 599f46a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ b3343ae Merge pull request #183 from gwolf2u/nougat
- ▪ c5b5af6 camera: Make secondary camera package list opt out
- ▪ 4c40eac Fix derp
-
- ▪ project hardware/qcom/fm/
- ▪ fbc3a7b Automatic translation import
-
- ▪ project packages/apps/AudioFX/
- ▪ 26c61aa Automatic translation import
-
- ▪ project packages/apps/Bluetooth/
- ▪ 4c89dd1 Automatic translation import
-
- ▪ project packages/apps/Calendar/
- ▪ 1602c07 Automatic translation import
-
- ▪ project packages/apps/Camera2/
- ▪ 479d293 Automatic translation import
-
- ▪ project packages/apps/CellBroadcastReceiver/
- ▪ c5515d2 Automatic translation import
-
- ▪ project packages/apps/Dialer/
- ▪ fa03af5 Automatic translation import
-
- ▪ project packages/apps/Eleven/
- ▪ 44f4f1e Automatic translation import
-
- ▪ project packages/apps/Email/
- ▪ 12eb636 Automatic translation import
-
- ▪ project packages/apps/Gallery2/
- ▪ 8414266 Automatic translation import
-
- ▪ project packages/apps/Gello/
- ▪ e37ca00 Automatic translation import
-
- ▪ project packages/apps/PackageInstaller/
- ▪ 27b9f20 PackageInstaller: Add tint mode to icons
- ▪ f02953d Make permissions fragment header match settings style
- ▪ b6e0efb PackageInstaller: Show current & new version
-
- ▪ project packages/apps/Profiles/
- ▪ 8ad3da8 Automatic translation import
-
- ▪ project packages/apps/Recorder/
- ▪ f5d35df Automatic translation import
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 300cbee Automatic translation import
+ ▪ aa3e13e Statusbar Weather : Refactor [1/2]
+ ▪ f3cd587 FWB: Statusbar weather Update[1/2]
+ ▪ b40ad17 Revert "Wifi: Introduce a config parameter for IpReachabilityMonitor"
+ ▪ 8a7d1ea Revert "Add RR logo to empty recents view"
+ ▪ c5c5893 Merge pull request #185 from Chippa-a/nougat
+ ▪ 54318d4 PlatLogo: Show RR platlogo only when tapping on RR-OS version
 
  ▪ project packages/apps/Settings/
- ▪ da40529 Automatic translation import
- ▪ a00c109 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ a30a443 Properly remove root access under DevSettings
- ▪ f662568 Settings: Change magisk dashboard icon
- ▪ 9626026 Add Magisk Manager dashboard option
+ ▪ a7db6dc Statusbar Weather: Refactor [2/2]
+ ▪ 0da1aa8 StatusBar Weather :update [2/2]
+ ▪ 8f9e50a Fix Force Close in Upper Lockscreen Shorcuts fragment
 
- ▪ project packages/apps/SetupWizard/
- ▪ 281d265 Automatic translation import
+ ▼ 03/12/2017
 
- ▪ project packages/apps/Snap/
- ▪ 50b1a98 Automatic translation import
- ▪ 379fd77 Snap/Strings: sensivity -> sensitivity
 
- ▪ project packages/apps/Terminal/
- ▪ 1114a47 Automatic translation import
+ ▪ project device/oneplus/oneplus3/
+ ▪ 86e279e op3: Sync audio properties with upstream
 
- ▪ project packages/apps/ThemeChooser/
- ▪ c8c264b Automatic translation import
+ ▪ project frameworks/base/
+ ▪ 16b232a Merge pull request #184 from rrpullrequests/nougat
+ ▪ e739b96 Add RR logo to empty recents view
+ ▪ 275d7af Just don't need these in both places.
+ ▪ 2ee627e  Empty shade view: Add carrier and wifi network name (1/2):
 
- ▪ project packages/apps/Trebuchet/
- ▪ acb1245 Automatic translation import
+ ▪ project hardware/intel/img/psb_video/
+ ▪ ce7f070 psb_video: fix video encoding on clovertrail once again
 
- ▪ project packages/apps/UnifiedEmail/
- ▪ 054b31c Automatic translation import
- ▪ fc1125d Fix cut off notification sounds.
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 97ec0ef Revert "Going permissive now."
+ ▪ d184488 Going permissive now.
+ ▪ 1a4caa1 defconfig: enable KCAL
+ ▪ 3391682 msm: mdss: KCAL: disable igc update
+ ▪ 89a0695 msm: mdss: KCAL: Send a pp display commit when changes are made
+ ▪ 83ae825 mdss mdp: kcal for mdss_mdp_v1_7
+ ▪ d41dca3 defconfig: Enable Fastcharge
+ ▪ 4a7ad53 drivers: misc: implement usb fast charge mode
+ ▪ 9a4d60e tri state key fixes
+ ▪ 118c9df tri_state_key: allow more key codes for extra modes
+ ▪ 2c3af03 proc: Remove verifiedbootstate flag from /proc/cmdline
 
- ▪ project packages/inputmethods/LatinIME/
- ▪ 4648c8c Automatic translation import
+ ▪ project packages/apps/Gallery2/
+ ▪ e0b91cb Gallery: Make location permission truly optional
 
- ▪ project packages/providers/CalendarProvider/
- ▪ 589b307 Automatic translation import
-
- ▪ project packages/providers/DataUsageProvider/
- ▪ 29af03a Automatic translation import
-
- ▪ project packages/providers/DownloadProvider/
- ▪ 7b08a35 Automatic translation import
-
- ▪ project packages/providers/MediaProvider/
- ▪ e9b8e48 MediaScanner behavior on boot [1/3]
- ▪ 262a1de MediaProvider: Fix possible NPE
-
- ▪ project packages/providers/ThemesProvider/
- ▪ 37fd92d Automatic translation import
-
- ▪ project packages/providers/UserDictionaryProvider/
- ▪ 7c49377 Automatic translation import
-
- ▪ project packages/providers/WeatherProvider/
- ▪ 5b6bf0d Automatic translation import
-
- ▪ project packages/resources/devicesettings/
- ▪ d928045 Automatic translation import
-
- ▪ project packages/screensavers/PhotoTable/
- ▪ e3516c5 Automatic translation import
-
- ▪ project packages/services/CMAudioService/
- ▪ de3f589 Automatic translation import
-
- ▪ project packages/services/LiveLockScreenService/
- ▪ bbb9d16 Automatic translation import
-
- ▪ project packages/services/ThemeManagerService/
- ▪ c46bdd5 Automatic translation import
-
- ▪ project packages/services/WeatherService/
- ▪ 5b5e889 Automatic translation import
-
- ▪ project packages/wallpapers/LivePicker/
- ▪ 546b021 Automatic translation import
-
- ▪ project system/core/
- ▪ 51c9290 Create "theme extras" directory
-
- ▪ project vendor/cm/
- ▪ a3dd77b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ d211398 Switch to Magisk as the built in root [1/2]
- ▪ 3d20940 Merge pull request #80 from gwolf2u/nougat
- ▪ 2f3808e Disable SU by default
- ▪ c4c7b51 qcom: Automatically set TARGET_USES_COLOR_METADATA for msm8996/8
-
- ▪ project vendor/cmsdk/
- ▪ 487c23e CMSDK: Tests: AIRPLANE_MODE_ON has moved
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
- ▪ fa13abf Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
- ▪ 4d3a56b Automatic translation import
+ ▪ project packages/apps/Settings/
+ ▪ a9abe01 Merge pull request #715 from rrpullrequests/nougat
+ ▪ 6ba60ae Remove duplicate java files
+ ▪ e73bec6 Empty shade view: Add carrier and wifi network name (2/2)
+ ▪ 1a9d8ac Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ a0f35ff Fixing an FC in lockscreen settings.
+ ▪ 2476647 Add maintainer for Lenovo A7010a48(Lenovo Vibe K4 Note) (#714)
 

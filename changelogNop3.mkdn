@@ -1,4 +1,46 @@
-Unofficial Changelog
+Changelog
+
+15th March 2017
+
+Sources updated till 15th March, 4.00pm IST.
+
+Adding certain RIL related values to allow Wifi Calling (Experimental and Network dependent).
+ThemeSafety: Introduce App Crash Intent.
+
+Enable Night display (Tested and working perfectly).
+Night Display Quick Tile Added (Not tested).
+- Night tile: automatically set a lower brightness when active.
+- Night tile brightness: allow to set a different value.
+- Wider night light auto low brightness action.
+Night auto brightness: restore user brightness values also after reboot.
+
+SIM Toggle - Switch to enable/disable any SIM. (Signal bars getting disappeared now.)
+Fix FC in dialer when opening any SIM Settings in Calling accounts.
+New default icons. (Credits to Kevin Aguilar).
+Moved back to old delta server, speed will be better from next update.
+
+(Comes with sources update)
+ShutdownThread: Fix Device rebooting when power off confirm button pressed.
+Statusbar weather: fix text hidden settings.
+Lockscreen Shortcuts: Fix System Icon Selector.
+Fixed Lockscreen Upper Shortcuts icons: Pick contacts image if exist in contacts database. (Tested now, didn't know it was fixed. )
+Fix Force Close in Upper Lockscreen Shorcuts fragment.
+
+11th March 2017
+
+Sources updated till 11th March, 9.25pm IST.
+
+Fixed FC in lockscreen - security settings.
+Update Substratum dashboard icon
+
+(Comes with sources update)
+Properly Fix Emergency Fragment in Power Menu
+More Fixes to Power Confirmation Dialog
+qs weather: Start Google Weather on LongClick
+GlobalActions: ShutDown Confirmation Dialog Switch
+Partial screenshot: fix SystemUI fc (very rare cases)
+Fix shutdown confirmation dialog
+Kill app from notification button: don't allow when device locked
 
 10th March 2017
 
