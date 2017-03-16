@@ -1,5 +1,23 @@
 Changelog
 
+16th March 2017
+
+Sources updated till 16th March, 3.00pm IST.
+
+base: Dont worry but dont be lucky ;)
+Night Display tile added.
+Statusbar weather: automatically enable/disable OmniJaws if (not) required
+Weather tile longclick alternative to Google weather : MyRadar Weather Radar (https://play.google.com/store/apps/details?id=com.acmeaom.android.myradar&hl=en)
+QS: Set default column number to 5
+DPI reduced a bit 
+ - Both of these done to Fix issues when user not able to drag lowest qs to the top area. (This is a temp workaround I could found for now.)
+Settings: Guard against themes without colorAccent defined
+Settings: Don't add activities if the app itself is disabled
+Night light brightness options into Settings
+
+(Comes with sources update)
+Clean Up Statusbar Weather Attirbutes.
+
 15th March 2017
 
 Sources updated till 15th March, 4.00pm IST.
