@@ -2,202 +2,147 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
- ▼ 03/16/2017
+ ▼ 03/20/2017
 
 
- ▪ project device/oneplus/oneplus2/
- ▪ 153f74a Night Display tile added.
- ▪ 3a888c9 Adding these values supposed to make wifi calling works, so let us see.
+ ▪ project build/
+ ▪ 8c1005b Remove abort logic (MultiROM fix)
+ ▪ 3d4f884 Disable the after flash image verification
+ ▪ 287e046 Disable dalvik cache lock contention logging as it isn't needed
+ ▪ 71efc80 Mock Location should be off!
+ ▪ 3028dad Derp#
+ ▪ 31b8473 So Jack memory issue won't occur.
+ ▪ 5424f22 Get the N Optimization party started
+ ▪ d72eb2f OMS7-N: adb shell command to access OverlayManagerService
+ ▪ 0d10827 Remove Feedback Directed Optimization support
 
  ▪ project device/oneplus/oneplus3/
- ▪ 942e00b Allow HAL to handle video buffer duped FD's."
- ▪ d3f239e Adding these values supposed to make wifi calling works, so let us see.
- ▪ b7375e6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
- ▪ 5a7784b Night Display tile added.
-
- ▪ project frameworks/av/
- ▪ 4c948e6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+ ▪ fc1fb0e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
 
  ▪ project frameworks/base/
- ▪ 5aefb85 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ e3b0d96 Automatic translation import
- ▪ cb85791 Automatic translation import
- ▪ c1abc56 Fix intermittent slowness in resolver activity towards end of day.
- ▪ 560217c Clean Up Statusbar Weather Attirbutes.
- ▪ 15dc3a4 PackageManager: Always let UID 0 start FallbackHome
- ▪ c61e24e Statusbar weather: automatically enable/disable OmniJaws if (not) required
- ▪ a379e18 Weather tile longclick alternative to Google weather :
- ▪ 4f34c8d QS: Set default column number to 5 (1/2)
- ▪ cae2e5c ThemeSafety: Introduce App Crash Intent
- ▪ 692437f Night auto brightness: restore user brightness values also after reboot
- ▪ 338e9ad Wider night light auto low brightness action
- ▪ d9fc79e Merge the two night light options into one
- ▪ d76b7dc Night mode tile brightness: allow to set a different value [1/2]
- ▪ bea121e Night tile: automatically set a lower brightness when active [1/2]
+ ▪ 717960a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 623d637 base: dont worry but dont be lucky
+ ▪ fafeefb QS: Set default column number to 5 (1/2)
 
- ▪ project hardware/qcom/fm/
- ▪ aa10afe Automatic translation import
-
- ▪ project packages/apps/AudioFX/
- ▪ 886a58b Automatic translation import
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 08e6f65 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
 
  ▪ project packages/apps/Bluetooth/
- ▪ 36c2364 Add "Accept all files" option for incoming files via BT [2/3]
- ▪ 7e2fa3a Automatic translation import
+ ▪ 5491b76 Add "Accept all files" option for incoming files via BT [2/3]
 
- ▪ project packages/apps/Calendar/
- ▪ 3b9a669 Automatic translation import
+ ▪ project packages/apps/Dialer/
+ ▪ 90373aa Dialer:call recording automatically.
 
- ▪ project packages/apps/Camera2/
- ▪ 3cdfa24 Automatic translation import
+ ▪ project packages/apps/Settings/
+ ▪ 82b5a6d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
 
- ▪ project packages/apps/CellBroadcastReceiver/
- ▪ 7017de6 Automatic translation import
+ ▪ project packages/services/Telephony/
+ ▪ 88f970c Fixing fc for call barring option.
 
- ▪ project packages/apps/CertInstaller/
- ▪ 80a7820 Automatic translation import
+ ▪ project vendor/cm/
+ ▪ 4f66bd0 Revert "Shutdownanimation, boot and shutdown audio files, all in."
+ ▪ ea426cb Substratum updated to v604
+ ▪ bd0b66b Shutdownanimation, boot and shutdown audio files, all in.
+ ▪ 3efb322 Add Substratum v561
+ ▪ ea54032 Adding OPENDELTA_BUILDTYPE variant
+ ▪ 2f9545b Disable ongoing statusbar ime switcher notification [1/2]
+ ▪ 79c6578 common: lock rotation on SetupWizard
+ ▪ 544cc84 seapp_contexts updated -
+ ▪ 014514b Trying to make Daydream VR work with oneplus3/3t.
+ ▪ 657666a Build OpenDelta
+ ▪ 650b876 disable bluetooth by default
 
- ▪ project packages/apps/Eleven/
- ▪ c0bf8fe Automatic translation import
+ ▪ project vendor/oneplus/
+ ▪ 933bf8b op3: Update to OxygenOS 4.1.0 blobs
 
- ▪ project packages/apps/Email/
- ▪ 4154e90 Automatic translation import
+ ▼ 03/19/2017
 
- ▪ project packages/apps/EmergencyInfo/
- ▪ f228c4a Automatic translation import
 
- ▪ project packages/apps/FMRadio/
- ▪ f83a5d7 Automatic translation import
+ ▪ project frameworks/base/
+ ▪ f93be09 Move wakelock option for flashlight to CameraManager.
+ ▪ 09c2f18 SingleHandWindow: Allow locking the rotation to 180°
 
- ▪ project packages/apps/Gallery2/
- ▪ 6b1bcb3 Automatic translation import
+ ▼ 03/18/2017
 
- ▪ project packages/apps/Gello/
- ▪ 649f53d Automatic translation import
 
- ▪ project packages/apps/ManagedProvisioning/
- ▪ c858db8 Automatic translation import
+ ▪ project android/
+ ▪ c4a1a79 Track Own Package Installer
 
- ▪ project packages/apps/Nfc/
- ▪ fce8ec8 Automatic translation import
+ ▪ project device/oneplus/oneplus3/
+ ▪ 58774d2 op3: Update to OxygenOS 4.1.0 blobs
+ ▪ 76a6b9e op3: Adjust auto brightness levels
+
+ ▪ project frameworks/base/
+ ▪ 2e5baa3 ThemeSafety: Introduce App Crash Intent
+ ▪ d2766bc Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ d3c06ce Revert "Introduced Active device for volume updates and volume update in pause state"
+ ▪ ff3d0d8 Bluetooth: AIRPLANE_MODE_ON has moved
+
+ ▪ project packages/apps/ExactCalculator/
+ ▪ 99ebfe6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into nougat
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ e5ba172 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 7d8b102 Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 4e317ae Regen Changelog
+
+ ▼ 03/17/2017
+
+
+ ▪ project bionic/
+ ▪ 08aff0d linker: Allow devices to force shim libs
+
+ ▪ project build/
+ ▪ b7c9ded Use 'release-keys' for build tag
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 09216c2 Reduce density a bit to cope with QS tiles issue.
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ e31eb1b Reduce density a bit to cope with QS tiles issue.
+
+ ▪ project frameworks/base/
+ ▪ ad7a554 PackageManager: Always let UID 0 start FallbackHome
+ ▪ d6a2f93 Add tile information to ACTION_QS_TILE_PREFERENCES intent
+ ▪ ca9d9fa SystemUI: Dismiss keyguard on boot if disabled by current profile
+ ▪ c717b21 {SQUASHED}Revert" Header Date+Time positions "
+ ▪ 172def4 SB Weather: Dont Show Image always on Left when animate = true
+ ▪ ca2a687 Automatic translation import
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 50e7b4e qcacld-2.0: Update to LA.UM.5.5.r1-03800-8x96.0
+ ▪ faaf63c Merge tag 'LA.UM.5.5.r1-03800-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into cm-14.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ 8cc4294 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 6bb19eb Automatic translation import
 
  ▪ project packages/apps/PackageInstaller/
  ▪ ea27e37 PackageInstaller: Add tint mode to icons
  ▪ 6f8eff0 Make permissions fragment header match settings style
  ▪ 8390394 PackageInstaller: Show current & new version
- ▪ 2e2f0b2 Automatic translation import
 
- ▪ project packages/apps/Recorder/
- ▪ 3c64f0c Automatic translation import
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ d40511f Automatic translation import
 
  ▪ project packages/apps/Settings/
- ▪ a50a59d QS: Set default column number to 5 (2/2)
- ▪ c854bea Settings: Guard against themes without colorAccent defined
- ▪ b43de82 Settings: Don't add activities if the app itself is disabled
- ▪ e1dc20d Night light brightness options into Settings
- ▪ 0783b58 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ a27dd98 Added Nougat Maintainer For Redmi Note 4(mido)
- ▪ 542c03e Fix possible NPE on SIM settings shutdown.
- ▪ 0464d0b Clean up SIM enable toggle implementation
- ▪ 242dcad Settings: port manual provisiong support
- ▪ e13c91c Update rr_strings.xml (#718)
-
- ▪ project packages/apps/SetupWizard/
- ▪ 27662e2 Automatic translation import
-
- ▪ project packages/apps/Snap/
- ▪ 91d6eab Automatic translation import
-
- ▪ project packages/apps/Stk/
- ▪ f91e479 Automatic translation import
-
- ▪ project packages/apps/ThemeChooser/
- ▪ 8542dd6 Automatic translation import
-
- ▪ project packages/apps/Trebuchet/
- ▪ e97e772 Automatic translation import
-
- ▪ project packages/apps/TvSettings/
- ▪ 4b1d8f7 Automatic translation import
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ cb0495f Automatic translation import
+ ▪ 9a1b240 Revert" Header Date+Time positions [2/2]"
+ ▪ 1753536 Fix Fling Settings Seekbar attrs
+ ▪ 87b263d Automatic translation import
 
  ▪ project packages/inputmethods/LatinIME/
  ▪ fa303bc latinime: change accent colors to pixel blue
  ▪ 55b1627 Fixing layouts and adding 5th row to QWERTZ.
  ▪ a193094 Add 5th number row to keyboard.
- ▪ 65903e0 Automatic translation import
-
- ▪ project packages/providers/DownloadProvider/
- ▪ e84d41d Automatic translation import
 
  ▪ project packages/providers/MediaProvider/
  ▪ ea2c82f MediaScanner behavior on boot [1/3]
- ▪ 1261e19 Automatic translation import
-
- ▪ project packages/providers/TelephonyProvider/
- ▪ 04f4aad Automatic translation import
-
- ▪ project packages/providers/WeatherProvider/
- ▪ 558d3e5 Automatic translation import
-
- ▪ project packages/resources/devicesettings/
- ▪ 5a5b9c5 Automatic translation import
-
- ▪ project packages/screensavers/Basic/
- ▪ a8e56f3 Automatic translation import
-
- ▪ project packages/services/Telephony/
- ▪ 35b7073 Revert "CallFeatureSettings: Only show call barring option if QTI package installed"
- ▪ 998dcdf Automatic translation import
- ▪ 90051f8 Telephony: Fix "Redirect to roaming SIM network setting(Dual SIM)"
- ▪ 37d3915 Automatic translation import
-
- ▪ project packages/wallpapers/LivePicker/
- ▪ 8a005bf Automatic translation import
-
- ▪ project system/core/
- ▪ 29ea1b5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
-
- ▪ project vendor/cm/
- ▪ 8c319a8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ ba3ce80 New default icons
- ▪ 2605899 Revert "Shutdownanimation, boot and shutdown audio files, all in."
- ▪ a3522f5 Substratum updated to v604
- ▪ 9f3c5dd Shutdownanimation, boot and shutdown audio files, all in.
- ▪ 64d3c56 Add Substratum v561
- ▪ 2bd540f Adding OPENDELTA_BUILDTYPE variant
- ▪ 18b99c6 Disable ongoing statusbar ime switcher notification [1/2]
- ▪ 66e85e3 common: lock rotation on SetupWizard
- ▪ a0d7cb2 seapp_contexts updated -
- ▪ 19f0116 Trying to make Daydream VR work with oneplus3/3t.
- ▪ 9753c61 Build OpenDelta
- ▪ 76eb898 disable bluetooth by default
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
- ▪ 3aa2136 Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
- ▪ d581a44 Automatic translation import
-
- ▼ 03/15/2017
-
-
- ▪ project build/
- ▪ d3512f6 Remove abort logic (MultiROM fix)
- ▪ daaa9dd Disable the after flash image verification
-
- ▪ project device/oneplus/oneplus2/
- ▪ 584d51b Enable Night display
-
- ▪ project frameworks/base/
- ▪ e2660ba SubscriptionManager: remove unprovisioned sims from the list of active subscriptions
-
- ▪ project packages/apps/OpenDelta/
- ▪ 6295a28 Revert "Trying BB as Backend server for Delta updates."
-
- ▪ project packages/apps/Settings/
- ▪ 48f96bf HTC 10: Add tabp0le maintainer (#717)
- ▪ f763a03 Add crackling maintainer (#716)
 

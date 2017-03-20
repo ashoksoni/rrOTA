@@ -1,5 +1,23 @@
 Changelog
 
+20th March 2017
+
+Sources updated till 20th March, 6.00pm IST.
+
+SystemUI: Tiny expanding improvement
+Fix for wakelock being held during bootup and idle scenario.
+Fix crash issue on Storage Manager app
+Fix stack-buffer-overflow detected by AddressSanitizer.
+Location tile: add high accuracy state icon
+Location tile: dynamic icon state also when easy toggle enabled
+Ability to disable Do not Disturb mode when calling
+Make roaming indicator optional
+
+Wifi: Reset power save mode after association
+Do not show scan result entries for MESH networks
+Broadcast networkstatechange indication on exit from ScanModeState
+wifinative: kill logspilling about wifi power level
+
 16th March 2017
 
 Sources updated till 16th March, 3.00pm IST.
