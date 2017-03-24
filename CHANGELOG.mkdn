@@ -2,147 +2,322 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
- ▼ 03/20/2017
+ ▼ 03/25/2017
 
-
- ▪ project build/
- ▪ 8c1005b Remove abort logic (MultiROM fix)
- ▪ 3d4f884 Disable the after flash image verification
- ▪ 287e046 Disable dalvik cache lock contention logging as it isn't needed
- ▪ 71efc80 Mock Location should be off!
- ▪ 3028dad Derp#
- ▪ 31b8473 So Jack memory issue won't occur.
- ▪ 5424f22 Get the N Optimization party started
- ▪ d72eb2f OMS7-N: adb shell command to access OverlayManagerService
- ▪ 0d10827 Remove Feedback Directed Optimization support
-
- ▪ project device/oneplus/oneplus3/
- ▪ fc1fb0e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
-
- ▪ project frameworks/base/
- ▪ 717960a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 623d637 base: dont worry but dont be lucky
- ▪ fafeefb QS: Set default column number to 5 (1/2)
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 08e6f65 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
- ▪ project packages/apps/Bluetooth/
- ▪ 5491b76 Add "Accept all files" option for incoming files via BT [2/3]
-
- ▪ project packages/apps/Dialer/
- ▪ 90373aa Dialer:call recording automatically.
-
- ▪ project packages/apps/Settings/
- ▪ 82b5a6d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project packages/services/Telephony/
- ▪ 88f970c Fixing fc for call barring option.
-
- ▪ project vendor/cm/
- ▪ 4f66bd0 Revert "Shutdownanimation, boot and shutdown audio files, all in."
- ▪ ea426cb Substratum updated to v604
- ▪ bd0b66b Shutdownanimation, boot and shutdown audio files, all in.
- ▪ 3efb322 Add Substratum v561
- ▪ ea54032 Adding OPENDELTA_BUILDTYPE variant
- ▪ 2f9545b Disable ongoing statusbar ime switcher notification [1/2]
- ▪ 79c6578 common: lock rotation on SetupWizard
- ▪ 544cc84 seapp_contexts updated -
- ▪ 014514b Trying to make Daydream VR work with oneplus3/3t.
- ▪ 657666a Build OpenDelta
- ▪ 650b876 disable bluetooth by default
-
- ▪ project vendor/oneplus/
- ▪ 933bf8b op3: Update to OxygenOS 4.1.0 blobs
-
- ▼ 03/19/2017
-
-
- ▪ project frameworks/base/
- ▪ f93be09 Move wakelock option for flashlight to CameraManager.
- ▪ 09c2f18 SingleHandWindow: Allow locking the rotation to 180°
-
- ▼ 03/18/2017
-
-
- ▪ project android/
- ▪ c4a1a79 Track Own Package Installer
-
- ▪ project device/oneplus/oneplus3/
- ▪ 58774d2 op3: Update to OxygenOS 4.1.0 blobs
- ▪ 76a6b9e op3: Adjust auto brightness levels
-
- ▪ project frameworks/base/
- ▪ 2e5baa3 ThemeSafety: Introduce App Crash Intent
- ▪ d2766bc Automatic translation import
-
- ▪ project packages/apps/Bluetooth/
- ▪ d3c06ce Revert "Introduced Active device for volume updates and volume update in pause state"
- ▪ ff3d0d8 Bluetooth: AIRPLANE_MODE_ON has moved
-
- ▪ project packages/apps/ExactCalculator/
- ▪ 99ebfe6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into nougat
-
- ▪ project packages/apps/OmniSwitch/
- ▪ e5ba172 Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ 7d8b102 Automatic translation import
-
- ▪ project vendor/cm/
- ▪ 4e317ae Regen Changelog
-
- ▼ 03/17/2017
-
-
- ▪ project bionic/
- ▪ 08aff0d linker: Allow devices to force shim libs
-
- ▪ project build/
- ▪ b7c9ded Use 'release-keys' for build tag
 
  ▪ project device/oneplus/oneplus2/
- ▪ 09216c2 Reduce density a bit to cope with QS tiles issue.
+ ▪ 23da455a SONY Framework support
+ ▪ 0a7bf80b Enable Wireless Display option under Cast.
+ ▪ 2d9b173f op2: Boot in Permissive
+ ▪ 7a688237 Added Compass tile
 
  ▪ project device/oneplus/oneplus3/
- ▪ e31eb1b Reduce density a bit to cope with QS tiles issue.
+ ▪ 303e279 SONY Framework support
+ ▪ dd6784b Enable Wireless Display option under Cast.
+ ▪ bc81d24 op3: Boot in Permissive
+ ▪ dddc6f9 Added Compass tile
+ ▪ f80a7d6 Revert "Allow HAL to handle video buffer duped FD's.""
+
+ ▪ project device/oppo/common/
+ ▪ 5ecdbae Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
 
  ▪ project frameworks/base/
- ▪ ad7a554 PackageManager: Always let UID 0 start FallbackHome
- ▪ d6a2f93 Add tile information to ACTION_QS_TILE_PREFERENCES intent
- ▪ ca9d9fa SystemUI: Dismiss keyguard on boot if disabled by current profile
- ▪ c717b21 {SQUASHED}Revert" Header Date+Time positions "
- ▪ 172def4 SB Weather: Dont Show Image always on Left when animate = true
- ▪ ca2a687 Automatic translation import
+ ▪ b6f8f395973 Few derps in Volte and Icon change.
+ ▪ 49e5a9a1065 Pocket Lock / Pocket Judge SQUASHED
+ ▪ 2a82354fa84 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 966ded92931 Derp fix.
+ ▪ da5fb01e54e Revert "SubscriptionManager: remove unprovisioned sims from the list of active subscriptions"
+ ▪ da1e367b61c Slim Recents: fix SystemUI fc
+ ▪ fb47dc97a2c Option to Disable Blank network signal icons on Msim [1/2]
+ ▪ 42f66269093 SystemUI: Hide unprovisioned SIMs * There's no point of displaying null signal icon. clean up PSB while we're at it Signed-off-by: Varun Date <date.varun123@gmail.com>
+ ▪ 1533473d4df Slim Recents: more fixes, cleanup and improvements
+ ▪ 3d841116f38 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 5e02a9abad6 Merge pull request #187 from ashoksoni/changes
+ ▪ 8b6ff71c998 Fix crash issue on Storage Manager app
+ ▪ 7bfdfda2df0 Fix for wakelock being held during bootup and idle scenario.
+ ▪ 4df2b2be9f0 SystemUI: Tiny expanding improvement Signed-off-by: BigBrother1984 <carlosavignano@aospa.co> Signed-off-by: xyyx <xyyx@mail.ru>
+ ▪ 4e0ee9f5b43 [BUG] fix NullPointerException in Notification.java
+ ▪ 9c9b6967ea6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+
+ ▪ project hardware/qcom/fm/
+ ▪ aff061a FM: Fix KHz->kHz
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 02f083da75bb Revert "Going permissive now."
 
  ▪ project kernel/oneplus/msm8996/
- ▪ 50e7b4e qcacld-2.0: Update to LA.UM.5.5.r1-03800-8x96.0
- ▪ faaf63c Merge tag 'LA.UM.5.5.r1-03800-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into cm-14.1
+ ▪ cd28bef35c0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ c9bcac1c Add "Accept all files" option for incoming files via BT [2/3]
 
  ▪ project packages/apps/Dialer/
- ▪ 8cc4294 Automatic translation import
+ ▪ 7963e08cc Dialer:call recording automatically.
 
- ▪ project packages/apps/OmniSwitch/
- ▪ 6bb19eb Automatic translation import
+ ▪ project packages/apps/OpenDelta/
+ ▪ 4a388ca Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_OpenDelta into nougat
 
  ▪ project packages/apps/PackageInstaller/
- ▪ ea27e37 PackageInstaller: Add tint mode to icons
- ▪ 6f8eff0 Make permissions fragment header match settings style
- ▪ 8390394 PackageInstaller: Show current & new version
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ d40511f Automatic translation import
+ ▪ 5ab44dbc PackageInstaller: Add tint mode to icons
+ ▪ 6a7b1f86 Make permissions fragment header match settings style
+ ▪ 419dd2a6 PackageInstaller: Show current & new version
 
  ▪ project packages/apps/Settings/
- ▪ 9a1b240 Revert" Header Date+Time positions [2/2]"
- ▪ 1753536 Fix Fling Settings Seekbar attrs
- ▪ 87b263d Automatic translation import
+ ▪ 3a75dfdd6a Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 38b2ee99fb Add Natrium maintainer (#723)
+ ▪ 0ca66a73a6 Option to Disable Blank network signal icons on Msim [2/2]
+ ▪ 53401f5ed2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
 
  ▪ project packages/inputmethods/LatinIME/
- ▪ fa303bc latinime: change accent colors to pixel blue
- ▪ 55b1627 Fixing layouts and adding 5th row to QWERTZ.
- ▪ a193094 Add 5th number row to keyboard.
+ ▪ a964812e5 latinime: change accent colors to pixel blue
+ ▪ 10190cbfd Fixing layouts and adding 5th row to QWERTZ.
+ ▪ 9b95b0ea5 Add 5th number row to keyboard.
 
  ▪ project packages/providers/MediaProvider/
- ▪ ea2c82f MediaScanner behavior on boot [1/3]
+ ▪ 0538727 MediaScanner behavior on boot [1/3]
+
+ ▪ project packages/services/Telephony/
+ ▪ 888b42fc Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_services_Telephony into nougat
+
+ ▪ project vendor/cm/
+ ▪ 5a945492 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+ ▼ 03/24/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 738bd6e4f70 Slim Recents Membar Colors [1/2]
+ ▪ 5d257d2d962 Base: API to restart SystemUI without root
+ ▪ d9ea16f23f8 Weather tile longclick: alternative weather apps when google weather not installed
+ ▪ 5369e6476c4 Slim Recents: fix multiwindow glitch when docking app to bottom
+ ▪ 9b7f8a4b218 Slim Recent new multiwindow when multiwindow already active: make it more robust
+ ▪ 728368c1e4c Cleanups after Slim recents Refactor
+ ▪ 0dec18de98f Allow themers to customize battery frame color on darkintensity
+ ▪ 9cb2b588594 Slim Recents icon cache: clear it when changing scale factor
+ ▪ 9f09e14f8f3 Location tile: new icons
+ ▪ 838a66f3110 Slim Recents: add icon cache to improve performances
+ ▪ 4cf1b49745a Slim Recents icon pack: fallback to app icon if pack doesn't have any
+ ▪ 3cec48bcb36 Clean up a couple Uris in PSB
+ ▪ aac9a5684bf Slim recents: don't show content when screen is pinned
+ ▪ 9a7e481826a Slim recents: fix sometimes icons being invisible when they should not
+ ▪ e4b18130e24 Slim Recents: fix multiwindow glitch when docking app to bottom
+ ▪ e9026c1e023 Slim Recents: fix toptask header layout and other ui improvements
+ ▪ 37c03e3d049 Slim recents: no need to vibrate twice on longclick
+ ▪ 55213ddd1c1 Slim recents: Fix blinking cards on notifyDataSetChanged()
+ ▪ 02119f45de6 Slim recents style improvements
+ ▪ c4c2f588a6e Slim Recent: allow to dock new apps if a multiwindow session is already running
+ ▪ 54e0b028f28 Refactor SlimRecents (1/2)
+ ▪ 00d1fcc80db Slim Recents iconpack support [1/2]
+
+ ▪ project packages/apps/Recorder/
+ ▪ ed7a8b3 Recorder: add and fix missing copyrights
+ ▪ 779c197 Recorder: screen recorder overlay
+ ▪ 4bf3b75 Recorder: update gradle and support libraries
+
+ ▪ project packages/apps/Settings/
+ ▪ f0dd739332 Slim Recents Membar Color [2/2]
+ ▪ bf2130521a Refactor Slim Recents [2/2]
+ ▪ 0a64428c9f Update SlimRecentPanel.java
+ ▪ cce096d289 Slim Recents iconpack support [2/2]
+
+ ▼ 03/23/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 42d1838d89a Ability to disable Do not Disturb mode when calling [1/3]
+ ▪ 833629629e6 Suspend Actions [1/3]
+ ▪ 0c5dbdccd5d Make roaming indicator optional [1/2]
+ ▪ 0628201143f Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ f76431f Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 95ae356d6 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ ef15f62 OmniSwitch: on the fly update on dpi changes
+ ▪ bcfc4b1 OmniSwitch: multi window madness
+ ▪ 37c5b8f OmniSwitch: delay task info loading to speedup open
+
+ ▪ project packages/apps/Recorder/
+ ▪ 14c2858 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ ed6ad03902 Fix Build due to bad Pull request
+ ▪ 5076e301ff Ability to disable Do not Disturb mode when calling [3/3]
+ ▪ 75b6380859 Suspend Actions [3/3]
+ ▪ 0269bd3df0 Make roaming indicator optional [2/2]
+ ▪ cb63132885 add mising strings
+ ▪ 68d825d071 Add Nougat Maintainer of Nubia Z11(nx531j) (#722)
+ ▪ ff7b05f864 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 3deda7f14 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 72df1ce1 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ a9fa3b2 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 8bbb278 Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ b253df51 Ability to disable Do not Disturb mode when calling [2/3]
+
+ ▪ project packages/services/Telephony/
+ ▪ 3ac65375 Suspend Actions [2/3]
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ d4703e3 Automatic translation import
+
+ ▼ 03/22/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 52ce3a3f1fc Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 7939a38f9 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 7b2042d Automatic translation import
+
+ ▪ project packages/apps/OpenDelta/
+ ▪ 2924c87 OpenDelta: refresh the layout a bit
+
+ ▪ project packages/apps/Settings/
+ ▪ 28b13228ab Batterybar Settings: Fix Color Previews
+ ▪ bb12331c53 Merge remote-tracking branch 'rr/nougat' into HEAD
+ ▪ 94bca5b5f1 Revert "Enable cool color temperature option"
+ ▪ c4a06098eb Add Nougat Maintainer of Lenovo P2(p2a42) (#720)
+ ▪ 58bfed9c2b Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 24cd1a42 Revert "Update Magisk to V11.6"
+
+ ▼ 03/21/2017
+
+
+ ▪ project device/oppo/common/
+ ▪ a8e0f0b Automatic translation import
+
+ ▪ project frameworks/base/
+ ▪ d2d57c0d484 Add Compass tile
+ ▪ b54a260191c Statusbar ticker: apply statusbar tint when set to white
+ ▪ 24dbac1290a Location tile: add high accuracy state icon
+ ▪ e4d25c2655b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 41b8ae70b1c Location tile: dynamic icon state also when easy toggle enabled
+ ▪ 806928cee51 Expose Screenshot flash and background colors
+ ▪ 2641bdd1a25 Expose temperature text in DetailedWeatherView
+
+ ▪ project hardware/qcom/fm/
+ ▪ 953af70 Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ dc65a0c Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 888a04e2 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 1826775b Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ 8ee8d23c6 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 6950f2b Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ d46453b Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ af2af0bbe Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ 588a2ab Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 900fb8023 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 18953eb6 Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ eb1c5fa Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ 8bb1879b Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 6833a110 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 110c07c Automatic translation import
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+ ▪ d458cf1 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 84b4eb1fce AppOpsDetails: Check app permissions safely
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ f834d21 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 9ee33a511 Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ 3c27506 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 5937cbf Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 993da14 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ a5369311a Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ f58e1b27 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ c2e4f01b3 Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ cfbd067 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ f59371ad4 Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ 1b2cc77 Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ a1aa622 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ e93ac19b Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ ae34e55 Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 4d1a21f Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ b75c745 Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 4b42ac45 Update Magisk to V11.6
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ a940996 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 459f3db Automatic translation import
 

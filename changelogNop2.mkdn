@@ -1,5 +1,33 @@
 Changelog
 
+25th March 2017
+
+Sources updated till 25th March, 3.30pm IST.
+
+OpenDelta: refresh the layout a bit
+Enable Wireless Display option under Cast.
+Sony Apps Enabler - Core files added to system so now you can install any Sony apps from Playstore.
+credit to z3n17h@xda for the zip.
+
+These are experimental features and will be removed or kept in future based on your inputs. Report how good or bad you feel about your FP scanner in this build so I can decide on that.
+- pocket: introduce pocket judge
+- policy: introduce pocket lock
+- fingerprint: disable when device is in pocket
+
+(Comes with sources update)
+No Sim Network switch (There are two, one under Sim Settings and one under System Symbols, use any after you disable one of the sim to make its icon disappear from statusbar. This is implemented to fix a different issue related to the previous commit)
+Suspend Actions
+Ability to disable Do not Disturb mode when calling
+Make roaming indicator optional
+Location tile: add high accuracy state icon
+Location tile: dynamic icon state also when easy toggle enabled
+Batterybar Settings: Fix Color Previews
+Added Compass tile
+Statusbar ticker: apply statusbar tint when set to white
+Slim Recents iconpack support
+Slim Recents Membar Color
+and a lot of other SlimRecents and OmniSwitch related improvements
+
 20th March 2017
 
 Sources updated till 20th March, 1.30pm IST.
