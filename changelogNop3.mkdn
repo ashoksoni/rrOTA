@@ -1,5 +1,17 @@
 Changelog
 
+26th March 2017
+
+Sources updated till 26th March, 4.00pm IST.
+
+fingerprint: notify client when cancelling succeeded
+Revert "op2: Boot in Permissive"
+Revert "Pocket Lock/Pocket Judge."
+"SONY Framework support" should work now.
+
+(Comes with sources update)
+Settings: Set correct default value to In-call DND switch
+
 25th March 2017
 
 Sources updated till 25th March, 3.30pm IST.
