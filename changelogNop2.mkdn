@@ -1,5 +1,23 @@
 Changelog
 
+1st April 2017
+
+Sources updated till 1st April, 10.00am IST.
+
+(Comes with sources update)
+Updated prebuilts
+- Pixel Launcher O-3743572
+- Google Wallpaper google-wallpaper-picker-1-0-149781330
+- Magisk v12
+Kill App action: remove the killed app from Recents list
+Statusbar Weather Image: Make it update when iconpacks are changed
+base: Apply roaming indicator changes instantly
+Allow to set a different battery style for tile and statusbar
+Suspend Actions Qs Tile
+BatteryService: add dash charging support
+OmniJaws: Add menu item to search for Chronus icons
+SmartBar Color: Custom app color filter switch
+
 26th March 2017
 
 Sources updated till 26th March, 4.00pm IST.
