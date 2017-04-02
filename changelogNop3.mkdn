@@ -1,5 +1,16 @@
 Changelog
 
+2nd April 2017
+
+Sources updated till 2nd April, 9.00am IST.
+
+Dash charging should be visible on Lock screen now.
+
+(Comes with sources update)
+Smarbar Pixel Navbar Animation Duration Settings
+Fix - Old CMPart's Button settings won't show up while searching anymore.
+Unlock Home and Back Buttons from Smartbar
+
 1st April 2017
 
 Sources updated till 1st April, 10.00am IST.
