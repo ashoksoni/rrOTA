@@ -2,11 +2,206 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
+ ▼ 04/06/2017
+
+
+ ▪ project build/
+ ▪ 407a46c Revert "[2/2] Make Magisk flashing opt-out"
+
+ ▪ project frameworks/base/
+ ▪ dcfbec3 fingerprint: disable when device is in pocket
+ ▪ 0f3e29b policy: introduce pocket lock
+ ▪ 277d819 pocket: introduce pocket judge
+ ▪ 225d46e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ f0757114 Fix permission description string for DE.
+
+ ▪ project packages/apps/Dialer/
+ ▪ d0800c8 Dialer:call recording automatically.
+
+ ▪ project packages/apps/Settings/
+ ▪ 5c6a579 Settings: add pocket judge toggle
+ ▪ 0d61b7b Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 6fb2403 Fix magisk manager settings location
+ ▪ 0173a41 Cleanup.
+
+ ▪ project vendor/cm/
+ ▪ d39428f add pocket judge selinux policy
+
+ ▼ 04/05/2017
+
+
+ ▪ project build/
+ ▪ 07830e1 Revert "build: Use android unzip binary instead of busybox"
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ e45fc8d sepolicy: Fix denials
+ ▪ aae9351 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ af394cf Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ f143cd6 Merge pull request #188 from ashoksoni/changes
+ ▪ 15f89f6 Fix Bluetooth battery icon after reboot
+ ▪ 89d8e6b Fix Hotspot tile is shown on Guest user
+ ▪ eda1e77 SettingsProvider: Update icon.
+
+ ▪ project hardware/ti/omap4/
+ ▪ 86ea9e8 omap4: add more common build properties
+ ▪ 368f365 omap4: define BOARD_CANT_REALLOCATE_OMX_BUFFERS
+ ▪ cce4d95 omap4: camera: restore compatibility with older Android versions (< Android N)
+ ▪ 0254e40 omap4: define TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES
+ ▪ 7839bd6 camera: Use GBAllocator.allocate for N_MR1.
+ ▪ 3c75dc7 Revert "camera: switch to Gralloc.allocate and generate unique Id for allocation"
+ ▪ c9d954d camera: Rename version_major/minor to the new, non-deprecated names.
+ ▪ 0f2b557 camera: clean up build when various OMAP_ENHANCEMENTs are disabled
+ ▪ 9cf111b Revert "hwc: publicly define omap specific usage flags"
+ ▪ 9a75172 seccomp: allow clock_nanosleep syscall
+ ▪ 3a17e59 Fix camera video recording on N.
+ ▪ 547e464 android-api: Add N_MR1 defines.
+ ▪ c7d8882 camera: fix build for LP
+ ▪ 9843c81 android-api: Add LP_MR1 defines.
+ ▪ ef46c42 Add DOMX syscalls to seccomp filter
+ ▪ 6c31b84 domx: Remove implicit libc shared library declarations.
+ ▪ 6fc761d domx: Overhaul omx_proxy_component makefile.
+ ▪ 0efd58f domx: for ion_alloc alloc flag must be (1 << ID) and not the ID
+ ▪ 3088f9e camera: for carveout alloc we must use ID OMAP_ION_HEAP_SECURE_INPUT
+ ▪ 16aca2a android-api: add N
+ ▪ 38636fa camera: fix build for KK
+ ▪ 6c5b8a8 libcorkscrew: only build for Lollipop and newer
+ ▪ 4cd6c92 camera: Init all members of camera_module_t to fix warnings.
+ ▪ f439503 libtiutils: C++11 compat fix.
+ ▪ 97eba14 libstagefrighthw: Build with -Wall -Werror.
+ ▪ 5076f97 libI420colorconvert: Build with -Wall -Werror.
+ ▪ 2c59035 Make bltsville opt-in.
+ ▪ 072fa04 camera: Makefile overhaul.
+ ▪ 07c4577 Revert "camera: call camera CFLAGS should use CAMERAHAL_CFLAGS"
+ ▪ 06ce617 omap4: Set TARGET_FORCE_SCREENSHOT_CPU_PATH.
+ ▪ d1f876f SGX-BIN: build: android: Don't override PLATFORM_VERSION if supplied
+
+ ▪ project packages/apps/DUI/
+ ▪ da18051 Add Chrome to MediaMonitor Blacklist Change-Id: Iabb2ef209ed4ca8b98da5260df107433eb540308 Signed-off-by: Varun Date <date.varun123@gmail.com>
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ fb66ac2 OmniStyle: use vector logo
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/OpenDelta/
+ ▪ 5a617c2 Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_OpenDelta into nougat
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ 24956f4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▪ project packages/apps/Snap/
+ ▪ 673547e CaptureUI: fix crash on setOrientation
+ ▪ a8285ad Snap: Fix effect and picture program overlay buttons
+ ▪ 65aa6fd Always apply frame size reduction to panorama pictures
+ ▪ 9e8d919 Never ignore finger swipes in gallery mode
+ ▪ b9da2b0 Fix record time sometimes not seen
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 77601a5 MediaScanner behavior on boot [1/3]
+
+ ▪ project vendor/cm/
+ ▪ 7244f84 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+ ▼ 04/04/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 3f2e218 Smartbar pixel animation: Ability to customize the dots [1/3]
+ ▪ a0e34fd FWB:Pulse: allow setting fading blocks opacity [1/3]
+ ▪ 1a7d654 Switch to Enable or disable Vol up to disable overlays during boot [1/2]
+ ▪ f0b8485 Hold "volume up" during boot to disable all overlays
+ ▪ cf709b8 Slim recent membar colors settings: obey themes [1/2]
+ ▪ 76f94b8 Fix partial screenshot not working when dragging from left or top border
+ ▪ 6ba4bf4 SmartBar: allow set custom buttons opacity when Pulse is active [3/3]
+
+ ▪ project hardware/ti/omap4/
+ ▪ eb70ea8 SGX-BIN: build: android: Add fallback PLATFORM_VERSION mechanism
+ ▪ dbe532a board/init: Common PVR KM build target for reuse by devices
+ ▪ 492610c SGX-BIN: build/srvkm: Drop SGX core/version suffixes everywhere
+ ▪ 42c669c SGX-BIN: buildvars: Compile PVR KM with -fno-pic
+ ▪ 55bfee6 libpower: Avoid overwriting custom user frequencies.
+ ▪ 357aaac libpower: Initialize inited variable.
+ ▪ 5ae1155 libpower: Add optional support for API 0.3
+ ▪ c55f2bb Add OMAP PowerHAL
+
+ ▪ project packages/apps/DUI/
+ ▪ 29d8861 Smartbar pixel animation: Ability to customize the dots [2/3]
+ ▪ 645caf2 Pulse: allow setting fading blocks opacity [2/3]
+ ▪ 0ac9a97 Improve Pulse and MediaMonitor reliability
+ ▪ 11115e9 Smartbar media arrows: fix it hiding sometimes
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 2828e47 OmniSwitch: reduce vertical padding on app icons
+ ▪ e02304c OmniSwitch: add missing docked task indicator for other views
+
+ ▪ project packages/apps/Settings/
+ ▪ d3ad76f Smartbar pixel animation: Ability to customize the dots [3/3]
+ ▪ c1ebfd6 Settings:Pulse: allow setting fading blocks opacity [3/3]
+ ▪ be3d947 Add Reset Button to Pixel Animation Duration Settings
+ ▪ 6f35d50 Switch to Enable or disable Vol up to disable overlays during boot [2/2]
+ ▪ bbddeeb SlimRecents Membar Colors: Obey Themes when disabled [2/2]
+ ▪ 61354e2 SmartBar: allow set custom buttons opacity when Pulse is active [2/3]
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ e0e756f New Material icon
+
+ ▪ project packages/services/Mms/
+ ▪ de8277e Add Material icon & app label
+
+ ▪ project packages/services/Telephony/
+ ▪ e14278b Revert "Add support to launch call barring"
+ ▪ 895d764 Revert "CallFeatureSettings: Only show call barring option if QTI package installed"
+ ▪ db1a9ac Telephony: AIRPLANE_MODE_ON has moved
+
+ ▪ project vendor/cm/
+ ▪ c09a03a rr: tools: improve changelog script
+
+ ▼ 04/03/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 1079e93 oneplus3: Fix touchscreen and keypad firmware update process
+ ▪ 5e95d0b oneplus3: Set restart level to related for all subsystems
+
+ ▪ project external/DUtils/
+ ▪ e4af8c6 Smartbar media arrows: more code improvements [2/2]
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/DUI/
+ ▪ 107d69c SmartBar Media Arrows: add streaming music support
+ ▪ a687b71 Smartbar media arrows: more code improvements [1/2]
+ ▪ e6ddfe6 Smartbar media arrows: more code improvements
+ ▪ 4b13131 Smartbar track arrows: code cleanup and don't show them on video playing
+ ▪ 3c7daeb SmartBar: allow set custom buttons opacity when Pulse is active [1/3]
+ ▪ 13279b3 Make Smartbar Pixel Animation Durations Customizable [2/3]
+
+ ▪ project packages/apps/OpenDelta/
+
+ ▪ project packages/apps/Settings/
+ ▪ 805e6da Move Magisk Manager Settings shortcut to below KA settings shortcut, westcripp implied (#735)
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ 94029d1 New Material icon
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ 059380f TelephonyProvider: Update icon to Material
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ bf06fdf New Material icon
+
  ▼ 04/02/2017
 
 
  ▪ project build/
- ▪ e7e59f1 Revert "[2/2] Make Magisk flashing opt-out"
  ▪ e4adb34 build: Use android unzip binary instead of busybox
 
  ▪ project device/oneplus/oneplus2/
@@ -16,11 +211,8 @@
  ▪ 9fdeca2 oneplus3: enable dash charging support
 
  ▪ project frameworks/base/
- ▪ 523c7aa Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ d5dc2ce Automatic translation import
  ▪ 1e21950 Smarbar Pixel Navbar Animation Duration Settings [1/3]
  ▪ e021aa8 LTE Tile: Make it Visible for Msim As well
- ▪ 05a13f1 Better QS detail clip animation
 
  ▪ project hardware/qcom/audio-caf/msm8916/
  ▪ ab780a8 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.14' into cm-14.1-caf-8916
@@ -32,98 +224,22 @@
  ▪ 780f4ad CMParts:Make Button Settings and Hardware Key Settings Non Searchable
 
  ▪ project packages/apps/DUI/
- ▪ 1e2fe2a Make Smartbar Pixel Animation Durations Customizable [2/3]
  ▪ 6f4e145 Unlock Home and Back Buttons from Smartbar
 
  ▪ project packages/apps/Dialer/
- ▪ 3284c38 Dialer:call recording automatically.
- ▪ 95ac186 Automatic translation import
 
  ▪ project packages/apps/OmniSwitch/
- ▪ 86af05f Automatic translation import
 
  ▪ project packages/apps/ResurrectionOTA/
- ▪ 65a06bb Automatic translation import
 
  ▪ project packages/apps/ResurrectionStats/
- ▪ 3131d3c Automatic translation import
 
  ▪ project packages/apps/Settings/
  ▪ dcc665a Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
  ▪ f996487 Update rr_strings.xml
  ▪ fce0d71 Add more j5 models (#734)
- ▪ f11b1ba Automatic translation import
  ▪ 07ed706 Settings: Make Smartbar Pixel Animation Durations Customizable [3/3]
  ▪ 2903195 SmartBar: show arrows for next/previous track when playing audio [2/2]
  ▪ 27cc5fe Fix Strings and whitespaces
  ▪ 0341a61 Add Maintainer for Vibe P1a42 (#733)
-
- ▪ project vendor/cm/
- ▪ 3e18c7b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
-
- ▼ 04/01/2017
-
-
- ▪ project android/
- ▪ bf14f32 Revert "cm: Remove ahbottomnavigation library"
-
- ▪ project build/
- ▪ af938da Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ 210ec1f [2/2] Make Magisk flashing opt-out
-
- ▪ project device/oneplus/oneplus2/
- ▪ 1e3d955 Adding suspend_actions tile
-
- ▪ project device/oneplus/oneplus3/
- ▪ ddda3cf Adding suspend_actions tile
-
- ▪ project device/oppo/common/
- ▪ 14fe06f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
-
- ▪ project frameworks/base/
- ▪ 42b1343 Themes: Expose Keyboard Shortcuts Dialog
- ▪ 8781d7f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ a0335b1 Revert "Night tile: automatically set a lower brightness when active [1/2]"
- ▪ c1c6d13 Revert "Night mode tile brightness: allow to set a different value [1/2]"
- ▪ 536cc45 Revert "Merge the two night light options into one"
- ▪ 6d9ae71 Revert "Wider night light auto low brightness action"
- ▪ f673676 Revert "Night auto brightness: restore user brightness values also after reboot"
- ▪ 7845f31 Revert "pocket: introduce pocket judge"
- ▪ c120716 Revert "policy: introduce pocket lock"
-
- ▪ project packages/apps/Bluetooth/
- ▪ 7bc6490 Add "Accept all files" option for incoming files via BT [2/3]
-
- ▪ project packages/apps/DUI/
- ▪ 84da14e SmartBar: show arrows for next/previous track when playing audio [1/2]
-
- ▪ project packages/apps/OmniStyle/
- ▪ 2d29f9d Headers(Nstyle) commit will continue with new headers added soon
- ▪ a130485 Fix NPE with actionbar title
- ▪ 066a2db Bring back Screw'd headers
-
- ▪ project packages/apps/PackageInstaller/
- ▪ 1a33e65 PackageInstaller: Add tint mode to icons
- ▪ 4b47244 Make permissions fragment header match settings style
- ▪ adc202a PackageInstaller: Show current & new version
-
- ▪ project packages/apps/Settings/
- ▪ 5875669 Fix Magisk and re-arrange themes and Magisk settings shortcut to be below RR configuration.
- ▪ 703eb58 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ f0a9062 Revert "Settings: Guard against themes without colorAccent defined"
- ▪ 7689deb Revert "Night light brightness options into Settings"
-
- ▪ project packages/inputmethods/LatinIME/
- ▪ 1a0f823 latinime: change accent colors to pixel blue
- ▪ 0a5b59b Fixing layouts and adding 5th row to QWERTZ.
- ▪ dba14ee Add 5th number row to keyboard.
-
- ▪ project packages/resources/devicesettings/
- ▪ a765ae0 Add strings for fingerprint pocketmode
-
- ▪ project vendor/cm/
- ▪ 05d7713 Update Prebuilts
- ▪ a9a9dad Revert "[1/2] Make Magisk flashing opt-out"
- ▪ 4e252b8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 4f3bebb [1/2] Make Magisk flashing opt-out
 

@@ -1,5 +1,26 @@
 Changelog
 
+6th April 2017
+
+Sources updated till 6th April, 10.30am IST.
+
+fingerprint: disable when device is in pocket
+policy: introduce pocket lock
+pocket: introduce pocket judge
+Settings: add pocket judge toggle
+sepolicy: Fix more denials
+Fix Bluetooth battery icon after reboot
+
+(Comes with sources update)
+Fix Hotspot tile is shown on Guest user
+Smartbar pixel animation: Ability to customize the dots
+FWB:Pulse: allow setting fading blocks opacity
+Switch to Enable or disable Vol up to disable overlays during boot
+Hold "volume up" during boot to disable all overlays
+Fix partial screenshot not working when dragging from left or top border
+SmartBar: allow set custom buttons opacity when Pulse is active
+Add Reset Button to Pixel Animation Duration Settings
+
 2nd April 2017
 
 Sources updated till 2nd April, 9.00am IST.
