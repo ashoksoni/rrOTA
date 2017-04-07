@@ -1,5 +1,18 @@
 Changelog
 
+7th April 2017
+
+Sources updated till 7th April, 6.30pm IST.
+
+Removed#
+- Pocket Lock
+- Pocket Judge
+- fingerprint: disable when device is in pocket
+- OpenDelta Secure-mode temporarily
+
+Dialpad: option to show dialpad automatically - Open Dialer - DIsplay options
+debugfs support - BBS will show kernel log output
+
 6th April 2017
 
 Sources updated till 6th April, 10.30am IST.
