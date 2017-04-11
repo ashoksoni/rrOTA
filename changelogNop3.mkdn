@@ -1,5 +1,14 @@
 Changelog
 
+11th April 2017
+
+Sources updated till 11th April, 6.30pm IST.
+
+Removed#
+- Pocket Lock
+- Pocket Judge
+- fingerprint: disable when device is in pocket
+
 7th April 2017
 
 Sources updated till 7th April, 6.30pm IST.

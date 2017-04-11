@@ -2,10 +2,68 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
- ▼ 04/07/2017
+ ▼ 04/11/2017
 
 
  ▪ project frameworks/base/
+ ▪ f97c0dc Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+
+ ▪ project packages/apps/Settings/
+ ▪ a343b75 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▪ project packages/apps/Snap/
+ ▪ 2ecc334 CameraControls: Toggle the status of disabled views
+ ▪ 7e10f00 Never remove unsupported controls
+ ▪ 30ba558 WideAnglePanoramaUI: Correctly position the progressbar
+
+ ▪ project packages/services/Telecomm/
+ ▪ 100bc18 Merge pull request #2 from SoUnd001/nougat
+
+ ▼ 04/10/2017
+
+
+ ▪ project device/oppo/common/
+ ▪ 165b744 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ d477491 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 0bf73d0 Add "Accept all files" option for incoming files via BT [2/3]
+
+ ▪ project packages/apps/Dialer/
+ ▪ 4464a8f Dialpad: option to show dialpad automatically
+ ▪ 59b13a3 Dialer:call recording automatically.
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ d0bd38a OmniStyle: apply default size on omnirom logo
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ 3678020 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▪ project packages/apps/Snap/
+ ▪ f262e1a Snap: CaptureModule: set switcher index on resume
+ ▪ 0540403 Snap: CaptureUI: fix ModuleSwitcher being invisible
+
+ ▼ 04/09/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Settings/
+ ▪ 3474907 Remove my name from A6020, osprey and falcon (#739)
+
+ ▼ 04/08/2017
+
+
+ ▪ project frameworks/base/
+ ▪ dc5c93a SystemUI: Fix "no notifications" font size
  ▪ 55ea9e6 Revert Pocket Lock/Pocket Judge #SQUASHED#
  ▪ 0bfb208 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
  ▪ 3fc8efe fingerprint: disable when device is in pocket
@@ -16,8 +74,8 @@
  ▪ b76b59c Few derps in Volte and Icon change.
 
  ▪ project packages/apps/Dialer/
- ▪ a4fe1c3 Dialpad: option to show dialpad automatically
- ▪ c2f2d67 Dialer:call recording automatically.
+
+ ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/OpenDelta/
  ▪ 400c409 Removing Secure-mode temporarily
@@ -28,21 +86,7 @@
  ▪ f8e42f9 Settings: add pocket judge toggle
 
  ▪ project vendor/cm/
- ▪ 5b7757d debugfs support.
- ▪ 5e51871 Revert "add pocket judge selinux policy"
-
- ▼ 04/06/2017
-
-
- ▪ project build/
- ▪ 407a46c Revert "[2/2] Make Magisk flashing opt-out"
-
- ▪ project frameworks/base/
- ▪ f0757114 Fix permission description string for DE.
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/Settings/
- ▪ 0d61b7b Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 6fb2403 Fix magisk manager settings location
+ ▪ ed5979d Revert "Revert "add pocket judge selinux policy""
+ ▪ 5593196 Revert "add pocket judge selinux policy"
+ ▪ 51f1032 debugfs support.
 
