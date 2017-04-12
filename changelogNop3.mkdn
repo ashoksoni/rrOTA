@@ -1,8 +1,29 @@
 Changelog
 
+13th April 2017
+
+Sources updated till 13th April, 4.30pm IST.
+
+Fingerprint improvements.
+- refer [URL="https://forum.xda-developers.com/showpost.php?p=71803090&postcount=5832"]this[/URL] post for more info. Thanks to @RohanAJoshi
+Doze improments.
+Fixed - Ambient Display constant ON status.
+Disable Signature Verification
+- Switch is in Dev options.
+- Fix AppOps when Signature verification is disabled. (This issue wasn't exist in earlier builds but my internal builds but mentioning it here because it's related to signature verification process)
+No more downgrade detection
+- No more Downgrade errors when trying to install lower version code applications. This will also fix play store error -505.
+- refer [URL="https://plus.google.com/u/1/+ArtemRussakovskii/posts/1ZkM87CD51y"]this[/URL] post for more info.
+Fixed OpenDelta crashing when opening its settings.
+Mounting /sys/kernel/debug to debugfs on boot. No need to run any script. Should work on all custom kernels, I tested it only on stock kernel though.
+Substratum update to v632
+
+(Comes with sources update)
+contacts: Add support for import contacts to local phone storage
+
 11th April 2017
 
-Sources updated till 11th April, 6.30pm IST.
+Sources updated till 11th April, 12.30pm IST.
 
 Removed#
 - Pocket Lock
