@@ -2,13 +2,76 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
+ ▼ 04/14/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 53de395 op2: overlay: enable config_fingerprintRemoveClientOnCancel
+ ▪ 51019df Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ 02ab63b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 7cc867d ScreenshotEditor: Fix Navbar Glitch for Good.
+ ▪ 56e18f3 Ticker: allow to show music track info on new track being played [1/2]
+ ▪ a815c42 Keyguard:Remove null checks on weather changes
+ ▪ cbaf1a6 Option to Display Data Disabled Indicator Icon [1/2]
+ ▪ 92e6f16 Show lockscreen wallpaper when blur effect is enabled
+ ▪ 2671cdc Add Missing Permission to Keyguard
+ ▪ df2de85 Keyguard Weather : Refactor for new API[1/2]
+ ▪ b77c0ec Extend OmniJaws Client to Keyguard Signed-off-by: Varun Date <date.varun123@gmail.com>
+ ▪ 8a13d7e Merge pull request #192 from ashoksoni/changes
+ ▪ fcbe942 Dialer: show headsup on incoming call even if headsup are off and ticker on
+ ▪ a4af9da Revert "Dialer: show headsup on incoming call even if headsup are off and ticker on"
+ ▪ aa9f013 Merge pull request #189 from ashoksoni/changes
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 4e4d766 Add "Accept all files" option for incoming files via BT [2/3]
+
+ ▪ project packages/apps/Dialer/
+ ▪ a6630f0 Dialpad: option to show dialpad automatically
+ ▪ 9584d78 Dialer:call recording automatically.
+
+ ▪ project packages/apps/OpenDelta/
+ ▪ b9fbb7e Revert "OpenDelta: allow updating to newer versions"
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ de8cee6 PackageInstaller: Add tint mode to icons
+ ▪ da3bb2f Make permissions fragment header match settings style
+ ▪ 7828209 PackageInstaller: Show current & new version
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ 63c90eb More fixes for unofficial builds.
+ ▪ c0f3004 String fixing for unofficial builds.
+ ▪ 37416a3 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 9903553 Update Oneplus2 maintainer (#746)
+ ▪ c2965b9 Ticker: allow to show music track info on new track being played [2/2]
+ ▪ 5a119f2 Option to Display Data Disabled indicator Icons [2/2]
+ ▪ e167289 Settings: Refactor Keyguard Weather [2/2]
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 744f4f9 latinime: change accent colors to pixel blue
+ ▪ 1a124fb Fixing layouts and adding 5th row to QWERTZ.
+ ▪ 6d9cc0e Add 5th number row to keyboard.
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 007f621 MediaScanner behavior on boot [1/3]
+
+ ▪ project system/core/
+ ▪ 0dcb992 Mounting /sys/kernel/debug to debugfs
+
  ▼ 04/13/2017
 
 
+ ▪ project device/oneplus/oneplus2/
+ ▪ df01179 op2: Doze: Refactor
+ ▪ 1a37e68 op2: Doze: Perform operations as current user
+
  ▪ project frameworks/base/
- ▪ 8cb640e Disable Signature Verification (2/2)
- ▪ 609966b No more downgrade detection.
- ▪ fcab0ae Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 03298c8 Dialer: show headsup on incoming call even if headsup are off and ticker on
+ ▪ 3bf8c51 Disable Signature Verification (2/2)
+ ▪ 5c4ded9 No more downgrade detection.
 
  ▪ project kernel/oneplus/msm8996/
  ▪ 61ee383 defconfig: enable KCAL
@@ -24,164 +87,8 @@
  ▪ 2c32cf5 BACKPORT: tcp: avoid infinite loop in tcp_splice_read()
  ▪ e4c429c BACKPORT: posix_acl: Clear SGID bit when setting file permissions
 
- ▪ project packages/apps/OpenDelta/
- ▪ c412f38 Removing Secure-mode temporarily
- ▪ 11e3022 Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_OpenDelta into nougat
-
  ▪ project packages/apps/Settings/
- ▪ de3a55a Disable Signature Verification (1/2)
- ▪ 3f34e9b Fix AppOps when disable_verify_signature=true
- ▪ 4587696 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project system/core/
- ▪ 75f197a Mounting /sys/kernel/debug to debugfs
-
- ▪ project vendor/cm/
- ▪ 3a16809 Revert "debugfs support."
-
- ▼ 04/12/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ 11d8ab3 op2: overlay: enable config_fingerprintRemoveClientOnCancel
- ▪ 68ff31f op2: Doze: Refactor
- ▪ 35858f7 op2: Doze: Perform operations as current user
-
- ▪ project device/oneplus/oneplus3/
- ▪ fa3447a op3(t): overlay: enable config_fingerprintRemoveClientOnCancel
- ▪ c10e294 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
-
- ▪ project frameworks/av/
- ▪ eb06e41 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
- ▪ bcfb7ac stagefright: Remove the HAL3 limitation from the video reference clock selection
-
- ▪ project frameworks/base/
- ▪ 1415e6e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 500eed3 base: services: add config_fingerprintRemoveClientOnCancel
- ▪ 5d314c8 Revert "SystemUI: Add SlotId for MultiSim"
- ▪ 5f48e30 PowerManager: Bring back the compatibility with AOSP
- ▪ 1989685 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ f97c0dc Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
-
- ▪ project frameworks/native/
- ▪ 0dd3703 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
-
- ▪ project packages/apps/CMParts/
- ▪ 4e7219f PerfProfileSettings: Update slider on powersave mode change
- ▪ 5f7bb78 CMParts: Update quick QS pull-down summary for translation
- ▪ 2bad1e9 Fix reorientation of volume buttons on portrait tablets
- ▪ 7d8197d CMParts: update contributors db
-
- ▪ project packages/apps/Contacts/
- ▪ e2478c8 contacts: Add support for import contacts to local phone storage
- ▪ 61abda0 Contacts: Fix strings
-
- ▪ project packages/apps/ContactsCommon/
- ▪ 3dd19dc AccountType: use a pretty phone account icon for local storage account
- ▪ 60791ad SelectAccountActivity : Support local phone account
- ▪ 2445ce7 Add local phone account as a writable AccountTypes.
- ▪ 6113000 Store all local contacts in only one account.
- ▪ ad3262b contacts-common: Add support for import contacts to local phone storage
-
- ▪ project packages/apps/Dialer/
- ▪ 71e65bf Dialpad: option to show dialpad automatically
- ▪ 92404a7 Dialer:call recording automatically.
- ▪ eaecbaa Dialer: AIRPLANE_MODE_ON has moved
- ▪ 8d60bbe Dialer: Fix strings
-
- ▪ project packages/apps/OpenDelta/
- ▪ 733421b OpenDelta: allow updating to newer versions
-
- ▪ project packages/apps/PhoneCommon/
- ▪ 64bae44 PhoneCommon: Another round of qtistring fixes
-
- ▪ project packages/apps/Settings/
- ▪ 6d1c22e Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ e59efec Rename ZUK Z1 mainatainer (#745)
- ▪ 10b77a3 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ f164a31 Fixed device_maintainers_fragment.xml (#743)
- ▪ 604a3bb Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ a550dd0 Fix required strings
- ▪ e6df73e Add ZTE Axon7 dev to the mix (#741)
- ▪ 30e9dbc Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ a343b75 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 31b36ca Polish copyright
-
- ▪ project packages/services/Telephony/
- ▪ 3087a7d VoicemailSettingsActivity: Fix NPE
- ▪ 9923974 telephony: fix crash when missing simcard
-
- ▪ project system/core/
- ▪ 918f328 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
-
- ▪ project vendor/cm/
- ▪ edd9f19 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ fcf5cff Add email app to device idle whitelist.
- ▪ b7a56d2 kernel: Include openssl headers and dylibs on darwin
- ▪ c665a88 build: Update smali and baksmali to 2.2.0
- ▪ 6e0481c roomservice: handle devices with underscores
- ▪ e31175a Substratum update to v632
-
- ▪ project vendor/cmsdk/
- ▪ 62576c7 PerformanceManager: Don't override the user preference
- ▪ ef95847 PerformanceManager: Don't force powersave mode with powersave profile
-
- ▼ 04/11/2017
-
-
- ▪ project device/oppo/common/
- ▪ 165b744 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
-
- ▪ project frameworks/base/
- ▪ d477491 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
-
- ▪ project hardware/qcom/display-caf/msm8960/
- ▪ 09cce1b hwcomposer: Fix regression in hwc_sync
-
- ▪ project packages/apps/Bluetooth/
- ▪ 0bf73d0 Add "Accept all files" option for incoming files via BT [2/3]
-
- ▪ project packages/apps/OmniStyle/
- ▪ d0bd38a OmniStyle: apply default size on omnirom logo
-
- ▪ project packages/apps/Settings/
- ▪ 3678020 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project packages/apps/Snap/
- ▪ 2ecc334 CameraControls: Toggle the status of disabled views
- ▪ 7e10f00 Never remove unsupported controls
- ▪ 30ba558 WideAnglePanoramaUI: Correctly position the progressbar
-
- ▪ project packages/services/Telecomm/
- ▪ 100bc18 Merge pull request #2 from SoUnd001/nougat
-
- ▼ 04/10/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/ResurrectionStats/
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/apps/Snap/
- ▪ f262e1a Snap: CaptureModule: set switcher index on resume
- ▪ 0540403 Snap: CaptureUI: fix ModuleSwitcher being invisible
-
- ▼ 04/09/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/Settings/
- ▪ 3474907 Remove my name from A6020, osprey and falcon (#739)
-
+ ▪ 67a6f92 Disable Signature Verification (1/2)
+ ▪ 7291086 Fix AppOps when disable_verify_signature=true
+ ▪ a3f26d4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
 

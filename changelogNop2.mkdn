@@ -1,5 +1,19 @@
 Changelog
 
+14th April 2017
+
+Sources updated till 14th April, 5.30pm IST.
+
+Unofficial builds again.
+Revert "OpenDelta: allow updating to newer versions" - Most probably the reason for bootloops.
+
+(Comes with sources update)
+ScreenshotEditor: Fix Navbar Glitch for Good.
+Ticker: allow to show music track info on new track being played
+Option to Display Data Disabled Indicator Icon
+Show lockscreen wallpaper when blur effect is enabled
+Dialer: show headsup on incoming call even if headsup are off and ticker on
+
 13th April 2017
 
 Sources updated till 13th April, 4.30pm IST.
