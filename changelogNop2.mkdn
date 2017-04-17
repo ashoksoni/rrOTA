@@ -1,5 +1,43 @@
 Changelog
 
+17th April 2017
+
+Sources updated till 17th April, 1.30pm IST.
+
+Android 7.1.2
+
+Removed#
+Allow unlocked USB data access
+- Not compatible with 7.1.2. If I find anyone update commits for it, I will include it again.
+
+Added QS notifications tile
+- Changes to TickerOn-HeadsupOFF / HeadsupON-TickerOFF / Both Off.
+- Long press will take you to Notification settings.
+StatusbarHeader: make user avatar long clickable
+- Long press on User avatar in Statusbar will take you to User settings.
+Camera: support loading HAL1 list from filesystem
+- Make a new files: /system/etc/hal1-camerapackage-list.txt (Set permission to 644)
+- Add entries like this - com.skype.raider,com.whatsapp
+- Reboot and now these apps should be using HAL1. Haven't tested and not sure every app can do this still try and test.
+Camera: check if hal1 pkg list exists before reading it
+Base: fix facelock crash when lock screen is disabled
+Statusbar weather: automatically enable/disable OmniJaws if (not) required
+Weather tile longclick alternative to Google weather
+-  MyRadar Weather Radar (If you installed this app, it will open if you long press Weather qs tile)
+Replaced Random with ThreadLocalRandom
+- Random is pretty old to generate Random stuff, ThreadLocalRandom introduced with Java7 is much more efficient. (Using this to generate Random Animation effects)
+Added Android ID Changer - Under Dev Settings
+- You can change your Android ID without any third party app now.
+"Battery Usage Alerts" visible and working properly.
+- Google made this feature available only on official factory images, it's working now.
+- Go to your Battery settings. click on 3dots and then select Usage Alerts.
+- Don't worry if the list is empty, it populates when you have misbehaving apps that are consuming entirely too much battery.
+
+(Comes with sources update)
+SystemUI : port performance profile toggle from M
+base:Optional weather info in expanded header
+Fix missing lockscreen shortcut icons after reboot
+
 14th April 2017
 
 Sources updated till 14th April, 5.30pm IST.
