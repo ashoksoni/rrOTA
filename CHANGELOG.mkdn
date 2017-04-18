@@ -2,21 +2,83 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
+ ▼ 04/18/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ d665ed3 Added Hardware keys and Magisk qs tiles.
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 741d991 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 1579678 Added Hardware keys and Magisk qs tiles
+
+ ▪ project frameworks/base/
+ ▪ 60a8c8d Using ThreadLocalRandom instead of Random for Aarrrrhhhhh
+ ▪ 37fea86 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ f485fd0 PSB:Remove duplicate observer
+ ▪ cf1d6f4 Disable Secure Flag (1/2)
+ ▪ ee883d7 Added Magisk qs tile.
+ ▪ 33f3f49 fingerprint: notify client when cancelling succeeded
+ ▪ 8ab9213 This should fix this f*king bootloop.
+ ▪ 8225d98 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 0d240b0 Revert "Data activity icon in statusbar"
+ ▪ d4b5a2f Revert "Make Data/Wifi activity icon in statusbar optional."
+ ▪ 97dafd6 Revert "FATAL EXCEPTION IN SYSTEM PROCESS: android.ui"
+ ▪ 43d8599 Improve Hw keys Tile
+ ▪ 451889a QuickStatusbarHeader: Fix issues with No weather image being seen all the time
+ ▪ 9813653 Add vpn and data saver to statusbar icon blacklist *fixed vpn toggle it is now instant
+ ▪ d6ed58e Make Data/Wifi activity icon in statusbar optional [1/2]
+ ▪ 1eb99d9 Data activity icon in statusbar
+ ▪ 802a93f SystemUI: Add tile for enable/disable HW keys
+ ▪ 755b7b2 fix wrong algorithm in WifiPowerPerPacket()
+ ▪ 4f39fad FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+ ▪ 70a9450 Ticker:Set default color to White [1/2]
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 7731399 defconfig: enable KCAL
+ ▪ c796304 msm: mdss: KCAL: disable igc update
+ ▪ fe2e075 msm: mdss: KCAL: Send a pp display commit when changes are made
+ ▪ 7b4c899 mdss mdp: kcal for mdss_mdp_v1_7
+ ▪ df4bde7 defconfig: Enable Fastcharge
+ ▪ 074b1da drivers: misc: implement usb fast charge mode
+ ▪ 75b1339 tri state key fixes
+ ▪ e7ce412 tri_state_key: allow more key codes for extra modes
+ ▪ c98d15d proc: Remove verifiedbootstate flag from /proc/cmdline
+
+ ▪ project packages/apps/Dialer/
+ ▪ 6cc72b8 Dialer:call recording automatically.
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ d9f06f1 Revert "Disable Secure Flag (2/2)"
+ ▪ f91c654 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ c5ce86a Settings: Fix ugly whitespacing and build
+ ▪ 5e5d45c add maintainer for clark, flounder, manta, vs980, d2lte, and tenderloin (#753)
+ ▪ eecea93 Disable Secure Flag (2/2)
+ ▪ 725cde1 Just for the sake of Nit-picking..
+ ▪ da51d5e Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ e2bb742 Fix 7.1.2 mismerge
+ ▪ b6aa3ee Option to disable data & wifi indicators
+ ▪ cf61891 Add HWkeys Settings as an activity
+ ▪ 08a6aa1 Ticker:Set default colors to white [2/2]
+
+ ▪ project system/extras/
+ ▪ b5332df Update verity_verifier from master branch
+ ▪ 196ed2f verity: Include libcrypto_utils_static
+ ▪ 252fe23 Revert "Revert "Switch to BoringSSL for crypto.""
+
+ ▪ project vendor/cm/
+ ▪ fe44af9 Substratum version updated to 671
+
  ▼ 04/17/2017
 
-
- ▪ project android/
- ▪ 34db8bf Revert "Sync infra-related projects"
 
  ▪ project build/
  ▪ 72b4bb0 Kill some log spam
  ▪ 8b8c8c0 Add root support for Tasker when using Magisk SU
-
- ▪ project device/oneplus/oneplus2/
- ▪ f336c93 Added Notifications qs tile
-
- ▪ project device/oneplus/oneplus3/
- ▪ 7ea2c76 Added Notification qs tile
 
  ▪ project frameworks/base/
  ▪ 249adc2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
@@ -43,282 +105,17 @@
  ▪ 9cedba5 Disable Signature Verification (2/2)
  ▪ 298e23c No more downgrade detection.
  ▪ 27ad317 base: dont worry but dont be lucky
- ▪ 038f83c Statusbar weather: automatically enable/disable OmniJaws if (not) required
- ▪ 2b0399a Weather tile longclick alternative to Google weather :
- ▪ 267e9bb QS: Set default column number to 5 (1/2)
- ▪ 1ab2fad Hide Lockscreen emergency button [1/2]
- ▪ 371e72e base: add zen mode off hook to prevent problems with ringer mode
- ▪ b0ea0e9 base: SystemUI: remove debug logging
- ▪ ce88bb9 base: SystemUI: dont hide navbar for screenshot crop
- ▪ 56cff03 base: expose fingerprintWakeAndUnlock for DeviceSettings
- ▪ 1bf021e base: volume dialog: hide headers on all streams if requested
- ▪ 2b31f08 Dependies for OpenDelta rebootCustom
- ▪ ad78885 [1/2] base: expose rebootCustom for OpenDelta
- ▪ e977848 WakeBlock: Blocking the drain before it’s too late
- ▪ f4d768b Turn the spam off
- ▪ 5441ba4 base: location: silence log spilling
- ▪ a473551 Keyguard: disable logspilling debug
- ▪ b2c9768 Configuration qs tile longclick opens OpenDelta now.
- ▪ 084dd13 Define priority for callerinfo selection
- ▪ 24f01c5 Fix inconsistant display number format issue in Messaging application
- ▪ 56ffd80 telephony: Hack GSM and LTE signal strength
- ▪ f0831c4 Framework: Add Fade in and Fade out effect to Recents FAB
- ▪ 7b7b3a6 Themes: Expose Keyguard affordance circle background
- ▪ 67a14de replace new volte icon
- ▪ 76b547a Increase Zenmode max hour limit from 12 to 24
- ▪ dab7d08 Revert long click actions for Heads up to default
- ▪ fce8a91 Revert "Add back data saver long click action"
- ▪ 802c58d Caffeine Tile long press action for infinity.
- ▪ 68e4964 graphics: ADB "N" icon compatible with OMS7
- ▪ 7753ce4 Fw_base - Safe headset volume option (1 of 2)
- ▪ 6b82ff7 Add Random effects to system animations.
- ▪ e2e49c4 Squash: SystemUI: Tile: Lockscreen fixed for 7.0 by @Millosr
- ▪ baa725f3 GestureInputFilter: stop the battery drain
- ▪ 95900de DND tile: Longpress when active to show detail view
- ▪ 15c12cb Navbar tile: one tap to enable/disable, long tap to choose nav type
- ▪ b92e692 Screenshot tile: single tap to choose the mode, long press to fire
- ▪ 57858e8 Basestatusbar:Fix Headsup Not Working
- ▪ f80c075 Make Data/Wifi activity icon in statusbar optional.
- ▪ 94209d2 Data activity icon in statusbar
- ▪ 2a3468b Fix DUI navbar edit logspam
- ▪ 27edd51 SystemUI: AssistManager - how is this supposed to ever work?
- ▪ a5f7a51 Avoid RuntimeException and log spam
- ▪ 0155205 [PackageManagerService]: Fixes can not boot issue.
- ▪ e9bfada Add "Accept all files" option for incoming files via BT [1/3]
- ▪ b150515 MediaScanner behavior on boot [2/3]
- ▪ 19e0f8f Allow faster app switching
- ▪ 20edd35 webview_packages: fix incorrect signatures
- ▪ 0f52804 webview_packages: correct signature definition for Chrome Stable
- ▪ bf145bb webview_packages: prefer the more powerful webview packages
- ▪ e0052c1 1/2 - Add support for Fake Signatures. enabled by dynamic spoofing
- ▪ af7d488 Basestatusbar:Fix Headsup Not Working
- ▪ c74a2d4 Fix Another Illegal Argument Exception when Changing DPI
- ▪ b118d77 base:Optional weather info in expanded header [1/2]
 
  ▪ project packages/apps/Dialer/
- ▪ cc1ece2 Dialpad: option to show dialpad automatically
- ▪ 9b8a699 Dialer:call recording automatically.
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/ResurrectionStats/
+ ▪ a5b497f Dialpad: option to show dialpad automatically (#1)
 
  ▪ project packages/apps/Settings/
  ▪ 60ba077 Introduce Android ID Changer
- ▪ 8c5a035 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 82ff4d8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 8a346c2 Add Headsup Settings as an Activity
- ▪ cad32b8 Update Z2 Tablet Maintainer
+
+ ▪ project system/extras/
+ ▪ 442b784 Revert "Switch to BoringSSL for crypto."
 
  ▪ project vendor/cm/
  ▪ 665e14e Introduce the 'Turbo' apk - Necessary for support with El Google's new 'Battery Usage Alerts' feature
  ▪ 6cdc37d Revert "Disable ongoing statusbar ime switcher notification [1/2]"
-
- ▼ 04/16/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ e0f9c51 Added Performance Profile Tile
-
- ▪ project device/oneplus/oneplus3/
- ▪ 3acd76e Added Performance Profile Tile
-
- ▪ project frameworks/base/
- ▪ cca1591 QSTileHost: Dont Show Performance tile if No power profiles present
- ▪ 904ce14 fix build
- ▪ cda086a Various fixes and cleanups after 7.1.2 merge
- ▪ e06c6ea Zygote: Fix GL preload property evaluation
- ▪ 1b051d8 systemui: Fix DE translation for navbar buttons
- ▪ 94fd330 Dialer: show headsup on incoming call even if headsup are off [1/2]
- ▪ 6585850 Statusbar ticker: use a gentle smooth fade animation
- ▪ 3a2552b SystemUI : port performance profile toggle from M
- ▪ 6bc95dd Option to Display Data Disabled Indicator Icon [1/2]
- ▪ e7443eb Show lockscreen wallpaper when blur effect is enabled
- ▪ c7b3d2e Keyguard Weather : Refactor for new API[1/2]
- ▪ 76c3eee Extend OmniJaws Client to Keyguard Signed-off-by: Varun Date <date.varun123@gmail.com>
- ▪ 0f67b83 Revert "SystemUI: Add SlotId for MultiSim"
- ▪ ff5103e PowerManager: Bring back the compatibility with AOSP
- ▪ 4e641ad Slim Recents: refresh sizes on dpi change
- ▪ 9af66a6 base: services: add config_fingerprintRemoveClientOnCancel
- ▪ 49c3c91 Ticker: allow to show music track info on new track being played [1/2]
- ▪ 6bfc714 Fix Aosp bug on custom apps tiles: color not changing on tile state change
- ▪ 7aa24a2 ScreenshotEditor: Fix Navbar Glitch for Good.
- ▪ f0cc961 Themes: Expose Keyguard affordance circle background
- ▪ 7f5e8e4 Merge tag 'android-7.1.2_r2' of https://android.googlesource.com/platform//frameworks/base into HEAD
-
- ▪ project frameworks/opt/net/wifi/
- ▪ 59ae3d1 Fix misc-macro-parentheses warnings.
- ▪ 689239c Fix google-explicit-constructor warnings in wifi/service.
- ▪ a4ecf89 Check for config before accessing it
- ▪ df17e96 Wifi: Reset power save mode after association
- ▪ a8745be Do not show scan result entries for MESH networks
- ▪ 71feea0 Broadcast networkstatechange indication on exit from ScanModeState
- ▪ 12f819e wifinative: kill logspilling about wifi power level
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 5dd9c4e defconfig: enable KCAL
- ▪ 5daee7f msm: mdss: KCAL: disable igc update
- ▪ 133515d msm: mdss: KCAL: Send a pp display commit when changes are made
- ▪ 9e3eccf mdss mdp: kcal for mdss_mdp_v1_7
- ▪ 3ea5c02 defconfig: Enable Fastcharge
- ▪ fe177b5 drivers: misc: implement usb fast charge mode
- ▪ dd34d62 tri state key fixes
- ▪ 4e8f8df tri_state_key: allow more key codes for extra modes
- ▪ aef1848 proc: Remove verifiedbootstate flag from /proc/cmdline
-
- ▪ project packages/apps/Bluetooth/
- ▪ 66fc62e Add "Accept all files" option for incoming files via BT [2/3]
-
- ▪ project packages/apps/PackageInstaller/
- ▪ bcecb15 PackageInstaller: Add tint mode to icons
- ▪ 3ad2032 Make permissions fragment header match settings style
- ▪ 4662dc9 PackageInstaller: Show current & new version
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 3833cd4 Constants: update stats reporting/viewing URL   * http://resurrectionremix.sourceforge.net -> https://resurrectionremix.sourceforge.io
- ▪ 8fde88f ResurrectionStats: cleanup
-
- ▪ project packages/apps/Settings/
- ▪ 1e7d35b Optional Expanded statusbar Weather info [2/2]
- ▪ 2d25e77 Revert "BatteryStyles: Add AOSCP Circle battery icon"
- ▪ 31ff6c1 BatteryStyles: Add AOSCP Circle battery icon
- ▪ bdd0e79 [VpnSettings]Crash when activity has been recycled
- ▪ fde62d6 String fixing for unofficial builds.
- ▪ 5543713 Disable Signature Verification (1/2)
- ▪ 5d12b1b Fix AppOps when disable_verify_signature=true
- ▪ 509426f QS: Set default column number to 5 (2/2)
- ▪ 143a02d Settings: Guard against themes without colorAccent defined
- ▪ da15122 Settings: Don't add activities if the app itself is disabled
- ▪ 63c23f7 Fixing an FC in lockscreen settings.
- ▪ 7af618a Settings: Update Substratum dashboard icon
- ▪ 2a78acf Always show screen on time
- ▪ 07935a3 Enable storage manager settings.
- ▪ 95de72e Hide Lockscreen emergency button [2/2]
- ▪ 7df63d7 Properly remove root access under DevSettings - SuperSU
- ▪ 55c262d Settings: Change magisk dashboard icon
- ▪ 527e874 Add longpress action for data saver QS tiles
- ▪ cce106f Bring back main dashboard background color
- ▪ d15009a Add Magisk Manager dashboard option
- ▪ 8f4c8f8 Add Phh Superuser dashboard tile
- ▪ 5781f7e Settings: display fstype for mounted volumes
- ▪ 5158839 Safe headset volume option (2 of 2)
- ▪ 3c3676d OpenDelta Settings
- ▪ 7e6fd31 We already know is Android, no need to say Android lol
- ▪ 7563431 Show USB Mode Dialog
- ▪ 9cdd4a1 Launch SuperSU from Settings
- ▪ ddf36dc Add "Accept all files" option for incoming files via BT [3/3]
- ▪ eea961f Partition information menu and Extra info
- ▪ be89756 MediaScanner behavior on boot [3/3]
- ▪ 01e6afd AICP to rr
- ▪ 6a21b88 Development Settings: Add QS to toggle Show touches
- ▪ 443bd83 Development Settings: Add QS to toggle Disable HW Overlays
- ▪ b637a9d Fix Dev settings FC after edgegesture merge
- ▪ 45cdb0e Settings: Add preference for EdgeGesture service.
- ▪ 8a116ab InstalledApp: show link to Google Play
- ▪ 87f0d91 Add fastscroll to the Manage applications screen
- ▪ f04c295 Open app when clicking on icon in App Info screen
- ▪ 14aea58 2/2 - Add support for Fake Signatures. enabled by dynamic spoofing.
- ▪ ad9f195 Add Xperia Z Ultra Maintainer
- ▪ e79fca4 Add my name as maintainer for moto g 2015 (osprey) (#749)
- ▪ d5a421a Update resurrection_device_maintainers_strings.xml (#747)
- ▪ 889c5ac Dialer: show headsup on incoming call even if headsup are off [2/2]
- ▪ b0b7663 Update Oneplus2 maintainer (#746)
- ▪ 7fd0f34 Option to Display Data Disabled indicator Icons [2/2]
- ▪ 2c57984 Port "Battery Usage Alerts" feature from factory images to aosp
- ▪ cbea28d Settings: Refactor Keyguard Weather [2/2]
- ▪ 1bcad64 Rename ZUK Z1 mainatainer (#745)
- ▪ f1962b7 Fixed device_maintainers_fragment.xml (#743)
- ▪ e863204 Fix required strings
- ▪ 02d0b19 Add ZTE Axon7 dev to the mix (#741)
- ▪ cebfd40 Ticker: allow to show music track info on new track being played [2/2]
- ▪ 31a9d2d Settings: Expose and add tint mode to custom icons
-
- ▪ project packages/inputmethods/LatinIME/
- ▪ 882e05b latinime: change accent colors to pixel blue
- ▪ 15acae9 Fixing layouts and adding 5th row to QWERTZ.
- ▪ 873e916 Add 5th number row to keyboard.
-
- ▪ project packages/providers/MediaProvider/
- ▪ 99d9a59 MediaScanner behavior on boot [1/3]
-
- ▪ project system/core/
- ▪ 4863b09 OMS rootless: Revert "Create "theme extras" directory"
- ▪ e53ca9b Mounting /sys/kernel/debug to debugfs
-
- ▪ project vendor/cm/
- ▪ 615c073 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ c6c708c rr: clean up Makefiles
- ▪ 9c59d99 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 04d30ef [SQUASH] rr: update changelog script for 5.8.3 and to work with anyone's source dir
-
- ▪ project vendor/oneplus/
- ▪ b564f8f Firmware files from OB13/4 ROM for the TP controller driver.
-
- ▼ 04/15/2017
-
-
- ▪ project android/
- ▪ adb6be3 manifest: android-7.1.1_r25 -> android-7.1.2_r2
- ▪ e14b742 Sync infra-related projects
-
- ▪ project build/
- ▪ 18fa533 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ f21b9cf build: allow to disable recovery-two-step.img generation
- ▪ 97782c2 core: use 0 compression when creating the target_files package
- ▪ 6e67ce1 Create 0 compression ratio jar files
-
- ▪ project device/oneplus/oneplus2/
- ▪ 53de395 op2: overlay: enable config_fingerprintRemoveClientOnCancel
- ▪ 51019df Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
-
- ▪ project frameworks/av/
- ▪ 0859743 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_av into nougat
- ▪ 88b9d78 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
-
- ▪ project frameworks/native/
- ▪ 450e5a1 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
- ▪ 005ce14 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
-
- ▪ project kernel/oneplus/msm8996/
- ▪ ebba2b9 input: synaptics: Ditch oneplus virtual abs code
-
- ▪ project packages/apps/Contacts/
- ▪ 143e1fe Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_apps_Contacts into nougat
-
- ▪ project packages/apps/ContactsCommon/
- ▪ f97eb22 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_apps_ContactsCommon into nougat
-
- ▪ project packages/apps/Dialer/
- ▪ 8c9e2ae Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat
-
- ▪ project packages/apps/OpenDelta/
- ▪ b9fbb7e Revert "OpenDelta: allow updating to newer versions"
-
- ▪ project packages/apps/PhoneCommon/
- ▪ 75e864f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_PhoneCommon into nougat
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 3bd814e Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionStats into nougat
- ▪ 17c21f3 Bump version to 5.8.3
- ▪ 443ab3f Merge remote-tracking branch 'rr/nougat' into HEAD
- ▪ 384acbc stats: RR 5.8.3
-
- ▪ project packages/services/Telecomm/
- ▪ 357ff90 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_services_Telecomm into nougat
-
- ▪ project packages/services/Telephony/
- ▪ 6d1d221 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_services_Telephony into nougat
-
- ▪ project system/core/
- ▪ ae467ca Merge branch '7.1.2' of https://github.com/ResurrectionRemix/system_core into nougat
-
- ▪ project vendor/cm/
- ▪ 5ff1809 Update 5.8.2 to 5.8.3
- ▪ c04ffd6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
-
- ▼ 04/14/2017
-
-
- ▪ project frameworks/av/
- ▪ 4a98590 stagefright: Fix SurfaceMediaSource buffer search condition when buffer return
 

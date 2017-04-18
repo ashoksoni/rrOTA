@@ -1,5 +1,21 @@
 Changelog
 
+18th April 2017
+
+Sources updated till 18th April, 6.30pm IST.
+
+Bootloops issues should be fixed finally.
+
+Added Magisk qs tiles.
+Wifi Activity switcher is moved to Statusbar-System Icons.
+Changed Advanced data tile to Data easy toggle in quicksettings - advanced options.
+Substratum version updated to 671
+
+(Comes with sources update)
+Add tile for enable/disable HW keys
+QuickStatusbarHeader: Fix issues with No weather image being seen all the time
+Add vpn and data saver to statusbar icon blacklist *fixed vpn toggle it is now instant
+
 17th April 2017
 
 Sources updated till 17th April, 1.30pm IST.
