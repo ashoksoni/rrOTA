@@ -1,5 +1,27 @@
 Changelog
 
+24th April 2017
+
+Sources updated till 24th April, 1.30pm IST.
+
+op3: Add missing & remove unused blobs
+op3: Sort blob list
+op3: Update to OB14 blobs
+op3: use stock aptX libraries from ob14
+
+QuickSettings : Don't run checks when not needed (in case of Pirating related apps)
+Fix NullPointerException in MediaPlayer
+Fix a null pointer exception in FragmentManager
+Redundant waiting time of keyguard unlocking after reboot
+
+Wifi/Data activity indicators are again in SytemUI Tuner and works as before. Reverted the new way to older way.
+
+Disable FlagSecure
+- Allowing Screenshots even when some apps just won't let you. ;)
+
+Fixed Heads up tile - Reason was Headsup/Ticker tile which is fixed now.
+Fixed Magisk qs tile color accent issue.
+
 18th April 2017
 
 Sources updated till 18th April, 6.30pm IST.
