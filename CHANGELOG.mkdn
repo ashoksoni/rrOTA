@@ -2,6 +2,85 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
+ ▼ 04/26/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 8117bba Removing Gello
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ b25a17d Removing Gello
+
+ ▪ project frameworks/base/
+ ▪ e07f488 Padding reduced for circle battery.
+ ▪ 1d84dd3 base: services: add config_fingerprintRemoveClientOnCancel
+ ▪ d6ad09e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ b250de6 Fix animation duration for custom animations
+ ▪ 7d1e873 Revert "fingerprint: notify client when cancelling succeeded"
+
+ ▪ project frameworks/opt/telephony/
+ ▪ bc43228 Create cdma dummy apns.
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 6bace74 msm8996: audio: Add l/r mic swapping when using stereo mics
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 1f0ec6e Revert "Gallery2: hide navigation bar when we turn off lights"
+
+ ▪ project packages/apps/OpenDelta/
+ ▪ 518992e Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_OpenDelta into nougat
+
+ ▪ project packages/apps/Phonograph/
+
+ ▪ project packages/apps/Settings/
+ ▪ ad306db Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 52d6890 Settings: Custom animation duration settings [2/2]
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 9936dc3 README: Recommend Interfacer be put in the services folder
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ 99649a5 Don't show market links if market app is protected
+ ▪ 1cc5cef Trebuchet: use normalized strings for sorting into bucket
+
+
+ ▪ project vendor/cm/
+ ▪ 8c3c76b Replaced Gello with Browser
+ ▪ ddd7482 MagiskManager updated to v4.3.2 and Substratum updated to v703
+
+ ▼ 04/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 4863e25 Fix DUI slippery flag logic and IllegalArgumentException [2/2]
+ ▪ 1650a12 Need to resize new created stack to fullscreen after docked stack tasks has moved into it.
+ ▪ cda2cbe Fix race condition when writing UidState of appops.
+ ▪ 000c5b8 Fix PacketKeepalive.stop() crash
+ ▪ deef943 ActivityStack index OOB cause device restart
+ ▪ 07a5433 Remove force weather update bits
+ ▪ 48f1315 Redundant waiting time of keyguard unlocking after reboot
+ ▪ 7911e22 Make sure that the device name is not null before returning it
+ ▪ 8c3fb3b Fix a null pointer exception in FragmentManager
+ ▪ aa5f6e6 Keyguard: Move CAF strings to cm_strings.xml.
+ ▪ 94a3bb6 fingerprint: notify client when cancelling succeeded
+ ▪ 2e7a838 Revert "base: services: add config_fingerprintRemoveClientOnCancel"
+
+ ▪ project packages/apps/DUI/
+ ▪ 8f840c5 Fix DUI slippery flag logic and IllegalArgumentException [1/2]
+
+ ▪ project packages/apps/Phonograph/
+ ▪ 651a21e Phonograph: rename local gson
+
+ ▪ project packages/apps/Settings/
+ ▪ 4382afd Screenshot Delay:Make it faster optionally
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 772c1b8 OmniJaws: remove separation between force and not force update
+ ▪ 7193cd8 OmniJaws: add fetch weather data retry loop
+
+ ▪ project vendor/cm/
+ ▪ 9cc469e Replaced Eleven with Phonograph
+
  ▼ 04/24/2017
 
 
@@ -10,7 +89,12 @@
  ▪ 0e1ba1c sepolicy: Fix denials
  ▪ 441b1a5 oneplus2: Relax WiFi re-association RSSI thresholds
 
+ ▪ project device/oneplus/oneplus3/
+ ▪ ec888cb Revert "Revert "Revert "op3: add aptX codec support"""
+
  ▪ project frameworks/base/
+ ▪ 5ee090a Revert "FWB: Add AOSCP Battery Style"
+ ▪ 1cd75d5 FWB: Add AOSCP Battery Style
  ▪ e072e74 Replaced Random with ThreadLocalRandom
  ▪ 6c30b84 QuickSettings : Don't run checks when not needed
  ▪ b747458 PackageUtils : More fucky snatchers
@@ -38,154 +122,22 @@
  ▪ 6f3a828 Base: fix facelock crash when lock screen is disabled
  ▪ f90dbd0 Disable Signature Verification (2/2)
  ▪ fcfb5e0 No more downgrade detection.
- 
- ▪ project frameworks/native/
- ▪ 6ba5c92 Allowing Screenshots even when it's not possible to.
+ ▪ 1dba449 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
 
  ▪ project hardware/qcom/audio-caf/msm8996/
  ▪ fc1c0d9 Add special case for stereo camcorder
 
  ▪ project kernel/oneplus/msm8994/
+ ▪ f7b4e46 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into cm-14.1
  ▪ 19895cc Synchronize codes for OxygenOS 3.5.8 The changes list: 1.Recording 4K video capture process caused by the phone into the crash 2.Fix some stability issue and crash issue 3.add some secure patch
 
  ▪ project packages/apps/Settings/
+ ▪ cec5d7b Revert "BatteryStyles: Add AOSCP Circle battery icon"
+ ▪ 6d3ff56 BatteryStyles: Add AOSCP Circle battery icon
  ▪ de7293b Just for the sake of Nit-picking..
  ▪ 4602887 Introduce Android ID Changer
  ▪ 9f8b357 Revert "Option to disable data & wifi indicators"
+ ▪ cb5e651 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
 
- ▪ project vendor/oneplus/
- ▪ 2b571b4 op3: Add missing & remove unused blobs
- ▪ bc1b928 op3: Update to OB14 blobs
-
- ▼ 04/23/2017
-
- ▪ project device/oneplus/oneplus3/
- ▪ 90d4bc5 op3: Add missing & remove unused blobs
- ▪ 6fd6073 op3: Sort blob list
- ▪ 0f16cda op3: Update to OB14 blobs
-
- ▪ project device/oppo/common/
- ▪ 1201c6d Change None to All Notifications
- ▪ 0f94b2b oppo_common: Add dashboard summary
- ▪ 372040d ConfigPanel:Use pixel accent colors
- ▪ 23bf8d1 Notification slider: add extra options - Option to ignore slider in zen auto mode - Extra notification modes (ring and vibrate)
-
- ▪ project external/stagefright-plugins/
- ▪ 3846013 Revert "codecs: Disable AC3/EAC3"
-
- ▪ project frameworks/opt/net/wifi/
- ▪ 1447e42 Fix misc-macro-parentheses warnings.
- ▪ f5b0e5f Fix google-explicit-constructor warnings in wifi/service.
- ▪ d4a6272 Check for config before accessing it
- ▪ 392a64e Wifi: Reset power save mode after association
- ▪ 3017582 Do not show scan result entries for MESH networks
- ▪ 23758d4 Broadcast networkstatechange indication on exit from ScanModeState
- ▪ 1c56ac9 wifinative: kill logspilling about wifi power level
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 97baada hal: Featureize APE/VORBIS/WMA offload support
-
- ▪ project packages/apps/Settings/
- ▪ e27dd96 Add Galaxy S7/edge maintainer (#761)
-
- ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/
- ▪ 97dc2c5 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/
- ▪ b835020 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/
- ▪ 1f9b173 Initial commit
-
- ▼ 04/22/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ 5919338 op3: use stock aptX libraries from ob14
-
- ▪ project frameworks/base/
- ▪ 5dc497d Revert "Fix exploit where can hide the fact that a location was mocked"
- ▪ a47a580 Statusbar weather: automatically enable/disable OmniJaws if (not) required
- ▪ e3bf5ee Weather tile longclick alternative to Google weather :
- ▪ dfc1f50 QS: Set default column number to 5 (1/2)
- ▪ f4b1860 Hide Lockscreen emergency button [1/2]
- ▪ 4116ee1 base: add zen mode off hook to prevent problems with ringer mode
- ▪ 5a71c77 base: SystemUI: remove debug logging
- ▪ dc4fdf2 base: SystemUI: dont hide navbar for screenshot crop
- ▪ ea180c0 base: expose fingerprintWakeAndUnlock for DeviceSettings
- ▪ 05c0e9e base: volume dialog: hide headers on all streams if requested
- ▪ 06d780f Dependies for OpenDelta rebootCustom
- ▪ c5ed784 [1/2] base: expose rebootCustom for OpenDelta
- ▪ 070ac7a WakeBlock: Blocking the drain before it’s too late
- ▪ a60f726 Turn the spam off
- ▪ a1223f7 base: location: silence log spilling
- ▪ 23ea53d Keyguard: disable logspilling debug
- ▪ 1c04430 Configuration qs tile longclick opens OpenDelta now.
- ▪ b877d8f Define priority for callerinfo selection
- ▪ eae2ade Fix inconsistant display number format issue in Messaging application
- ▪ 4735b9f telephony: Hack GSM and LTE signal strength
- ▪ 08e5e32 Framework: Add Fade in and Fade out effect to Recents FAB
- ▪ 21a7321 Themes: Expose Keyguard affordance circle background
- ▪ e81d9f7 replace new volte icon
- ▪ 64f12da Increase Zenmode max hour limit from 12 to 24
- ▪ f2fe619 Revert long click actions for Heads up to default
- ▪ a460ef7 Revert "Add back data saver long click action"
- ▪ 0377c39 Caffeine Tile long press action for infinity.
- ▪ 7d78a43 graphics: ADB "N" icon compatible with OMS7
- ▪ fa742ae Fw_base - Safe headset volume option (1 of 2)
- ▪ 03a1a3c Add Random effects to system animations.
- ▪ c247ea2 Squash: SystemUI: Tile: Lockscreen fixed for 7.0 by @Millosr
- ▪ d9b99d3 GestureInputFilter: stop the battery drain
- ▪ 42bf30a DND tile: Longpress when active to show detail view
- ▪ b436d07 Navbar tile: one tap to enable/disable, long tap to choose nav type
- ▪ 7aaf4cd Screenshot tile: single tap to choose the mode, long press to fire
- ▪ 3be7ffa Make Data/Wifi activity icon in statusbar optional.
- ▪ e45421c Data activity icon in statusbar
- ▪ c200c26 Revert "Data activity icon in statusbar"
- ▪ d087cc1 Revert "Make Data/Wifi activity icon in statusbar optional [1/2]"
- ▪ fe6c49d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
-
- ▪ project packages/apps/Settings/
- ▪ d40aee2 Update Moto G4 Plus Maintainer (#760)
- ▪ 22974ab Fix screenshots delay default value
-
- ▪ project vendor/cm/
- ▪ 6bfe845 Substratum version updated to 672
-
- ▼ 04/21/2017
-
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 41cd40d Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.15' into cm-14.1-caf-8916
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ ce39c30 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994
-
- ▪ project hardware/qcom/display-caf/msm8994/
- ▪ 434068f Fix duplicate copy file rules
-
- ▪ project hardware/qcom/media-caf/msm8994/
- ▪ 5f3d105 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994
-
- ▪ project packages/apps/Settings/
- ▪ 71280d1 Add me as Sirius maintainer (#758)
- ▪ 304dc77 Fix the build up !
- ▪ 7b807dc Add Capricorn maintanier (#757)
- ▪ 9f4c631 Add Nougat Maintainer for LeEco Le Max2 (x2) (#755)
- ▪ 1257948 Settings: update string
-
- ▼ 04/20/2017
-
-
- ▪ project android/
- ▪ 30d3069 crowdin: fix sync
-
- ▪ project frameworks/base/
- ▪ f1e008a SystemUI:Notification bar custom notification display problems
- ▪ d44c3f3 BT: Update wait function in ManagerService to handle  BLE states
- ▪ e5e5b09 SystemUI: Fix QSTileHost exception
- ▪ 8a62038 SystemUI: [RJIL new function] AutoBrightness
- ▪ 3f767d0 SystemUI: Fix SystemUI ANR
-
- ▪ project packages/apps/DUI/
- ▪ eaf848b DUI: Basenavigationbar: Catch Slippery Exception
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 97eceaf JobService: Transition to the Binder Interprocess Communication System
