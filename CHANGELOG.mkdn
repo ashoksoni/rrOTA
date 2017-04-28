@@ -2,142 +2,21 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 04/26/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ 8117bba Removing Gello
-
- ▪ project device/oneplus/oneplus3/
- ▪ b25a17d Removing Gello
+ ▼ 04/28/2017
 
  ▪ project frameworks/base/
- ▪ e07f488 Padding reduced for circle battery.
- ▪ 1d84dd3 base: services: add config_fingerprintRemoveClientOnCancel
- ▪ d6ad09e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ b250de6 Fix animation duration for custom animations
- ▪ 7d1e873 Revert "fingerprint: notify client when cancelling succeeded"
-
- ▪ project frameworks/opt/telephony/
- ▪ bc43228 Create cdma dummy apns.
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 6bace74 msm8996: audio: Add l/r mic swapping when using stereo mics
-
- ▪ project packages/apps/Gallery2/
- ▪ 1f0ec6e Revert "Gallery2: hide navigation bar when we turn off lights"
-
- ▪ project packages/apps/OpenDelta/
- ▪ 518992e Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_OpenDelta into nougat
-
- ▪ project packages/apps/Phonograph/
+ ▪ 659ab75 Mamimum limit for password lock is 32. (1/2)
+ ▪ 47997ad Add protected broadcast for app crash broadcast
 
  ▪ project packages/apps/Settings/
- ▪ ad306db Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 52d6890 Settings: Custom animation duration settings [2/2]
+ ▪ 3419960 Mamimum limit for password lock is 32 (2/2)
+ ▪ c8fea1b Settings: Expose styles in the manifest for themes
+ ▪ c6f0ada Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 57fbef2 Settings: Add 25ms and 50ms animation duration cause smallest value (100ms) to long for some effects (#770)
+ ▪ 800c80e Fix SB ticker icon and text default color
 
  ▪ project packages/apps/ThemeInterfacer/
- ▪ 9936dc3 README: Recommend Interfacer be put in the services folder
+ ▪ 40e3809 JobService: Expose configuration shim refresh delay
 
- ▪ project packages/apps/Trebuchet/
- ▪ 99649a5 Don't show market links if market app is protected
- ▪ 1cc5cef Trebuchet: use normalized strings for sorting into bucket
-
-
- ▪ project vendor/cm/
- ▪ 8c3c76b Replaced Gello with Browser
- ▪ ddd7482 MagiskManager updated to v4.3.2 and Substratum updated to v703
-
- ▼ 04/25/2017
-
-
- ▪ project frameworks/base/
- ▪ 4863e25 Fix DUI slippery flag logic and IllegalArgumentException [2/2]
- ▪ 1650a12 Need to resize new created stack to fullscreen after docked stack tasks has moved into it.
- ▪ cda2cbe Fix race condition when writing UidState of appops.
- ▪ 000c5b8 Fix PacketKeepalive.stop() crash
- ▪ deef943 ActivityStack index OOB cause device restart
- ▪ 07a5433 Remove force weather update bits
- ▪ 48f1315 Redundant waiting time of keyguard unlocking after reboot
- ▪ 7911e22 Make sure that the device name is not null before returning it
- ▪ 8c3fb3b Fix a null pointer exception in FragmentManager
- ▪ aa5f6e6 Keyguard: Move CAF strings to cm_strings.xml.
- ▪ 94a3bb6 fingerprint: notify client when cancelling succeeded
- ▪ 2e7a838 Revert "base: services: add config_fingerprintRemoveClientOnCancel"
-
- ▪ project packages/apps/DUI/
- ▪ 8f840c5 Fix DUI slippery flag logic and IllegalArgumentException [1/2]
-
- ▪ project packages/apps/Phonograph/
- ▪ 651a21e Phonograph: rename local gson
-
- ▪ project packages/apps/Settings/
- ▪ 4382afd Screenshot Delay:Make it faster optionally
-
- ▪ project packages/services/OmniJaws/
- ▪ 772c1b8 OmniJaws: remove separation between force and not force update
- ▪ 7193cd8 OmniJaws: add fetch weather data retry loop
-
- ▪ project vendor/cm/
- ▪ 9cc469e Replaced Eleven with Phonograph
-
- ▼ 04/24/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ a2586f7 oneplus2: Notify client when fp cancelling succeeded
- ▪ 0e1ba1c sepolicy: Fix denials
- ▪ 441b1a5 oneplus2: Relax WiFi re-association RSSI thresholds
-
- ▪ project device/oneplus/oneplus3/
- ▪ ec888cb Revert "Revert "Revert "op3: add aptX codec support"""
-
- ▪ project frameworks/base/
- ▪ 5ee090a Revert "FWB: Add AOSCP Battery Style"
- ▪ 1cd75d5 FWB: Add AOSCP Battery Style
- ▪ e072e74 Replaced Random with ThreadLocalRandom
- ▪ 6c30b84 QuickSettings : Don't run checks when not needed
- ▪ b747458 PackageUtils : More fucky snatchers
- ▪ 9d008df ImageTile : Add some Dave magic
- ▪ 8f5ae92 LuckyPatcher Carnt sniffer
- ▪ 110e0dd base: dont worry but dont be lucky
- ▪ 4c9fdf7 SystemUI: Fix ticker qs icon coloring
- ▪ 52a5eee [QUICKSETTINGS] Add notifications tile
- ▪ 9b1dac2 Stop bootanim earlier.
- ▪ 8cc89d9 Fix NullPointerException in MediaPlayer
- ▪ c1f9e72 Fix possible NPE
- ▪ eedf7b5 Derped :p
- ▪ 18dc079 Fix a null pointer exception in FragmentManager
- ▪ 7821a49 Make sure that the device name is not null before returning it
- ▪ 9b7f010 Redundant waiting time of keyguard unlocking after reboot
- ▪ c9efb60 Added Magisk qs tile.
- ▪ c364ad2 fingerprint: notify client when cancelling succeeded
- ▪ b7c930a This should fix this f*king bootloop.
- ▪ ed8c549 aapt: enforce 0 compression
- ▪ 88f8277 base: notifications: DEFAULT_LIGHTS and FLAG_SHOW_LIGHTS must count as noisy
- ▪ f6ffe6f Fixing an NPE
- ▪ 4aeae27 StatusbarHeader: make user avatar long clickable
- ▪ a2988d7 Camera: check if hal1 pkg list exists before reading it
- ▪ eccc4ec Camera: support loading HAL1 list from filesystem
- ▪ 6f3a828 Base: fix facelock crash when lock screen is disabled
- ▪ f90dbd0 Disable Signature Verification (2/2)
- ▪ fcfb5e0 No more downgrade detection.
- ▪ 1dba449 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ fc1c0d9 Add special case for stereo camcorder
-
- ▪ project kernel/oneplus/msm8994/
- ▪ f7b4e46 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into cm-14.1
- ▪ 19895cc Synchronize codes for OxygenOS 3.5.8 The changes list: 1.Recording 4K video capture process caused by the phone into the crash 2.Fix some stability issue and crash issue 3.add some secure patch
-
- ▪ project packages/apps/Settings/
- ▪ cec5d7b Revert "BatteryStyles: Add AOSCP Circle battery icon"
- ▪ 6d3ff56 BatteryStyles: Add AOSCP Circle battery icon
- ▪ de7293b Just for the sake of Nit-picking..
- ▪ 4602887 Introduce Android ID Changer
- ▪ 9f8b357 Revert "Option to disable data & wifi indicators"
- ▪ cb5e651 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 97eceaf JobService: Transition to the Binder Interprocess Communication System
+ ▪ project system/sepolicy/
+ ▪ f8942cc sepolicy: add file and domain trans to interfacer

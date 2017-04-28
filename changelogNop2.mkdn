@@ -1,5 +1,18 @@
 Changelog
 
+28th April 2017
+
+Sources updated till 28th April, 6.30pm IST.
+
+Maximum limit for password lock is 32 now, it was 16 earlier.I would still suggest to use less than 17 as I haven't tested it thoroughly.
+Add protected broadcast for app crash broadcast
+Settings: Expose styles in the manifest for themes
+sepolicy: add file and domain trans to interfacer (May help setting up bootanimations with Substratum)
+
+(Comes with sources update)
+Settings: Add 25ms and 50ms animation duration cause smallest value (100ms) too long for some effects
+Fix SB ticker icon and text default color
+
 26th April 2017
 
 Sources updated till 26th April, 2.30pm IST.
