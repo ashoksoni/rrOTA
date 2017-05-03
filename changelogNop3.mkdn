@@ -1,6 +1,20 @@
 Changelog
 
-Changelog
+03rd May 2017
+
+Sources updated till 03rd May, 5.30pm IST.
+
+Remove "Apps" category when empty
+- In "notification light" settings there was a single line "Apps" even when there were no apps added to the group.
+Replaced "Toogle" with "Toggle" in Display - Headsup summary.
+Camera2 replaced with CM's Snap Camera app.
+Substratum updated to v710
+
+(Comes with sources update)
+Fix keyguard is black background while screen turning off/on quickly
+Fix Fling swipe up gesture being hard to trigger
+AOSP Browser is replaced with Jelly Browser
+Settings: Fix internal storage summary for non-emulated storage
 
 28th April 2017
 
