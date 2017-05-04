@@ -1,5 +1,21 @@
 Changelog
 
+04th May 2017
+
+Sources updated till 04th May, 5.30pm IST.
+
+EAS Introduction.
+- op3: sepolicy: added perfd related policies
+- Vox Populi tunables at initialisation
+- Vox Populi PowerHAL
+
+Unlocked 720P slowmotion video with new mediaprofiles.
+cataloging to enable search for couple of settings options, more will be added later. For now only navigation bar and lockscreen ui.
+Pirate audio changed to something more fun ;) - Not related for you if you aren't a pirate.
+
+(Comes with sources update)
+Make Scrolling for TaskManager list a lot easier
+
 03rd May 2017
 
 Sources updated till 03rd May, 5.30pm IST.
