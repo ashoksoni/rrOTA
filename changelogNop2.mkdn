@@ -1,5 +1,26 @@
 Changelog
 
+07th May 2017
+
+Sources updated till 07th May, 1.05pm IST.
+
+Why going through couple of extra steps, huh!
+- Protected apps will directly present you the unlock screen instead of a notification bar like it should have been. I tested this for a few minutes not thoroughly so if you find any issues, do let me know with a log please.
+
+Lock screen Brightness Level (Right now it's stated as see through transparency which will be fixed in next update)
+- This feature was inspired from See through transparency from GravityBox so all credits to @C3C0
+- You can increase or lower the brightness level on second lockscreen where you need to enter your pin or pattern. Option is under Lock UI
+
+Nuke CNE & QtiTetherService (if you find any issue, let me know though so far testing doesn't reveal any monsters)
+
+cataloging to enable search for couple of settings options, more will be added later. For now only navigation bar and lockscreen ui.
+Pirate audio changed to something more fun ;) - Not related for you if you aren't a pirate.
+Add aptX libs
+ 
+(Comes with sources update)
+base: featureize ro.recents.grid - Grid option is available for recents now.
+Make Scrolling for TaskManager list a lot easier
+
 03rd May 2017
 
 Sources updated till 03rd May, 5.30pm IST.

@@ -2,37 +2,118 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 05/04/2017
+ ▼ 05/07/2017
 
 
- ▪ project bootable/recovery/
- ▪ 616bf9a recovery: Fix event system
+ ▪ project frameworks/base/
+ ▪ 67ebcc5 Why going through couple of extra steps, huh!
+ ▪ e4dd7f2 Trying something different with keylock-background transparency
+ ▪ cd9d287 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 948bba9 base: SystemUI: use content observer for recent grid config
+ ▪ 73dbc18 base:refactor recents code to switch between recents
+ ▪ b0f2122 [1/2] base: featureize ro.recents.grid
+ ▪ 319c5f7 Update OmniSwitch string
+ ▪ 9733626 OmniJawsClient : Move to framework
+ ▪ e2192bc SysUI : Use a different approach to Make perf profile tile invisible
+ ▪ 7805dad base: SystemUI: add dedicated TextView for OmniJaws error marker
+ ▪ 9bdaacf base: SystemUI: dont show OmniJaws error that prominent
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ 99617f9 Configs: remove audio sink buffer size property
+ ▪ a9f2c00 hal: fix kw issue in hal
+ ▪ 6191804 hal: remove redundant logs from utils.c
+ ▪ 905d1d8 audiod: Skip enumerating non-ADSP sound cards
+
+ ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ eb49512 sdm: Use ColorMetadata in SDM
+ ▪ 37d5aff display: Add support for Rec.2020
+ ▪ b6a2bfb sdm: Use safe mode on External display on low end device
+ ▪ 9c64210 HWC: Set skip to layers with Non Integral Source Crop
+ ▪ 93afadf sdm: skip null commit on command mode panels
+ ▪ 2428bc4 libmemtrack: Fix integer overflow in kgsl function
+
+ ▪ project hardware/qcom/media-caf/msm8937/
+ ▪ de0c52e media: libOmxSw encoders require prop headers :(
+ ▪ fcd1cfd mm-video-v4l2: serialize FTB's for dropped frames
+ ▪ 057d1c7 mm-video-v4l2: vidc: venc: Free buffer FDs and handles
+ ▪ a5da2d3 mm-video-v4l2: vdec: Support for HEVCMain10HDR10 profile
+ ▪ 76dd49f mm-video-v4l2: Update max level for h264 decoder to 5.1
+ ▪ 46aa731 mm-video-v4l2: venc: Disable Pframes incase of resolution 5k/6k
+ ▪ 5dc8e7e mm-video-v4l2: Reset drv_ctx o/p buffer requirements in loaded state
+ ▪ 0a4ad7e mm-video-v4l2: vdec: Convert maximum display luminance in cd/m2
+ ▪ 9e702ea mm-video-v4l2: vdec:Metadata for HDR and ColorAspects
+ ▪ 6076eb6 mm-video-v4l2: vdec: Support for HDR Info extension
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ b0b0b4a ResurrectionOTA: squash all translations
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 20ea10d ROMStats: modify for ResurrectionRemix
+
+ ▪ project packages/apps/Settings/
+ ▪ a14e322 Fix build error.
+ ▪ 47e0677 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 048aad9 Refactor Recents Category
+ ▪ d55ce18 Settings:featurize ro.recents.grid [2/2]
+ ▪ c415aa0 Mantainers: Delete WinKarbik from ido mantainer (#784)
+
+ ▼ 05/06/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 9bc491f op3: Update decoder profiling result
+ ▪ 75504af op3: Unpin fpc hal
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ b39c146 mm: Tighten x86 /dev/mem with zeroing reads
+ ▪ 94c9fb3 crypto: ahash - Fix EINPROGRESS notification callback
+ ▪ 49a755e mm/mempolicy.c: fix error handling in set_mempolicy and mbind.
+ ▪ 13914d6 KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings
+ ▪ 412f71f scsi: sg: check length passed to SG_NEXT_CMD_LEN
+ ▪ 5af6f27 xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
+ ▪ d9b5566 KEYS: Change the name of the dead type to ".dead" to prevent user access
+ ▪ 4a4bddf ANDROID: ion: Protect kref from userspace manipulation
+
+ ▪ project packages/apps/Settings/
+ ▪ 34a8e66 Change codename of K3 Note (#783)
+ ▪ ac3d4e8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▪ project vendor/oneplus/
+ ▪ 1a181b5 op3: Update fpc hal from OB15
+
+ ▼ 05/05/2017
+
 
  ▪ project device/oneplus/oneplus2/
  ▪ ebbfb29 Nuke CNE & QtiTetherService [1/2]
 
  ▪ project device/oneplus/oneplus3/
- ▪ 9e988de op3: sepolicy: Import Marlin policies
- ▪ ba706fe Vox Populi tunables at initialisation
- ▪ 1426630 Vox Populi PowerHAL - EAS
- ▪ f7365f4 EAS Introduction..
- ▪ 1d547d0 Unlock 720P slowmotion video
+ ▪ 4777834 ENABLE_SCHEDBOOST in right place
+ ▪ a448b0e Update Vox tunable default values
+ ▪ 646dcb5 Vox Populi tunables have moved to /dev/voxpopuli
+ ▪ 9656fd2 Add policies for perfd
+ ▪ 854cadc Switch to Vox Populi Power HAL repo
+ ▪ b7fbed2 Vox Populi
+ ▪ 23ccfd9 Make private performance libraries accessible
+ ▪ b756f44 op3: init: Start perfd after all perfd properties have been set
+ ▪ 972b1c6 op3: init.qcom.rc: Create /data/misc/perfd
+ ▪ 3096c1a op3: sepolicy: Import Marlin policies
+ ▪ 3bb7fe1 EAS Introduction..
+ ▪ 6b30fd4 [EAS] op3: Enable Schedutil governer if available and revert input boost back to stock values
 
  ▪ project frameworks/base/
  ▪ 3f6e59a Something new ;)
- ▪ 6dfd2a0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ ed3936e Make Scrolling for TaskManager list a lot easier
- ▪ 03a9a2e Base:Dont do anything on weather errors for header & keyguard
 
- ▪ project packages/apps/Settings/
- ▪ 7df85c9 cataloging to enable search for settings.
- ▪ d67efe4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 008a015 Update resurrection_device_maintainers_strings.xml (#782)
- ▪ 33f769f Add device_maintainers_fragment for device thea (#780)
- ▪ 3e9cabc Add Device Maintainer for motorola moto g2 LTE (#781)
+ ▪ project packages/apps/Jelly/
+ ▪ 2006774 Jelly: no need of using srcCompat for imageviews
+
+ ▪ project system/bt/
+ ▪ 0ebf465 Do not include the trailing NULL from the C-String in the SDP service name
 
  ▪ project vendor/oneplus/
- ▪ 2edf487 Nuke CNE & QtiTetherService [2/2]
- ▪ ac1c239 Add aptX libs
- ▪ 6604232 Update Marlin perfd blobs to 7.1.2 (N2G47E)
+ ▪ b0c6010 Update Marlin perfd blobs to 7.1.2 (N2G47E)
+ ▪ ddb83ac Remove Perfd
+ ▪ 555f007 Nuke CNE & QtiTetherService [2/2]
+ ▪ 60cc56a Add aptX libs
+ ▪ dd7f256 No need for onyx or bacon vendor files.
 
