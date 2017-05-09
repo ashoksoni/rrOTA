@@ -1,17 +1,17 @@
 Changelog
 
-07th May 2017
+09th May 2017
 
-Sources updated till 07th May, 1.05pm IST.
+Sources updated till 09th May, 1.04pm IST.
 
-Why going through couple of extra steps, huh!
-- Protected apps will directly present you the unlock screen instead of a notification bar like it should have been. I tested this for a few minutes not thoroughly so if you find any issues, do let me know with a log please.
+Why go through couple of extra steps, huh!
+- Protected apps will directly present you the unlock screen instead of a notification bar like it should have been.
+--- This is kind of a hack, not a professional coded way. Only bug is that you can't run these protected apps through Protected apps options but when running directly, they work fine.
 
-Lock screen Brightness Level (Right now it's stated as see through transparency which will be fixed in next update)
+Lock screen Brightness Level
 - This feature was inspired from See through transparency from GravityBox so all credits to @C3C0
-- You can increase or lower the brightness level on second lockscreen where you need to enter your pin or pattern. Option is under Lock UI
+- You can increase or decrease the brightness level on second lockscreen where you need to enter your pin or pattern. Option is under Lock UI
 
-cataloging to enable search for couple of settings options, more will be added later. For now only navigation bar and lockscreen ui.
 Pirate audio changed to something more fun ;) - Not related for you if you aren't a pirate.
  
 (Comes with sources update)

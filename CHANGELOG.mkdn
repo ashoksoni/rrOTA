@@ -2,11 +2,25 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
+ ▼ 05/09/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ cd16ec2 op3: Cleanup init.qcom.rc
+
+ ▪ project frameworks/base/
+ ▪ 7d6240a Why going through couple of extra steps, huh!
+
+ ▼ 05/08/2017
+
+
+ ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ b7a3010 display: Add color metadata definition
+
  ▼ 05/07/2017
 
 
  ▪ project frameworks/base/
- ▪ 67ebcc5 Why going through couple of extra steps, huh!
  ▪ e4dd7f2 Trying something different with keylock-background transparency
  ▪ cd9d287 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
  ▪ 948bba9 base: SystemUI: use content observer for recent grid config
@@ -25,6 +39,7 @@
  ▪ 905d1d8 audiod: Skip enumerating non-ADSP sound cards
 
  ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ 26cd504 display: Add color metadata definition
  ▪ eb49512 sdm: Use ColorMetadata in SDM
  ▪ 37d5aff display: Add support for Rec.2020
  ▪ b6a2bfb sdm: Use safe mode on External display on low end device
@@ -56,64 +71,4 @@
  ▪ 048aad9 Refactor Recents Category
  ▪ d55ce18 Settings:featurize ro.recents.grid [2/2]
  ▪ c415aa0 Mantainers: Delete WinKarbik from ido mantainer (#784)
-
- ▼ 05/06/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ 9bc491f op3: Update decoder profiling result
- ▪ 75504af op3: Unpin fpc hal
-
- ▪ project kernel/oneplus/msm8996/
- ▪ b39c146 mm: Tighten x86 /dev/mem with zeroing reads
- ▪ 94c9fb3 crypto: ahash - Fix EINPROGRESS notification callback
- ▪ 49a755e mm/mempolicy.c: fix error handling in set_mempolicy and mbind.
- ▪ 13914d6 KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings
- ▪ 412f71f scsi: sg: check length passed to SG_NEXT_CMD_LEN
- ▪ 5af6f27 xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
- ▪ d9b5566 KEYS: Change the name of the dead type to ".dead" to prevent user access
- ▪ 4a4bddf ANDROID: ion: Protect kref from userspace manipulation
-
- ▪ project packages/apps/Settings/
- ▪ 34a8e66 Change codename of K3 Note (#783)
- ▪ ac3d4e8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project vendor/oneplus/
- ▪ 1a181b5 op3: Update fpc hal from OB15
-
- ▼ 05/05/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ ebbfb29 Nuke CNE & QtiTetherService [1/2]
-
- ▪ project device/oneplus/oneplus3/
- ▪ 4777834 ENABLE_SCHEDBOOST in right place
- ▪ a448b0e Update Vox tunable default values
- ▪ 646dcb5 Vox Populi tunables have moved to /dev/voxpopuli
- ▪ 9656fd2 Add policies for perfd
- ▪ 854cadc Switch to Vox Populi Power HAL repo
- ▪ b7fbed2 Vox Populi
- ▪ 23ccfd9 Make private performance libraries accessible
- ▪ b756f44 op3: init: Start perfd after all perfd properties have been set
- ▪ 972b1c6 op3: init.qcom.rc: Create /data/misc/perfd
- ▪ 3096c1a op3: sepolicy: Import Marlin policies
- ▪ 3bb7fe1 EAS Introduction..
- ▪ 6b30fd4 [EAS] op3: Enable Schedutil governer if available and revert input boost back to stock values
-
- ▪ project frameworks/base/
- ▪ 3f6e59a Something new ;)
-
- ▪ project packages/apps/Jelly/
- ▪ 2006774 Jelly: no need of using srcCompat for imageviews
-
- ▪ project system/bt/
- ▪ 0ebf465 Do not include the trailing NULL from the C-String in the SDP service name
-
- ▪ project vendor/oneplus/
- ▪ b0c6010 Update Marlin perfd blobs to 7.1.2 (N2G47E)
- ▪ ddb83ac Remove Perfd
- ▪ 555f007 Nuke CNE & QtiTetherService [2/2]
- ▪ 60cc56a Add aptX libs
- ▪ dd7f256 No need for onyx or bacon vendor files.
 

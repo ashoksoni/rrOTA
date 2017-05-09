@@ -4,8 +4,9 @@ Changelog
 
 Sources updated till 07th May, 1.05pm IST.
 
-Why going through couple of extra steps, huh!
-- Protected apps will directly present you the unlock screen instead of a notification bar like it should have been. I tested this for a few minutes not thoroughly so if you find any issues, do let me know with a log please.
+Why go through couple of extra steps, huh!
+- Protected apps will directly present you the unlock screen instead of a notification bar like it should have been.
+--- This is kind of a hack, not a professional coded way. Only bug is that you can't run these protected apps through Protected apps options but when running directly, they work fine.
 
 Lock screen Brightness Level (Right now it's stated as see through transparency which will be fixed in next update)
 - This feature was inspired from See through transparency from GravityBox so all credits to @C3C0
