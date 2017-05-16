@@ -1,5 +1,42 @@
 Changelog
 
+17th May 2017
+
+Sources updated till 17th May, 12.30pm IST.
+
+Spectrum bringup for profile management
+- Empty profiles though. Will work on them later.
+- You can also suggest me your applied settiongs if you use different than stock settings.
+Disable power_aware and enable all cores on boot.
+klog.c for Android
+- Display kernel messages like tail -f
+[SystemUI] Remove custom tiles from the same uninstalled package
+Navbar tile: apply one tap to enable/disable also to mini tiles bar
+Screen pinning improvements
+Fix WiFi QS in the off state while entering the detail view
+
+sepolicy: Allow system_server to set theme_prop
+init: Disable bugreport button combo
+bluetooth: Show a refresh icon on the select devices screen
+Remove bugreport settings
+Remove duplicate options in accessibility settings
+Hide learn more button on fingerprint page
+Disable the other learn more too to prevent crash
+ChooseLockGeneric: fix crash
+system.prop: enable auto hdr
+Official latest OOS build fingerprint (Will also fix playstore certification issue)
+Disable Priority/Zen mode when switching to Vibrate/Ring
+
+(Comes with sources update)
+incall vibration options (Removed from Dialer and moved to Settings)
+- allow setting vibration when call is connected
+- allow setting vibration when call is disconnected
+- allow setting vibration for call waiting *this works with google and aosp dialer :)
+Keyguard: disable logspilling debug
+Fix carrier label not getting scaled properly
+StatusBar: Catch OOM caused by third-party icons
+DUI: Fix Smartbar back button hiding on lockscreen intents
+
 07th May 2017
 
 Sources updated till 07th May, 1.05pm IST.

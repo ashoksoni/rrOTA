@@ -1,5 +1,59 @@
 Changelog
 
+17th May 2017
+
+Sources updated till 17th May, 12.46pm IST.
+
+Spectrum bringup for profile management
+- Empty profiles though. Will work on them later.
+- You can also suggest me your applied settiongs if you use different than stock settings.
+
+oneplus3: Disable spammy camera HAL log messages
+oneplus3: Disable sdcardfs
+oneplus3: Remove all remaining premium Qualcomm location blobs
+oneplus3: Disable premium location services
+oneplus3: Remove CNE and DPM
+oneplus3: Use Google's fused location provider
+oneplus3: liblights: Calculate brightness ramp automatically on init
+oneplus3: Optimize power config on boot
+oneplus3: Remove debug/deprecated graphics props
+gps: Update to CAF LA.UM.5.5.r1-04000-8x96.0
+op3: Disable tethering provisioning for all carriers
+perfd: Add system GID
+Add policies for perfd
+op3: init: Start perfd after all perfd properties have been set
+op3: init.qcom.rc: Create /data/misc/perfd
+[EAS] op3: Enable Schedutil governer if available and revert input boost back to stock values
+op3: sepolicy: Import Marlin policies
+Vox Populi tunables
+EAS Introduction..
+op3: Remove QVOP service
+drivers: staging: Update qcacld-2.0 driver
+misc: Squashed revert upstream applied security patches
+
+klog.c for Android
+- Display kernel messages like tail -f
+
+sepolicy: Allow system_server to set theme_prop
+init: Disable bugreport button combo
+bluetooth: Show a refresh icon on the select devices screen
+Remove bugreport settings
+Remove duplicate options in accessibility settings
+Hide learn more button on fingerprint page
+Disable the other learn more too to prevent crash
+ChooseLockGeneric: fix crash
+Disable Priority/Zen mode when switching to Vibrate/Ring
+
+(Comes with sources update)
+incall vibration options (Removed from Dialer and moved to Settings)
+- allow setting vibration when call is connected
+- allow setting vibration when call is disconnected
+- allow setting vibration for call waiting *this works with google and aosp dialer :)
+Keyguard: disable logspilling debug
+Fix carrier label not getting scaled properly
+StatusBar: Catch OOM caused by third-party icons
+DUI: Fix Smartbar back button hiding on lockscreen intents
+
 09th May 2017
 
 Sources updated till 09th May, 1.04pm IST.
