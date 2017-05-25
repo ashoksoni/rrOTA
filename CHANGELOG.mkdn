@@ -1,208 +1,207 @@
 
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
+ ▼ 05/25/2017
 
- ▼ 05/16/2017
+ ▪ project frameworks/base/
+ ▪ 9be292c WakeBlock: Blocking the drain before it’s too late v2.0
+
+ ▪ project packages/apps/Email/
+ ▪ c0e5d54 Search in folder specified via URI parameter, if possible.
+
+ ▪ project packages/apps/Jelly/
+ ▪ c9f336c Jelly: Pause WebView along with the activity
+ ▪ c23c013 Jelly: Don't claim to be a simple WebView
+ ▪ c218521 Jelly: Define base class for Activities containing WebViewExt
+ ▪ 1607c0d Jelly: Make it easier to initiate gestures
+ ▪ 978e74e Jelly: Don't leak fileoutputstream if bm is null
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 8bde407 Revert "Opening new update link directly when clicked on notification"
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 5462df5 Pass selected folder to message search.
+
+ ▪ project android/vendor/resurrection/
+ ▪ b8955fd Substratum updated to v760.
+
+
+ ▼ 05/24/2017
 
 
  ▪ project device/oneplus/oneplus2/
- ▪ a8173fc op2: Spectrum bringup for profile management
- ▪ 3149832 system.prop: raw format bayer MIPI RGGB 10 bpp
- ▪ c3d0a44 system.prop: enable auto hdr
- ▪ 4a7548d Official latest OOS fingerprint
-
- ▪ project device/oneplus/oneplus3/
- ▪ 2a72b10 op3: Spectrum bringup for profile management
- ▪ ae77d48 oneplus3: Disable spammy camera HAL log messages
- ▪ 3dcbd49 oneplus3: Disable sdcardfs
- ▪ 393045d oneplus3: Remove all remaining premium Qualcomm location blobs
- ▪ 14671ca oneplus3: Disable premium location services
- ▪ 2e5a25c oneplus3: Remove CNE and DPM
- ▪ ae38f61 oneplus3: Use Google's fused location provider
- ▪ 019919a oneplus3: liblights: Calculate brightness ramp automatically on init
- ▪ 62399d4 oneplus3: Optimize power config on boot
- ▪ fcad1ce oneplus3: Remove debug/deprecated graphics props
- ▪ 3f6f1d6 gps: Update to CAF LA.UM.5.5.r1-04000-8x96.0
- ▪ bb3e60e op3: Disable tethering provisioning for all carriers
- ▪ 21d8d1a perfd: Add system GID
- ▪ 7aa01dc Remove duplication.
- ▪ 0f87586 op3: Cleanup init.qcom.rc
- ▪ 4af415a More perfd policies
- ▪ 28ecf36 Add policies for perfd
- ▪ 77ff0f8 op3: init: Start perfd after all perfd properties have been set
- ▪ 8fe7318 op3: init.qcom.rc: Create /data/misc/perfd
- ▪ 3ddc78a [EAS] op3: Enable Schedutil governer if available and revert input boost back to stock values
- ▪ fb9e749 op3: sepolicy: Import Marlin policies
- ▪ 1ed19ab Vox Populi tunables
- ▪ ad0d4ea Vox Populi
- ▪ bd15dff EAS Introduction..
-
- ▪ project device/oppo/common/
- ▪ 4f2438e Disable Priority/Zen mode when switching to Vibrate/Ring
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 6d62606 Disable power_aware and enable all cores on boot.
-
- ▪ project system/core/
- ▪ 270ba2b klog.c for Android
-
- ▪ project system/sepolicy/
- ▪ a688894 sepolicy: Allow system_server to set theme_prop
-
- ▪ project vendor/cm/
- ▪ f0c6fa7 init: Disable bugreport button combo
-
-
- ▼ 05/15/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ c10da2c op3: Remove QVOP service
- ▪ c930264 op3: Enforce vendor tree presence
- ▪ b1cfadd op3: Kill Gello
+ ▪ 1d692d4 Profiles for Spectrum
 
  ▪ project hardware/qcom/camera-op2/
- ▪ 41305fa QCamera2: correctly depend on kernel headers
-
- ▪ project kernel/oneplus/msm8996/
- ▪ e723084 drivers: staging: Update qcacld-2.0 driver
- ▪ 5f583f3 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into HEAD
- ▪ d3dac65 misc: Squashed revert upstream applied security patches
-
- ▪ project packages/apps/Jelly/
- ▪ eab04da Jelly: lint cleanup
- ▪ a8dcb76 Jelly: Don't sign the app with a system certificate
- ▪ 5e5fb97 Jelly: Fix storage permission check
- ▪ c315497 Jelly: add Desktop mode toggle
- ▪ 5859bc6 Jelly: Actually disable cookies
- ▪ fd7418e Jelly: Flush cookies when calling onStop()
- ▪ eb6375d Jelly: Don't make app persistent
- ▪ 2d4853b Jelly: Add proguard rules
- ▪ d583aad Jelly: Improve URL/search query handling
+ ▪ 0ea1842 QCamera2: Changed available thumbnail sizes list.
 
  ▪ project packages/apps/Settings/
- ▪ f1ec685 bluetooth: Show a refresh icon on the select devices screen
- ▪ c85e062 Remove bugreport settings
- ▪ b8510fc Remove duplicate options in accessibility settings
- ▪ cede97a Use same way to display free storage in all places
- ▪ 940fbb9 Hide learn more button on fingerprint page
- ▪ e907a2a Disable the other learn more too to prevent crash
- ▪ fd84538 ChooseLockGeneric: fix crash
- ▪ 05e6b1e Add a new device Htc One S(Ville) to Device Maintaners list. (#791)
+ ▪ 3932be9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 9b2ab2e Hiding Weather Settings from Misc if cClock removed.
+ ▪ 2f6ad1d Removed BugReports from PowerKey
 
- ▪ project system/keymaster/
- ▪ a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
+ ▪ project frameworks/base/
+ ▪ 8ed283e New heads up drawables
+ ▪ 826350e Fix screenpinning from showing up unless enabled
+ ▪ fb60a8e Frameworks AppOps: Enable MODE_IGNORED for OP_WAKE_LOCK
+ ▪ 8c48867 Clean up pending broadcast receivers when force stopping package
 
- ▪ project vendor/oneplus/
- ▪ 8d64f72 op3: Remove QVOP blobs
-
- ▼ 05/14/2017
+ ▼ 05/23/2017
 
 
- ▪ project external/chromium-webview/
- ▪ b544e48 Update README
+ ▪ project external/DUtils/
+ ▪ 52668d8 Killapp action: restore home screen before killing the app
 
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 6e8e9c5 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
-
- ▪ project hardware/qcom/camera-op2/
- ▪ e1876e8 Correct the thumbnail sizes
-
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 332f57a Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
-
- ▪ project hardware/qcom/media-caf/msm8996/
- ▪ 87965a0 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
-
- ▪ project packages/apps/Jelly/
- ▪ 21c6894 Jelly: strings: Various pedantics
+ ▪ project packages/apps/DUI/
+ ▪ 59a68e6 SmartBar editor: block quick popup when dragging the button
 
  ▪ project packages/apps/Settings/
- ▪ 565e211 Add Scorpio & Lithium maintanier (#790)
+ ▪ 46b451a Configurations:Add Some more Settings to Reset
+ ▪ 841d40b Avoid a NullPointerException in security
+ ▪ ad8e931 Optimized Code: call direct method to get integer extra
+ ▪ fef2b3d RejectedExecutionException  in DataUsageLIst
+ ▪ fb41cfd Optimize code on get UidDetail in AppDataUsage
+ ▪ e774dc4 Settings: Fix wrong wifi drawable in screen zooming preview
+ ▪ fab5b35 Avoid FC when entering Accessibility Settings with a font size of 100%
+ ▪ 4f798e7 DisplaySettings: font size in 5% steps from 80% to 130%
+ ▪ f6fe632 Correct fingerprint position during setup
+ ▪ f83f0cb PowerUsageFeatureProviderImpl: little cleanup
+ ▪ cdbcb1b Fix synchronization of Wi-Fi hotspot switch
 
- ▪ project vendor/nxp-nfc/opensource/Nfc/
- ▪ cb09714 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+ ▪ project vendor/cmsdk/
+ ▪ af33af3 cmsdk: Add CMSettings option for QS auto brightness
+ ▪ 6bd7762 Protect system profiles related broadcasts
 
- ▪ project vendor/nxp-nfc/opensource/frameworks/
- ▪ 6933f27 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
-
- ▪ project vendor/nxp-nfc/opensource/libnfc-nci/
- ▪ e2d0d62 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
-
- ▼ 05/13/2017
+ ▼ 05/22/2017
 
 
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 23be04d msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
+ ▪ project frameworks/base/
+ ▪ 3e04527c base: update updateUsbStateBroadcastIfNeeded types
+ ▪ fe1cfd9 Check and send usb state broadcast when devices boots
+ ▪ 7373362 Only send usb disconnect intents after boot.
+ ▪ ef0fcc2 fix KeyEvent can't correctly finish when inputmethod time out happened
+ ▪ 779a3e9 Fixed NPE in canAddMoreManagedProfiles
+ ▪ 60a339e Fix permissions for CTS [1/2]
 
- ▼ 05/12/2017
+ ▪ project packages/apps/Dialer/
+ ▪ afc79eb Dialer: lock screen appear before incoming call screen
+
+ ▪ project packages/apps/Settings/
+ ▪ 1f45da1 Add Nougat maintainer Leeco LePro 3 (x720/x727) (#796)
+
+ ▪ project packages/services/OmniJaws/
+ ▪ c4e406d OwmniJaws Use own API key
+ ▪ 3d1c664 OmniJaws: fix OWM metric wind speed units
+ ▪ 299c137 OmniJaws: widget layout madness
+ ▪ 896d5fb OmniJaws: dont show OmniJaws error that prominent
+
+ ▪ project packages/services/ThemeInterfacer/
+ ▪ 2a46d48 Add interface to get API version and app authentication status
+ ▪ 8e55d57 Fix permissions for CTS [2/2]
+
+ ▼ 05/21/2017
 
 
  ▪ project android/
- ▪ 6bab65e crowdin: add DUI [1/2]
+ ▪ 26c1bb4 manifest: track own ThemeInterfacer, and move to services
 
- ▪ project device/oneplus/oneplus2/
- ▪ d8aca70 Revert "Ship with gello"
- ▪ 01ed5d6 oneplus2: remove not existing ipv6 conf files
+ ▪ project device/oneplus/oneplus3/
+ ▪ 175fdb4 init.qcom.rc : Add time_daemon in init.qcom.rc
+ ▪ 8bf1494 op3: rootdir: Update fs tune from marlin
+ ▪ 7e8fa2b op3: Use kryo 32-bit routines
+ ▪ 079e43f op3: Set camera package name to OnePlus Camera
 
  ▪ project frameworks/base/
- ▪ e9e522f [SystemUI] Remove custom tiles from the same uninstalled package
- ▪ cb7629b Navbar tile: apply one tap to enable/disable also to mini tiles bar
- ▪ c77d7c8 Screen pinning improvements
- ▪ a85ff49 Fix WiFi QS in the off state while entering the detail view
- ▪ 59afca8 fix build
- ▪ d3fff6c incall vibration options [1/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
- ▪ 6a61a8f frameworks/base: reduce the setTransactions
- ▪ 4c50d5e hwui: skip draw empty frame
- ▪ 9a1acd4 Stop holding mProxyLock while downloading PAC script data.
- ▪ c065fdd sensors: fix native crash when dynamic sensor is removed
- ▪ c5b1119 sensors: intern jstrings for memory savings
- ▪ b8ca031 NullPointerException: Attempt to invoke virtual method 'int android.os.Parcel.dataSize()' on a null object reference
- ▪ 147dc3b Keyguard: disable logspilling debug
- ▪ 9ba0ce5 Fix carrier label not getting scaled properly
- ▪ 33c5cab StatusBar: Catch OOM caused by third-party icons
- ▪ 3d1c711 The network event should be an asynchronous callback.
- ▪ ebf3cbe wifi: catch UnsupportedOperationException for getMatchingWifiConfig
- ▪ b79fd00 SettingsLib: wifi: Fixed AccessPoint tracking for Passpoint networks
- ▪ 492cf86 Destroy Allocation right away on exception
- ▪ 2e58436 Destroy Allocation with ScriptIntrinsicLut
- ▪ 4c1a6e9 Aapt2: Fix png leak
- ▪ e5e4571 Deadlock in PackageInstallerSession
- ▪ 8465fcf Save "mState.restored" in onSaveInstanceState of FilesActivity
- ▪ c0d9ee2 Avoid deadlock when installing app
- ▪ e7be227 Resolve deadlock between ActivityManagerService and PowerManagerService
- ▪ d2a6ccc OBEX : Handle Negative index Exception
- ▪ 7492ebd ExtShared build as priv-app
- ▪ 8b797f8 Fix dead lock in Tethering state machine
- ▪ 3383e64 Skip ListPopupWindow position update if detached
- ▪ 385f7d6 Fix system server crash caused by CME in usage stats
- ▪ 11ef661 Fix NPE while attempting to get length of null array in FileRotator
- ▪ 3b26d60 Fix NPE in SettingsLib
- ▪ 6c32d05 Validate handler of wakelock option for flashlight.
+ ▪ a99c136 Merge remote-tracking branch 'remotes/rr/nougat' into HEAD
+ ▪ 81b97bf OMS: StrictMode and files under /data/system/theme/
+ ▪ 22d2286 Add protected broadcast for app crash broadcast
 
- ▪ project kernel/oneplus/msm8994/
- ▪ 8912663 Merge tag 'LA.BF64.1.2.3-02410-8x94.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.10 into HEAD
+ ▪ project hardware/qcom/camera-op2/
+ ▪ ed9b269 Revert "RAW changes"
 
- ▪ project packages/apps/DUI/
- ▪ 5d95ee1 Improve MediaMonitor readability
- ▪ d450ac0 DUI: Fix Smartbar back button hiding on lockscreen intents
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 0ad12ce ion: adjust system heap pool orders
+ ▪ 33b6f21 ANDROID: mmc: move to a SCHED_FIFO thread
+ ▪ 33bd17d sched: avoid migrating when softint on tgt cpu should be short
+ ▪ 4df8d30 sched: avoid scheduling RT threads on cores currently handling softirqs
+ ▪ 4bc39cc sched/rt: Avoid moving rt task if destination CPU does not run low priority task.
+ ▪ 57ce978 lowmemorykiller: account for unevictable pages
+ ▪ dd742f1 android: binder: remove useless preemption disable on target_wait
+ ▪ 4e6bb14 net/packet: fix overflow in check for tp_reserve
+ ▪ 0e0a89a net/packet: fix overflow in check for tp_frame_nr
+ ▪ 3c1cc5c net/packet: fix overflow in check for priv area size
+ ▪ a63bc81 dccp/tcp: do not inherit mc_list from parent
+ ▪ 8f475aa ip6_gre: fix ip6gre_err() invalid reads
+ ▪ f5dbfd2 tty: n_hdlc: get rid of racy n_hdlc.tbuf
+ ▪ 79a275b TTY: n_hdlc, fix lockdep false positive
+ ▪ 178808f Merge commit '396a2965850160ca5427239d9af56ec42fe4774f' into HEAD
+ ▪ 516fd61 op3: Set cfq as default I/O scheduler
 
- ▪ project packages/apps/Dialer/
- ▪ 4ad8faa Dialer:Remove redundant vibration options for InCallUI
+ ▪ 8b85edf cm: Remove root access prop
+
+ ▪ project vendor/oneplus/
+ ▪ 602b6ed op3: Update to OB16 blobs
+
+ ▼ 05/20/2017
+
+
+ ▪ project build/
+ ▪ c698ef7 envsetup: fix small derp calling root method chooser script
+ ▪ 1985266 Merge branch 'optional-root-method' into nougat
+ ▪ 179e18c rr: show buildtype in dumpvar, call root method type chooser script
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 46b7928 op3: Add specific camera parameter library
+ ▪ d498608 op3: Remove camera shim library
+ ▪ baae4eb op3: Update to OB16 blobs
+ ▪ 2b544b7 op3: Re-enable camera HAL3
+ ▪ 774d8eb op3: Disable tethering provisioning for all carriers
+
+ ▪ project frameworks/base/
+ ▪ 452eb37 Update Drawer header
+ ▪ 185d71e Dont use CMSettings for Headset intents[1/2]
+ ▪ c711fa3 Settings left drawer: make the view more compact and show more entries per page
+ ▪ 6afb2ae Fix lag when opening an entry from the Settings left drawer
+ ▪ 08ad038 Option to Show Custom header in settings drawer [1/2]
+ ▪ 9efa551 Add SettingsDrawerActivity header
+ ▪ eccc096 Fix the Wi-Fi wrong status when turning Wi-Fi on
+ ▪ 759c96e Launch music player on headset connect: add BT compatibility [1/2]
+ ▪ 313bf88 Add navigation disabled notification [1/2]
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ e6fda3c kernel: Fix potential refcount leak in su check
+ ▪ b0856c3 kernel: Only expose su when daemon is running
+
+ ▪ project packages/apps/Jelly/
+ ▪ 7c65684 Jelly: EditTextExt: Remove shader before drawing
+ ▪ 0a0fcbd Jelly: Don't reload webview on screen rotation
 
  ▪ project packages/apps/Settings/
- ▪ debffd2 Settings:Incall Vibration options [3/3]
+ ▪ 4fb4f6d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 397950c Fix expandable desktop
+ ▪ 5af5556 Make sure to rebuild on app entries loaded
+ ▪ beff6c3 Don't re-populate the app list in rebuild()
+ ▪ 1a4cf52 Move Headset Settings out of CMSettings
+ ▪ fa02ac3 Option to show Settings header in settings drawer[2/2]
+ ▪ 9accf76 Launch music player on headset connect: add BT compatibility [2/2]
+ ▪ bf8c859 Add J500Y (#795)
 
- ▪ project packages/services/Telecomm/
- ▪ 566782e Use double vibration on hang-up call
- ▪ 14a1774 incall vibration options [2/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
-
- ▼ 05/11/2017
+ ▼ 05/19/2017
 
 
- ▪ project device/voxpopuli/
- ▪ 02e0c22 QCOM Power Hal -> Vox Populi Power HAL
- ▪ 633223d Add Functionality to control High Brightness Mode [2/2]
+ ▪ project build/
+ ▪ 3c0ffb4 Revert "Revert "ota: Remove cruft we don't care about""
+ ▪ f800e5f apicheck_msg_current: Don't do this in LineageOS
 
- ▪ project hardware/qcom/display/
- ▪ 03afd10 hwc2: Only set display_width and display_height when equal to zero
+ ▪ project vendor/cm/
+ ▪ 0901e93 extract_utils: fix extracting XML files containing binary characters
+ ▪ ac48cb6 cm: Remove Gello
+ ▪ 782912b rr: add in a script to choose root variant
+
+ ▼ 05/18/2017
+
+ ▪ project frameworks/native/
+ ▪ c68520a sensorservice: Fix orientation sensor for HAL's missing rotation vector sensor
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ cfe0372 Opening new update link directly when clicked on notification
