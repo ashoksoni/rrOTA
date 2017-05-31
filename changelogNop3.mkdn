@@ -1,5 +1,56 @@
 Changelog
 
+31st May 2017
+
+Sources updated till 31st May, 2.05pm IST.
+
+Recents: Update membar a bit more often
+
+(Comes with sources update)
+Recents: Ensure Lock icon animates only when Dismiss icon is visible
+Fix launch music player on headset connect on reboot
+Recents:Optional lock to task icon in recents task view header
+Base:Add Lock task action to recents
+
+ButtonBacklight: Preview timeout once user stops dragging
+Configurations: Update button backlight brightness in real time
+
+Fix an apk icon animation corruption issue
+base: enable power save config of system apps
+Add QS pulldown with one swipe on fp sensor
+SystemUI: Misc fixes for right (custom) lockscreen shortcuts
+
+25th May 2017
+
+Sources updated till 25th May, 1.05pm IST.
+
+Removed BugReports from PowerKey
+Fix screenpinning from showing up unless enabled
+Frameworks AppOps: Enable MODE_IGNORED for OP_WAKE_LOCK
+Clean up pending broadcast receivers when force stopping package
+New heads up drawables
+WakeBlock: Blocking the drain before it’s too late (updated with core 2.0)
+Substratum updated to v760 
+
+(Comes with sources update)
+op3: Re-enable camera HAL3
+Killapp action: restore home screen before killing the app
+SmartBar editor: block quick popup when dragging the button
+Settings: Fix wrong wifi drawable in screen zooming preview
+Avoid FC when entering Accessibility Settings with a font size of 100%
+DisplaySettings: font size in 5% steps from 80% to 130%
+Correct fingerprint position during setup
+Fix synchronization of Wi-Fi hotspot switch
+Dialer: lock screen appear before incoming call screen
+Update Drawer header
+Settings left drawer: make the view more compact and show more entries per page
+Fix lag when opening an entry from the Settings left drawer
+Option to Show Custom header in settings drawer
+Fix the Wi-Fi wrong status when turning Wi-Fi on
+Launch music player on headset connect: add BT compatibility
+Add navigation disabled notification
+Fix expandable desktop
+
 17th May 2017
 
 Sources updated till 17th May, 12.46pm IST.
