@@ -1,5 +1,42 @@
 Changelog
 
+7th June 2017
+
+Sources updated till 7th June, 11.00am IST.
+
+fingerprint: Speed up wake-and-unlock scenario 
+FC fixed while changing data sim.
+Fix Bluetooth QS in the off state while entering the detail view.
+PowerManagerService: cut button lights duration in half.
+Optimised hwui rounded corners shader
+KernelCpuSpeedReader: Account for missing sysfs nodes
+PowerManagerService: Fix button backlight not disabling when encrypted
+SystemUI: Set recents taskbar delay to 0.
+base: Fix proximity check on power key
+oneplus3: kill Doze Pulse (Removed Ambient display from Display settings, we already have ambient display in Customizations-interface)
+Don't include pp_calib data (conflics with KAL)
+liblights: use synchronized RGB driver
+Nuke zram into oblivion
+Nuke IPACM
+Remove telephony-ext
+Overlay: bump minimum screen brightness level
+BoardConfig: enable DexPreopt for userdebug builds (Size is 600+ coz builds are pre-optimized now. Startup is pretty fast now after a dirty flash, didn't test with clean flash yet.)
+Volume could not be updated in Sound&notification, fixed now.
+ConditionManager: don't crash when trying to add unexpected condition
+Set zygote process priority to -20 to speed up VM startup time.
+Autostartable sshd
+Set mProximity to PROXIMITY_UNKNOWN on screen off
+Fixing some translation issues. (Now proper text for Smartbar editor actions)
+Removing youtube from MediaMonitor (Just to see whether it'll work or not or have any negative impacts)
+overlay: Enable Wi-Fi by default on first boot
+Show full alarm info
+Settings: Add two more options (25% and 35%) for battery saver.
+
+(Comes with sources update)
+June Security Patches
+AudioEffect: Add a stereo widener effect
+Fix nav bar showing always on the left when rotated to 270 degrees. Also, fix the order of the buttons so the back button always shows on the bottom
+
 31st May 2017
 
 Sources updated till 31st May, 2.05pm IST.

@@ -2,114 +2,164 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 05/31/2017
+ ▼ 06/07/2017
 
 
- ▪ project external/stagefright-plugins/
- ▪ 4089877 FFmpegExtractor: Don't use our extractor when we agree with StageFright
+ ▪ project android/
+ ▪ a46ed2f Revert "Track own system_media"
+ ▪ d73bf77 Track own system_media
+ ▪ 949aff4 manifest: android-7.1.2_r8 -> android-7.1.2_r17
 
- ▪ project frameworks/base/
- ▪ 364288a Update membar a bit more often
+ ▪ project build/
+ ▪ 13c147a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ cc30c3a Merge tag 'android-7.1.2_r17' into nougat
 
- ▪ project kernel/oneplus/msm8994/
- ▪ a33312b drivers: media: msm: camera_v2: fix bool-compare warning
-
- ▪ project packages/apps/Jelly/
- ▪ c642120 Jelly: Never hide history view
- ▪ ea83c6c Jelly: Use an observer to refresh the history view
- ▪ 837ec77 Add an indicator icon for incognito mode.
- ▪ c35cc24 Jelly: Update android tools build
-
- ▪ project packages/apps/Snap/
- ▪ f68cddc SnapdragonCamera: Fix torch mode with continuous shot
- ▪ c737df5 Revert "Snap: CaptureModule: lock exposure also when precapture trigger is started"
- ▪ 09a7a0b SnapdragonCamera: Camera2 force close after focused
- ▪ 018fdd0 SnapdragonCamera: GPS location can't be turn On in camera settings
-
- ▪ project vendor/cm/
- ▪ 8906228 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 46fc541 typo fixed (#92)
-
- ▼ 05/30/2017
-
+ ▪ project device/oneplus/oneplus2/
+ ▪ a08e24d oneplus2: add alert slider overlay and qs tile
+ ▪ c399030 oneplus2: kill Doze Pulse
 
  ▪ project device/oneplus/oneplus3/
- ▪ 801d309 op3: Doze: Require non-wake up proximity sensor
+ ▪ c94c195 oneplus3: add alert slider overlay and qs tile
+ ▪ b313dcc oneplus3: kill Doze Pulse
+
+ ▪ project external/chromium-webview/
+ ▪ 9a58fc2 Update webviews
 
  ▪ project frameworks/base/
- ▪ 39b9d5b Recents: Ensure Lock icon animates only when Dismiss icon is visible
- ▪ 8573690 Fix launch music player on headset connect on reboot
- ▪ 7b24b49 Recents:Optional lock to task icon in recents task view header [1/2]
- ▪ 3525359 Base:Add Lock task action to recents
+ ▪ d2ed9b5 fingerprint: Speed up wake-and-unlock scenario
+ ▪ 3bef0e9 KernelCpuSpeedReader: Account for missing sysfs nodes
+ ▪ 3e2da3a Fix Bluetooth QS in the off state while entering the detail view
+ ▪ 5a289d2 PowerManagerService: cut button lights duration in half
+ ▪ fcb8ee8 Optimised hwui rounded corners shader
+ ▪ b1573e2 PowerManagerService: Fix button backlight not disabling when encrypted
+ ▪ 180274d AlertSliderTile: update toggle state when opening detail view
+ ▪ a028b17 SystemUI: alert slider integration
+ ▪ 6e1bba7 policy: alert slider integration
+ ▪ 83e0649 SystemUI: Set recents taskbar delay to 0 Remove the recents taskbar delay.
+ ▪ c66aa06 Set mProximity to PROXIMITY_UNKNOWN on screen off
+ ▪ 0663fc6 Speed things up to the max
+ ▪ c511d74 base: Fix proximity check on power key
+ ▪ ab5b192 audiofx: added missing @hide to BassBoost enhancements
+ ▪ 9167c43 base: audiofx: harden against offload effects
+ ▪ 2965b7e [3/3] AudioFX: Add center frequency param to bassboost
+ ▪ 0bca0bf [3/3] AudioEffect: Add a stereo widener effect
+ ▪ b8bb91f Merge tag 'android-7.1.2_r17' into nougat
 
- ▪ project packages/apps/Email/
- ▪ b76ada5 Fix check for deleted messages.
+ ▪ project frameworks/native/
+ ▪ 0a22e86 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
+ ▪ dae45e0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
 
- ▪ project packages/apps/Jelly/
- ▪ 020a697 Jelly: Don't accept cookies in incognito mode
- ▪ dc48da6 Jelly: Don't add duplicates to the history
- ▪ 78e3754 Jelly: Query an already ordered history
- ▪ c8e5ebe Jelly: Enable the DOM storage API
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 40ebaf5 Fix a compile-time warning
+ ▪ d2e1335 power: qpnp-smbcharger: Always report screen is off when charging
 
- ▪ project packages/apps/Snap/
- ▪ 26d9aec Fixed camera crash on exit
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 0f3862f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ 6175d8c UPSTREAM: fscrypt: avoid collisions when presenting long encrypted filenames
+ ▪ e9a661b UPSTREAM: fscrypt: fix context consistency check when key(s) unavailable
+ ▪ 732fe6b UPSTREAM: ext4 crypto: fix some error handling
+ ▪ 335cdd9 UPSTREAM: ext4 crypto: don't let data integrity writebacks fail with ENOMEM
+ ▪ 819d012 UPSTREAM: ext4/fscrypto: avoid RCU lookup in d_revalidate
+ ▪ 96b090a UPSTREAM: ext4 crypto: use dget_parent() in ext4_d_revalidate()
+ ▪ 32bcc36 UPSTREAM: ext4 crypto: revalidate dentry after adding or removing the key
+ ▪ 83b055b UPSTREAM: fscrypt: remove broken support for detecting keyring key revocation
+ ▪ a4fa0b4 UPSTREAM: fscrypto: lock inode while setting encryption policy
+ ▪ f1d0af5 UPSTREAM: fscrypt: fix renaming and linking special files
+ ▪ 269e201 UPSTREAM: fscrypto: require write access to mount to set encryption policy
+ ▪ df71fe9 UPSTREAM: fscrypto: add authorization check for setting encryption policy
+ ▪ 9887519 UPSTREAM: ext4: enforce online defrag restriction for encrypted files
+ ▪ 38e501d UPSTREAM: ext4 crypto: add missing locking for keyring_key access
+ ▪ 0fd5b60 soc: Fix Kconfig warnings
+ ▪ fe0189b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/DUI/
+ ▪ fc213d5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ d252257 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+
+ ▪ project packages/apps/Messaging/
+ ▪ ef18c3d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_messaging into nougat
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 97b188c Fix PackageInstaller FC when tapping on a downloaded apk notification 2
+
+ ▪ project packages/apps/Settings/
+ ▪ 2179485 Remove CM's Ambient Display.
+ ▪ dee1641 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 87cabde Reduce Volume panel dialog min timout to 350ms
+ ▪ a5dfd15 Update Build ID
+ ▪ 50a61b5 Volume can not be updated in Sound&notification
+ ▪ d410884 ConditionManager: don't crash when trying to add unexpected condition
+ ▪ 5034aba ConditionManager: Don't show DnD condition if device has alert slider
+ ▪ 3bf69fb PowerUsageFeatureProviderImpl: little cleanup
+ ▪ ef31117 Settings: Add two more options for battery saver
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 3ddceec Settings: Implement ADB over network
+ ▪ bf8bc80 Settings: Add intent to launch LineageOS platlogo upon multiple taps
+ ▪ 0165eb8 settings: Add advanced reboot switch
+ ▪ e1c67c5 Settings: Set root access options appropriately
+ ▪ 253b262 settings: Add developer setting for root access
+ ▪ f4e82a3 Use more descriptive strings for add accessory page
+ ▪ 3733c2b About: Add LineageOS Updates
+ ▪ 0fe2e3b Add build date (ro.build.date from build.prop) to About screen.
+ ▪ 18c18a9 One does not simply become a Developer
+ ▪ 34001b8 Add LineageOS version to the About screen
+
+ ▪ project system/core/
+ ▪ b2c432a Merge branch 'nougat' of https://github.com/ResurrectionRemix/system_core into nougat
+ ▪ 5504d46 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+ ▪ 793bfb1 Set zygote process priority to -20 to speed up VM startup time.
 
  ▪ project vendor/cm/
- ▪ a8b16ae Update pixel launcher
+ ▪ c156f49 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 0454ffd Vendor: Build AudioFX again
 
- ▼ 05/29/2017
-
-
- ▪ project hardware/qcom/camera-op2/
- ▪ 7dd7778 Use OnePlus' recommended thumbnail sizes
-
- ▪ project packages/apps/Email/
- ▪ 70ccb25 Close body InputStreams correctly.
-
- ▪ project packages/apps/Settings/
- ▪ 5de955c ButtonBacklight: Preview timeout once user stops dragging
- ▪ f30a1b4 Configurations: Update button backlight brightness in real time
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ e353ae2 Properly close body InputStreams.
-
- ▼ 05/28/2017
+ ▼ 06/06/2017
 
 
- ▪ project packages/apps/Jelly/
- ▪ 64920b0 Jelly: Fix some warnings
- ▪ 503fea1 Jelly: Use lambdas in settings activity
- ▪ 576d1b9 Jelly: Make download_message not specific to sdcard
+ ▪ project android/
+ ▪ bcb3fb7 crowdin: add PackageInstaller
 
- ▼ 05/27/2017
-
-
- ▪ project device/qcom/common/
- ▪ ebff3b2 power: use 8937 hal for 8953
+ ▪ project external/stagefright-plugins/
+ ▪ 05bf4e7 ffmpeg-extractor: StageFright supports Opus files
+ ▪ 11bc5a2 Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright"
 
  ▪ project frameworks/base/
- ▪ 669850a base: notifications: DEFAULT_LIGHTS and FLAG_SHOW_LIGHTS must count as noisy
- ▪ 307bfad Frameworks AppOps: Enable MODE_IGNORED for OP_WAKE_LOCK
- ▪ c34f0fe CaptivePortal: login activity UI improvements
- ▪ e947bf6 Fix an apk icon animation corruption issue
- ▪ 21dd4e8 Fix crash by IllegalStateException in sendAccessibilityEvent
- ▪ 13091e7 Clean up pending broadcast receivers when force stopping package
- ▪ 018ff90 base: enable power save config of system apps [1/2]
- ▪ 9df3a9e Fix memory leak in WifP2pManager
- ▪ 1b42b5b Add QS pulldown with one swipe on fp sensor [1/2]
- ▪ 1ca6a17 SystemUI: Misc fixes for right (custom) lockscreen shortcuts
+ ▪ 0a001c5 Fix SystemUI FC due to Google Assistant
+ ▪ 16a622d Handle Illegal Argument Exception
+ ▪ 50b3778 Reduce MTU Size
+ ▪ fc52d47 FW_BASE: Rewrite restart SystemUI method
+ ▪ 42fa816 Add support for page theme color to WebView and WebChromeClient.
+
+ ▪ project frameworks/native/
+ ▪ 1eed077 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project libcore/
+ ▪ b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
+ ▪ 9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 95cb32b Increase the size of the tiles when decoding images
 
  ▪ project packages/apps/Jelly/
- ▪ 8f1365c Jelly: Handle screenLayout changes
+ ▪ e28fd6c Jelly: Add HTTP auth login support
 
  ▪ project packages/apps/Settings/
- ▪ c018f90 QSPulldown: Remove FP gesture if device FP doesnt support it
- ▪ 8be928a Settings:Optional lock to task icon in recents task header [2/2]
- ▪ 2aa08c3 Settings: enable power save config of system apps [2/2]
- ▪ a99ac4b Add QS pulldown with one swipe on fp sensor [2/2]
+ ▪ f91d8c4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 5910d21 Settings:Rewrite Restart SystemUI
 
- ▪ project packages/apps/Trebuchet/
- ▪ 5c6b5a2 Add null check in Launcher onNewIntent() before moveToDefaultScreen().
- ▪ 273db43 Handle OutOfMemoryException gracefully in WallpaperCropActivity.
- ▪ 2846677 Fixing All apps not respecting scaled icon size
- ▪ 14d0937 Adding workaround to jump in wallpaper offsets.
+ ▪ project system/bt/
+ ▪ aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project system/core/
+ ▪ 5e54c5f libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468
+ ▪ 14bdeb8 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project vendor/cm/
+ ▪ 09fa32a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 69d6029 fix check_blacklist function to work on wiped /system partition
+ ▪ d0be161 sensitive_pn: Add sensitive numbers for Serbia
+
