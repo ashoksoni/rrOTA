@@ -1,5 +1,32 @@
 Changelog
 
+9th June 2017
+
+Sources updated till 9th June, 1.15pm IST.
+
+Revert "Overlay: bump minimum screen brightness level"
+Revert "liblights: use synchronized RGB driver" - Should fix notification leds
+base: Activate battery light only on full battery - (Crashing, will fix in next update)
+base: SystemUI: adjust CPU overlay style (Few are still in red, will fix them in next update)
+FPS: prevent NPE if FP hal doesnt handle performance stats
+QS: fix adbovernetwork tile icon visibility - (One string still needs to be changed, will be in next update)
+SmartBar: Touch sound support
+Show battery info on lockscreen by default
+Fix time does not change after rotating device
+Fix FC in Configurations - About - Device and Maintainers
+Replaced Lockscreen lock/unlock tones with iphone version. (Previous ones weren't playing anything)
+
+Kernel related changes:
+power: Introduce Oneplus 3 fingerprintd thaw hack
+power: qpnp-smbcharger: Use USB charging level for unknown charger type
+power: qpnp-smbcharger: Don't report full status until battery is full
+power: qpnp-smbcharger: Relax AUTO_CHARGING_BATT_TEMP_T6 threshold
+charge_level: Bring max current limit to hardware limitation
+Revert "power: qpnp-smbcharger: Always report screen is off when charging"
+
+(Comes with sources update)
+Optional No sim icon switch
+
 7th June 2017
 
 Sources updated till 7th June, 11.00am IST.

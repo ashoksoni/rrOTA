@@ -2,164 +2,111 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 06/07/2017
+ ▼ 06/09/2017
 
-
- ▪ project android/
- ▪ a46ed2f Revert "Track own system_media"
- ▪ d73bf77 Track own system_media
- ▪ 949aff4 manifest: android-7.1.2_r8 -> android-7.1.2_r17
 
  ▪ project build/
- ▪ 13c147a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ cc30c3a Merge tag 'android-7.1.2_r17' into nougat
-
+ ▪ b1f8acf core: minimize dumpvar
+ 
  ▪ project device/oneplus/oneplus2/
- ▪ a08e24d oneplus2: add alert slider overlay and qs tile
- ▪ c399030 oneplus2: kill Doze Pulse
+ ▪ 5cd5c0f Revert "Overlay: bump minimum screen brightness level"
+ ▪ 8e9a7e4 Revert "liblights: use synchronized RGB driver"
 
  ▪ project device/oneplus/oneplus3/
- ▪ c94c195 oneplus3: add alert slider overlay and qs tile
- ▪ b313dcc oneplus3: kill Doze Pulse
-
- ▪ project external/chromium-webview/
- ▪ 9a58fc2 Update webviews
+ ▪ 0e22921 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into eas
 
  ▪ project frameworks/base/
- ▪ d2ed9b5 fingerprint: Speed up wake-and-unlock scenario
- ▪ 3bef0e9 KernelCpuSpeedReader: Account for missing sysfs nodes
- ▪ 3e2da3a Fix Bluetooth QS in the off state while entering the detail view
- ▪ 5a289d2 PowerManagerService: cut button lights duration in half
- ▪ fcb8ee8 Optimised hwui rounded corners shader
- ▪ b1573e2 PowerManagerService: Fix button backlight not disabling when encrypted
- ▪ 180274d AlertSliderTile: update toggle state when opening detail view
- ▪ a028b17 SystemUI: alert slider integration
- ▪ 6e1bba7 policy: alert slider integration
- ▪ 83e0649 SystemUI: Set recents taskbar delay to 0 Remove the recents taskbar delay.
- ▪ c66aa06 Set mProximity to PROXIMITY_UNKNOWN on screen off
- ▪ 0663fc6 Speed things up to the max
- ▪ c511d74 base: Fix proximity check on power key
- ▪ ab5b192 audiofx: added missing @hide to BassBoost enhancements
- ▪ 9167c43 base: audiofx: harden against offload effects
- ▪ 2965b7e [3/3] AudioFX: Add center frequency param to bassboost
- ▪ 0bca0bf [3/3] AudioEffect: Add a stereo widener effect
- ▪ b8bb91f Merge tag 'android-7.1.2_r17' into nougat
-
- ▪ project frameworks/native/
- ▪ 0a22e86 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
- ▪ dae45e0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+ ▪ dc555d8 [1/2] base: Activate battery light on full battery
+ ▪ 7087049 base: SystemUI: adjust CPU overlay style
+ ▪ 1baf49f base: SystemUI: fix hiding quick scroll view
+ ▪ 505c767 FPS: prevent NPE if FP hal doesnt handle performancestats
+ ▪ b18cb5f QS: fix adbovernetwork tile icon visibility
+ ▪ 5ce8ad5 Fixing optional VPN icon in statusbar
+ ▪ e927f39 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 2f89ae2 Optimised hwui rounded corners shader
+ ▪ b021af9 SystemUI: Reroute Battery QS Tile tint back to original color
+ ▪ 4b50c93 Fix a use-of-uninitialized-value warning.
+ ▪ 84fba94 Fix a use-of-uninitialized-value warning
+ ▪ 10a9f4e Reduce hwui CPU time by using glDrawRangeElements
+ ▪ 1590b9a Close recents panel after drag-cards-for-multiwindow action
+ ▪ 848f8bc Slim recents: use multiwindow button to drag cards
+ ▪ 4253922 Update memory state on emtpyView click
+ ▪ 5332827 Optional No sim icon switch [1/2]
+ ▪ 2b65ab8 QS: Remove listeners only if added
 
  ▪ project kernel/oneplus/msm8994/
- ▪ 40ebaf5 Fix a compile-time warning
- ▪ d2e1335 power: qpnp-smbcharger: Always report screen is off when charging
+ ▪ 3184e72 power: Introduce Oneplus 3 fingerprintd thaw hack
+ ▪ acac322  power: qpnp-smbcharger: Use USB charging level for unknown charger type
+ ▪ 84f3263  power: qpnp-smbcharger: Don't report full status until battery is full
+ ▪ 92bad40 power: qpnp-smbcharger: Relax AUTO_CHARGING_BATT_TEMP_T6 threshold
+ ▪ e684764 charge_level: Bring max current limit to hardware limitation
+ ▪ cbc83f9 Revert "power: qpnp-smbcharger: Always report screen is off when charging"
 
  ▪ project kernel/oneplus/msm8996/
- ▪ 0f3862f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ 6175d8c UPSTREAM: fscrypt: avoid collisions when presenting long encrypted filenames
- ▪ e9a661b UPSTREAM: fscrypt: fix context consistency check when key(s) unavailable
- ▪ 732fe6b UPSTREAM: ext4 crypto: fix some error handling
- ▪ 335cdd9 UPSTREAM: ext4 crypto: don't let data integrity writebacks fail with ENOMEM
- ▪ 819d012 UPSTREAM: ext4/fscrypto: avoid RCU lookup in d_revalidate
- ▪ 96b090a UPSTREAM: ext4 crypto: use dget_parent() in ext4_d_revalidate()
- ▪ 32bcc36 UPSTREAM: ext4 crypto: revalidate dentry after adding or removing the key
- ▪ 83b055b UPSTREAM: fscrypt: remove broken support for detecting keyring key revocation
- ▪ a4fa0b4 UPSTREAM: fscrypto: lock inode while setting encryption policy
- ▪ f1d0af5 UPSTREAM: fscrypt: fix renaming and linking special files
- ▪ 269e201 UPSTREAM: fscrypto: require write access to mount to set encryption policy
- ▪ df71fe9 UPSTREAM: fscrypto: add authorization check for setting encryption policy
- ▪ 9887519 UPSTREAM: ext4: enforce online defrag restriction for encrypted files
- ▪ 38e501d UPSTREAM: ext4 crypto: add missing locking for keyring_key access
- ▪ 0fd5b60 soc: Fix Kconfig warnings
- ▪ fe0189b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ 271433a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
 
  ▪ project packages/apps/DUI/
- ▪ fc213d5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
- ▪ d252257 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ 60f9e1a SmartBar: Touch sound support
+ ▪ 4ae8695 DUI: Fix NPE in MediaMonitor
+ ▪ 68f7dfb Revert "Removing youtube from MediaMonitor"
 
- ▪ project packages/apps/Messaging/
- ▪ ef18c3d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_messaging into nougat
-
- ▪ project packages/apps/PackageInstaller/
- ▪ 97b188c Fix PackageInstaller FC when tapping on a downloaded apk notification 2
+ ▪ project packages/apps/Email/
+ ▪ ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
 
  ▪ project packages/apps/Settings/
- ▪ 2179485 Remove CM's Ambient Display.
- ▪ dee1641 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 87cabde Reduce Volume panel dialog min timout to 350ms
- ▪ a5dfd15 Update Build ID
- ▪ 50a61b5 Volume can not be updated in Sound&notification
- ▪ d410884 ConditionManager: don't crash when trying to add unexpected condition
- ▪ 5034aba ConditionManager: Don't show DnD condition if device has alert slider
- ▪ 3bf69fb PowerUsageFeatureProviderImpl: little cleanup
- ▪ ef31117 Settings: Add two more options for battery saver
-
- ▪ project packages/apps/TvSettings/
- ▪ 3ddceec Settings: Implement ADB over network
- ▪ bf8bc80 Settings: Add intent to launch LineageOS platlogo upon multiple taps
- ▪ 0165eb8 settings: Add advanced reboot switch
- ▪ e1c67c5 Settings: Set root access options appropriately
- ▪ 253b262 settings: Add developer setting for root access
- ▪ f4e82a3 Use more descriptive strings for add accessory page
- ▪ 3733c2b About: Add LineageOS Updates
- ▪ 0fe2e3b Add build date (ro.build.date from build.prop) to About screen.
- ▪ 18c18a9 One does not simply become a Developer
- ▪ 34001b8 Add LineageOS version to the About screen
-
- ▪ project system/core/
- ▪ b2c432a Merge branch 'nougat' of https://github.com/ResurrectionRemix/system_core into nougat
- ▪ 5504d46 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
- ▪ 793bfb1 Set zygote process priority to -20 to speed up VM startup time.
+ ▪ c4955c2 Show battery info on lockscreen by default
+ ▪ a5a8e25 Fix time does not change after rotating device
+ ▪ e3cd41f Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 16cdbad Optional no sim icon switch [2/2]
+ ▪ 3681ae5 Fix FC in Configurations - About - Device and Maintainers (#803)
+ ▪ b99911c Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
 
  ▪ project vendor/cm/
- ▪ c156f49 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 0454ffd Vendor: Build AudioFX again
+ ▪ 3885d41 Lockscreen lock/unlock audios.
 
- ▼ 06/06/2017
+ ▪ project vendor/oneplus/
+ ▪ e489eb9 Merge branch 'cm-14.1' of https://github.com/TheMuppets/proprietary_vendor_oneplus into cm-14.1
+
+ ▼ 06/08/2017
 
 
- ▪ project android/
- ▪ bcb3fb7 crowdin: add PackageInstaller
+ ▪ project device/oneplus/oneplus3/
+ ▪ 78aa1a0 op3: Update from OxygenOS 4.1.5
 
- ▪ project external/stagefright-plugins/
- ▪ 05bf4e7 ffmpeg-extractor: StageFright supports Opus files
- ▪ 11bc5a2 Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright"
-
- ▪ project frameworks/base/
- ▪ 0a001c5 Fix SystemUI FC due to Google Assistant
- ▪ 16a622d Handle Illegal Argument Exception
- ▪ 50b3778 Reduce MTU Size
- ▪ fc52d47 FW_BASE: Rewrite restart SystemUI method
- ▪ 42fa816 Add support for page theme color to WebView and WebChromeClient.
-
- ▪ project frameworks/native/
- ▪ 1eed077 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project libcore/
- ▪ b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project packages/apps/Bluetooth/
- ▪ 9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
- ▪ 9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
+ ▪ project external/chromium-webview/
+ ▪ 2909904 Update webviews
 
  ▪ project packages/apps/Gallery2/
- ▪ 95cb32b Increase the size of the tiles when decoding images
+ ▪ 93bcb4c Gallery2: support GIF animation
 
  ▪ project packages/apps/Jelly/
- ▪ e28fd6c Jelly: Add HTTP auth login support
+ ▪ 22cb565 Implement history management through a ContentProvider.
 
  ▪ project packages/apps/Settings/
- ▪ f91d8c4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 5910d21 Settings:Rewrite Restart SystemUI
+ ▪ 8172333 Revert "ConditionManager: Don't show DnD condition if device has alert slider"
 
- ▪ project system/bt/
- ▪ aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
+ ▪ project packages/apps/Terminal/
+ ▪ 5856a60 Terminal: Fix keyboard Ctrl- and ALT-key input.
 
- ▪ project system/core/
- ▪ 5e54c5f libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468
- ▪ 14bdeb8 Merge tag 'android-7.1.2_r17' into cm-14.1
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+ ▪ 3fe4133 Add back key to actionbar
+ ▪ b9b9cce Add openweathermap copyright
+ ▪ d0d73c5 Add icon
+ ▪ dccb527 Refactor cyanogenmod -> lineageos
+ ▪ 9d01897 Update gradle
 
- ▪ project vendor/cm/
- ▪ 09fa32a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 69d6029 fix check_blacklist function to work on wiped /system partition
- ▪ d0be161 sensitive_pn: Add sensitive numbers for Serbia
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 3e9b1c1 Don't fail when a translation is missing
+ ▪ 3a8340c Update icon
+ ▪ a195bb4 Refactor cyanogenmod -> lineageos
+ ▪ a1ff743 Update gradle
 
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ bf4c5a3 Don't fail when a translation is missing
+ ▪ 6110585 Update app name to match other providers
+ ▪ a0d2c7c Update icon
+ ▪ fd3221f Refactor cyanogemod -> lineageos
+ ▪ 5cb7ddf Update gradle
+
+ ▪ project vendor/oneplus/
+ ▪ 1c4faaa op3: Update to OxygenOS 4.1.5 blobs
