@@ -1,5 +1,34 @@
 Changelog
 
+15th June 2017
+
+Sources updated till 15th June, 7.53pm IST.
+
+CMParts:Make Charging sounds setting Non Searchable
+Fix two same BT devices are shown 
+Fix crash in battery history detail
+Option to change Data Sim via Cellular tile (Long press to find that option there)
+Fix cropping in CPU overlay Style
+base: SystemUI: CPU Info: show CPU temp if supported 
+BatteryMeterDrawable: warning symbol display correction
+
+Substratum removed, install from playstore.
+Revert "oneplus3: kill Doze Pulse"
+Add AOSCP Battery Style, both in Statusbar and QS tiles.
+QS: fix adbovernetwork tile icon visibility, notification added if usb debugging is disabled.
+Activate battery (LED) light only on full battery.
+Charging sounds: Disable/On Connect or Disconnect/On Connect only.
+Charging sounds: Use custom notification sounds.
+
+(Comes with sources update)
+New app-pinning icon
+Slim Recents: allow to disable round corners for cards
+SystemUI: animate icon when locking a task
+Configurations:Disable carrier label by default
+Settings:Smartbar touch sounds:make it optional
+Settings:Add back Left navigation bar in landscape
+SignalClusterView:Tighten up loose ends for no sim subscriptions
+
 9th June 2017
 
 Sources updated till 9th June, 1.15pm IST.

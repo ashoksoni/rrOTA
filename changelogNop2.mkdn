@@ -1,5 +1,17 @@
 Changelog
 
+15th June 2017
+
+Sources updated till 15th June, 7.53pm IST.
+
+CMParts:Make Charging sounds setting Non Searchable
+Fix two same BT devices are shown 
+Fix crash in battery history detail
+ Option to change Data Sim via Cellular tile (Long press to find that option there) (Not tested, if doesn't work or crash, I need logs)
+Fix cropping in CPU overlay Style
+base: SystemUI: CPU Info: show CPU temp if supported 
+BatteryMeterDrawable: warning symbol display correction
+
 13th June 2017
 
 Sources updated till 13th June, 5.00pm IST.
