@@ -2,12 +2,169 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 06/15/2017
+ ▼ 06/21/2017
 
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ aa1e4b0 Added Greyscale QS tile
+ ▪ fb43f31 Added Full Brightness QS tile
+ ▪ 3d1440f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 3860c6f Added Greyscale QS tile
+ ▪ 80c271c Added Full Brightness QS tile
+
+ ▪ project device/qcom/common/
+ ▪ 9f7c1d5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_qcom_common into cm-14.1
 
  ▪ project frameworks/base/
- ▪ 66f7495 Option to change Data Sim via Cellular tile
+ ▪ d72ccec Greyscale QS tile
+ ▪ 2d497b3 Full Brightness QS tile
+ ▪ 3baaa5c Trying something different with ActivityManager
+ ▪ 53bb869 Try to fix some NPE causing quickpic to crash.
+ ▪ 2b18448 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ c5ffbe0 Option to change Data Sim via Cellular tile
+ ▪ 2e64d3a SystemUI: Fix task lock & freeform buttons placement
+ ▪ d7bad2d SymbolComparator operator() is missing const
+ ▪ bf079b8 PowerProfile: allow reading from a file instead of resource
+ ▪ 73645e5 When updating a split app, copy compiled files from base.apk only.
+ ▪ a5691f6 QS Tile: increase DEFAULT_MAX_BOUND to 6
+ ▪ 4bf8cbf Fix service cannot start when service removed from restartList
+ ▪ fcfcc0a Binder: Log details of pending exception.
+ ▪ 648c2d4 Binder: Be forceful about a forceful exit.
+ ▪ 11a0aac Only destory ce data when prepare user CE data failed.
+ ▪ 8240c47 When backup schedule version error will be caused system_server crash
+ ▪ 63a5ada fix ArraySet crash
+ ▪ a5ca9a4 Battery icon: Improve theme compatibility
+ ▪ 9fba0b5 Adopt lockscreen shortcut hint from AOSP
+ ▪ 5ed7a43 Fingerprint swipe gesture to answer/silence incoming call [1/2]
+ ▪ 12cadaa Notification panel fingerprint gesture: fix axis on landscape [1/2]
+ ▪ 8c121b9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+
+ ▪ project hardware/qcom/display/
+ ▪ f3072db hwcomposer: Fix regression in hwc_sync
+
+ ▪ project hardware/qcom/display-caf/apq8084/
+ ▪ 38e457c hwcomposer: Fix regression in hwc_sync
+
+ ▪ project hardware/qcom/display-caf/msm8916/
+ ▪ 6700612 hwcomposer: Fix regression in hwc_sync
+
+ ▪ project hardware/qcom/display-caf/msm8974/
+ ▪ 24176c9 hwcomposer: Fix regression in hwc_sync
+
+ ▪ project hardware/qcom/display-caf/msm8994/
+ ▪ 023758b hwcomposer: Fix regression in hwc_sync
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ db60187 minimal port of grsecurity's DENYUSB feature
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ e3f5838 minimal port of grsecurity's DENYUSB feature
 
  ▪ project packages/apps/Settings/
- ▪ 98f4a14 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ b98eaf1 Better approach for removing preferences.
+ ▪ ec4e238 Remove preferences if package is not installed.
+ ▪ 9f2555d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ b5c3924 Maintainers: Fix up somethings
+ ▪ d0f0f3d Increase Max Small qs tiles to 9
+ ▪ be420f3 Fingerprint swipe gesture to answer/silence incoming call [2/2]
+ ▪ d1285a8 Correctly align cursor in renaming BT device
+ ▪ 2f1d624 Correctly align cursor in DPI settings (smallest width)
 
+ ▼ 06/20/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ c220e14 oneplus2: update ramdisk from stock
+ ▪ 146deeb oneplus2: cosmetic cleanup
+
+ ▪ project frameworks/base/
+ ▪ 5399cd9 Revert "edit app_label (#202)"
+
+ ▪ project packages/apps/OpenDelta/
+ ▪ d4369a7 Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_OpenDelta into nougat
+
+ ▪ project packages/apps/Settings/
+ ▪ d6689c2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▪ project vendor/cm/
+ ▪ bd8a61f Change default wallpaper
+
+ ▼ 06/19/2017
+
+
+ ▪ project hardware/qcom/bt-caf/
+ ▪ 6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+ ▪ project packages/apps/Settings/
+ ▪ bf3bf5c add Lenovo A7000-a to Official (#810)
+
+ ▼ 06/18/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ e7437e2 oneplus2: remove deprecated vendorsetup
+ ▪ 5cdff45 oneplus2: update f2fs mount flags
+
+ ▪ project device/qcom/common/
+ ▪ 5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+ ▪ project frameworks/base/
+ ▪ 4dbe060 BatteryMeterDrawable:Make it more theme friendly
+ ▪ ebbfef3 edit app_label (#202)
+
+ ▪ project packages/apps/Settings/
+ ▪ 9c44dc1 Add Nextbit Robin as Official (#804)
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ d82d392 The bluetooth pairing page cannot be exited, disable it for now.
+
+ ▼ 06/17/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 5e906fb camera: fix green lines on thumbnails issue (yay)
+ ▪ e399795 camera: Revert some changes
+ ▪ 1dcf601 Finalize moving camera hal to device tree
+ ▪ 104160a Move camera hal into device specific directory
+ ▪ bc9392e BoardConfig: flash rom faster
+ ▪ dbce5a8 system.prop: 60 FPS videorec
+ ▪ aebe716 system.prop: JPEG quality 100
+
+ ▪ project frameworks/base/
+ ▪ ac0c76c TaskViewHeader:Don't allow lock button icon to show on grid view
+ ▪ 4bdd900 Base: Improve OmniSwitch implementation
+ ▪ ba32290 base: Fix LED short blink during charge
+ ▪ 18cbeb2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 074ff06 Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+ ▪ project hardware/ril/
+ ▪ 5758b0e ril: fix a memory leak.
+
+ ▪ project hardware/ril-caf/
+ ▪ 588e49d ril: fix a memory leak.
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 69d3df8 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into cm-14.1
+ ▪ 428e6d1 arm64: crypto: Improve target optimization flags
+ ▪ 1fc973b qcacld-2.0: Import LA.BF64.1.2.3-02610-8x94.0
+ ▪ 65ea653 fpc1020_tee: Implement pocket mode for OP2
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 53ed377 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 53163a7 Update Enable switch consistency
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 0d42a07 Testing with logs
+
+ ▪ project packages/apps/Settings/
+ ▪ 00d29cd Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 2ebdc3d RecentsSettings:Make OmniSwitch fragment directly accessible
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ 5b27292 Fix bad wallpaper preview image format

@@ -1,5 +1,37 @@
 Changelog
 
+21st June 2017
+
+Sources updated till 21st June, 4.00pm IST.
+
+Added Full Brightness QS tile
+Added Greyscale QS tile
+BoardConfig: flash rom faster
+Opening new update link directly when clicked on notification (Didn't test, let me know if not working)
+Fixed - LED short blink during charge
+Option to change Data Sim via Cellular tile (Fixed and now statubar is hiding properly too)
+SystemUI: force a clock update if the screen is turned back on
+Hide sensitive information while locked by default
+Limit platform signature permissions to system
+Fixed crash in quickpic when selecting more in sharing menu.
+Fixed - Mobile network signal in battery history details. (It was empty earlier because of a bad commit)
+Correctly align cursor in DPI settings (smallest width)
+Correctly align cursor in renaming BT device
+Disallow background clipboard access by default
+Remove preferences if package is not installed or disabled.
+- Only done for RR OTA/OpenDelta and lockclock package.
+Deny USB Peripherals Settings
+- New security preference added in Security settings.
+-- Disallow new USB peripherals
+-- Allow new USB peripherals when unlocked
+-- Allow new USB peripherals
+
+(Comes with sources update)
+Net monitor: fix arrows not showing when data saver is enabled
+Adopt lockscreen shortcut hint from AOSP
+SystemUI: Fix task lock & freeform buttons placement
+Increase Max Small qs tiles to 9
+
 15th June 2017
 
 Sources updated till 15th June, 7.53pm IST.
