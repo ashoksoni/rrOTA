@@ -1,5 +1,36 @@
 Changelog
 
+05th July 2017
+
+Sources updated till 05th July, 7.30pm IST.
+
+Fix battery charging LED issues. 
+Fixed battery text issue.
+Full Brightness QS tile - added manual mode. Should work perfectly now.
+Running ProtectedApps in same context. 
+Fixed sound playing when set to silent in charging tone settings.
+Add dynamic dashboard summary for Development Settings
+Torch long press power: add auto-off function
+JustArchi's ArchiDroid Optimizations V4
+cultivation governor added.
+proc: Remove additional SafetyNet flags from /proc/cmdline
+sepolicy: adress some more denials
+CMParts: Use vector drawables for most system icons
+CMParts: remove extra padding from app light preference
+BT Car issues fix - shadeau@xda (He investigated different BT stacks and then found the perfect solution, this might still not work for everyone but it's better than before)
+Checking second sim status before showing SimDialogue through Cellular tile. It won't be clickable if there is only sim available.
+- I could not test this as reverted my drop down option for this feature to add simple button in today's build. I am still having issues with drop down option and it's delaying these releases so I am reverting that and will keep testing them in personal builds. Hopefully will be fixed by next update.
+
+(Comes with sources update)
+Disable statusbar time refresh when screen off
+Fix button size not refreshing after a dpi change 
+Media arrows: hide them on keyguard bouncer
+Enable some more power menu actions 
+Settings: Fix automatic hotspot turn off summary 
+base: SystemUI: CPU Info: show CPU temp if supported
+Volume Panel: Fix Bluetooth music stream icon when muted 
+SystemUI: Make play queue toggle more visible
+
 21st June 2017
 
 Sources updated till 21st June, 4.00pm IST.
