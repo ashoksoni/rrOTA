@@ -7,7 +7,7 @@ Sources updated till 05th July, 7.30pm IST.
 Fix battery charging LED issues. 
 Fixed battery text issue.
 Full Brightness QS tile - added manual mode. Should work perfectly now.
-Running ProtectedApps in same context. 
+Running ProtectedApps in same context. (That means no more protectedApps related issues and no more FCs..)
 Fixed sound playing when set to silent in charging tone settings.
 Add dynamic dashboard summary for Development Settings
 Torch long press power: add auto-off function
