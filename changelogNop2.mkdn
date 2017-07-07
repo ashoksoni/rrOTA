@@ -1,5 +1,22 @@
 Changelog
 
+07th July 2017
+
+Sources updated till 07th July, 12.30pm IST.
+
+July security patches.
+SystemUI: Fix task lock & freeform buttons placement (I'll reduce padding by 1 point in next update, it's still looking a bit far to me. Oddness is gone though.)
+Settings: all tile scroller for quickbar settings
+Replaced data sim changer button with a drop down list like OOS - in Cellular tile (Finally).
+Remove duplication of FP_unlock settings
+Fixed IllegalStateException in ResurrectionOTA
+Fixed SocketTimeoutException in ResurrectionOTA
+Fixed @Null for Suspend actions 
+
+(Comes with sources update)
+Add support for pulsing battery icon regardless of style
+SmartBar: make button longpress delay configurable
+
 05th July 2017
 
 Sources updated till 05th July, 7.30pm IST.

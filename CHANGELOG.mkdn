@@ -2,415 +2,97 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 07/05/2017
+ ▼ 07/07/2017
 
 
- ▪ project build/
- ▪ d6241e4 Revert "Revert "Reflinks motherfucker""
-
- ▪ project device/oneplus/oneplus3/
- ▪ acf83fa Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
-
- ▪ project kernel/oneplus/msm8994/
- ▪ e20311d display: add a simple api to query the display state (on/off) at any point in time
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 49030b6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
- ▪ project packages/apps/Jelly/
- ▪ fa0b42a Jelly: Don't save form data in incognito mode
-
- ▪ project system/core/
- ▪ f3ceb7f Merge branch 'nougat' of https://github.com/ResurrectionRemix/system_core into nougat
- ▪ 01a7186 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
-
- ▪ project vendor/cm/
- ▪ 9b37a13 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 3739625 Add LTE support for China Telecom Macau.
- ▪ 3f2013a qcom_utils: Cleanup supported QCOM_BOARD_PLATFORMS
- ▪ 3177211 build: qcom_target: Define MASTER_SIDE_CP_TARGET_LIST
-
- ▼ 07/04/2017
-
-
- ▪ project frameworks/base/
- ▪ e8d1475 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 2e0f3f6 cpufreq: cultivation: bring in initial release
-
- ▪ project packages/apps/DUI/
- ▪ 36109d2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
-
- ▪ project packages/apps/Settings/
- ▪ d347420 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
-
- ▼ 07/03/2017
-
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ 9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
-
- ▪ project hardware/qcom/fm/
- ▪ 7a29d93 FM: Fix helium hal build
- ▪ 0df98d3 Change rename_dialog background color to default
- ▪ f62c66a FMStats: fix GetFMStatsForFreq error for non-cherokee
-
- ▪ project packages/apps/Gallery2/
- ▪ c45b89b Gallery2: Fix crash after returning from albums in wallpaper picker
-
- ▪ project packages/apps/Jelly/
- ▪ b8109ec Jelly: Update suggestions provider API URLs
-
- ▼ 07/02/2017
-
-
- ▪ project hardware/ti/omap4/
- ▪ 030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 8d802d4 synaptics_s3320: don't pass unknown gestures to the userspace
- ▪ f19ddd9 minimal port of grsecurity's DENYUSB feature
- ▪ 1e9b833 arm64: crypto: Improve target optimization flags
- ▪ 917958b fpc1020_tee: Implement pocket mode for OP2
- ▪ f31c59c Fix a compile-time warning
- ▪ 554891f power: qpnp-smbcharger: Always report screen is off when charging
- ▪ 85217f3 charge_levels: small improvements
- ▪ 3a35790 qpnp-smbcharger: Charge Level Interface 1.2 for OP2
- ▪ d5da88a drivers: media: msm: camera_v2: fix bool-compare warning
- ▪ 3623dd9 Disable power_aware and enable all cores on boot.
- ▪ 070324d Revert "Going permissive now."
- ▪ a378890 SafetyNet bypass: Show androidboot.verifiedbootstate=green
- ▪ 3b42582 Going permissive now.
- ▪ d583964 usb-gadget: support USB keyboard
- ▪ 2f6ca0a tri_state_key: allow more key codes for extra modes
- ▪ 3662dc3 Enabling KCAL in kernel configuration file.
- ▪ b56f3cd msm: mdss: Import KCAL post-processing driver [v2] (squashed)
- ▪ 1ce8a5e msm: mdss: Updates to KCAL post-processing driver (squashed)
- ▪ 3c0a75b usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs
-
- ▪ project packages/apps/Jelly/
- ▪ a7659df Jelly: Make UrlResolvedReceiver final
- ▪ b15286f Jelly: Move bing suggestions provider to https
- ▪ f50b7e9 Jelly: Fix Suggestions Provider strings (suggestion / uggestion)
- ▪ 697e32d Jelly: Remove unused parameter
- ▪ 66d1b83 Jelly: Allow launching external apps
-
- ▼ 07/01/2017
-
-
- ▪ project frameworks/base/
- ▪ 9265366 Fix potential KeyguardMonitor FC on unlock
-
- ▪ project kernel/oneplus/msm8996/
- ▪ c6d4f3e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
- ▪ project packages/apps/CMParts/
- ▪ fe8f365 Revert "Fix Missing metadata issue"
- ▪ 04cba62 Revert "[1/3] CMParts: Add CM charging sounds settings"
-
- ▪ project packages/apps/DUI/
- ▪ 39870b2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
-
- ▪ project packages/apps/Jelly/
- ▪ 9d693cc Jelly: Remove unneeded getApplicationContext call
- ▪ d6b3b84 Jelly: Add non encrypted google search engine
- ▪ 897fa20 Jelly: Propagate custom request headers to WebClient
- ▪ 58c2aed Jelly: Add suggestions
-
- ▪ project packages/apps/Settings/
- ▪ 853f58a Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 3e1184d Enable some more power menu actions
-
- ▪ project packages/apps/WallpaperPicker/
- ▪ 2b021c4 WallpaperPicker: Update for wallpaper API changes
-
- ▪ project vendor/cm/
- ▪ 5bdbfdd Possible BT Car issues fix.
-
- ▼ 06/30/2017
-
+ ▪ project android/
+ ▪ 095f157 manifest: android-7.1.2_r17 -> android-7.1.2_r24
 
  ▪ project build/
- ▪ 2e98f21 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ a2f759c Disable recovery resource warning
- ▪ 29849f1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
- ▪ 13505f0 Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE""
- ▪ dbe4d61 Makefile: Add the missing dependency on FUTILITY.
- ▪ 14e6c9f Build FUTILITY tool from futility-host.
-
- ▪ project frameworks/av/
- ▪ 0e7e3ed Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
-
- ▪ project frameworks/base/
- ▪ 022f931 [1/3] Torch long press power: add auto-off function
- ▪ cefedb4 Fix missing metadata error in log
- ▪ f587c63 Fix Battery LED issues.
- ▪ 883ac49 Fix Battery Text going haywire.
- ▪ 90eea87 SystemUI: move time tick to bg handler
- ▪ b2bb58f [ActivityManager]an extra animation when finish a visible paused activity
-
- ▪ project kernel/oneplus/msm8996/
- ▪ c6d4f3e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ 84c4f4f qcacld-2.0: Update to LA.UM.5.5.r1-05100-8x96.0
- ▪ 118e4a2 Merge tag 'LA.UM.5.5.r1-05100-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into cm-14.1
-
- ▪ project packages/apps/CMParts/
- ▪ 04cba62 Revert "[1/3] CMParts: Add CM charging sounds settings"
- ▪ e45ec91 Fix Missing metadata issue
-
- ▪ project packages/apps/DUI/
- ▪ 39870b2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
- ▪ 08efc6c Fix button size not refreshing after a dpi change
- ▪ f758ef8 Media arrows: hide them on keyguard bouncer
-
- ▪ project packages/apps/Settings/
- ▪ 853f58a Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 3e1184d Enable some more power menu actions
- ▪ 133fba8 [3/3] Torch long press power: add auto-off function
-
- ▪ project vendor/cm/
- ▪ ed05964 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 94925ac apns-conf: Add Japan Umobile APNs
- ▪ 65227e7 sensitive_pn: Add sensitive numbers for Greece
- ▪ 980082e sensitive_pn: fix Czech Republic MCC
- ▪ 93c4774 sensitive_pn: Add Taiwanese sensitive numbers
- ▪ 0d0b4a0 Add sensitive numbers for Ukraine.
- ▪ 25aa89e Add Virgin Media Ireland to APN's
- ▪ 0d7863e sensitive_pn: Add additional FR number
- ▪ ea6ec70 sensitive_pn: Add additional GB numbers
- ▪ 5cdcee9 sensitive_pn: Add additional PT numbers
- ▪ 5873f8b sensitive_pn: add missing phone number for Brazil
- ▪ 1498b34 roomservice: Search for repos in lineage snippet too
- ▪ e0f8cfc roomservice: Remove support for devices in main manifest
- ▪ eb80e6f Add sensitive numbers for Israel.
- ▪ a632682 sensitive_pn: Add sensitive phone numbers for Czech Republic
- ▪ a0723e8 sensitive_pn: Add Canadian sensitive numbers
- ▪ 3483b70 sensitive_pn: Add more numbers from the Netherlands
-
- ▼ 06/29/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ 54e613d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 45e8337 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into cm-14.1
-
- ▪ project packages/apps/CMParts/
- ▪ a67b8c4 Set android:configChanges for .PartsActivity
- ▪ ff05c18 CMParts: Use vector drawables for most system icons
- ▪ a3a898e CMParts: remove extra padding from app light preference
-
- ▪ project packages/apps/Jelly/
- ▪ 69173dd Jelly: Add show/hide keyboard utilities
-
- ▪ project packages/apps/Settings/
- ▪ 5656cda Add dynamic dashboard summary
-
- ▼ 06/28/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ 54e613d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 45e8337 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into cm-14.1
-
- ▪ project packages/apps/DUI/
- ▪ 1ab6162 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
-
- ▪ project packages/apps/Jelly/
- ▪ 9a5fcdd Jelly: Search on Enter key
- ▪ 74c7e51 Jelly: Don't reload on keyboard changes
-
- ▪ project packages/apps/Settings/
- ▪ 5fed0a3 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 7470d86 Add device Samsung Galaxy S4 VE GT-I9515 jfvelte (#813)
-
- ▼ 06/27/2017
-
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 8c1103a sg_write()/bsg_write() is not fit to be called under KERNEL_DS
- ▪ 27a8dfb sg: Fix double-free when drives detach during SG_IO
- ▪ 3267dd7 KEYS: Fix handling of stored error in a negatively instantiated user key
- ▪ 18d4585 ipv6: addrconf: validate new MTU before applying it
-
- ▪ project packages/apps/Gallery2/
- ▪ e988d6a Gallery2: Fix views overlap
-
- ▼ 06/26/2017
-
-
- ▪ project kernel/oneplus/msm8994/
- ▪ c65b86e KEYS: Don't permit request_key() to construct a new keyring
- ▪ 1ffabef Input: aiptek - fix crash on detecting device without endpoints
- ▪ 509a9a5 tty: Fix hang at ldsem_down_read()
- ▪ 74446a7 BACKPORT: fs: limit filesystem stacking depth
- ▪ 6e4c876 sdcardfs: limit stacking depth
-
- ▪ project packages/apps/Jelly/
- ▪ cc66a61 Jelly: Add WebChromeClientCompat
- ▪ e3b22ba Jelly: Fix some lint warnings
-
- ▪ project packages/apps/Settings/
- ▪ 5d3664d Add Xiaomi MI6(sagit) maintainer (#812)
-
- ▪ project packages/providers/MediaProvider/
- ▪ 0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
- ▪ 815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
- ▪ f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
- ▪ eb0378b MediaProvider: Fix SQLiteDiskIOException.
- ▪ b619475 Revert "Fix check for existence of parent"
- ▪ 21ce3cd Revert "MediaProvider: Fix where condition of delete queries"
-
- ▼ 06/25/2017
-
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 20ad8a9 kernel: Fix potential refcount leak in su check
- ▪ bd8e647 kernel: Only expose su when daemon is running
-
- ▪ project packages/apps/Jelly/
- ▪ 2d1bdcd Jelly: Add save form data setting
- ▪ d2926c7 Jelly: add Do Not Track setting
- ▪ 42d6446 Jelly: Add incognito mode shortcut
- ▪ 69c2401 Jelly: Update android tools build
-
- ▪ project packages/apps/Trebuchet/
- ▪ 8b8de5f Trebuchet: Rename settings provider
-
-
- ▼ 06/24/2017
-
- ▪ project build/
- ▪ a25512f build: condition cortex-a53-835769 workaround for the linker
- ▪ 28b6e50 build: condition A53 errata workarounds in RenderScript
- ▪ d8eb139 build: take ARM erratum cortex-a53-835769 into our hands
- ▪ 4c13adf build: dynamically fix ARM erratum cortex-a53-843419
- ▪ 8518fe6 core/combo/TARGET_linux-arm64.mk: extend archidroid to arm64
- ▪ afcfe19 JustArchi's ArchiDroid Optimizations V4
- ▪ 02c2b7d build: sdclang: Sync ldflags and cflags
- ▪ f191334 binary: Append cc/cxx wrapper to sdclang
- ▪ 688a3c4 build: sdclang: move the host detection logic
- ▪ 4587edc build: Do proper optimization during SDCLANG_LTO
- ▪ 4cf1b6a build: QCLD/LTO: support for unsafe filtering
- ▪ 532ea27 build: ensure QCLD usage when requested
- ▪ 975fbe8 build: cleanup SDCLANG logic
- ▪ 7c4d6ee build: Add support for selective LTO with QCLD
- ▪ a975a6d build: enhance and extend support for SDCLANG
- ▪ abba73e optimize to hell
- ▪ eafdf63 core: main: never enable checkjni
- 
- ▪ project packages/apps/CMParts/
- ▪ 41aa0e6 Another try to fix Battery lights issue.
- 
- ▪ project packages/apps/SetupWizard/
- ▪ 092d0fa Disable SetupWraith, the ATV SUW.
-
- ▪ project packages/services/Telephony/
- ▪ 091ccb6 Fix Phone Service crash on MSIM devices as Guest use
- 
- ▪ project device/oneplus/oneplus3/
- ▪ 0cbf501 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into eas
-
- ▪ project frameworks/base/
- ▪ 71dbeae Finally data-switch is done.
- ▪ e5073c0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 86e4e6e Running ProtectedApps in same context.
- ▪ 9f0a98e Fix System Navigation fp switch
-
- ▪ project vendor/cm/
- ▪ 43d5325 Revert "Change default wallpaper to delight"
-
- ▼ 06/23/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ 9a25a6a op3: Sync bluetooth configuration with CAF
- ▪ 48e127b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into eas
-
- ▪ project packages/apps/Jelly/
- ▪ 818e92d Jelly: Guess filename from URL
- ▪ 1a4f237 Jelly: Allow media scan on download
- ▪ a8fe6fa Jelly: Show download notification on completed
-
- ▪ project packages/apps/Settings/
- ▪ b86b778 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
-
- ▪ project packages/providers/MediaProvider/
- ▪ 61ab20a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_providers_MediaProvider into cm-14.1
-
- ▪ project vendor/oneplus/
- ▪ 2ebcd80 Merge branch 'cm-14.1' of https://github.com/TheMuppets/proprietary_vendor_oneplus into cm-14.1
-
- ▼ 06/22/2017
-
-
- ▪ project build/
- ▪ d93dc39 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ e984480 Clean option: deviceclean
+ ▪ 42b0a69 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ 01f92d6 Merge tag 'android-7.1.2_r24' into nougat
 
  ▪ project device/oneplus/oneplus2/
- ▪ 6f63223 Revert "sepolicy: Address denials"
- ▪ ca9c616 op2: Add system GID to rmt_storage
- ▪ 1f4f7ee op2: rmt_storage should have wakelock GID
+ ▪ bf1460a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+ ▪ e1af1ae Remove telephony-ext
+ ▪ d9a0e08 oneplus2: remove duplicate from init
 
  ▪ project device/oneplus/oneplus3/
- ▪ 48e127b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into eas
- ▪ c2e7eda op3: Define ril-daemon normally
- ▪ b303c21 op3: sepolicy: Remove old and duplicate permissions
- ▪ f4ecf29 Revert "op3: sepolicy: Fix rmt_storage and rfs_access policies"
- ▪ bb87f54 op3: Add system GID to rmt_storage
- ▪ 2b9d2a4 op3: rmt_storage should have wakelock GID
- ▪ 9d18ddd op3: Drop NET_RAW and NET_ADMIN from qti
- ▪ 9cbce71 op3: Grant netmgrd proper unix perms
- ▪ f2bc6c0 op3: Update qti telephony extension from MIUI 7.6.5 dev
- ▪ 70581ae op3: Convert rf_version to integer before comparison
- ▪ 0f0e85d op3: Update from Open Beta 18
- ▪ 3a1de8f op3: Adjust lmk parameters
+ ▪ 7a544c5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 4eaa7b3 op3: Abandon TARGET_UNIFIED_DEVICE flag
+ ▪ a0b69b4 op3: Allow vendor init to override props
+
+ ▪ project external/skia/
+ ▪ d41b284 Merge tag 'android-7.1.2_r24' into nougat
+
+ ▪ project frameworks/av/
+ ▪ 4d87ec3 Merge tag 'android-7.1.2_r24' into nougat
 
  ▪ project frameworks/base/
- ▪ e1db1a9 Adding a dropdown list for switching data
- ▪ e16c48f Checking second sim status before showing SimDialogue
- ▪ 93263d8 Open Notifications directly for ProtectedApps
- ▪ 0f3e279 Revert "Why going through couple of extra steps, huh!"
- ▪ fd5bcef Revert "Trying something different with ActivityManager"
- ▪ 8f3ee38 Full Brightness QS tile
- ▪ 61cc4a3 Revert "make isForegroundActivity available elsewhere"
- ▪ f1036a7 Revert "disallow background clipboard access by default"
- ▪ bb7f486 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 190828d Greyscale QS tile
- ▪ 16cf7d0 SystemUI: force a clock update if the screen is turned back on
- ▪ af8a38c SystemUI: disable statusbar time refresh when screen off
- ▪ cdf8770 base: SystemUI: CPU Info: show CPU temp if supported
- ▪ e57631d Frameworks: Fix Null Pointer Issue
+ ▪ 92334e0 SystemUI: Fix task lock & freeform buttons placement
+ ▪ 5d8131f Hiding Deactivated SIM through a different method
+ ▪ b4815f1 base: SystemUI: all tile scroller for quickbar settings [1/2]
+ ▪ 278ce05a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ a144ffb Finally data-switch is done.
+ ▪ 7359783 SmartBar: make button longpress delay configurable [2/3]
+ ▪ 0f18cce fingerprint: Speed up wake-and-unlock scenario
+ ▪ 10484a5 [1/2] Add support for pulsing battery icon when charging
+ ▪ ceb328a Revert "Option to change Data Sim via Cellular tile"
+ ▪ 073c1b6 Revert "Checking sim status before showing SimDialogue"
+ ▪ e34ce9e Checking sim status before showing SimDialogue
+ ▪ a927376 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 7cc34a0 Merge tag 'android-7.1.2_r24' into nougat
 
- ▪ project kernel/oneplus/msm8996/
- ▪ 11d10d5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ 86cce41 ANDROID: sdcardfs: remove dead function open_flags_to_access_mode()
+ ▪ project frameworks/native/
+ ▪ bc36098 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
+ ▪ cfac6d5 Merge tag 'android-7.1.2_r24' into nougat
+
+ ▪ project packages/apps/DUI/
+ ▪ 048c903 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ 0e7263f SmartBar: make button longpress delay configurable [1/3]
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 11a54f8 Fixing IllegalStateException
+ ▪ 86ded9b Fixing SocketTimeoutException
 
  ▪ project packages/apps/Settings/
- ▪ e96533f Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 9c8e111 Revert "add toggle for background clipboard access"
- ▪ b2b5093 Settings: Fragment cleanups
- ▪ 7a3bbf2 Add nubia Z9 Max nx512j as official (#811)
- ▪ 4b1eb61 Remove preferences if package is not installed.
- ▪ 90c68a8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ asdf344 Fixing @Null for Suspend actions 
+ ▪ 8df7ab6 Settings: all tile scroller for quickbar settings [2/2]
+ ▪ e55929c Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 1f19428 SmartBar: make button longpress delay configurable [3/3]
+ ▪ a9a780d Edit a string
+ ▪ a9bba60 [2/2] Add support for pulsing battery icon regardless of style
+ ▪ cceae3b Remove duplication of FP_unlock settings
+ ▪ 4bd0ffd Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 15be728 DeviceInfoSettings: don't hardcode tag/build id
+ ▪ 658c831 Merge tag 'android-7.1.2_r24' into nougat
 
- ▪ project packages/providers/MediaProvider/
- ▪ 61ab20a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_providers_MediaProvider into cm-14.1
+ ▪ project system/sepolicy/
+ ▪ 56c50fe Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_system_sepolicy into nougat
 
  ▪ project vendor/cm/
- ▪ c7f6595 Change default wallpaper to delight
+ ▪ 05745bb Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 44d782b vendor: add a prop to get the AOSP tag from manifest
 
- ▪ project vendor/oneplus/
- ▪ 2ebcd80 Merge branch 'cm-14.1' of https://github.com/TheMuppets/proprietary_vendor_oneplus into cm-14.1
- ▪ b7ac82e op3: Update qti telephony extension from MIUI 7.6.5 dev
- ▪ 627730b op3: Update to Open Beta 18 blobs
+ ▼ 07/06/2017
+
+
+ ▪ project external/boringssl/
+ ▪ c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project libcore/
+ ▪ 30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project packages/apps/Settings/
+ ▪ 1e3b4ef Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 77bc9ec Change Oneplus2 maintainer (#816)
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project system/sepolicy/
+ ▪ e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1
+
