@@ -2,97 +2,186 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 07/07/2017
+ ▼ 07/14/2017
 
-
- ▪ project android/
- ▪ 095f157 manifest: android-7.1.2_r17 -> android-7.1.2_r24
-
- ▪ project build/
- ▪ 42b0a69 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ 01f92d6 Merge tag 'android-7.1.2_r24' into nougat
-
- ▪ project device/oneplus/oneplus2/
- ▪ bf1460a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
- ▪ e1af1ae Remove telephony-ext
- ▪ d9a0e08 oneplus2: remove duplicate from init
-
- ▪ project device/oneplus/oneplus3/
- ▪ 7a544c5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
- ▪ 4eaa7b3 op3: Abandon TARGET_UNIFIED_DEVICE flag
- ▪ a0b69b4 op3: Allow vendor init to override props
-
- ▪ project external/skia/
- ▪ d41b284 Merge tag 'android-7.1.2_r24' into nougat
-
- ▪ project frameworks/av/
- ▪ 4d87ec3 Merge tag 'android-7.1.2_r24' into nougat
 
  ▪ project frameworks/base/
- ▪ 92334e0 SystemUI: Fix task lock & freeform buttons placement
- ▪ 5d8131f Hiding Deactivated SIM through a different method
- ▪ b4815f1 base: SystemUI: all tile scroller for quickbar settings [1/2]
- ▪ 278ce05a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ a144ffb Finally data-switch is done.
- ▪ 7359783 SmartBar: make button longpress delay configurable [2/3]
- ▪ 0f18cce fingerprint: Speed up wake-and-unlock scenario
- ▪ 10484a5 [1/2] Add support for pulsing battery icon when charging
- ▪ ceb328a Revert "Option to change Data Sim via Cellular tile"
- ▪ 073c1b6 Revert "Checking sim status before showing SimDialogue"
- ▪ e34ce9e Checking sim status before showing SimDialogue
- ▪ a927376 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 7cc34a0 Merge tag 'android-7.1.2_r24' into nougat
+ ▪ 9f1cc4b Fix keyguard prompt reason showing with fingerprint reboot enabled
 
- ▪ project frameworks/native/
- ▪ bc36098 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
- ▪ cfac6d5 Merge tag 'android-7.1.2_r24' into nougat
-
- ▪ project packages/apps/DUI/
- ▪ 048c903 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
- ▪ 0e7263f SmartBar: make button longpress delay configurable [1/3]
-
- ▪ project packages/apps/ResurrectionOTA/
- ▪ 11a54f8 Fixing IllegalStateException
- ▪ 86ded9b Fixing SocketTimeoutException
+ ▪ project packages/apps/OpenDelta/
+ ▪ 643fd96 Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_OpenDelta into nougat
 
  ▪ project packages/apps/Settings/
- ▪ asdf344 Fixing @Null for Suspend actions 
- ▪ 8df7ab6 Settings: all tile scroller for quickbar settings [2/2]
- ▪ e55929c Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 1f19428 SmartBar: make button longpress delay configurable [3/3]
- ▪ a9a780d Edit a string
- ▪ a9bba60 [2/2] Add support for pulsing battery icon regardless of style
- ▪ cceae3b Remove duplication of FP_unlock settings
- ▪ 4bd0ffd Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 15be728 DeviceInfoSettings: don't hardcode tag/build id
- ▪ 658c831 Merge tag 'android-7.1.2_r24' into nougat
+ ▪ bb1f393 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 089a928 Official support for Moto E3 Power(taido_row) (#818)
+ ▪ 93a2c68 Official support for Moto E3 Power(taido_row) (#819)
 
- ▪ project system/sepolicy/
- ▪ 56c50fe Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_system_sepolicy into nougat
+ ▪ project packages/apps/Snap/
+ ▪ 5c51d47 Revert some permissions related changes
 
  ▪ project vendor/cm/
- ▪ 05745bb Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 44d782b vendor: add a prop to get the AOSP tag from manifest
+ ▪ 93d1cba Update magisk.zip 13.2, MagiskManager 5.0.5
 
- ▼ 07/06/2017
+ ▼ 07/13/2017
 
 
- ▪ project external/boringssl/
- ▪ c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
-
- ▪ project libcore/
- ▪ 30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+ ▪ project packages/apps/Jelly/
+ ▪ 6934a68 Jelly: use Google as default all the things
 
  ▪ project packages/apps/Settings/
- ▪ 1e3b4ef Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 77bc9ec Change Oneplus2 maintainer (#816)
+ ▪ 809857c Add maintainer for Xiaomi RedMi 3 (#817)
 
- ▪ project packages/providers/DownloadProvider/
- ▪ d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+ ▪ project packages/apps/Snap/
+ ▪ 0dbf891 Add overlay for restarting camera preview for additional cameras
 
- ▪ project packages/providers/MediaProvider/
- ▪ 03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
 
- ▪ project system/sepolicy/
- ▪ e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1
+ ▼ 07/12/2017
 
+
+ ▪ project frameworks/base/
+ ▪ 59c5c0c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ b0a68f3 PowerManagerService:Allow Device to set default value for hw keys light up[1/2]
+
+ ▪ project packages/apps/Settings/
+ ▪ 27f94ee Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ e79d383 Settings:Allow Device to set default value for hw keys light up[2/2]
+
+
+ ▼ 07/11/2017
+
+
+ ▪ project build/
+ ▪ 3dc5d5d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 06c5928 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 222334f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+
+ ▪ project frameworks/base/
+
+ ▪ d1c2fb6 Fixing PerfProfileTile
+ ▪ 7aa7716 Dealing with Same name SIMs.
+ ▪ 5eaaeef Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ f1c724e Base: make button backlight light up user configurable [1/2]
+ ▪ 2a7f84f Fix a crashed when clicking list item and button meanwhile
+ ▪ c2d809b Camera2: Fix Error Callback if buffer lost.
+ ▪ fb62603 [ams]set the resultTo to null started by a finishing activity
+ ▪ 5b8f52d remove the lock-use for prunePrintService in case blocking main thread
+ ▪ 0246757 Move screen on message to new thread
+ ▪ 6d688cd FlashlightTile: Retry opening camera later on if it failed before
+ ▪ 6bcd55e hwui: Remove deprecated compiler flag
+ ▪ 6d2489c SystemUI: move time tick to bg handler
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 85b0632 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into test
+
+ ▪ project packages/apps/DUI/
+ ▪ 6dcc2b8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ 5198175 DUI:Smartbar longpress delay:make it more configurable [1/2]
+
+ ▪ project packages/apps/Settings/
+ ▪ ea2957b Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ fbdd17e Settings: make hw keys light up user configurable [2/2]
+ ▪ 8ffe089 Smartbar longpress delay:make it more configurable [2/2]
+
+ ▪ project vendor/cm/
+ ▪ 345d44d Magisk updated to v13.1 and MagiskManager to v5.0.4
+ ▪ f31dade Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+ ▼ 07/10/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ ba2face op2: Disable tethering provisioning for all carriers
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 9c1919a Revert "slim-msm : Synchronize SSR callbacks"
+ ▪ 6789efa fix derp from caf-import
+ ▪ 87e30e7 soc: qcom: msm_bus: add mutex lock for cllist data
+ ▪ 2848b1b5 msm: sps: Fix race condition in SPS debugfs APIs
+ ▪ 3f94623 ASoC: msm: qdsp6v2: make audio debugfs read and release exclusive
+ ▪ 5073ac0 ASoC: msm: acquire lock in ioctl
+ ▪ e0c1204 msm: camera: Prevent info leak in kernel driver.
+ ▪ a0b0bf9 msm : mdss: fix unaligned access problem
+ ▪ ed2018f msm: camera: Use mutex lock to avoid race condition
+ ▪ 286350c msm: vidc: Allocate memory dynamically for debugfs info_reads
+ ▪ bc16e12 msm: camera: validate num_streams in stream_cfg_cmd before using it
+ ▪ 4316a73 msm: vidc: Copy user buffers to kernel memory before access
+ ▪ 3eb54ba msm: msm_bus: Add mutex to protect node_list
+ ▪ 66bc311 usb : dwc3: Initialize kernel stack variables properly
+ ▪ e272c08 input: touchscreen: remove data pointer from driver structure
+ ▪ 6920eb7 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc
+ ▪ 31e510a diag: dci: Add protection while querying event status
+ ▪ 6fb1411 input: synaptics: fix for buggy code poined by SIL tool
+ ▪ 5351654 msm: mdss: Buffer overflow while processing gamut table data
+ ▪ 02b1874 drivers: soc: qcom: rpm_stats: Add mutex lock for shared data
+ ▪ 3e74187 msm: camera: isp: Avoid information leak in ISPIF
+ ▪ f4b3d5a2 msm: camera: fix untrusted pointer for power down setting
+ ▪ 19c0355 soc: qcom: rpm-smd-debug: initialize variables and check for return value
+ ▪ 4ea921d hid: usbhid: Changes to prevent buffer overflow
+ ▪ 1d9c9fa msm: isp: Avoid unaligned register access
+ ▪ cd7ce7b ASoC: msm: qdsp6v2: extend validation of virtual address
+ ▪ 8fa223e ASoC: msm: remove unused msm-compr-q6-v2
+ ▪ 5b5632e msm: kgsl: Fix kgsl memory allocation and free race condition
+ ▪ 92f19a8 msm: camera: don't cut to 8bits for validating enum variable
+ ▪ 342ec66 tracing: do not leak kernel addresses
+ ▪ 6aeac7b Prevent heap overflow in uvc driver
+ ▪ 8aa9f12 xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder
+ ▪ 47d05c5 xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
+ ▪ c4c23db msm: camera: Allow driver file to be opend only once.
+ ▪ 02cf852 msm: camera2: cpp: Fix out-of-bounds frame or command buffer access
+ ▪ 616ae4b msm: camera2: cpp: Fix iommu_attach/detach compat_ioctl issue
+ ▪ 7b455cc2 ASoC: msm: qdsp6v2: clear address on error
+ ▪ 1a04336 radio-iris: Use copy_from_user API to access userspace memory
+ ▪ 869120b msm: sensor: validating the flash initialization parameters
+ ▪ 1b97a37 mmc: card: block: check the user controlled parameters to avoid overflow
+ ▪ cfed5af msm: camera: Add regulator enable and disable independent of CSID
+ ▪ af7bd22 slim-msm : Synchronize SSR callbacks
+ ▪ f37ade7 msm: rmnet_ipa: fix memory overflow issue
+ ▪ 91170e5 ion: Fix unprotected userspace access
+ ▪ 9a84a61 crypto: msm: check invalid src and dst vbuf in qcedev.c
+ ▪ 70554c0 ANDROID: fix acl leaks
+ ▪ b02d457 FROMLIST: 9p: fix a potential acl leak
+ ▪ 70f6b32 ANDROID: ion: Fix uninitialized variable
+ ▪ 019d4a8 qseecom: add mutex around qseecom_set_client_mem_param
+ ▪ 56c9802 posix_acl: Clear SGID bit when setting file permissions
+ ▪ 51081f8 ANDROID: ion: Protect kref from userspace manipulation
+ ▪ 62d4ce7 ASoC: msm: qdspv2: add result check when audio process fail
+ ▪ 73d18ee wcnss: fix the potential memory leak and heap overflow
+ ▪ 385834b msm: mdss: fix race condition during mdp debugfs release
+ ▪ c9a5a5b soc: qcom: remove debugfs interface from ssr
+ ▪ bfa5984 crypto: msm: Fix buffer overflow issue
+ ▪ f9fc53f drivers: qcom: ultrasound: check concurrent device open operations
+ ▪ beb59e4 ashmem: remove cache maintenance support
+ ▪ 5a68237 msm: ipa: Fix memory leak in ipa driver
+ ▪ 300b79e msm: camera: sensor: Add boundary check for cci master
+ ▪ f15271b fix 8912663866a2eba2232dd51940095f7e326ea7e9
+
+ ▪ project vendor/oneplus/
+ ▪ c2845b9 oneplus2: Import from OnePlus2Oxygen_14_OTA_030_all_1704191749
+
+ ▼ 07/09/2017
+
+
+ ▪ project build/
+ ▪ 75e05d5 core: Makefile: Correct package signature disable
+ ▪ 72cd3b1 core: assume non-release recoveries to skip signature check
+ ▪ b101356 core: use 0 compression when creating the target_files package
+ ▪ 912e52a releasetools: silence binary info printed by blockimgdiff
+ ▪ 189d8fd Create 0 compression ratio jar files
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 3e7b3d4 op3: Light up buttons only when pressed
+
+ ▪ project frameworks/base/
+ ▪ 79e9a27 aapt: enforce 0 compression
+ ▪ 2ca4ef8 aapt: allow opting out of uncompressed aapt
+ ▪ f6ef9b2 aapt: default to 0 compression
+ ▪ 6c9941d PowerManagerService: add a config to light up buttons only when pressed
+
+ ▪ project vendor/cm/
+ ▪ fbb261c sensitive_pn: Enter full list of Indian MCC codes
+ ▪ a736075 sensitive_pn: Enter full list of GB MCC codes
+ ▪ 8388b24 sensitive_pn: Enter full list of US MCC codes

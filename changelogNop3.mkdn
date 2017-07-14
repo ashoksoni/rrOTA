@@ -1,5 +1,22 @@
 Changelog
 
+14th July 2017
+
+Sources updated till 14th July, 1.15pm IST.
+
+Fix keyguard prompt reason showing with fingerprint unlock enabled.
+Dealing with Same SIM names. (while changing Data SIM through Cellular tile)
+Fixed PerfProfileTile - (It won't activate Battery saver mode although it will be changed to power save mode if battery saver is activated)
+Magisk updated to v13.2 and MagiskManager to v5.0.5
+
+(Comes with sources update)
+DUI:Smartbar longpress delay:make it more configurable
+make hw keys light up user configurable
+
+08th July 2017
+
+Fixed - no sim network hide switch. Botched it by trying to do something else. Should work fine now. 
+
 07th July 2017
 
 Sources updated till 07th July, 12.30pm IST.
