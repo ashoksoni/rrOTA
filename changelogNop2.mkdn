@@ -1,5 +1,36 @@
 Changelog
 
+23th July 2017
+
+Sources updated till 23rd July 8pm IST.
+
+add device info field with verified boot status
+
+Kernel changes.
+- Ignore hardware keys when touchscreen is in use.
+- add options to block (un)popular battery wrecking wakelocks from Franco kernel (use his app to block them) 
+
+Fixed a Null pointer exception in omniswitch.
+QCamera2/HAL3: Advertize correct timestamp source.
+Increase max number of EXIF tags.
+oneplus2: Fix offline charging
+sepolicy: bluetooth_loader: address a denial …
+Fix for Network Drop issue (Deal few network drops issue, not all of them)
+op2: Enable Wifi calling
+add device info field with verified boot status
+
+(Comes with sources update)
+MiscSettings: Remove SElinux Switch & System App remover if no Magisk
+Configurable Keyguard alpha and Keyguard Bouncer alpha inspired by the BrightLockscreen xposed module: https://github.com/Generalbrus/BrightLockscreen
+RecentsView: Hiding membar, memtext and fab on drag start.
+SystemUI: Fix Notification Background Color Issue
+Settings:Configurable Keyguard & bouncer alpha
+update DeskClock 5.1 (4015683)
+update Pixel Launcher ODR-4023749
+update Google Wallpaper 1.1.153125266
+update Magisk 13.3
+update Magisk Manager 5.1.0
+
 14th July 2017
 
 Sources updated till 14th July, 1.15pm IST.

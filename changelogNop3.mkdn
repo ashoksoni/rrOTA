@@ -1,5 +1,27 @@
 Changelog
 
+23th July 2017
+
+Sources updated till 23rd July 8pm IST.
+
+Fixed a Null pointer exception in omniswitch (fixes fc that was reported here).
+add device info field with verified boot status
+Update from OB19 so use latest firmware for you devices.
+op3: Add 3T specific power profile.
+
+(Comes with sources update)
+op3: Update to Open Beta 19 blobs
+MiscSettings: Remove SElinux Switch & System App remover if no Magisk
+Configurable Keyguard alpha and Keyguard Bouncer alpha inspired by the BrightLockscreen xposed module: https://github.com/Generalbrus/BrightLockscreen
+RecentsView: Hiding membar, memtext and fab on drag start.
+SystemUI: Fix Notification Background Color Issue
+Settings:Configurable Keyguard & bouncer alpha
+update DeskClock 5.1 (4015683)
+update Pixel Launcher ODR-4023749
+update Google Wallpaper 1.1.153125266
+update Magisk 13.3
+update Magisk Manager 5.1.0
+
 14th July 2017
 
 Sources updated till 14th July, 1.15pm IST.
