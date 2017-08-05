@@ -1,5 +1,25 @@
 Changelog
 
+4th August 2017
+
+Sources updated till 4th August 4pm IST.
+
+Rom is rootless now. Remove magisk add.on file from system/add.on folder so it won't be restored after a dirty flash before you do a dirty flash.
+DozeService: Fallback to tilt sensor as pickup sensor
+Set limit for messages sending in a minute (Go to Dev section and choose "Change SMS sending maximum limit", enter your desired value for no. of maximum messages. Default is 30.)
+- This is not tested as I don't send these many messages. So test and report, if it doesn't work that way, I will make the changes in hardcore way.
+Remove OmniSwitch preference if omniswitch app's removed as well as its reference from recents type list.
+Fix hanging on boot-animation which occured after a dirty flash. Build starts fine again after a dirty flash and no need to reboot again.
+
+op3: Add shim to make front camera not take 4 MP pics in bright light
+op3: Add shim to fix front facing camera crash in bright light
+op3: Use shim to set camera package name in the HAL to OnePlus Camera
+op3: Automatically sed camera HAL symbol changes needed for shim
+oneplus3: Address SELinux denials for Facebook Messenger video calls
+ 
+(Comes with sources update)
+Allow to disable battery light when in DND mode
+
 23th July 2017
 
 Sources updated till 23rd July 8pm IST.
