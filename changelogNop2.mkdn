@@ -1,5 +1,31 @@
 Changelog
 
+7th August 2017
+
+Sources updated till 7th August 6pm IST.
+
+Bump version to 5.8.4
+Silence IMS logs
+Remove unnecessary libshims dir
+Video Recording fixed
+Increase max no. of import/export contacts to 2000
+
+(Comes with sources update)
+
+Add selinux policy for pocket bridge
+Add sysfs permissions for pocket bridge
+Add pocket judge selinux policy
+Fix FC when adding duplicate shortcuts
+Settings:Add preference for pocket judge
+PieSettings: Add support for Pie Gravity
+ButtonsSettings: Add preference for Accidental Touch
+Update PIE settings to 3.0
+AppOps: Fix yet another deadlock
+pocket: introduce pocket bridge
+policy: introduce pocket lock
+pocket: introduce pocket judge
+base: Introduce Accidental Touch
+
 4th August 2017
 
 Sources updated till 4th August 4pm IST.

@@ -1,290 +1,78 @@
 
- ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
+ ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 08/04/2017
+ ▼ 08/07/2017
 
 
- ▪ project device/oneplus/oneplus2/
- ▪ 343e906 Revert "configs: media_profiles: fix video recording"
- ▪ dfc6a4b configs: media_profiles: fix video recording
- ▪ 5393952 Remove unnecessary libshims dir
- ▪ 1125235 Revert "oneplus2: update media_profiles from stock"
- ▪ 198e283 Revert "Adding oneplus camera to hal1 list."
+ ▪ project build/
+ ▪ c8c8701 target:product: Remove Camera2
 
  ▪ project frameworks/base/
- ▪ 0ede217 DozeService: Fallback to tilt sensor as pickup sensor
- ▪ 3861246 Revert "KernelCpuSpeedReader: Account for missing sysfs nodes"
- ▪ 59d897f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ c79b173 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
 
- ▪ project hardware/qcom/media-caf/msm8916/
- ▪ ec78924 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916
+ ▪ project frameworks/opt/telephony/
+ ▪ 7afd997 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_opt_telephony into cm-14.1
 
- ▪ project hardware/qcom/media-caf/msm8994/
- ▪ 1afe59f Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994
-
- ▪ project packages/apps/Settings/
- ▪ dcdc9b5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 2c3d1a0 Set limit for messages sending
- ▪ 1bed82a Add Maintainer For Android One 1st gen. (sprout) (#832)
-
- ▪ project vendor/cm/
- ▪ 8559ecf Remove Magisk
-
- ▪ project vendor/oneplus/
- ▪ 9d8d01d Use OP camera app from OP5
- ▪ deaa8aa Use OP camera libs from OP5
- ▪ a4ae70a Camera stuff from OOS 3.5.8
- ▪ 2c46fdc Use proprietary prebuilt gps hal
- ▪ dbe252c Use another slim_daemon
- ▪ 025b79f Removing Slim-Daemon
-
- ▼ 08/03/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ 495dd9f Revert "Adding oneplus camera to hal1 list."
-
- ▪ project device/oneplus/oneplus3/
- ▪ b2b183e op3: Add shim to make front camera not take 4 MP pics in bright light
- ▪ 8e7d73a op3: Add shim to fix front facing camera crash in bright light
- ▪ 5591b75 op3: Use shim to set camera package name in the HAL to OnePlus Camera
- ▪ 4c3d8f7 op3: Automatically sed camera HAL symbol changes needed for shim
-
- ▪ project frameworks/base/
- ▪ 5f2c85a Hack: Allow OnePlus Camera to work with HAL3
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 0362f6a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into test2
-
- ▪ project kernel/oneplus/msm8996/
- ▪ f765275 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ 96572877 input: synaptics: s1302: Make s1302_is_keypad_stopped() safe
- ▪ 6dbf981 misc: fpc1020: Ignore home key presses when touchscreen is in use
- ▪ de7c35a input: synaptics: s1302: Stop keypad when touchscreen is in use
- ▪ 6699e48 input: synaptics: s1302: Clean up PM routines and move them into worker
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 31d0a4a Fixing a NullPointerException (#8)
-
- ▪ project packages/apps/Settings/
- ▪ bfcd683 Remove OmniSwitch preference if removed.
-
- ▼ 08/02/2017
-
- ▪ project device/oneplus/oneplus3/
- ▪ 6653677 oneplus3: Address SELinux denials for Facebook Messenger video calls
-
- ▪ project frameworks/base/
- ▪ 442acc3 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
-
- ▪ project frameworks/native/
- ▪ 7a74574 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
+ ▪ project packages/apps/Contacts/
+ ▪ 8a9657d Increase max no. to import/export to 2000
+ ▪ 4a8a827 Increase no. of logs to display to 1500
 
  ▪ project packages/apps/DUI/
- ▪ 1b5451c Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ 024ebdb Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
 
  ▪ project packages/apps/ResurrectionOTA/
- ▪ 9f78fbc Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into nougat
+ ▪ 68501f5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into nougat
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 6b6f3b3 Stats: RR v5.8.4
 
  ▪ project packages/apps/Settings/
- ▪ 9b37043 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 8cb37d7 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 271b581 Update config.xml
+ ▪ 3f47dbd Use our key
 
  ▪ project vendor/cm/
- ▪ c9f3869 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 7d5a20d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ e74670c Update changelog to 5.8.4
 
- ▼ 08/01/2017
-
-
- ▪ project packages/apps/Gallery2/
- ▪ c88c572 Gallery2: Fix various issues and glitches
-
- ▪ project packages/apps/Phonograph/
- ▪ 85f3b69 res: card_about_app: hide the fork item
- ▪ 11be623 MusicService: always use N notifications
- ▪ 1b8e44b AndroidManifest: fix lingering relative class references
-
- ▪ project packages/apps/Snap/
- ▪ a206d75 Snap: fix low resolution front camera switch icon
-
- ▼ 07/31/2017
-
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 069a9ee f2fs: avoid cpu lockup
- ▪ 701f3f0 ANDROID: sdcardfs: Remove unnecessary lock
- ▪ 1d5190c op3: Regen defconfig
- ▪ ef669f6 op3: Disable unneeded functions
- ▪ 7875821 op3: Run all RCU threads at RT prio 2
- ▪ 45b3465 op3: enable RCU_BOOST
- ▪ 6a669ab BACKPORT: rcu: Optionally run grace-period kthreads at real-time priority
- ▪ 9bf965b BACKPORT: rcu: Unify boost and kthread priorities
- ▪ 26370d833 BACKPORT: rcu: Move RCU_BOOST variable declarations, eliminating #ifdef
- ▪ d9c4446 drivers/Kconfig: remove duplicate entry for soc
- ▪ b6712e8 Revert "scripts: gcc-wrapper: Use wrapper to check compiler warnings"
- ▪ 0c40b6c Makefile: add -Werror
-
- ▪ project packages/apps/Gallery2/
- ▪ d74ca5a Gallery2: Fix potential crash
- ▪ 7e1b2d2 Gallery2: Switch to navigationbar from support libs
- ▪ 82b6848 Gallery2: Fix can't parse documents uri
- ▪ eceb1ed Gallery2: Fix views overlap
- ▪ 8c7fe64 Gallery2: Support GIF animation
- ▪ b923c25 Gallery2: Increase the size of the tiles when decoding images
- ▪ ccaf2e4 Gallery2: Support the newly added media file types in MTP mode
- ▪ ebce130 Gallery2: Fix use of uninitialized stack variables
- ▪ 1fbe342 Gallery2: Remove unused renderscript class
- ▪ 40fe6d2 Gallery2: Fix spelling error
- ▪ 5a0501d Gallery2: Properly declare the own permissions
- ▪ 9c69a82 Gallery2: Remove more possible NPEs
- ▪ 4288cf9 Gallery2: Enable frames in the editor
- ▪ 09a950e Gallery2: Remove slideshow option if there are only videos
- ▪ 75e883a Gallery2: Remove 3D overscroll effect
- ▪ 4cbaf64 Gallery2: Disable dummy starting window
- ▪ 7aeaefc Gallery2: Fix up audio effects dialog
- ▪ cc80b1b Gallery2: Everyone or no one
- ▪ a0dc1b8 Gallery2: Replace hamburger menu with bottom bar
- ▪ ae2d5c1 Gallery2: Change all share intents to chooser style
- ▪ 1b893a4 Gallery2: Update menu
- ▪ b091264 Gallery2: Update theme
- ▪ 7eb847c Gallery2: Move & improve CAF strings
- ▪ 81e24fe Gallery2: Make sure no NPE happens
- ▪ 9c735ae Gallery2: Remove invalid comment from manifest
- ▪ 5b0141c Gallery2: Cleanup renderscript flags in Android.mk
- ▪ 108756a Gallery2: Reduce logspam in video player
- ▪ e0c0ac0 Gallery2: Store DATE_TAKEN as milliseconds
- ▪ bb16314 Gallery2: Modify AOSP EL translations
- ▪ 3861e97 Gallery2: Remove CAF translations
- ▪ 3bf31b2 Gallery2: Add record time to details view
- ▪ c1cf324 Gallery2: Fix crash of gallery on showing details
- ▪ 880d507 Gallery2: Fix crash when Bluetooth service is disabled
- ▪ 2c75f40 Gallery2: Try to open existing camera
- ▪ db84f5b Gallery2: New icon
- ▪ 5f5c892 Gallery2: Bump minsdk and targetsdk version
- ▪ 6587213 Gallery: FilterShowActivity: Fix loading spinner being show forever
- ▪ 55bf17f Gallery: TileImageView: fix NPE
- ▪ be9357b FaceDetect: Catch more linker errors during initialization
- ▪ 8beb6f9 FaceDetect: Catch linker errors during initialization
- ▪ ea5a309 Bump API to match dependencies.
- ▪ 1a3f292 Add missing includes.
- ▪ 5c74612 Cleanup warnings in jni.
- ▪ b7d08f9 Fix misc-macro-parentheses warnings in Gallery2.
- ▪ 9110325 Float.NaN != ... always evaluates to true, use Float.isNaN.
- ▪ 69f87c4 Rename app back to Gallery
-
- ▪ project packages/apps/Phonograph/
- ▪ 02301ca res: simplify  preference elements
- ▪ b9504b6 Upstream fixup: fix mismerges and apply necessary changes
- ▪ 6758328 Save current playing queue as playlist
- ▪ 0b2f127 Add icon to playlist length
- ▪ 7593001 Cleaned up menus
- ▪ b1c8beb Fix crash when selecting the playlist header
- ▪ f3074e9 Refactor widget classes
- ▪ ea3dbb2 Minor refactoring
- ▪ 2a49485 Set height to 56dp
- ▪ a4ee450 Buttons are 42dp wide, full-height album art with rounded corners
- ▪ 3c5ae97 Added card-like widget
- ▪ 75ba080 Revert "Performance issue with artist images (#174)"
- ▪ fd89ddd Fit artist image into ImageView
- ▪ 3ea8f00 Add git branch name to debug app's version name
- ▪ 1ff6dbd Fix being able to drag playlist item above fixed header
- ▪ 9779754 Show playlist length at top (closes #172)
- ▪ eef815e Hide unsupported settings (fixes #195)
- ▪ 4c9ded7 Fix NPE
- ▪ c9c840a Fix for default language
- ▪ a3a115f Refactor and rename metadata pref/util
- ▪ 1f1b048 Fix for default language
- ▪ 450cadf Added control for the auto download setting.
- ▪ ab6deff Fix bad revert from 547849e, refactor up next/remaining time string creation
- ▪ d16b0bc Update Gradle
- ▪ ab28b4c Prevent flat controls from animating on every show
- ▪ d296b2f Remove Glide snapshot repository
- ▪ e34cc83 Add screenshots to README
- ▪ 9e51c35 Add actions to artist details activity
- ▪ 36054c3 Update FastScroll library
- ▪ 94a757a Minor formatting/refactoring
- ▪ c64d6f3 Start service after boot to show data in widgets
- ▪ 2cf12a3 Add album actions to album detail activity menu
- ▪ 7d1667e Update libraries
- ▪ 9fbf5f7 Fix previous/next button order for RTL languages
- ▪ 91d99f3 Update libraries and build tools
- ▪ a76bdb7 Use string of wiki unavailable.
- ▪ e38450e Added string for wiki unavailable.
- ▪ d71586a Added an option to show the "wiki" of albums.
- ▪ 6287929 Fallback to default if no biography is found
- ▪ feb96c2 Added "lang" parameter to show localized biography.
- ▪ 3d614da Update libraries
- ▪ 5c0e9d9 Use fast scroller for playlists (#145)
- ▪ d80b134 Format hours in readable duration string
- ▪ 809f0cf Add another space to the playlist duration. Clean up the code.
- ▪ ba8e89a Added an option to turn off the color
- ▪ 767607f Fix seconds/ms not being considered for today and negative amount of weekdays
- ▪ d531dfe Add last added playlist interval preference (#107)
- ▪ ed49fb8 Added queue total time in playing screen
- ▪ 0af4157 Added color on album on artist page
- ▪ 338bd3d Update email and github
- ▪ 434ff02 Fix incorrect default setting and duplicated option
- ▪ 6e7264c Add option to toggle notification design in N+ (#106)
-
- ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/
- ▪ b7247d8 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/
- ▪ 6b3c520 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/
- ▪ 2c6e165 Initial commit
-
- ▼ 07/30/2017
+ ▼ 08/06/2017
 
 
  ▪ project frameworks/base/
- ▪ c4a83cf Allow to disable battery light when in DND mode [1/2]
- ▪ 20dce16 SystemUI: Store value of lockscreen media art
- ▪ 3dff8ca AppOps: Prevent deadlock when making note of applications
- ▪ 0e93f34 KernelCpuSpeedReader: Account for missing sysfs nodes
- ▪ 33c6d4f Revert "KernelCpuSpeedReader: Account for missing sysfs nodes"
- ▪ 6f93f57 slim recents: Be sure to catch all exceptions for startActivityFromRecents
- ▪ da27683 slim recents: Favlist creation: use HashSet instead of Arraylist
- ▪ c46b63c SystemUI: locked tasks should have a valid view
-
- ▪ project kernel/oneplus/msm8996/
- ▪ b8707a0 qcacld-2.0: Update to LA.UM.5.5.r1-05400-8x96.0
- ▪ c726a68 Merge tag 'LA.UM.5.5.r1-05400-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into cm-14.1
-
- ▪ project packages/apps/Jelly/
- ▪ 083e503 Jelly: remove 'Mobile' from desktop user agent
+ ▪ 509aaf9 AppOps: Fix yet another deadlock
+ ▪ 7dbfbeb Frameworks Cleanups
+ ▪ 10874b8 pocket: introduce pocket bridge
+ ▪ 42af8ad policy: introduce pocket lock
+ ▪ abd6b0e pocket: introduce pocket judge
+ ▪ 9c2bc7e base: Introduce Accidental Touch
+ ▪ 5a0945c frameworks: PIE 3.0 (nougat)
+ ▪ 4df7925 Revert "Forward Port: PIE 3.0 (1/2)"
 
  ▪ project packages/apps/Settings/
- ▪ 648e102 MSIM: Fix user set DDS sub in hotswap cases.
- ▪ 5a56b01 Allow to disable battery light when in DND mode[2/2]
-
- ▼ 07/29/2017
-
-
- ▪ project packages/apps/Phonograph/
- ▪ 312ad9b Phonograph: cleanup app flags
-
- ▪ project packages/apps/SetupWizard/
- ▪ d261c7a SetupWizard: Don't show ChooseDataSimActivity on single sim devices
- ▪ 6971663 SetupWizard: Fix crash when sims are absent
- ▪ b1dd429 SetupWizard: Fix a few possible NPEs
-
- ▪ project packages/apps/Snap/
- ▪ db73354 Revert "Revert "SnapdragonCamera: Adding PRIVILEGED true""
-
- ▼ 07/28/2017
-
-
- ▪ project external/chromium-webview/
- ▪ e205b2a Update webview
-
- ▪ project packages/apps/Snap/
- ▪ bbb6ee1 Revert "SnapdragonCamera: Adding PRIVILEGED true"
-
- ▪ project system/bt/
- ▪ b30e393 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1
+ ▪ 3701c92 Dslv: Fix FC when adding duplicate shortcuts
+ ▪ c1348a0 Settings:Add preference for pocket judge [2/2]
+ ▪ e090493 PieSettings: Add support for Pie Gravity
+ ▪ 9749d2d ButtonsSettings: Add preference for Accidental Touch
+ ▪ 5fd64be Update PIE settings to 3.0
 
  ▪ project vendor/cm/
- ▪ cfcd5e2 Fix build scripts color format
+ ▪ f869205 Bump version to 5.8.4
+ ▪ 8272685 vendor: Fix a user profile data denial
+ ▪ be1cf97 vendor: Add selinux policy for pocket bridge
+ ▪ 5ea6f1c vendor:Add sysfs permissions for pocket bridge
+ ▪ 2771188 pa: Add pocket judge selinux policy
 
+ ▼ 08/05/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 0d1ab9c Silence IMS logs
+ ▪ 4b2bf57 op2: Build weather providers
+ ▪ ce10db6 Remove unnecessary libshims dir
+
+ ▪ project packages/apps/Settings/
+ ▪ acf23b6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 40bdde5 Fix settings FC and freezes after reboot on enforcing mode
