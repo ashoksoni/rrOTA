@@ -1,5 +1,52 @@
 Changelog
 
+11th August 2017
+
+Sources updated till 11th August 4.40pm IST.
+
+Bump version to 5.8.4
+Security patches for August.
+
+Firmware updated so flash the latest firmware for your device.
+Update to OB21 / OB12 blobs
+Fix recents janky layout while in RTL
+Increase max no. of import/export contacts to 2000
+Change accent color for AOSP keyboard
+Pixel blue for globalActions silent mode selection indicator
+Materialize telephony icons
+Set Gboard theme to Pixel blue by default
+Add modified Pixel launcher icon for SettingsProvider
+Add modified Pixel launcher icon
+Update Turbo from August security release
+New default icons
+Materialize toast frames
+Activate Fling KB cursors also when no double tap actions are set
+Fling: if KB is showing, double tap right/left to move text cursor
+Using own method of checking SuperSU
+Removed user setting from Devs option and hardcoded limit to 100/minute for maximum no. of sent messages.
+
+(Comes with sources update)
+Allow user to add/remove QS with one click
+Settings:Single tap tile add switch
+SystemUI: add telephony-ext so that imports can be resolved
+Settings:remove Selinux Switch
+DUI: Left in landscape navbar API
+FWB: Sensor block per-package switch (1/2)
+SystemSensorManager: sensor block per-package
+Add selinux policy for pocket bridge
+Add sysfs permissions for pocket bridge
+Add pocket judge selinux policy
+Fix FC when adding duplicate shortcuts
+Settings:Add preference for pocket judge
+PieSettings: Add support for Pie Gravity
+ButtonsSettings: Add preference for Accidental Touch
+Update PIE settings to 3.0
+AppOps: Fix yet another deadlock
+pocket: introduce pocket bridge
+policy: introduce pocket lock
+pocket: introduce pocket judge
+base: Introduce Accidental Touch
+
 4th August 2017
 
 Sources updated till 4th August 4pm IST.

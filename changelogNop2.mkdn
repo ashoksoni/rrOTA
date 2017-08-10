@@ -1,5 +1,34 @@
 Changelog
 
+11th August 2017
+
+Sources updated till 11th August 4.40pm IST.
+
+Security patches for August.
+
+Change accent color for AOSP keyboard
+Pixel blue for globalActions silent mode selection indicator
+Materialize telephony icons
+Set Gboard theme to Pixel blue by default
+Add modified Pixel launcher icon for SettingsProvider
+Add modified Pixel launcher icon
+Update Turbo from July security release
+New default icons
+Materialize toast frames
+Activate Fling KB cursors also when no double tap actions are set
+Fling: if KB is showing, double tap right/left to move text cursor
+Using own method of checking SuperSU
+Removed user setting from Devs option and hardcoded limit to 100/minute for maximum no. of sent messages..
+
+(Comes with sources update)
+Allow user to add/remove QS with one click
+Settings:Single tap tile add switch
+SystemUI: add telephony-ext so that imports can be resolved
+Settings:remove Selinux Switch
+DUI: Left in landscape navbar API
+FWB: Sensor block per-package switch (1/2)
+SystemSensorManager: sensor block per-package
+
 7th August 2017
 
 Sources updated till 7th August 6pm IST.

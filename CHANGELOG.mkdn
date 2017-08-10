@@ -2,77 +2,191 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 08/07/2017
+ ▼ 08/11/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 28f9861 Fix recents janky layout while in RTL
+
+ ▪ project vendor/cm/
+ ▪ 51e0a0a Update Turbo from July security release
+
+
+ ▼ 08/10/2017
+
+
+ ▪ project device/oppo/common/
+ ▪ b9a93e6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ 5dfe65d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 558ad5d FWB:Single tap tile add switch [1/2]
+ ▪ ced6494 Allow user to add/remove QS with one click
+ ▪ 9059f7a Merge pull request #206 from ashoksoni/dataswitch
+ ▪ e5d459f Drop-down data switch through Cellular tile.
+ ▪ db1dea3 SystemUI: add telephony-ext so that imports can be resolved
+
+ ▪ project frameworks/opt/telephony/
+ ▪ dfaf6a5 Increase SMS Sending limits to 100/minute.
+
+ ▪ project packages/apps/DUI/
+ ▪ 30fb099 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+
+ ▪ project packages/apps/Jelly/
+ ▪ d76965a Jelly: Improve incognito mode privacy
+ ▪ 6767c48 Jelly: Enable more HTML5 features
+ ▪ 2e53eb0 Jelly: Don't crash on non-http downloads
+ ▪ 3347ed4 Jelly: Avoid Url bar interraction when focused
+ ▪ f67c692 Jelly: The app should not close when search is active and back-button is pressed.
+
+ ▪ project packages/apps/Settings/
+ ▪ ee15ff5 Using own method of checking SuperSU
+ ▪ 79e8c7d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 44d8752 Revert "Set limit for messages sending"
+ ▪ fabd9ef Settings:Single tap tile add switch [2/2]
+ ▪ 0afef7a Settings:remove Selinux Switch
+
+ ▼ 08/09/2017
 
 
  ▪ project build/
- ▪ c8c8701 target:product: Remove Camera2
+ ▪ 7628dff Don't add debug info to dex preopt
 
  ▪ project frameworks/base/
- ▪ c79b173 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
-
- ▪ project frameworks/opt/telephony/
- ▪ 7afd997 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_opt_telephony into cm-14.1
-
- ▪ project packages/apps/Contacts/
- ▪ 8a9657d Increase max no. to import/export to 2000
- ▪ 4a8a827 Increase no. of logs to display to 1500
+ ▪ b9d1db1 Revert "Finally data-switch is done."
+ ▪ de4d347 Revert "Dealing with Same name SIMs."
+ ▪ 93d4b38 Materialize toast frames
+ ▪ 198fc03 DUI: Left in landscape navbar API [1/3]
 
  ▪ project packages/apps/DUI/
- ▪ 024ebdb Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
-
- ▪ project packages/apps/ResurrectionOTA/
- ▪ 68501f5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into nougat
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 6b6f3b3 Stats: RR v5.8.4
+ ▪ 84de443 Fling logo on pulse: add transparency instead of hiding it
+ ▪ f8f8b22 Fling: if KB is showing, double tap right/left to move text cursor
+ ▪ ac4d117 DUI: Left in landscape navbar API [3/3]
+ ▪ ab65f5a Revert "Pulse: Navbar left in landscape support" [2/3]
+ ▪ 009b591 Revert "DUI:Uncomment Navbar Left in Landscape [1/2]"
+ ▪ 93da49e Activate Fling KB cursors also when no double tap actions are set
+ ▪ b50a186 Fling: if KB is showing, double tap right/left to move text cursor
 
  ▪ project packages/apps/Settings/
- ▪ 8cb37d7 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ d2d91c9 Updated Hydrogen Maintainer (#834)
+ ▪ b739eec Add galaxy s4 i9500 maintainer (#833)
 
- ▪ project packages/services/OmniJaws/
- ▪ 271b581 Update config.xml
- ▪ 3f47dbd Use our key
+ ▪ project vendor/oneplus/
+ ▪ 6303dce op3: Update camera HAL for new shim hex edits
 
- ▪ project vendor/cm/
- ▪ 7d5a20d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ e74670c Update changelog to 5.8.4
+ ▼ 08/08/2017
 
- ▼ 08/06/2017
 
+ ▪ project android/
+ ▪ ed7d67a cm.xml: sync caf 8998 hals
+ ▪ 59201a1 manifest: android-7.1.2_r24 -> android-7.1.2_r29
+
+ ▪ project build/
+ ▪ 08d6615 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ 401a4a1 Merge 7.1.2_r29 into nougat
+
+ ▪ project external/skia/
+ ▪ 08bdeaf Merge 7.1.2_r29 into nougat
+
+ ▪ project frameworks/av/
+ ▪ 55f6376 CameraService: addition from OSS for OnePlusCamera (found by Kevin Mckee <kxzxxx@gmail.com>)
+ ▪ ac5d54f libstagefright: encoder must exist when source starting
+ ▪ dff6948 HLS: force audio/video both to start from IDR position
+ ▪ 740e159 stagefright: don't assume 16 bit format
+ ▪ 4249a40 libmedia: synchronize access to meta
+ ▪ 4c68c49 audiopolicy: mute strategies when device is a2dp after suspended
+ ▪ d1b1e91 audio: hold effect mutex when releasing effect engine
+ ▪ 8cb291e audiopolicy: Do not select A2DP device if suspended
+ ▪ f65daf9 audiopolicy: Invalidate direct PCM tracks when mono is set
+ ▪ 58974a6 audioflinger: update IO info when releasing audio patch
+ ▪ 3b3c82c NuPlayer: Decoder: Check for valid codec on resume
+ ▪ 2bac41c AudioPolicyMng: check for null audioSession when realeasing input
+ ▪ c9c0178 media: Allow using legacy HSR calculation
+ ▪ dea5fa0 video: Disable sync frame decoder mode for closest seek
+ ▪ fe85c19 NuPlayer: fix possible deadlock due to recursive mutex access
+ ▪ d46f73d stagefright: stop audio encoding before releasing writer thread
+ ▪ 10d1e29 stagefright: Remove extra memcpy
+ ▪ 9476d8b camera: Allow camera HAL to get caller package
+ ▪ 3a63a17 Merge 7.1.2_r29 into nougat
 
  ▪ project frameworks/base/
- ▪ 509aaf9 AppOps: Fix yet another deadlock
- ▪ 7dbfbeb Frameworks Cleanups
- ▪ 10874b8 pocket: introduce pocket bridge
- ▪ 42af8ad policy: introduce pocket lock
- ▪ abd6b0e pocket: introduce pocket judge
- ▪ 9c2bc7e base: Introduce Accidental Touch
- ▪ 5a0945c frameworks: PIE 3.0 (nougat)
- ▪ 4df7925 Revert "Forward Port: PIE 3.0 (1/2)"
+ ▪ 24a9e24 Enable auto-HDR indicator for OnePlus devices
+ ▪ e2dcd06 KeyButtonView: use a static instance of AudioManager since we don't need a separate one for each KeyButtonView instance
+ ▪ cd7f9d4 Fix remove user happend crash bug.
+ ▪ 75a7589 java.lang.NullPointerException: name is null
+ ▪ 2088b94 Fix graphical artifact in the fisheye effect
+ ▪ cd193d1 Abort connecting to native daemon during shutdown
+ ▪ b07d4e5 Fix the NPE in ChooserActivity$ChooserTargetServiceConnection.
+ ▪ 22866e0 add interface to eliminate the time error between stopwatchModel and Chronometer
+ ▪ fea3dfc Delete dead code function SpotShadow::makeClockwise
+ ▪ 1a2626f Spinner widget sometimes display abnormal.
+ ▪ 1980ce0 Fix double free issue in ResTable.
+ ▪ 3b3ec5c Fixed uninstall validateInstallLocked crash
+ ▪ 7ef0e78 Don't re-launch stopped activities while the device is sleeping
+ ▪ 84b4605 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ e56d646 FWB: Sensor block per-package switch (1/2)
+ ▪ a8e139f SystemSensorManager: sensor block per-package
+ ▪ 5966600 base: Update flags for edge gesture service from AOSPA
+ ▪ 5029476 Silence a memory leak warning from the static analyzer
+ ▪ 88fd564 GC in heapDumpFinished to cleanup hprof fd
+ ▪ 9b11fe2 Add null check for Wi-Fi command
+ ▪ 9b8df66 Fix static analyzer complaints
+ ▪ 3a939a6 Merge 7.1.2_r29 into nougat
+
+ ▪ project frameworks/native/
+ ▪ 2fcb4eb Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
+ ▪ f298a32 Merge 7.1.2_r29 into nougat
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 7523e08 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_opt_net_wifi into cm-14.1
+ ▪ 1f8fc74 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 7fcca3e Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ 9dbd062 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 34f4914 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ e248666 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 0d8579c Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 9dcddd7 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 5b12547 Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio-caf/msm8998/
+ ▪ c519e1a Fix security vulnerability: Equalizer setParameter memory overflow
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ a4f1bc5 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+ ▪ project packages/apps/CarrierConfig/
+ ▪ ea0ad38 Fix up incorrect domestic roaming and non-roaming cases
+
+ ▪ project packages/apps/Jelly/
+ ▪ f20c0a4 Jelly: Add Yandex search engine
 
  ▪ project packages/apps/Settings/
- ▪ 3701c92 Dslv: Fix FC when adding duplicate shortcuts
- ▪ c1348a0 Settings:Add preference for pocket judge [2/2]
- ▪ e090493 PieSettings: Add support for Pie Gravity
- ▪ 9749d2d ButtonsSettings: Add preference for Accidental Touch
- ▪ 5fd64be Update PIE settings to 3.0
+ ▪ 9f245e7 Settings:Sensor block per-package switch[2/2]
+
+ ▪ project system/bt/
+ ▪ 80cca31 Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"
 
  ▪ project vendor/cm/
- ▪ f869205 Bump version to 5.8.4
- ▪ 8272685 vendor: Fix a user profile data denial
- ▪ be1cf97 vendor: Add selinux policy for pocket bridge
- ▪ 5ea6f1c vendor:Add sysfs permissions for pocket bridge
- ▪ 2771188 pa: Add pocket judge selinux policy
-
- ▼ 08/05/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ 0d1ab9c Silence IMS logs
- ▪ 4b2bf57 op2: Build weather providers
- ▪ ce10db6 Remove unnecessary libshims dir
-
- ▪ project packages/apps/Settings/
- ▪ acf23b6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 40bdde5 Fix settings FC and freezes after reboot on enforcing mode
+ ▪ 5a20471 Change accent color for AOSP keyboard
+ ▪ c2f19e4 Pixel blue for globalActions silent mode selection indicator
+ ▪ 5cbe6f7 Materialize telephony icons [2/2]
+ ▪ e34c3f9 Materialize telephony icons [1/2]
+ ▪ fe6a3ac Set Gboard theme to Pixel blue by default
+ ▪ 3d19ea7 Add modified Pixel launcher icon for SettingsProvider
+ ▪ 217920c Add modified Pixel launcher icon
+ ▪ 51e0a0a Update Turbo from July security release
+ ▪ 75ea642 New default icons
