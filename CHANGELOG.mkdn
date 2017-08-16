@@ -2,191 +2,121 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 08/11/2017
+ ▼ 08/16/2017
 
 
- ▪ project frameworks/base/
- ▪ 28f9861 Fix recents janky layout while in RTL
-
- ▪ project vendor/cm/
- ▪ 51e0a0a Update Turbo from July security release
-
-
- ▼ 08/10/2017
-
+ ▪ project device/oneplus/oneplus2/
+ ▪ 7b0b6d2 oneplus2: overlay: Enable pocket bridge
+ ▪ 2e69223 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
 
  ▪ project device/oppo/common/
- ▪ b9a93e6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oppo_common into cm-14.1
+ ▪ 5b8f593 Setting up onPreferenceChangeListner
 
  ▪ project frameworks/base/
- ▪ 5dfe65d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 558ad5d FWB:Single tap tile add switch [1/2]
- ▪ ced6494 Allow user to add/remove QS with one click
- ▪ 9059f7a Merge pull request #206 from ashoksoni/dataswitch
- ▪ e5d459f Drop-down data switch through Cellular tile.
- ▪ db1dea3 SystemUI: add telephony-ext so that imports can be resolved
+ ▪ f88223c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
 
- ▪ project frameworks/opt/telephony/
- ▪ dfaf6a5 Increase SMS Sending limits to 100/minute.
+ ▪ project hardware/qcom/bt-caf/
+ ▪ 328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"
 
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 44e197b input: synaptics: s3320: Introduce pocket judge
+ 
  ▪ project packages/apps/DUI/
- ▪ 30fb099 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ 1b7f93e Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+
+ ▪ project packages/apps/Settings/
+ ▪ f652d91 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 115a541 added helium (#843)
+
+ ▼ 08/15/2017
+
 
  ▪ project packages/apps/Jelly/
- ▪ d76965a Jelly: Improve incognito mode privacy
- ▪ 6767c48 Jelly: Enable more HTML5 features
- ▪ 2e53eb0 Jelly: Don't crash on non-http downloads
- ▪ 3347ed4 Jelly: Avoid Url bar interraction when focused
- ▪ f67c692 Jelly: The app should not close when search is active and back-button is pressed.
+ ▪ 1ea2382 Jelly: Improve URL bar behavior
 
  ▪ project packages/apps/Settings/
- ▪ ee15ff5 Using own method of checking SuperSU
- ▪ 79e8c7d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 44d8752 Revert "Set limit for messages sending"
- ▪ fabd9ef Settings:Single tap tile add switch [2/2]
- ▪ 0afef7a Settings:remove Selinux Switch
+ ▪ 7d771ca Fix i9500 maintainer dont show (#842)
+ ▪ df1f26e Fix i9500 maintainer dont show (#840)
 
- ▼ 08/09/2017
+ ▼ 08/14/2017
 
 
- ▪ project build/
- ▪ 7628dff Don't add debug info to dex preopt
-
- ▪ project frameworks/base/
- ▪ b9d1db1 Revert "Finally data-switch is done."
- ▪ de4d347 Revert "Dealing with Same name SIMs."
- ▪ 93d4b38 Materialize toast frames
- ▪ 198fc03 DUI: Left in landscape navbar API [1/3]
-
- ▪ project packages/apps/DUI/
- ▪ 84de443 Fling logo on pulse: add transparency instead of hiding it
- ▪ f8f8b22 Fling: if KB is showing, double tap right/left to move text cursor
- ▪ ac4d117 DUI: Left in landscape navbar API [3/3]
- ▪ ab65f5a Revert "Pulse: Navbar left in landscape support" [2/3]
- ▪ 009b591 Revert "DUI:Uncomment Navbar Left in Landscape [1/2]"
- ▪ 93da49e Activate Fling KB cursors also when no double tap actions are set
- ▪ b50a186 Fling: if KB is showing, double tap right/left to move text cursor
+ ▪ project kernel/oneplus/msm8994/
+ ▪ a4bcc58 fix record on camera2
+ ▪ 1ad8cf2 fix ramoops
 
  ▪ project packages/apps/Settings/
- ▪ d2d91c9 Updated Hydrogen Maintainer (#834)
- ▪ b739eec Add galaxy s4 i9500 maintainer (#833)
+ ▪ 72deb12 Fix land device position (#839)
+ ▪ f6cc7a7 Add Redmi 4X device maintainer (#838)
 
- ▪ project vendor/oneplus/
- ▪ 6303dce op3: Update camera HAL for new shim hex edits
+ ▼ 08/13/2017
 
- ▼ 08/08/2017
-
-
- ▪ project android/
- ▪ ed7d67a cm.xml: sync caf 8998 hals
- ▪ 59201a1 manifest: android-7.1.2_r24 -> android-7.1.2_r29
-
- ▪ project build/
- ▪ 08d6615 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ 401a4a1 Merge 7.1.2_r29 into nougat
-
- ▪ project external/skia/
- ▪ 08bdeaf Merge 7.1.2_r29 into nougat
-
- ▪ project frameworks/av/
- ▪ 55f6376 CameraService: addition from OSS for OnePlusCamera (found by Kevin Mckee <kxzxxx@gmail.com>)
- ▪ ac5d54f libstagefright: encoder must exist when source starting
- ▪ dff6948 HLS: force audio/video both to start from IDR position
- ▪ 740e159 stagefright: don't assume 16 bit format
- ▪ 4249a40 libmedia: synchronize access to meta
- ▪ 4c68c49 audiopolicy: mute strategies when device is a2dp after suspended
- ▪ d1b1e91 audio: hold effect mutex when releasing effect engine
- ▪ 8cb291e audiopolicy: Do not select A2DP device if suspended
- ▪ f65daf9 audiopolicy: Invalidate direct PCM tracks when mono is set
- ▪ 58974a6 audioflinger: update IO info when releasing audio patch
- ▪ 3b3c82c NuPlayer: Decoder: Check for valid codec on resume
- ▪ 2bac41c AudioPolicyMng: check for null audioSession when realeasing input
- ▪ c9c0178 media: Allow using legacy HSR calculation
- ▪ dea5fa0 video: Disable sync frame decoder mode for closest seek
- ▪ fe85c19 NuPlayer: fix possible deadlock due to recursive mutex access
- ▪ d46f73d stagefright: stop audio encoding before releasing writer thread
- ▪ 10d1e29 stagefright: Remove extra memcpy
- ▪ 9476d8b camera: Allow camera HAL to get caller package
- ▪ 3a63a17 Merge 7.1.2_r29 into nougat
 
  ▪ project frameworks/base/
- ▪ 24a9e24 Enable auto-HDR indicator for OnePlus devices
- ▪ e2dcd06 KeyButtonView: use a static instance of AudioManager since we don't need a separate one for each KeyButtonView instance
- ▪ cd7f9d4 Fix remove user happend crash bug.
- ▪ 75a7589 java.lang.NullPointerException: name is null
- ▪ 2088b94 Fix graphical artifact in the fisheye effect
- ▪ cd193d1 Abort connecting to native daemon during shutdown
- ▪ b07d4e5 Fix the NPE in ChooserActivity$ChooserTargetServiceConnection.
- ▪ 22866e0 add interface to eliminate the time error between stopwatchModel and Chronometer
- ▪ fea3dfc Delete dead code function SpotShadow::makeClockwise
- ▪ 1a2626f Spinner widget sometimes display abnormal.
- ▪ 1980ce0 Fix double free issue in ResTable.
- ▪ 3b3ec5c Fixed uninstall validateInstallLocked crash
- ▪ 7ef0e78 Don't re-launch stopped activities while the device is sleeping
- ▪ 84b4605 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ e56d646 FWB: Sensor block per-package switch (1/2)
- ▪ a8e139f SystemSensorManager: sensor block per-package
- ▪ 5966600 base: Update flags for edge gesture service from AOSPA
- ▪ 5029476 Silence a memory leak warning from the static analyzer
- ▪ 88fd564 GC in heapDumpFinished to cleanup hprof fd
- ▪ 9b11fe2 Add null check for Wi-Fi command
- ▪ 9b8df66 Fix static analyzer complaints
- ▪ 3a939a6 Merge 7.1.2_r29 into nougat
+ ▪ 63df1f1 PowerManagerService: fix HW button illumination timeout
+ ▪ 87a1af4 SystemUI: Fix battery meter view blacklist handling
 
- ▪ project frameworks/native/
- ▪ 2fcb4eb Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
- ▪ f298a32 Merge 7.1.2_r29 into nougat
+ ▪ project hardware/broadcom/wlan/
+ ▪ 5ef057d Merge tag 'android-7.1.2_r28' into cm-14.1
+
+ ▪ project packages/apps/Snap/
+ ▪ 70dbc05 Snap: add missing null check on isCamera2Supported
+
+ ▼ 08/12/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 200adb4 overlay: frameworks: allow gms to access persistent data partition
+ ▪ 8412b95 oneplus2: add recovery init file
+ ▪ cee6265 oneplus2: update sepolicy for core_ctl
+ ▪ 5757d25 oneplus2: add support for core_ctl
+ ▪ bb64186 oneplus2: remove hcube
+ ▪ 7c1878a BoardConfig: nah there isn't any use of samsung nv21
+ ▪ 44798e8 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+ ▪ 3c5b35d oneplus2: switch to aosp ril
+
+ ▪ project frameworks/base/
+ ▪ eef949c base: audioservice: Set BT_SCO status
+ ▪ 20202c9 [1/3] base: Disable ADB over network on disconnect
+ ▪ 128caf3 base: dont play charger connected sound before decrypt
 
  ▪ project frameworks/opt/net/wifi/
- ▪ 7523e08 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_opt_net_wifi into cm-14.1
- ▪ 1f8fc74 Merge tag 'android-7.1.2_r29' into cm-14.1
+ ▪ e652d10 [2/3] wifi: Disable ADB over network on disconnect
 
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 7fcca3e Fix security vulnerability: Equalizer setParameter memory overflow
+ ▪ project hardware/qcom/bt-caf/
+ ▪ b60954a libbt-qcom: Allow reading BT address from property
 
- ▪ project hardware/qcom/audio-caf/msm8937/
- ▪ 9dbd062 Fix security vulnerability: Equalizer setParameter memory overflow
+ ▪ project kernel/oneplus/msm8994/
+ ▪ b15357b8 ANDROID: sdcardfs: override credential for ioctl to lower fs
+ ▪ f2e315f qcom: rpm-smd: Remove rpm workqueue initialization
+ ▪ 3b0d4e8 random32: include missing header file
+ ▪ 1020d45 ARM64: Wire up getrandom.
+ ▪ 08b5263 BACKPORT: ARM: wire up getrandom syscall
+ ▪ 4339400 BACKPORT: random: Wake up all getrandom(2) callers when pool is ready
+ ▪ 825e3b2 BACKPORT: random: introduce getrandom(2) system call
+ ▪ f310526 BACKPORT: random32: add prandom_reseed_late() and call when nonblocking pool becomes initialized
+ ▪ 20e738a BACKPORT: random32: add periodic reseeding
 
- ▪ project hardware/qcom/audio-caf/msm8952/
- ▪ 34f4914 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8960/
- ▪ e248666 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8974/
- ▪ 0d8579c Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ 9dcddd7 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 5b12547 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8998/
- ▪ c519e1a Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio/default/
- ▪ a4f1bc5 Merge tag 'android-7.1.2_r29' into cm-14.1
-
- ▪ project packages/apps/CarrierConfig/
- ▪ ea0ad38 Fix up incorrect domestic roaming and non-roaming cases
-
- ▪ project packages/apps/Jelly/
- ▪ f20c0a4 Jelly: Add Yandex search engine
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ bf146a7 Fixed - Opening new update link directly when clicked on notification
 
  ▪ project packages/apps/Settings/
- ▪ 9f245e7 Settings:Sensor block per-package switch[2/2]
+ ▪ cf9b88e [3/3] Settings: Disable ADB over network on disconnect
+ ▪ 9a46ea1 Settings: use smaller font in SIM selction dialog
+ ▪ ebb4769 Settings: make MatLog usage optional
+ ▪ f03d12f Settings: add hook to start MatLog
+ ▪ 3f12831 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 34ac3a5 Add Redmi 4X device maintainer (#838)
 
- ▪ project system/bt/
- ▪ 80cca31 Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"
+ ▪ project packages/services/Telephony/
+ ▪ 3933dac VoicemailSettingsActivity: Fix some NPEs
+ ▪ f824b46 Telephony: Correct missing italian translation
+ ▪ 2c3c9b0 PhoneToggler: Update preferred network mode setting
+
+ ▪ project system/sepolicy/
+ ▪ 98705bb sepolicy: allow priv_app syslog_read
+ ▪ 4401d22 sepolicy: allow platform_app syslog_read
 
  ▪ project vendor/cm/
- ▪ 5a20471 Change accent color for AOSP keyboard
- ▪ c2f19e4 Pixel blue for globalActions silent mode selection indicator
- ▪ 5cbe6f7 Materialize telephony icons [2/2]
- ▪ e34c3f9 Materialize telephony icons [1/2]
- ▪ fe6a3ac Set Gboard theme to Pixel blue by default
- ▪ 3d19ea7 Add modified Pixel launcher icon for SettingsProvider
- ▪ 217920c Add modified Pixel launcher icon
- ▪ 51e0a0a Update Turbo from July security release
- ▪ 75ea642 New default icons
+ ▪ d8cb684 omni: sepolicy: allow priv_app syslog_read
+ ▪ aa5c518 omni: sepolicy: allow platform_app syslog_read

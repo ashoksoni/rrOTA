@@ -1,5 +1,37 @@
 Changelog
 
+
+16th August 2017
+
+Sources updated till 16th August 9.40pm IST.
+
+Fixed QR reader issues.
+Hopefully "waking up device from deep sleep and facing a long delay" will be fixed as a commit related to that added to kernel.
+
+Fixed link for OTA Update
+- Earlier if there was an update, ota notification opens up the old rom link, it should open the latest now.
+Settings: use smaller font in SIM selction dialog
+base: dont play charger connected sound before decrypt
+base: Disable ADB over network on disconnect
+- Earlier this was creating a potential security threat when this setting is left enabled and the device gets re-connected to public wifi networks.
+- To mitigate that risk, introduce a new switch to disable ADB over network as soon as the device gets disconnected from wifi.
+oneplus2: overlay: Enable pocket bridge (Device)
+overlay: frameworks: allow gms to access persistent data partition
+oneplus2: update sepolicy for core_ctl
+oneplus2: add support for core_ctl
+oneplus2: remove hcube
+oneplus2: input: synaptics: s3320: Introduce pocket judge
+Settings: Added MatLog to Settings Menu under Miscellaneous
+- Matlog is a log capturing app that's embedded within the rom itself. Use it to send me logs if you find a bug.
+Settings: make MatLog usage optional
+- If you remove this app, option will be disappeared.
+
+(Comes with sources update)
+Kernel upstream merges upto 3.10.107 and some extra importnat merges.
+PowerManagerService: fix HW button illumination timeout
+SystemUI: Fix battery meter view blacklist handling
+
+
 11th August 2017
 
 Sources updated till 11th August 4.40pm IST.
@@ -29,6 +61,7 @@ DUI: Left in landscape navbar API
 FWB: Sensor block per-package switch (1/2)
 SystemSensorManager: sensor block per-package
 
+
 7th August 2017
 
 Sources updated till 7th August 6pm IST.
@@ -55,6 +88,7 @@ policy: introduce pocket lock
 pocket: introduce pocket judge
 base: Introduce Accidental Touch
 
+
 4th August 2017
 
 Sources updated till 4th August 4pm IST.
@@ -69,6 +103,7 @@ Fix hanging on boot-animation which occured after a dirty flash. Build starts fi
 
 (Comes with sources update)
 Allow to disable battery light when in DND mode
+
 
 23th July 2017
 
@@ -101,6 +136,7 @@ update Google Wallpaper 1.1.153125266
 update Magisk 13.3
 update Magisk Manager 5.1.0
 
+
 14th July 2017
 
 Sources updated till 14th July, 1.15pm IST.
@@ -114,9 +150,11 @@ Magisk updated to v13.2 and MagiskManager to v5.0.5
 DUI:Smartbar longpress delay:make it more configurable
 make hw keys light up user configurable
 
+
 08th July 2017
 
 Fixed - no sim network hide switch. Botched it by trying to do something else. Should work fine now. 
+
 
 07th July 2017
 
@@ -134,6 +172,7 @@ Fixed @Null for Suspend actions
 (Comes with sources update)
 Add support for pulsing battery icon regardless of style
 SmartBar: make button longpress delay configurable
+
 
 05th July 2017
 
@@ -165,6 +204,7 @@ Settings: Fix automatic hotspot turn off summary
 base: SystemUI: CPU Info: show CPU temp if supported
 Volume Panel: Fix Bluetooth music stream icon when muted 
 SystemUI: Make play queue toggle more visible
+
 
 21st June 2017
 
@@ -202,6 +242,7 @@ Adopt lockscreen shortcut hint from AOSP
 SystemUI: Fix task lock & freeform buttons placement
 Increase Max Small qs tiles to 9
 
+
 15th June 2017
 
 Sources updated till 15th June, 7.53pm IST.
@@ -235,6 +276,7 @@ Settings:Smartbar touch sounds:make it optional
 Settings:Add back Left navigation bar in landscape
 SignalClusterView:Tighten up loose ends for no sim subscriptions
 
+
 9th June 2017
 
 Sources updated till 9th June, 1.15pm IST.
@@ -261,6 +303,7 @@ Revert "power: qpnp-smbcharger: Always report screen is off when charging"
 
 (Comes with sources update)
 Optional No sim icon switch
+
 
 7th June 2017
 
@@ -303,6 +346,7 @@ input: synaptics: Properly clear enable bitfield members (Fixes dt2w issue)
 June Security Patches
 AudioEffect: Add a stereo widener effect
 Fix nav bar showing always on the left when rotated to 270 degrees. Also, fix the order of the buttons so the back button always shows on the bottom
+
 
 31st May 2017
 
