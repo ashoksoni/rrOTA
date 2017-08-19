@@ -1,6 +1,45 @@
 Changelog
 
 
+19th August 2017
+
+Sources updated till 19th August 1.30pm IST.
+
+Switch to show Am/Pm indictor on lockscreen
+Added: Faux Sound control for WCD9330 TomTom codec driver
+Adding one more option of 35% for battery saver.
+Replaced Nexuslauncher with Lawnchair v1.0.1063
+2G Network doesn't connects always for some carriers
+
+oneplus2: remove hard-coded photo preview size
+oneplus2: bind more services to cortex-a53s
+OnePlus2: Enabling scheduling boost during the application launch
+oneplus2: force deep buffer
+
+Fix tiny memory leak
+PocketService: Adjust light sensor rate to 400ms
+PhoneWindowManager: Block screenshots when pocket lock is showing
+Fix memory-leak warnings from the static analyzer
+Fix warning: Potential leak of memory pointed to by 'set'
+Switch frameworks/base/core/jni from gcc to clang (proper fix).
+Replace usages of ShortNumberUtil with ShortNumberInfo
+Fix issue in PhoneNumberUtils.compareLoosely
+Revert "DozeService: Fallback to tilt sensor as pickup sensor"
+Revert "CameraService: addition from OSS for OnePlusCamera (found by Kevin Mckee <kxzxxx@gmail.com>)"
+
+Align AOSP strings back
+Add 'new message' shortcut using the API introduced in sdk25
+Change color scheme to match our new icon
+
+Fix Settings crash when setting only decimal point to data usage warning
+Settings: Make shortcut icon colors match settings accent
+Settings: about phone: remove regulatory info
+Bluetooth settings screen has two categories.
+- Each category should call removeAll() method to unregister a callback from CachedBluetoothDevice but the method is not called for mPairedDevicesCategory.
+
+SystemUI: Display warning when temps are questionable (Above 55C)
+
+
 16th August 2017
 
 Sources updated till 16th August 9.40pm IST.

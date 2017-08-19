@@ -1,6 +1,55 @@
 Changelog
 
 
+19th August 2017
+
+Sources updated till 19th August 1.30pm IST.
+
+Switch to show Am/Pm indictor on lockscreen
+Adding one more option of 35% for battery saver.
+Replaced Nexuslauncher with Lawnchair v1.0.1063
+2G Network doesn't connects always for some carriers
+
+Fixed QR reader issues.
+Fixed link for OTA Update
+- Earlier if there was an update, ota notification opens up the old rom link, it should open the latest now.
+Settings: use smaller font in SIM selction dialog
+base: dont play charger connected sound before decrypt
+base: Disable ADB over network on disconnect
+- Earlier this was creating a potential security threat when this setting is left enabled and the device gets re-connected to public wifi networks.
+- To mitigate that risk, introduce a new switch to disable ADB over network as soon as the device gets disconnected from wifi.
+Settings: Added MatLog to Settings Menu under Miscellaneous
+- Matlog is a log capturing app that's embedded within the rom itself. Use it to send me logs if you find a bug.
+Settings: make MatLog usage optional
+- If you remove this app, option will be disappeared.
+
+Fix tiny memory leak
+PocketService: Adjust light sensor rate to 400ms
+PhoneWindowManager: Block screenshots when pocket lock is showing
+Fix memory-leak warnings from the static analyzer
+Fix warning: Potential leak of memory pointed to by 'set'
+Switch frameworks/base/core/jni from gcc to clang (proper fix).
+Replace usages of ShortNumberUtil with ShortNumberInfo
+Fix issue in PhoneNumberUtils.compareLoosely
+Revert "DozeService: Fallback to tilt sensor as pickup sensor"
+Revert "CameraService: addition from OSS for OnePlusCamera (found by Kevin Mckee <kxzxxx@gmail.com>)"
+
+Align AOSP strings back
+Add 'new message' shortcut using the API introduced in sdk25
+Change color scheme to match our new icon
+
+Fix Settings crash when setting only decimal point to data usage warning
+Settings: Make shortcut icon colors match settings accent
+Settings: about phone: remove regulatory info
+Bluetooth settings screen has two categories.
+- Each category should call removeAll() method to unregister a callback from CachedBluetoothDevice but the method is not called for mPairedDevicesCategory.
+
+SystemUI: Display warning when temps are questionable (Above 55C)
+
+(Comes with sources update)
+PowerManagerService: fix HW button illumination timeout
+SystemUI: Fix battery meter view blacklist handling
+
 11th August 2017
 
 Sources updated till 11th August 4.40pm IST.
