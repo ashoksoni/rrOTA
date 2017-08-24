@@ -2,120 +2,195 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 08/19/2017
-
-
- ▪ project device/qcom/sepolicy/
- ▪ c631819 Use set_prop() macro for property sets
-
- ▪ project frameworks/base/
- ▪ fade4c5 Switch to show Am/Pm indictor on lockscreen (2/2)
-
- ▪ project kernel/oneplus/msm8994/
- ▪ 26ebeb4 Delighted..
- ▪ 356fad8 sound/soc/codecs: Faux Sound control for WCD9330 TomTom codec driver
-
- ▪ project kernel/oneplus/msm8996/
- ▪ a29b8a1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
- ▪ f24efb5 Revert "dmaengine: device must have at least one channel"
-
- ▪ project packages/apps/CMParts/
- ▪ de5d189 Adding one more option for battery saver
-
- ▪ project packages/apps/Settings/
- ▪ f957955 Switch to show Am/Pm indictor on lockscreen (1/2)
- ▪ d5f68c5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 4dccd0d Changing Galaxy s7 edge Maintainer (#846)
-
- ▪ project vendor/cm/
- ▪ 91f49b6 Replaced Nexuslauncher with Lawnchair v1.0.1063
-
- ▼ 08/18/2017
+ ▼ 08/24/2017
 
 
  ▪ project device/oneplus/oneplus2/
- ▪ 03999fb oneplus2: remove hard-coded photo preview size
- ▪ b675982 2G Network doesn't connects always for some carriers
- ▪ 7d8e261 oneplus2: bind more services to cortex-a53s
- ▪ d35eff3 OnePlus2: Enabling scheduling boost during the application launch
- ▪ 4b81026 oneplus2: force deep buffer
+ ▪ 53709f2 op2: SlimDoze: Enable more gesture triggers
+ ▪ 54b610e Remove OnePlus Doze, using SlimDoze now.
 
  ▪ project device/oneplus/oneplus3/
- ▪ 8d9421c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ 6a90240 op3: SlimDoze: Enable more gesture triggers
+ ▪ d75e649 Remove OnePlus Doze, using SlimDoze now.
 
- ▪ project frameworks/av/
- ▪ cdc0676 Fix tiny memory leak
+  ▪ project frameworks/native/
+  ▪ ddfde35 InputDispatcher: On keypress, deliver keycode to pokeUserActivity
+  ▪ adfadsf PowerManager.h: Define USER_ACTIVITY_FLAG values
+
+  ▪ project frameworks/base/
+ 
+ Only for OP3 -->
+ 
+ ▪ 3bc2529 FB: Fix raw capturing and add smile support
+ ▪ f069976 [PATCH] mod for camera1 api
+ ▪ b3f9367 [PATCH] mod for camera1 jni
+ ▪ 477335c [PATCH] force return LEGACY api for com.oneplus.camera
+ 
+ Only for OP3 <--
+ 
+ ▪ 086c0a0 Disable keyboard/button lights while dozing/dreaming
+ ▪ a444cdf PowerManager: Allow to distinguish different keypresses
+ ▪ 6a98ec2 Replaced Ambient Display with  SlimDoze
+ ▪ 398738f SlimDoze: Fix gesture triggers not following Ambient display
+ ▪ 36155bc [1/2] SlimDoze: add hand wave & pocket mode gesture
+ ▪ 2fadde3 [1/2] SlimDoze: add tilt gesture
+ ▪ c6cf0cd [2/2] frameworks_base: SlimDoze 7.1.1
+ ▪ eeead38 Revert "Enable auto-HDR indicator for OnePlus devices"
+ ▪ 2fae455 Tweak Privacy Guard dialog layout
+ ▪ 548c9e9 Add @hide annotation to the privacy guard ops set
+ ▪ 6adaac5 Change visibility of the Privacy Guard ops set
+ ▪ 3bfcfb4 Camera: ignore torch status update for aux or compsite camera
+ ▪ 117f0d0 Enforce call log length limit on a per PhoneAccount basis.
+ ▪ 1a734db ExtService: Fix no icon shown for data limit notification
+ ▪ 576144a Avoid strict mode warning when persisting sync state
+ ▪ 804f596 Fix classnotfound exception for backup
+ ▪ aea545f MessageQueue: explicitly remove FD event listeners.
+ ▪ 34f7815 Handle Cell STATE_EMERGENCY_ONLY in BatteryStats
+ ▪ 49cff13 Prevent data usage dialog from being displayed again
+ ▪ 0629e49 Parse Exif OffsetTime in MediaScanner
+
+ ▪ project packages/apps/Settings/
+ ▪ 24f0dd0 Replaced Ambient Display with SlimDoze
+ ▪ 820a4f7 [2/2] SlimDoze: add hand wave & pocket mode gesture
+ ▪ 45de889 [2/2] SlimDoze: add tilt gesture
+ ▪ 3c8aef8 [1/2] Settings: SlimDoze 7.1.1
+ ▪ 4dcd3ca Settings: Always show Privacy Guard permissions
+ ▪ 9ad4f94 Settings: Add a shortcut icon for carrier selection
+ ▪ 091bbdf CryptKeeper need release all StatusBar blocks when it is destroyed by system
+ ▪ 23fa12b Fix Settings crashes after tapping "Learn more" in fingerprint page
+ ▪ 675f951 Avoid NullPointerException when updating preference intents
+
+ ▼ 08/23/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 62a91db Revert "oneplus2: fix rfs_access denial"
+ ▪ 9aaa9f9 Revert "init.qcom.rc: Mount debugfs properly"
+ ▪ 70a7fa0 Revert "oneplus2: fix rfs_access denial"
+ ▪ eabc016 sepolicy: mm-qcamerad: remove this allow
+ ▪ 82b5dfd Increase max number of EXIF tags.
+ ▪ 0b5ea43 QCamera2/HAL3: Advertize correct timestamp source
+ ▪ aa7e06b device.mk: add more camera product packages
+ ▪ e017efe Use multithread decode for boot animation.
+ ▪ e89e2f6 BoardConfig: take that bootanimation texture cache
+ ▪ 218788e Sdclang added to local_manifest
+ ▪ 861319a oneplus2: Enable LTO and Clang optimizations
+
+ ▪ project device/qcom/common/
+ ▪ 7dd6ad9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_qcom_common into cm-14.1
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 4a4ee3b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ 6f65dfd qcacld-2.0: Update to LA.UM.5.5.r1-05700-8x96.0
+ ▪ 323ab35 Merge tag 'LA.UM.5.5.r1-05700-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into cm-14.1
+
+
+ ▼ 08/22/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ aa254ef overlay: Enable new CAF volte flag
+ ▪ db8bd33 Revert "oneplus2: overlay: Enable pocket bridge"
+ ▪ fc99088 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+ ▪ 1f47cfb oneplus2: fix rfs_access denial
+ ▪ 976d257 init.qcom.rc: Mount debugfs properly
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ ba01df9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+ ▪ e9af47b op3: Fix 3T front camera crash with Snap
+ ▪ aa1d874 op3: Add VR-ready power HAL
+ ▪ 72ddc7a op3: Added Sustained and VR perf mode powerhints in xml
+ ▪ e0e423f op3: Set config_sustainedPerformanceModeSupported
+ ▪ 8250815 op3: Add permissions for accessing thermal-engine
+ ▪ e004535 op3: Kang VR HAL from marlin
+ ▪ 1cd6a38 op3: thermal-engine: Add thermal client library header
+ ▪ 5dd2539 op3: Kang thermal HAL from marlin
+ ▪ 09e69d7 op3: Kang marlin thermal config file
+ ▪ 35873ec op3: Kang perfd stack from marlin
+ ▪ 6912c56 op3: Address wcnss_service denial
 
  ▪ project frameworks/base/
- ▪ 40042d1 PocketService: Adjust light sensor rate to 400ms
- ▪ 0193626 PhoneWindowManager: Block screenshots when pocket lock is showing
- ▪ 095189f Fix memory-leak warnings from the static analyzer
- ▪ 3975c39 Fix warning: Potential leak of memory pointed to by 'set'
- ▪ 3df685c Switch frameworks/base/core/jni from gcc to clang (proper fix).
- ▪ 027f279 Replace usages of ShortNumberUtil with ShortNumberInfo
- ▪ f8a051a Fix issue in PhoneNumberUtils.compareLoosely
- ▪ 722f968 Revert "DozeService: Fallback to tilt sensor as pickup sensor"
+ ▪ 4e7a862 Revert "pocket: introduce pocket judge"
+ ▪ 400872e Revert "policy: introduce pocket lock"
+ ▪ 58a449b Revert "pocket: introduce pocket bridge"
+ ▪ 57d2615 modify the parameter in cleanupLocked
+ ▪ 17ede47 Skip send broadcast to the receiver whoes user has not started.
+ ▪ ed2a856 [AppErrors]: Remove duplicate code for binder ID clear and restore.
+ ▪ fb77bb1 SystemUI : Fix monkey exception for SystemUI
+ ▪ 97d4bfc [PackageManagerService]: Fix the IndexOutOfBoundsException issue.
+ ▪ bcedcd3 use FgThread.class instead of UiThread.class for lock object
+ ▪ 09c86a0 jni: MediaPlayer: Improve the handling of lib loading
+ ▪ 57daa8a core/jni: Use sdclang lto for building libandroid_runtime
+ ▪ 99d5b6c SystemUI: Use a separate icon for SystemUI Tuner settings entry
+
+ ▪ project hardware/qcom/audio-caf/msm8998/
+ ▪ eba183e Merge tag 'LA.UM.5.7.r1-10500-8x98.0' into cm-14.1-caf-8998
 
  ▪ project kernel/oneplus/msm8994/
- ▪ 604c285 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into test2
- ▪ e0ca624 ANDROID: cpu: send KOBJ_ONLINE event when enabling cpus
+ ▪ ec5875b [PATCH] Remove '+' symbol from kernel version string
 
- ▪ project kernel/oneplus/msm8996/
- ▪ 860ce0b tracing: fix race condition reading saved tgids
- ▪ f659a47 fs/exec: fix use after free in execve
- ▪ f6a6d52 xfrm: policy: check policy direction value
- ▪ 7f87b76 timerfd: Protect the might cancel mechanism proper
- ▪ 4ed84e0 soc: qcom: secure_buffer: Fix memory leak
- ▪ ef37e81 dmaengine: device must have at least one channel
- ▪ 05a003a FROMLIST: f2fs: add ioctl to expose current features
- ▪ 9c97e51 FROMLIST: f2fs: don't give partially written atomic data from process crash
- ▪ 7d87138 FROMLIST: f2fs: give a try to do atomic write in -ENOMEM case
- ▪ 1b0401c ANDROID: sdcardfs: override credential for ioctl to lower fs
- ▪ 558241a ANDROID: keychord: Fix for a memory leak in keychord.
- ▪ 0024862 ANDROID: keychord: Fix races in keychord_write.
- ▪ da3bad8 Use %zu to print resid (size_t).
- ▪ b419d04 ANDROID: keychord: Fix a slab out-of-bounds read.
- ▪ 4a88124 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
-
- ▪ project packages/apps/Messaging/
- ▪ 7299fee Align AOSP strings back
- ▪ 5273ba4 Add 'new message' shortcut using the API introduced in sdk25
- ▪ fd784c8 Change color scheme to match our new icon
+ ▪ project packages/apps/OpenDelta/
+ ▪ 916d17a Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_OpenDelta into nougat
+ ▪ 57cae34 OpenDelta: show toolbar title
+ ▪ 23653ad OpenDelta: adjust for themeing
 
  ▪ project packages/apps/Settings/
- ▪ 6c949f3 Fix Settings crash when setting only decimal point to data usage warning
- ▪ cb55c2d Settings: Make shortcut icon colors match settings accent
- ▪ bc0f07b Settings: about phone: remove regulatory info
- ▪ 8e6d4e2 Bluetooth settings screen has two categories. Each category should call removeAll() method to unregister a callback from CachedBluetoothDevice. But the method is not called for mPairedDevicesCategory.
- ▪ 8ed3e5e Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ aca49e9 Add Co Maintainer for Jalebi (#845)
+ ▪ 4ed7016 Dynamically load KA-Mod/KA in dashboard
+ ▪ 0952000 Add Custom ROM control dashboard category
+ ▪ 412165d Revert "Settings:Add preference for pocket judge [2/2]" This reverts parts of this commit c1348a0d926e68b47e527c90453092e1c497629b.
+
+ ▪ project packages/services/Telephony/
+ ▪ 503194d Fixes cellular network on mako, other devices
+
+ ▪ project packages/services/ThemeInterfacer/
+ ▪ 25a330f Secure Theme Interfacer when using 3rd party apps
 
  ▪ project vendor/cm/
- ▪ 7b30d54 SystemUI: Display warning when temps are questionable
+ ▪ 9721e74 Revert "Trying to make Daydream VR work with oneplus3/3t."
 
- ▼ 08/17/2017
+ ▪ project vendor/oneplus/
+ ▪ 637aa1b Only need Oneplus2 and Oneplus3 vendor files.
+ ▪ 048c274 Merge branch 'cm-14.1' of https://github.com/TheMuppets/proprietary_vendor_oneplus into cm-14.1
+ ▪ 2e1e140 op3: Kang perfd stack from marlin
+ ▪ b3e9cba op3: Remove vendor thermal-engine.conf
+ ▪ 564b739 op3: Update to OB22 / OB13 blobs
+ ▪ 5ace225 cheeseburger: include libhwdaphal
+
+ ▼ 08/21/2017
 
 
- ▪ project device/oneplus/oneplus3/
- ▪ 6a0aba5 op3: Add DCI-P3 entry to color profiles
-
- ▪ project frameworks/av/
- ▪ 1624bad Revert "CameraService: addition from OSS for OnePlusCamera (found by Kevin Mckee <kxzxxx@gmail.com>)"
+ ▪ project device/oneplus/oneplus2/
+ ▪ 426851b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+ ▪ 91d35b5 oneplus2: only read 1 page of swap a time
+ ▪ f8014b8 oneplus2: set max_comp_streams for zram
 
  ▪ project frameworks/base/
- ▪ f88223c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ b044594 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
 
- ▪ project hardware/cyanogen/
- ▪ e2f8e45 livedisplay: SDM: Add support for DCI-P3 display mode
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 66f6a43 mdss: livedisplay: Add support for DCI-P3 mode
-
- ▪ project packages/apps/DUI/
- ▪ 1b7f93e Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
-
- ▪ project packages/apps/Jelly/
- ▪ 21b9d05 Jelly: Check for onChanged in history data observer
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 87cdf37 Revert "input: synaptics: s3320: Introduce pocket judge"
 
  ▪ project packages/apps/Settings/
- ▪ f652d91 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 521aefa Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 14513f5 Update s7 edge maintainer
+
+ ▪ project vendor/cm/
+ ▪ 8882ad6 Revert "pa: Add pocket judge selinux policy"
+ ▪ 231f9d2 Revert "vendor:Add sysfs permissions for pocket bridge"
+ ▪ 3b8eaab Revert "vendor: Add selinux policy for pocket bridge"
+
+ ▼ 08/20/2017
+
+
+ ▪ project build/
+ ▪ 6a081e1 envsetup: stop jack server once build completed
+
+ ▪ project hardware/ril-caf/
+ ▪ d8290dd ril: Allow targets to disable Clang
+
+ ▪ project packages/apps/CMParts/
+ ▪ f763660 CMParts: Add strings for DCI-P3 color profile
+
+ ▪ project packages/apps/Settings/
+ ▪ 3bb44bb Transfer maintainership of Galaxy S7 series to schwabe93
+ ▪ d5f68c5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat

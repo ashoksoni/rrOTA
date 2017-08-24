@@ -1,6 +1,71 @@
 Changelog
 
 
+24th August 2017
+
+Sources updated till 24th August 5.32pm IST.
+
+op3: Update to OB22 / OB13 blobs (so flash latest firwmare update)
+
+Remove OnePlus Doze and Customizations - Interface - Ambient settings completely and replaced with SlimDoze but kept "Show battery on lockscreen" from previous settings.
+Features of SlimDoze.
+- doze pulse fade in time for pickup (actually for anything but double-tap-to-doze)
+- doze pulse fade in time for double-tap-to-doze
+- doze pulse timeout (duration)
+- doze pulse fade out time
+- doze pulse brightness level
+- double-tap-to-wake-on-doze (require double-tap to wake device from a doze pulse, rather than single-tap)
+- pickup gesture trigger (trigger a doze pulse on device pickup)
+- tilt gesture trigger (trigger a doze pulse on device tilt)
+- double tap trigger (trigger a doze pulse on double-tapping screen while screen is turned off)
+- notification trigger (trigger a doze pulse when a notification arrives)
+
+** Note : options will vary depending on device features and here is some more info.
+
+# double-tap to trigger doze pulse
+
+This will add the Pixel's double-tap to trigger doze to any device with native double-tap-to-wake support.
+Double-tap-to-wake needs to be enabled for this to work!
+
+# Proximity gesture needs to be triggered either in less than hand wave time or more than pocket mode start (but not in between !).
+Hand wave must be below 750ms and pocket mode only starts after 5s.
+_________________________________________________________________________________________________________________________________
+
+Disable keyboard/button lights while dozing/dreaming
+PowerManager: Allow to distinguish different keypresses
+- Earlier volume keys light button lights, not anymore.
+Tweak Privacy Guard dialog layout
+Change visibility of the Privacy Guard ops set
+Enforce call log length limit on a per PhoneAccount basis.
+ExtService: Fix no icon shown for data limit notification
+Fix classnotfound exception for backup
+Handle Cell STATE_EMERGENCY_ONLY in BatteryStats
+Prevent data usage dialog from being displayed again
+Parse Exif OffsetTime in MediaScanner
+Settings: Always show Privacy Guard permissions
+Settings: Add a shortcut icon for carrier selection
+Fix Settings crashes after tapping "Learn more" in fingerprint page
+Increase max number of EXIF tags.
+QCamera2/HAL3: Advertize correct timestamp source
+device.mk: add more camera product packages
+Use multithread decode for boot animation.
+BoardConfig: take that bootanimation texture cache
+Sdclang added to local_manifest
+oneplus2: Enable LTO and Clang optimizations
+
+overlay: Enable new CAF volte flag
+core/jni: Use sdclang lto for building libandroid_runtime
+SystemUI: Use a separate icon for SystemUI Tuner settings entry
+[PackageManagerService]: Fix the IndexOutOfBoundsException issue.
+OpenDelta: show toolbar title
+OpenDelta: adjust for themeing
+Revert : Pocket Judge. We have working solution already so we really don't need it.
+Fixed "Disable during automatic rules" switch, not working properly before.
+Dynamically load KA-Mod/KA in dashboard
+Add Custom ROM control dashboard category
+Secure Theme Interfacer when using 3rd party apps
+Fixes cellular network on mako, might help other devices (Just in case if it helps Jio Users)
+
 19th August 2017
 
 Sources updated till 19th August 1.30pm IST.
