@@ -1,6 +1,107 @@
 Changelog
 
 
+1st September 2017
+
+Sources updated till 1st September 11.41.00am IST.
+
+Required firmware is already included, no need to flash it separately.
+- Credits to AOSPA
+
+Make OnePlus Camera to coexists with HAL3
+Fix raw capturing and add smile support
+- All credits to kxzxxx and amirzaidi
+
+Device: Enable FFMPEG
+BoardConfig: Enable SDCLANG and CLANG_FAST
+BoardConfig: Add Bootanimation optimizations
+oneplus3: use project name to determine device
+
+Density reverted to default as we now have one touch qs option.
+Removing some system.prop modifications
+
+Fixed audio stream changes from headphone to phone's speaker after connecting or disconnecting a charger (if the notification is turned on for that option).
+- It's routed to headphone if headphone is connected else it will go through phone's speaker.
+- Unfortunately AudioManager.isMusicActive always returns true (might be android's internal code issue) thus I can't make another check to see whether the music is really playing and make it much better
+- so for now this is the only solution.
+
+Reduced maximum number of entry files which @link android.os.IDropBox to 50 from 1000.
+SystemServer: Don't start widget service when it is alarm boot
+Perf: Fix RemoteViews memory leak
+
+Added SearchIndex for Misc category.
+- Disabled apps are still showing up in search, will work on that in next update.
+- Like if root is not available, selinux switch shouldn't show up in search or if you disable matlog, it shouldn't but it is, I will try to fix that in next update.
+
+Settings: Added setting in Misc for sms message rate alerts. Now you can manually choose between 100/500/1000 or unlimited.
+- Limit of 100/minute is reverted.
+
+Check for Root in Dev settings too to remove LOS root options.
+- Earlier only existence of Magisk or SuperSu apk was enought to remove this, now it makes sure that the root indeed exists.
+
+Introduce Selinux Switch again.
+- Again with root check, not only with the existent of root apks.
+
+Setting value to True for Disabling themes overlays on phone start by default.
+BillingCycleSettings: Fix crash case for the data usage warning.
+
+Address profile picture "read" permission denial.
+- Earlier setting a pic to your user profile directly was not possible because of this denial, it's working now.
+
+Adding Toast to Airplanemode change actions through qs tiles.
+
+OnTheSpot: introduce user hint prompt system
+- SystemUI: add quick settings pull down with one finger into OTS
+- FeaturePreferences: Introduce settings reset
+- FeaturePreferences: reload preferences when reloading activity
+- These are under Backup and reset.
+
+Fix a2dp stream issues
+Remove PerfProfile logging
+FWB: Accidental touch: Fix navigation bar misbehave
+display: Don't animate screen brightness when turning the screen on
+fixed handling of data URI schemes in Intent.toUri
+An activity with FLAG_ACTIVITY_NO_HISTORY does not finish.
+Fix Android Services Library crash
+Reporting FULL_WAKE_LOCK to battery stats.
+SystemUI: Bluetooth can't be turned off in some cases. (fixed)
+QS BluetoothTile prioritizes connected device
+Fixed force stop home app may black screen.
+SystemUI: Fixed SystemUI Crash Issue
+
+Vibration mode entered indicated by vibrating switch
+- Under Sound - other sound settings.
+
+Allow blocking of lock-screen notifications also on insecure lock screen.
+Network settings moved to Backup & reset
+[device info] Display SDClang Versions in about.
+fix null pointer and memory leak issue
+init: device: fix memory leak issue
+init.rc: setup console-ramoops-0
+toolbox: fix memory leak
+Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+
+Allow insecure ADB logging at boot and removed default disabled properties
+- Clean flashed / or unauthorized devices coudln't connect to adb via pc without authorization, this made it difficult to collect logs. Fixed that.
+
+MTP as default option after connecting to usb
+
+Fixed Root status while flashing
+- Earlier it showed rooted, now it's rootless.
+
+Dialer: add expand/collapse animation to call log detail card
+Dialer: Enable Call recording by default for every available region
+Dialer: Enable verizon visual voicemail support
+
+Allow multiple default dialers.
+- also avoid npe for devices that don't have dialer package installed.
+
+Alert slider: Fix changing from "vibrate" to "all notifications" in some scenarios where vibrate icon didn't disappear.
+LatinIME: Proper dvorak keyboard fix
+
+Bootanimation changed.
+- made by Miradutta.
+
 24th August 2017
 
 Sources updated till 24th August 5.32pm IST.
