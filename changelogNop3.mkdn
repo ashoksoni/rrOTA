@@ -1,6 +1,21 @@
 Changelog
 
 
+2nd September 2017
+
+Sources updated till 2nd September 12.57.00pm IST.
+
+Added SearchIndexProvider for Statusbar category
+Added SearchIndex for configuration and misc categories.
+MTP as default USB connection set to false, users can change it on their own convenience.
+Revert "Bootanimation changed."
+
+This should work too as patches are included.
+
+Make OnePlus Camera to coexists with HAL3
+Fix raw capturing and add smile support
+- All credits to kxzxxx and amirzaidi
+
 1st September 2017
 
 Sources updated till 1st September 11.41.00am IST.

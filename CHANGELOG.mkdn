@@ -2,213 +2,39 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 08/31/2017
+ ▼ 09/01/2017
 
 
  ▪ project device/oneplus/oneplus2/
- ▪ 66cacf8 Removing some system.prop modifications
-
- ▪ project frameworks/base/
- ▪ dxcd4fv Fixing audio changes stream from headphone to louadspeaker after connecting or disconnecting a charger.
- ▪ f49a029 Squashed : HAL1 and HAL3 together - only for op3
- ▪ a0669a1 Reduced maximum number of entry files which @link android.os.IDropBox to 50 from 1000.
- ▪ 6bf0966 Fix AVD memory leak
- ▪ e0007c7 Fixed another memory leak
- ▪ 03e6d80 Fix drm hal resource leaks
- ▪ c5738ff Clear native shader when Paint shader changes
- ▪ 5b5492e7 SystemServer: Don't start widget service when it is alarm boot
- ▪ 262a47b Perf: Fix RemoteViews memory leak
-
- ▪ project packages/apps/Settings/
- ▪ d414ccc Added SearchIndex for Misc category.
- ▪ 3e59531 Settings: Add setting in security for sms message rate alerts.
- ▪ 43e63d0 Check for Root in Dev settings too to remove LOS root options.
- ▪ 512156d Introduce Selinux Switch again.
- ▪ f5e9e3c Setting value to True for Disabling themes overlays on phone start. 
- ▪ 4700738 BillingCycleSettings: Fix crash case for the data usage warning
- ▪ 2fb8bcf Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 84d2690 Asus Zenfone 3 (Z012D) Maintainer (#859)
- ▪ 67faee0 Piccolo Maintainer (#858)
-
- ▪ project vendor/cm/
- ▪ 3kdlc0d Bootanimation changed.
- ▪ f930803 Give system server full read access to user profiles
- ▪ 0b13d84 pa: address profile picture "read" permission denial
-
- ▪ project vendor/oneplus/
- ▪ 0952002 PA firmware flash format for OB22/OB13
-
- ▼ 08/30/2017
-
-
- ▪ project frameworks/base/
- ▪ d4388fa Adding Toast to Airplanemode change actions through qs tiles.
-
- ▪ project frameworks/opt/telephony/
- ▪ d3c9d29 Revert "Increase SMS Sending limits to 100/minute."
+ ▪ 804a551 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into hdr
+ ▪ 3b88f8e oneplus2: update cpu configuration
+ ▪ f0eec2e oneplus2: properly enable 24 bit offload
+ ▪ 55a1c44 ether: Add support for unprocessed audio source
+ ▪ 82cc6a1 oneplus2: properly include updated fs config
+ ▪ edc4bcd oneplus2: update init
+ ▪ 40f807b oneplus2: ipacm: Fix ordered comparison between pointers and zero
 
  ▪ project kernel/oneplus/msm8994/
- ▪ 122584e ppp: Fix null pointer dreference due to mismerge
-
- ▼ 08/29/2017
-
-
- ▪ project packages/apps/DUI/
- ▪ 1b01b79 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
-
- ▪ project packages/apps/Settings/
- ▪ 41bd796 Update maintainer for Galaxy Note 3 Qcom (#854)
- ▪ 5041f27 Added RootTools jar library.
- ▪ 54f69d8 FeaturePreferences: reload preferences when reloading activity
- ▪ d1a269b FeaturePreferences: Introduce settings reset
-
- ▼ 08/28/2017
-
-
- ▪ project packages/apps/Jelly/
- ▪ 8e71ae9 Jelly: Remove the SwipeRefreshLayout
-
- ▼ 08/27/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ fed6865 oneplus2: remove duplicate overlay
- ▪ 9891b07 Fix a2dp stream issues
-
- ▪ project device/oneplus/oneplus3/
- ▪ 944b469 Revert:  Reduce density a bit to cope with QS tiles issue.
- ▪ d5f7681 Device: Enable FFMPEG
- ▪ 3a7927c BoardConfig: Enable SDCLANG and CLANG_FAST
- ▪ 9d1f684 BoardConfig: Add Bootanimation optimizations
- ▪ 6d38a12 oneplus3: Remove debug parameters from command line
- ▪ 387b9b7 oneplus3: use project name to determine device
- ▪ e67bc47 oneplus3: Update firmware flashing extension for OP3T
- ▪ 2b9a39c oneplus3: track lksecapp firmware image
- ▪ 1157be6 oneplus3: Support for shipping firmware
- ▪ a08203b Remove TrustZone assertion
- ▪ d0384c2 Fix a2dp stream issues
-
- ▪ project frameworks/base/
- ▪ 542006a Remove PerfProfile logging
- ▪ 8ed786c FWB: Accidental touch: Fix navigation bar misbehave
- ▪ 7c281cc display: Don't animate screen brightness when turning the screen on
- ▪ 34b52ac fixed handling of data URI schemes in Intent.toUri
- ▪ 771fef8 An activity with FLAG_ACTIVITY_NO_HISTORY does not finish.
- ▪ 4dd18c3 Fix Android Services Library crash
- ▪ 53c14a4 Reporting FULL_WAKE_LOCK to battery stats.
- ▪ f8548ec SystemUI: Bluetooth can't be turned off
- ▪ 3cbb41d QS BluetoothTile prioritizes connected device
- ▪ 5b42f5e [AM] fix force stop home app may black screen.
- ▪ 1693c4e SystemUI: Fix SystemUI Crash Issue
- ▪ ea32e74 SystemUI: add quick settings pull down with one finger
- ▪ e05c793 OnTheSpot: introduce user hint prompt system
- ▪ 3fde6a7 Vibration mode entered indicated by vibrating switch [1/2]
- ▪ 8807a49 Allow blocking of lock-screen notifications also on insecure lock screen.
-
- ▪ project packages/apps/Dialer/
- ▪ 6bf2bce Enable Call recording by default for every available region
+ ▪ 33e8f34 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into test2
+ ▪ ac59dcb cpu_input_boost: adapt cluster masks for msm8994
+ ▪ 033b39e cpu_input_boost: backport to 3.10
+ ▪ cb66bbc cpufreq: Introduce CPU input boost driver
+ ▪ 3723c67 cpuidle: don't disable cpuidle when entering suspend
+ ▪ d95567b arm64/dts: msm8994: Adds current values for the cpus.
+ ▪ 40367bf input: synaptics: s1302: Make s1302_is_keypad_stopped() safe
+ ▪ eed60b7 misc: fpc1020: Fix s1302_is_keypad_stopped() logic for home key
+ ▪ dd85e7a misc: fpc1020: Ignore home key presses when touchscreen is in use
+ ▪ 0844b87 input: synaptics: s1302: Stop keypad when touchscreen is in use
+ ▪ f044d81 gpio_keys: call oem_check_force_dump_key() later
+ ▪ c4b8bc1 oneplus2: disable optimize for size
+ ▪ 965cf14 arm64: make Timer Interrupt Frequency selectable
+ ▪ c02ffc2 msm: kgsl: Fix direct references to HZ
+ ▪ dd037ab devfreq_spdm: Handle spurious interrupts during bootup
 
  ▪ project packages/apps/Settings/
-  ▪ 8157c70 Revert "Moved network settings reset away from Backup & reset."
- ▪ 70c9381 [device info] Display SDClang Versions: [1/2]
-
- ▪ project system/core/
- ▪ e32394a init: No fsck for /data and /cache when shutdown
- ▪ 93c54d3 System Server Force Close.
- ▪ 1a8891b fix null pointer and memory leak issue
- ▪ 411b764 init: device: fix memory leak issue
- ▪ 3f6e2e2 fix warning: Null pointer argument in call to memory comparison function
- ▪ 7a31960 init.rc: setup console-ramoops-0
- ▪ 3ebb7a7 toolbox: fix memory leak
- ▪ 0178c24 Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
- ▪ 0141e76 add properties for controlling deny_new_usb
- ▪ 9e5aae1 add missing out-of-memory check
- ▪ fdfe086 CopperheadOS license
- ▪ af303f2 Set zygote process priority to -20 to speed up VM startup time.
- ▪ 343568b klog.c for Android
- ▪ 3540552 OMS rootless: Revert "Create "theme extras" directory"
- ▪ c1aba93 Mounting /sys/kernel/debug to debugfs
+ ▪ 2a022a4 Added SearchIndexProvider for Statusbar category
+ ▪ a4e18c6 Added SearchIndex for configuration and misc categories.
+ ▪ 720c988 Changing some default values including MTP as default USB connection.
 
  ▪ project vendor/cm/
- ▪ 0c18b6d [device info] Display SDClang Versions: [2/2]
- ▪ a568fff Allow insecure ADB logging at boot and removed default disabled properties
- ▪ 1fce46b MTP Dirty Hack (use mtp as default after connect to usb) (3/3)
-
- ▼ 08/26/2017
-
-
- ▪ project build/
- ▪ 8fe000d Fixed Root status while flashing
- ▪ e0d01d4 mms: introduce a shortcut to quickly rebuild kernel/boot.img
- ▪ 5eeb43d build: Introduce Firmware flashing extension
-
- ▪ project frameworks/av/
- ▪ 7f3e43c FAV: Add the needed stuffs for OnePlusCamera to work
- ▪ 90cdba5 fix mediaserver crash in ACodec::getPortFormat
- ▪ dc203cf stagefright: Remove extra memcpy
- ▪ 4c2f59d av: "ACodec: update native window crop rectangle" depends on QCOM
- ▪ f1ef5c2 soundtrigger: fix memory corruption
- ▪ 1791f61 soundtrigger: fill in default extras from dsp
- ▪ 7a243b2 DTS Sound (TruMedia) Postpro integration for Android 7.0
- ▪ a8c9490 Enable 64bit mediaserver
- ▪ 6aa21ee frameworks/av: Fix video recording breaks
- ▪ cdf001f camera: Allow camera HAL to get caller package
- ▪ b648c3b Fix tiny memory leak
- ▪ 50b57d1 libstagefright: encoder must exist when source starting
- ▪ b694b65 HLS: force audio/video both to start from IDR position
- ▪ 8b68fad stagefright: don't assume 16 bit format
- ▪ 0b8df60 libmedia: synchronize access to meta
- ▪ ad735b8 audiopolicy: mute strategies when device is a2dp after suspended
- ▪ f337455 audio: hold effect mutex when releasing effect engine
- ▪ 65933f1 audiopolicy: Do not select A2DP device if suspended
- ▪ 3309637 audiopolicy: Invalidate direct PCM tracks when mono is set
- ▪ 36d6c89 audioflinger: update IO info when releasing audio patch
- ▪ 72338d0 NuPlayer: Decoder: Check for valid codec on resume
- ▪ d4a86e0 AudioPolicyMng: check for null audioSession when realeasing input
- ▪ 6ecb20b media: Allow using legacy HSR calculation
- ▪ 2159e3f video: Disable sync frame decoder mode for closest seek
- ▪ 97ea244 NuPlayer: fix possible deadlock due to recursive mutex access
- ▪ 88e02cb stagefright: stop audio encoding before releasing writer thread
- ▪ 3844cc9 stagefright: Remove extra memcpy
-
- ▪ project packages/apps/Bluetooth/
- ▪ cc665de AdapterService: track last discovering timestamp
-
- ▪ project packages/apps/Dialer/
- ▪ 228164f Dialer: add expand/collapse animation to call log detail card
-
- ▪ project packages/apps/Settings/
- ▪ 9236011 Bluetooth: remove BluetoothDiscoveryReceiver
- ▪ 05704a5 Vibration mode entered indicated by vibrating switch [2/2]
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ 2dd00df Email: Fix led notification settings
-
- ▪ project packages/services/Telecomm/
- ▪ 5900f9c Telecomm : Allow multiple default dialers [1/2] *also Avoid npe for devices that don't have dialer package installed.
-
- ▪ project packages/services/Telephony/
- ▪ 0b8d11a Telephony : Allow multiple default dialers [2/2]
- ▪ c629871 enable verizon visual voicemail support
- 
- ▼ 08/25/2017
-
-
- ▪ project device/oppo/common/
- ▪ f48e9dc Alert slider: Fix changing from "vibrate" to "all notifications" in some scenarios
-
- ▪ project frameworks/base/
- ▪ f7b0f3c MTP_DIRTY_HACK: Fix USB Tethering
- ▪ 11828d9 MTP_DITRY_HACK: Fix after merging 7.1.2
- ▪ d918fe8 frameworks/base: MTP Dirty Hack (use mtp as default after connect to usb) (1/3)
- ▪ 53281bb Bluetooth: add getDiscoveryEndMillis() call
-
- ▪ project frameworks/native/
- ▪ f91597f Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
- ▪ 9cb6681 Merge remote-tracking branch 'remotes/laos/cm-14.1' into HEAD
-
- ▪ project packages/apps/Settings/
- ▪ f440c32 Settings: MTP Dirty Hack (use mtp as default after connect to usb) (2/3)
-
- ▪ project packages/inputmethods/LatinIME/
- ▪ 08db0a7 proper dvorak keyboard fix apparently this has been broken is aosp forever changes by @that1communist
+ ▪ 9138db0 Revert "Bootanimation changed."
