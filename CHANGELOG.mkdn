@@ -2,39 +2,20 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 09/01/2017
+ ▼ 09/03/2017
 
 
- ▪ project device/oneplus/oneplus2/
- ▪ 804a551 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into hdr
- ▪ 3b88f8e oneplus2: update cpu configuration
- ▪ f0eec2e oneplus2: properly enable 24 bit offload
- ▪ 55a1c44 ether: Add support for unprocessed audio source
- ▪ 82cc6a1 oneplus2: properly include updated fs config
- ▪ edc4bcd oneplus2: update init
- ▪ 40f807b oneplus2: ipacm: Fix ordered comparison between pointers and zero
+ ▪ project frameworks/base/
+ ▪ 8f91340 Fixing audio changes stream from headphone to louadspeaker after connecting or disconnecting a charger.
 
- ▪ project kernel/oneplus/msm8994/
- ▪ 33e8f34 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8994 into test2
- ▪ ac59dcb cpu_input_boost: adapt cluster masks for msm8994
- ▪ 033b39e cpu_input_boost: backport to 3.10
- ▪ cb66bbc cpufreq: Introduce CPU input boost driver
- ▪ 3723c67 cpuidle: don't disable cpuidle when entering suspend
- ▪ d95567b arm64/dts: msm8994: Adds current values for the cpus.
- ▪ 40367bf input: synaptics: s1302: Make s1302_is_keypad_stopped() safe
- ▪ eed60b7 misc: fpc1020: Fix s1302_is_keypad_stopped() logic for home key
- ▪ dd85e7a misc: fpc1020: Ignore home key presses when touchscreen is in use
- ▪ 0844b87 input: synaptics: s1302: Stop keypad when touchscreen is in use
- ▪ f044d81 gpio_keys: call oem_check_force_dump_key() later
- ▪ c4b8bc1 oneplus2: disable optimize for size
- ▪ 965cf14 arm64: make Timer Interrupt Frequency selectable
- ▪ c02ffc2 msm: kgsl: Fix direct references to HZ
- ▪ dd037ab devfreq_spdm: Handle spurious interrupts during bootup
+ ▪ project frameworks/opt/telephony/
+ ▪ a89452e Uicc: Fix NullPointerException issue after turn on airplane mode
+ ▪ 94a2490 Correct NPE when active call is disconnected.
+
+ ▪ project packages/apps/CMParts/
+ ▪ 37a121a Removing unnecessary activities
 
  ▪ project packages/apps/Settings/
- ▪ 2a022a4 Added SearchIndexProvider for Statusbar category
- ▪ a4e18c6 Added SearchIndex for configuration and misc categories.
- ▪ 720c988 Changing some default values including MTP as default USB connection.
-
- ▪ project vendor/cm/
- ▪ 9138db0 Revert "Bootanimation changed."
+ ▪ 607253a Making MiscSettings an activity
+ ▪ a769b80 Add SearchIndexProvider for all remaining categories
+ ▪ e8935f9 Show search results when query string contains trailing space

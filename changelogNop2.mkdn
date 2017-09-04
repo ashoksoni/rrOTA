@@ -1,6 +1,24 @@
 Changelog
 
 
+4th September 2017
+
+Sources updated till 4th September 2.30pm IST.
+
+Fixed video recording.
+- You might have to clean flash. I did and it's working fine now.
+Fixed sms message limit option loading correct values on list opening.
+Fixing audio changes stream from headphone to loudspeaker after connecting or disconnecting a charger properly.
+- There wasn't any tone playing with last fix, now it's properly routed to headset instead of phone's speakers thus no more interrupting already playing media and route audio to phone's speakers.
+- Hopefully in next update I'll manage to play it through phone speakers and still manage to keep media through headset.
+
+Uicc: Fix NullPointerException issue after turn on airplane mode
+Correct NPE when active call is disconnected.
+
+Removing unnecessary CMPart's activities
+Add SearchIndexProvider for all remaining categories
+Show search results when query string contains trailing space
+
 2nd September 2017
 
 Sources updated till 2nd September 12.57.00pm IST.
