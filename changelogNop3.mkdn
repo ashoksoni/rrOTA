@@ -1,6 +1,21 @@
 Changelog
 
 
+18th September 2017
+
+Sources updated till 18th September 7.30pm IST.
+
+September Security patches
+
+framework: shorten wait time for shutdown time optimization
+op3: Update to OB23 / OB14 blobs (firmware is already included)
+Fix Trusted Face fc issue. Added needed libs.
+
+op3: Enable 60fps with camera blobs from OB18
+FWB: Stop all OnepPlus camera callback log messages
+FWB: Disable smile capture
+FWB: Make OnePlus picture process service working
+
 4th September 2017
 
 Sources updated till 4th September 2.30pm IST.

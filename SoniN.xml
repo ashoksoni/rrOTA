@@ -31,11 +31,11 @@
     </Stable>
     <Stable>
         <oneplus3>
-            <Filename>RR-N-v5.8.4-20170904-oneplus3-Unofficial-SONI.zip</Filename> 
+            <Filename>RR-N-v5.8.4-20170918-oneplus3-Unofficial-SONI.zip</Filename> 
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=961840155545593151</RomUrl>
+                description="Unofficial ResurrectionRemix builds">https://www.androidfilehost.com/?fid=961840155545596770</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -48,10 +48,6 @@
                 id="misc"
                 title="Miscellaneous"
                 description="Miscellaneous">https://www.androidfilehost.com/?w=files&amp;flid=113050</MiscUrl>       
-	    <FirmwareLink
-                id="firmwares"
-                title="Firmwares"
-                description="Get latest firmwares for your device">https://www.androidfilehost.com/?w=files&amp;flid=139132</FirmwareLink>
 	    <CreditsUrl
                 id="credits"
                 title="Credits"
