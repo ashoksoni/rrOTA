@@ -2,25 +2,51 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 09/18/2017
+ ▼ 09/19/2017
 
-
- ▪ project build/
- ▪ 240d303 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ f6958ef Updating Security String to 2017-09-05 Bug:63846344
 
  ▪ project device/oneplus/oneplus2/
- ▪ 1d2e3fd Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into hdr
+ ▪ 3c2c5fe Revert "sepolicy: Fix rfs_access denial"
+ ▪ 3933dbd Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+ ▪ 0e1929c Revert "oneplus2: force deep buffer"
 
- ▪ project device/oneplus/oneplus3/
- ▪ cb53c2b op3: Enable 60fps with camera blobs from OB18
+ ▪ project frameworks/av/
+ ▪ da0b814 Fix memory leak warning in FwdLockEngine.cpp
+ ▪ d4c6b34 fix potential mediaserver crash in ACodec::getPortFormat
+ ▪ b5da13f Do not seek when switching to background playback
+ ▪ 821f656 Fix memory leak warning.
+ ▪ a31dfd8 fix mediaserver crash in ACodec::getPortFormat
+ ▪ 7ba4ec6 av: "ACodec: update native window crop rectangle" depends on QCOM
+ ▪ 2a4b0d9 soundtrigger: fix memory corruption
+ ▪ 8f5b41d soundtrigger: fill in default extras from dsp
+ ▪ 4ddb46d DTS Sound (TruMedia) Postpro integration for Android 7.0
+ ▪ 100dbd2 Enable 64bit mediaserver
+ ▪ d788fbe frameworks/av: Fix video recording breaks
+ ▪ 485be02 camera: Allow camera HAL to get caller package
+ ▪ 9e1dc5a libstagefright: encoder must exist when source starting
+ ▪ 4c86ab1 HLS: force audio/video both to start from IDR position
+ ▪ a166158 stagefright: don't assume 16 bit format
+ ▪ 5f4308d libmedia: synchronize access to meta
+ ▪ db44f55 audiopolicy: mute strategies when device is a2dp after suspended
+ ▪ 6fcb5a0 audio: hold effect mutex when releasing effect engine
+ ▪ acbe127 audiopolicy: Do not select A2DP device if suspended
+ ▪ 3c099c6 audiopolicy: Invalidate direct PCM tracks when mono is set
+ ▪ 75deef2 audioflinger: update IO info when releasing audio patch
+ ▪ 3b8535b NuPlayer: Decoder: Check for valid codec on resume
+ ▪ 127f3bb AudioPolicyMng: check for null audioSession when realeasing input
+ ▪ 00aca80 video: Disable sync frame decoder mode for closest seek
+ ▪ 0f5cf01 NuPlayer: fix possible deadlock due to recursive mutex access
+ ▪ eb02536 stagefright: stop audio encoding before releasing writer thread
+ ▪ f0645e6 stagefright: Remove extra memcpy
 
  ▪ project frameworks/base/
- ▪ 8835704 Fixing audio changes stream from headphone to phone's speaker after connecting or disconnecting a charger. (routed to headset)
- ▪ e2ba961 Update signal strength hack
- ▪ 6132f7c Wifi: Fix null pointer exception in mInfo & mNetworkInfo
- ▪ 0d424c4 core-jni : Create Cgroup of a process
- ▪ 01f0ffc framework: shorten wait time for shutdown time optimization
+ ▪ a11d76d Revert "base: audioservice: Set BT_SCO status"
+ ▪ 25973d9 Magnification gesture: fix screen freezing
+ ▪ ffd5ed6 Revert "Fix memory-leak warnings from the static analyzer"
+ ▪ 769ea9a Revert "Fix AVD memory leak"
+ ▪ 28b0754 frameworks/base: Checkins batterystats dump format
+ ▪ de2ba961 Update signal strength hack
+ ▪ tra333d framework: shorten wait time for shutdown time optimization
  ▪ f22ec47 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
 
  ▪ project kernel/oneplus/msm8994/
@@ -38,310 +64,15 @@
  ▪ project packages/apps/Messaging/
  ▪ e81ba55 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Messaging into nougat
 
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 9037ad8 Fixing other links
+
  ▪ project packages/apps/Settings/
  ▪ 4fbe913 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ efbb78f Add moderator tags to about settings
+
+ ▪ project vendor/cm/
+ ▪ 98df569 Trusted face force closing without this lib.
+ ▪ d7b1b24 Snap out, SnapDragon in
 
  ▪ project vendor/oneplus/
- ▪ 45eb358 PA firmware flash format for OB23/OB14
- ▪ b44779f Fix few FaceUnlock issues.
- ▪ 68b90c5 Merge branch 'cm-14.1' of https://github.com/TheMuppets/proprietary_vendor_oneplus into cm-14.1
-
- ▼ 09/17/2017
-
-
- ▪ project android/
- ▪ f0c3b1f manifest: switch to our forks of several repos
-
- ▪ project external/skia/
- ▪ 878b9da Defend against ICOs with large BMPs embedded DO NOT MERGE
-
- ▪ project external/sonivox/
- ▪ 188ae17 Fix compiler warnings in sonivox and enable -Werror.
-
- ▪ project frameworks/av/
- ▪ eeff3f6 Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
-
- ▪ project frameworks/base/
- ▪ bb68d19 Back-port fixes for b/62196835
- ▪ cbce7ff Don't disable the GPS prematurely
- ▪ 8503dcf PrivateStorageInfo: Exclude primary physical volume total space
- ▪ fe5307e Keyguard: Change fingerprint listening behavior
-
- ▪ project packages/apps/Messaging/
- ▪ e0708ed Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
-
- ▪ project packages/apps/Settings/
- ▪ 6d05ff9 Back-port ag/2491664
- ▪ 2214a57 AppOpsDetails: Generate correct summary when changing list prefs
- ▪ ac086f6 Settings: Allow devices to provide remote gesture preferences
- ▪ 1b1f6ea Settings: Fix internal storage summary for non-emulated storage devices
- ▪ 4776440 Settings: Always show Privacy Guard permissions
- ▪ 02a6349 AppOps: Switch to an HashMap
- ▪ a3bbfda Settings: Add a shortcut icon for carrier selection
- ▪ cb1ab8b AppOps: Redesign
- ▪ 3a0e238 Revert "Settings[Wifi]: fix the input invalid length for WEP encryption."
-
- ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/
- ▪ cc512c5 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/
- ▪ dbcff69 Initial commit
-
- ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/
- ▪ bf75d16 Initial commit
-
- ▼ 09/16/2017
-
- ▪ project external/libavc/
- ▪ 2170933 Decoder: Fixed allocation of pv_map_ref_idx_to_poc_buf.
- ▪ 871e2ff Decoder: Fixed overflow in refernce list creation.
- ▪ 73ff61b Initialize DPB structures to valid values.
- ▪ 1a4a25a Added error check for output buffer size.
-
- ▪ project external/libhevc/
- ▪ 2f28765 Limit boundary PU sizes in case of errors
- ▪ 3008a9a Fix array size for hrd parameters
- ▪ d2b7822 Check number of output buffers and sizes
- ▪ 8e3fe3b Return error for invalid crop parameters
-
- ▪ project external/libvpx/
- ▪ 50bde27 DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream
-
- ▪ project external/sonivox/
- ▪ afc7e48 Fix interpolator
-
- ▪ project external/sqlite/
- ▪ f55bb7e DO NOT MERGE - fix FTS3 column pointer handling
-
- ▪ project external/tremolo/
- ▪ 0000b2b Use heap instead of alloca in res012.c
-
- ▪ project frameworks/av/
- ▪ be42248 MPEG4Source: fix fragmented read.
- ▪ ac561ef stagefright: fix crash due to bad timestamp index
- ▪ 47f7228 stagefright: check aac_frame_length to prevent infinite loop
- ▪ 708ca76 MediaPlayerService: fix access of mPlayer in client
- ▪ 20a8bdc audio effects: filter reserved effect commands
- ▪ 1f8cd83 MPEG4Extractor: ensure returned status is checked.
- ▪ 09ebf66 DO NOT MERGE Check frame handle validity before freeing buffer.
- ▪ ae74db2 Change MPEG2 reinit Error Handling
- ▪ 6e05adf Track: Check buffer size of static tracks
- ▪ e0b8295 MPEG4Extractor: check size for yrrc box
- ▪ 7a84ae8 AudioFlinger: Fix memory allocation for client-less tracks
- ▪ b1c91bc Notify Errors Appropriately from SoftMPEG2
- ▪ 6dff427 EffectBundle: Check value size for get preset name
- ▪ 3fcd8ac Fix TOCTOU problem in libstagefright_soft_aacenc
-
- ▪ project frameworks/minikin/
- ▪ 440e10a Reject unsorted cmap entries. DO NOT MERGE
-
- ▪ project hardware/broadcom/wlan/
- ▪ 71b070f net: wireless: bcmdhd: update bcm4354/4356 FW (7.35.101.8)
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 7a797d4 Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8952/
- ▪ 0bf8b30 Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8960/
- ▪ 01e8f3b Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8974/
- ▪ f5a8e83 Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ 7da7e5e Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 53c7f74 Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8998/
- ▪ c736bfe Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio/default/
- ▪ 3f7e702 Equalizer: Check value size for get preset name
-
- ▪ project packages/apps/Messaging/
- ▪ 87f81d9 37742976 - Catch bad gifs
-
- ▪ project packages/apps/Nfc/
- ▪ f20aedf Add READ_EXTERNAL_STORAGE for file based Uri while beaming.
-
- ▼ 09/15/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ dcac831 oneplus2: add modem firmware
- ▪ c009d66 Revert "oneplus2: copy modem firmware from where it is"
- ▪ b81982f oneplus2: correct frp partition
-
- ▪ project packages/apps/AudioFX/
- ▪ 3f7743b AudioFX: use vector drawables
- ▪ b94e30b AudioFX: set theme accent to white
- ▪ 00d3381 AudioFX: match control switches color with fragment background
- ▪ f5d78ad AudioFX: Add Reverb toggle
- ▪ 9fe5a3a AudioFX: Use default material toggle
- ▪ 9662067 AudioFX: Apply effects independently of the output flags
-
- ▪ project system/bt/
- ▪ 215d434 Add missing extension length check while parsing BNEP control packets
- ▪ a61aaf1 Free p_pending_data from tBNEP_CONN to avoid potential memory leaks
- ▪ 922d50b Add a missing check for PAN buffer size before copying data
- ▪ c6f7f86 Add missing packet length checks while parsing BNEP control packets
- ▪ 7e30b79 Add missing continuation offset check for SDP continuation requests
- ▪ 0700e5b Disable PAN Reverse Tethering when connection originated by the Remote
- ▪ 8825957 Allocate buffers of the right size when BT_HDR is included
-
- ▪ project vendor/oneplus/
- ▪ 69a73ed oneplus2: add modem firmware
-
- ▼ 09/14/2017
-
-
- ▪ project device/oneplus/oneplus3/
- ▪ 0de4b9e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
- ▪ 2b0b6b7 op3: Update to OB23 / OB14 blobs
- ▪ a7c91cc op3: Advertize high-speed recording profiles
- ▪ 86e903a Revert "Unlock 720P slowmotion video"
-
- ▼ 09/13/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ a2b857a Revert "sepolicy: Fix rfs_access denial"
- ▪ 64173f9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into hdr
- ▪ d8aa9dd sepolicy: Fix rfs_access denial
-
- ▼ 09/12/2017
-
-
- ▪ project hardware/qcom/media-caf/msm8960/
- ▪ b28bc21 BACKPORT: mm-video: venc: Protect buffer from being freed while accessing
- ▪ f65fe19 BACKPORT: mm-video: vdec: Avoid processing ETBs/FTBs in invalid states
-
- ▪ project packages/apps/Snap/
- ▪ 853e8ee WideAnglePanoramaUI: Show switcher on Stop Capture
-
- ▼ 09/11/2017
-
-
- ▪ project hardware/qcom/media-caf/msm8974/
- ▪ 209a13c mm-video-v4l2: venc: Protect buffer from being freed while accessing
-
- ▪ project packages/apps/Jelly/
- ▪ 5f25616 Jelly: Reuse DateFormat instance in HistoryAdapter.
-
- ▪ project packages/apps/TvSettings/
- ▪ acace0c Use new updater activity name for update button
-
- ▼ 09/10/2017
-
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 76a0188 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.24' into cm-14.1-caf-8916
-
- ▪ project hardware/qcom/audio-caf/msm8960/
- ▪ 9d1af8a aenc-aac: bounds checking
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ aab6e9f msm8937: hal: Support custom mixer_paths file names
- ▪ ed2f918 policy_hal: Don't fill in offload information for unsupported streams
- ▪ c816745 msm8937: acdb: Make acdb reloading optional
- ▪ 49e5b92 ssr: Fix building with OSS materials
- ▪ 955bf9d msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
- ▪ 821cccf msm8996: audio: Add l/r mic swapping when using stereo mics
- ▪ ce1ee1d Add special case for stereo camcorder
- ▪ bd30b5b hal: Featureize APE/VORBIS/WMA offload support
- ▪ d991672 audio policy: fix capture indication to sound trigger service.
- ▪ 4944746 hal: Don't try to record using 3-mic unless we mean it
- ▪ 1a22ffe hal: Haxed header
- ▪ 62da52b audio: Fix flac offload not working
- ▪ a819e32 hal: Fix build with HDMI disabled
- ▪ 3c433f9 audio: Fix complilation warnings under Clang
- ▪ 0881ab0 msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled
- ▪ 3b00fbd audio: Extend platform parser to allow device name aliasing
- ▪ fa3ad7e hal: post_proc: enabled / disable volume listener based on prop
- ▪ 1eafbe7 hal: Support the audio amplifier hook
- ▪ 93c4733 audio: Use direct project pathmap
-
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 0e4f36e display: Fix ColorMetaData
- ▪ 837bea4 display-caf: msm8996: Use ColorMetaData in SDM in hwc2
- ▪ b57e903 display-caf: 8996: Add color metadata to libgralloc1
- ▪ 149b738 hwc2: Only set display_width and display_height when equal to zero
- ▪ ad7a601 hwc2: Handle empty lists in AcceptDisplayChanges
- ▪ 8a47e28 msm8996: hwc2: check for null layers in layer map
- ▪ 934772f hwc2 : Fix layer updating flag
- ▪ 4d97c5e gralloc: Return an error if the buffer was not mapped
- ▪ 9f3b96b Revert "Revert "gralloc: Default to 601 color space""
- ▪ 0a5444d hwc2: Workaround use after free by surfaceflinger
- ▪ 5e1a288 hwc2: Update composition types on AcceptDisplayChanges
- ▪ 066fd9b Revert "gralloc: Default to 601 color space"
- ▪ 6d28c4b gralloc: Disable UBWC for writeback buffers
- ▪ 557c5ff hwc2: Initialize color mode to native
- ▪ 1c5f5a8 hwc2 : Allow only top most cursor layer
- ▪ fd935a0 Revert "gralloc: Return an error if the buffer was not mapped"
- ▪ bcd5a49 hwc2: Fix solid fill
- ▪ 52218dc sdm:hwc2: Store higher order mode id in case of clash
- ▪ 302a25c gralloc: Return an error if the buffer was not mapped
- ▪ d42e293 hwc2: Fix retire fences
- ▪ 0d41f5d hwc2: Always store a release fence if a layer is presented
- ▪ 2b1d161 hwc2: Use current frames retire fence only for the primary
- ▪ 2113967 8996/HWC2: Return this frame's retire fence
- ▪ 8fe4a3b hwc2: Remove default mode application at boot.
- ▪ 6257c08 hwc2: Support HWC2_CAPABILITY_SKIP_CLIENT_COLOR_TRANSFORM
- ▪ 36f1973 hwc: Set ioprio for vsync thread
- ▪ bb18e78 Fix duplicate copy file rules
- ▪ cc9a267 Don't build lights module if vendor supplies it
- ▪ 8c771e6 display: Use project pathmap
-
- ▪ project hardware/qcom/media-caf/msm8996/
- ▪ e84dcfe Fix duplicated OMX.qcom.audio.decoder.aac entry
- ▪ 1b85693 media: libOmxSw encoders require prop headers :(
- ▪ 8adf136 mm-video: Disable proprietary extension
- ▪ 166864f venc: Fix VQZip issue
- ▪ 914d3bc media: Avoid collision with FFMPEG plugin
- ▪ 71d6868 media: Use project pathmap
-
- ▼ 09/08/2017
-
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ cda376e Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.16' into cm-14.1-caf-8994
-
- ▪ project hardware/qcom/display-caf/msm8994/
- ▪ 39bc982 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.16' into cm-14.1-caf-8994
-
- ▪ project hardware/qcom/media-caf/msm8994/
- ▪ 5142d75 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.16' into cm-14.1-caf-8994
-
- ▪ project packages/apps/Settings/
- ▪ 9b5b76b Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 924a9c6 Add J5H to the list (#864)
-
- ▼ 09/07/2017
-
-
- ▪ project hardware/qcom/audio-caf/msm8974/
- ▪ 00b7019 aenc-aac: bounds checking
-
- ▪ project hardware/qcom/media-caf/apq8084/
- ▪ 477e1d7 mm-video-v4l2: venc: Protect buffer from being freed while accessing
-
- ▪ project packages/apps/Settings/
- ▪ 2683f89 I've changed my name (#862)
-
- ▪ project vendor/oneplus/
- ▪ 75327ea op3: Update blobs from OB23 / OB14
-
- ▼ 09/06/2017
-
-
- ▪ project kernel/oneplus/msm8996/
- ▪ 992748c FROMLIST: f2fs: introduce discard_granularity sysfs entry
- ▪ 81b8e2d FROMLIST: f2fs: use IPU for cold files
- ▪ cc41c1d FROMLIST: f2fs: make background threads of f2fs being aware of freezing
- ▪ c45e7c7 ARM: dts: 15801: Update panel sRGB & DCI-P3 cmd from Open Beta kernel
- ▪ ca8bbde ARM: dts: 15801: Nuke redundant panel cmds
+ ▪ 1218bbe Camera stuff from OOS 3.5.8

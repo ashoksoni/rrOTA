@@ -1,6 +1,16 @@
 Changelog
 
 
+19th September 2017
+
+Sources updated till 19th September 4.06pm IST.
+
+Mostly a bug fix release.
+
+Media playing related issues should be fixed now.
+Fixed OTA app not showing links when there isn't any update.
+Everything should be working fine now.
+
 18th September 2017
 
 Sources updated till 18th September 7.30pm IST.

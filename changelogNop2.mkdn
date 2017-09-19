@@ -1,6 +1,28 @@
 Changelog
 
 
+19th September 2017
+
+Sources updated till 19th September 4.06pm IST.
+
+September Security patches
+
+framework: shorten wait time for shutdown time optimization
+Updated Sultan's signal strength hack (though I still don't see much improvement)
+Wifi: Fix null pointer exception in mInfo & mNetworkInfo
+framework: shorten wait time for shutdown time optimization
+Fixed OTA app not showing links when there isn't any update.
+Fixed Trusted face force close.
+oneplus2: add modem firmware
+Revert "oneplus2: copy modem firmware from where it is"
+oneplus2: correct frp partition
+
+Kernel (still v105 based):
+pwm: qpnp-pwm: add api for synchronous enable of pwms
+qpnp-smbcharger: Publish charger voltage to the usb psy
+misc: fpc1020: Clean up interrupt handler
+input: synaptics: s3320: Silence log spam
+
 4th September 2017
 
 Sources updated till 4th September 2.30pm IST.
