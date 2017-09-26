@@ -2,77 +2,174 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 09/19/2017
+ ▼ 09/26/2017
 
 
  ▪ project device/oneplus/oneplus2/
- ▪ 3c2c5fe Revert "sepolicy: Fix rfs_access denial"
- ▪ 3933dbd Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
- ▪ 0e1929c Revert "oneplus2: force deep buffer"
+ ▪ 73b7626 Profiles qs tile added
 
- ▪ project frameworks/av/
- ▪ da0b814 Fix memory leak warning in FwdLockEngine.cpp
- ▪ d4c6b34 fix potential mediaserver crash in ACodec::getPortFormat
- ▪ b5da13f Do not seek when switching to background playback
- ▪ 821f656 Fix memory leak warning.
- ▪ a31dfd8 fix mediaserver crash in ACodec::getPortFormat
- ▪ 7ba4ec6 av: "ACodec: update native window crop rectangle" depends on QCOM
- ▪ 2a4b0d9 soundtrigger: fix memory corruption
- ▪ 8f5b41d soundtrigger: fill in default extras from dsp
- ▪ 4ddb46d DTS Sound (TruMedia) Postpro integration for Android 7.0
- ▪ 100dbd2 Enable 64bit mediaserver
- ▪ d788fbe frameworks/av: Fix video recording breaks
- ▪ 485be02 camera: Allow camera HAL to get caller package
- ▪ 9e1dc5a libstagefright: encoder must exist when source starting
- ▪ 4c86ab1 HLS: force audio/video both to start from IDR position
- ▪ a166158 stagefright: don't assume 16 bit format
- ▪ 5f4308d libmedia: synchronize access to meta
- ▪ db44f55 audiopolicy: mute strategies when device is a2dp after suspended
- ▪ 6fcb5a0 audio: hold effect mutex when releasing effect engine
- ▪ acbe127 audiopolicy: Do not select A2DP device if suspended
- ▪ 3c099c6 audiopolicy: Invalidate direct PCM tracks when mono is set
- ▪ 75deef2 audioflinger: update IO info when releasing audio patch
- ▪ 3b8535b NuPlayer: Decoder: Check for valid codec on resume
- ▪ 127f3bb AudioPolicyMng: check for null audioSession when realeasing input
- ▪ 00aca80 video: Disable sync frame decoder mode for closest seek
- ▪ 0f5cf01 NuPlayer: fix possible deadlock due to recursive mutex access
- ▪ eb02536 stagefright: stop audio encoding before releasing writer thread
- ▪ f0645e6 stagefright: Remove extra memcpy
+ ▪ project device/oneplus/oneplus3/
+ ▪ e03670e Profiles qs tile added
+ ▪ 31b66de Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus3 into cm-14.1
+
+ ▪ project external/libnfc-nci/
+ ▪ 257864a pn54x: Don't default to pn551 if BOARD_NFC_CHIPSET isn't set
 
  ▪ project frameworks/base/
- ▪ a11d76d Revert "base: audioservice: Set BT_SCO status"
- ▪ 25973d9 Magnification gesture: fix screen freezing
- ▪ ffd5ed6 Revert "Fix memory-leak warnings from the static analyzer"
- ▪ 769ea9a Revert "Fix AVD memory leak"
- ▪ 28b0754 frameworks/base: Checkins batterystats dump format
- ▪ de2ba961 Update signal strength hack
- ▪ tra333d framework: shorten wait time for shutdown time optimization
- ▪ f22ec47 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ be88285 SystemUI: locked tasks should have a valid view
+ ▪ d31042d Don't crash when checking if components are protected
+ ▪ 1b9b2f9 Always hide protected apps from the recent tasks list
+ ▪ b4b86c0 System Profiles in QS Tiles
+ ▪ c14d62f Revert "PhoneWindowManager: Block screenshots when pocket lock is showing"
+ ▪ 47dc615 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 7aea51e WifiApConfigStore: randomize default soft ap SSID
 
  ▪ project kernel/oneplus/msm8994/
- ▪ a872af9 pwm: qpnp-pwm: add api for synchronous enable of pwms
- ▪ 2e04b02 qpnp-smbcharger: Publish charger voltage to the usb psy
- ▪ 8750f3b misc: fpc1020: Clean up interrupt handler
- ▪ 0838577 input: synaptics: s3320: Silence log spam
+ ▪ 3c25e33 camera_v2/msm_isp_axi_util : fix derps
+ ▪ a1e7cb4 ANDROID: mnt: Fix freeing of mount data
+ ▪ 65c9ef9 msm: ipa: fix security issues in ipa wan driver
+ ▪ 15959f1 ASoC: msm: qdsp6v2: Enable DSP gapless by default
+ ▪ 2ff35f38 camera_v2: isp: Replace monotonic timestamp with boot_time
+ ▪ 030d21e msm: camera: isp: Add missing mutex unlock
+ ▪ 12f64a2 [CVE-2017-8234] msm: camera: cci: Add out of boundary check
+ ▪ cf507b4 Merge tag 'LA.BF64.1.2.3-03310-8x94.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.10 into cm-14.1
 
  ▪ project kernel/oneplus/msm8996/
- ▪ 85a5a4e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+ ▪ ca0d330 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_kernel_oneplus_msm8996 into cm-14.1
+
+ ▪ project packages/apps/CMParts/
+ ▪ e4ce4e3 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_CMParts into nougat
 
  ▪ project packages/apps/DUI/
- ▪ 42c0470 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
+ ▪ 25df8c5 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
 
- ▪ project packages/apps/Messaging/
- ▪ e81ba55 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Messaging into nougat
-
- ▪ project packages/apps/ResurrectionOTA/
- ▪ 9037ad8 Fixing other links
+ ▪ project packages/apps/Dialer/
+ ▪ e99e9a3 Fixing NPE when clicking on manage Conferenced calls
 
  ▪ project packages/apps/Settings/
- ▪ 4fbe913 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 195ee35 Replaced unlimited message limits to None..
+ ▪ 7724457 Enable Single tap tile switch by default
+ ▪ 8fde4e8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
 
  ▪ project vendor/cm/
- ▪ 98df569 Trusted face force closing without this lib.
- ▪ d7b1b24 Snap out, SnapDragon in
+ ▪ 81734dc Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
 
  ▪ project vendor/oneplus/
- ▪ 1218bbe Camera stuff from OOS 3.5.8
+ ▪ 233sxcs PA firmware flash format for OB24/OB15
+ ▪ cea26db Merge branch 'cm-14.1' of https://github.com/TheMuppets/proprietary_vendor_oneplus into cm-14.1
+
+ ▼ 09/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 95ba21f PhoneWindowManager: Block screenshots when pocket lock is showing
+ ▪ 51c0f6f PocketService: Adjust light sensor rate to 400ms
+ ▪ 31e374f ActivityManager: Remove POWER_OFF_ALARM intent leftover
+ ▪ 8cf55f1 SystemServer: Don't start widget service when it is alarm boot
+ ▪ 8f62033 Recents: Add accessibility descriptions for lock ImageViews
+ ▪ 65748c4 SystemUI: Revert some Tuner changes
+ ▪ 71bfe49 DUtils: Migrate from broadcasts to API for some action handling [1/2]
+ ▪ f99120e ColorEngine: Fixup themes for our customizations[2/3] *Update Primary and secondary coolors *Update TM Fab bg *Update Stroke accent colors *Thanks to ALtan for control_checkable_material theme issue
+ ▪ e90fec8 Revert "FWB:Update default theme to Pixel Blue [1/2]"
+ ▪ a3d99a6 Themes: Expose manifest styles for themes
+ ▪ a3dab8d Bring back Pixel theme [1/2]
+ ▪ 27dc140 BrightnessSlider: Fix Slider thumb not theming to accent color
+ ▪ 90dfe02 Revert "sysui: New google pixel colors"
+ ▪ ad41af3 Revert "Base : Finalize the pixel theme and prepare for theme engine"
+ ▪ 5c1386f Revert "base: New google pixel colors"
+ ▪ ec7bf0d FWB:Update default theme to Pixel Blue [1/2]
+ ▪ 32ba76a Partially revert "ColorEngine: theme improvements/completeness"
+ ▪ 79a4136 ColorEngine: fix power menu instant theming
+ ▪ 69ca41e TileAdapter: allow styling tile item decoration background
+ ▪ 98726ae ColorEngine: theme improvements/completeness
+ ▪ 2bf21f4 ColorEngine: fwb: keep changed resources footprint low
+ ▪ 17c72a1 ColorEngine: fwb: default to default primary/bg color
+ ▪ 3eca4dd ColorEngine: who wants orange if you can have amber [1/2]
+ ▪ 5b5e499 ColorEngine: fwb: default to teal color accent everywhere
+ ▪ 453e33b ColorEngine: default to teal color accent
+ ▪ ba42305 Introduce color engine.
+ ▪ d796bc5 Revert "FW: Use stock pixel color scheme & improve upcoming CMTE compatibility"
+
+ ▪ project packages/apps/DUI/
+ ▪ b79ce98 DUI:Fix up accent colors with color engine[3/3]
+
+ ▪ project packages/apps/Settings/
+ ▪ 523231c Add Andres to About
+ ▪ 3c520f0 Settings:Fix up RR configurations theme with color engine[1/3]
+ ▪ bb8b8d3 ColorEngine: Settings: keep changed resources footprint low
+ ▪ 62b94cf ColorEngine: Settings: default to default primary/bg color
+ ▪ 2244d5d ColorEngine: Settings: default to pixel accent everywhere
+ ▪ fe2ff9f Settings: Make shortcut icon colors match settings accent
+ ▪ ec49047 Settings: PreviewPagerAdapter: copy the full theme
+ ▪ 3bbba44 Improve color selection preview
+ ▪ 316b3bb ColorEngine settings: show accent color selection on first open
+ ▪ 7c5a01e Settings: Support color engine
+
+ ▪ project system/vold/
+ ▪ d8d5e6e Fix bug in cryptfs_verify_passwd with hardware disk encryption
+
+ ▪ project vendor/cm/
+ ▪ 889b570 Merge remote-tracking branch 'rr/nougat' into HEAD
+ ▪ 3b31d8f Final version for N -> 5.8.5 \m/
+ ▪ 6d81c3d vendor: sepolicy: Add Color Engine policy
+ ▪ 813d067 Revert "Revert "vendor: cm: sepolicy: Allow rw-access to system_app_data_file""
+ ▪ c0a7af1 Remove all traces of CMTE policy
+
+ ▼ 09/24/2017
+
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 0036392 ARM: dts: 15801: Attach sRGB off cmd to dsi on cmd
+ ▪ b504f72 mdss: livedisplay: Don't send sRGB/DCI-P3 off cmd when dsi on
+
+ ▼ 09/23/2017
+
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 81f2976 op3: Update blobs from OB24 / OB15
+ ▪ 1c89272 op3: Update file extractors to match new template
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 53fe045 Const: 5.8.5
+
+ ▪ project vendor/cm/
+ ▪ ed3107d RR: v5.8.5
+
+ ▼ 09/22/2017
+
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ d59ae90 Prevent potential double frees in sg driver
+ ▪ 3505db7 driver core: platform: fix race condition with driver_override
+ ▪ e24eb35 ipx: call ipxitf_put() in ioctl error path
+ ▪ 3e4c954 ANDROID: sdcardfs: Add missing break
+ ▪ 68e8b2b ANDROID: Sdcardfs: Move gid derivation under flag
+ ▪ 29eb328 ANDROID: mnt: Fix freeing of mount data
+ ▪ dfa3c86 drivers: staging: Update qcacld-2.0 driver
+ ▪ 9cb7b43 Merge tag 'LA.UM.5.5.r1-05800-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into cm-14.1
+
+ ▪ project vendor/oneplus/
+ ▪ 2c8740e op3: Update blobs from OB24 / OB15
+
+ ▼ 09/21/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project kernel/oneplus/msm8996/
+ ▪ df473c4 ARM: dts: 15801: Switch back to old sRGB cmds
+
+ ▼ 09/20/2017
+
+
+ ▪ project frameworks/native/
+ ▪ 3ec1909 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
+ ▪ 47d7223 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into HEAD
+
+ ▪ project hardware/cyanogen/
+ ▪ da0e259 livedisplay: Add msm8998 and sdm660 as SDM targets
+
+ ▪ project system/extras/su/
+ ▪ 11730a5 correct delivering process return code to caller

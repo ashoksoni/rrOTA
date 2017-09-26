@@ -1,6 +1,31 @@
 Changelog
 
 
+26th September 2017
+
+Bump version to 5.8.5
+Sources updated till 26th September 2.06pm IST.
+
+Persist issue : Force close when try to manage conference call, it's a source issue and can't be avoided with a simple if statement. Hopefully it'll be fixed in Oreo else I will try to fix it then.
+
+op3: Update blobs from OB24 / OB15 (firmware is included within the zip)
+SystemUI: locked tasks should have a valid view
+Don't crash when checking if components are protected
+Always hide protected apps from the recent tasks list
+System Profiles in QS Tiles
+Smart cover toggle under Display
+Randomize default soft ap SSID (may work only on clean flash)
+
+Replaced unlimited message limits text to None.
+Enable Single tap qs tile switch by default
+
+Dialer: add to support multi-language smart search
+Russian T9 for Dialer (author dimfishr)
+Allow T9 with ru_UA, ru_BY, ru_KZ, ru_KG, ru_MD locales
+
+(Comes with sources update)
+Introduced color engine with many other related fixes.
+
 19th September 2017
 
 Sources updated till 19th September 4.06pm IST.
