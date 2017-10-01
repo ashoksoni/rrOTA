@@ -1,6 +1,36 @@
 Changelog
 
 
+01st October 2017
+
+Sources updated till 01st October 5.06pm IST.
+
+op2: Pin camera app in memory
+
+Accidental touch qs tile added.
+Enable burnIn protection support
+
+Picotts fixed
+NotificationTile: Update icons
+NotificationTile: Show proper name in QS Customizer
+Add a timer to screen record
+Fix issue in screenshot sound. Now audio should route through proper channels after you take a screen-shot instead of phone's speakers like always.
+Configurations add a option to change fab button size to max/min
+correct fab button RTL position
+SystemUI: locked tasks should have a valid view
+QS Localtion tiles metrics added
+Set maple as default I/O Scheduler
+Allow exfat and ntfs access for sdcard
+
+Kernel
+add fingerprint boost
+Add Maple I/O Scheduler and set as default.
+add lz4 Cryptographic API
+lz4,lz4hc - fix decompression
+
+(Comes with sources update)
+Enable burnIn protection support
+
 26th September 2017
 
 Bump version to 5.8.5
