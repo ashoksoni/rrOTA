@@ -2,93 +2,131 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 09/30/2017
+ ▼ 10/05/2017
+
+
+ ▪ project android/
+ ▪ 516714f manifest: track our own dnsmasq and libmpeg2
+ ▪ 6afec8e cm: Remove unused projects
+
+ ▪ project build/
+ ▪ 1483845 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ e2bf614 Use Google Nexus Audio Files [1/2]
+ ▪ cb361ed [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)
+ ▪ 9727f4f [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)
+ ▪ d6b4f42 core: config: Use host bison if requested
+ ▪ 68898f0 Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 2011b6c Heads up qs tile removed, we already have a new better tile.
+ ▪ 6ff9d38 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
+ ▪ cd9838c oneplus2: update graphic blobs
+ ▪ 06d77e0 oneplus2: update core_ctl
+
+ ▪ project device/oneplus/oneplus3/
+ ▪ 91b90b8 Heads up qs tile removed, we already have a new better tile.
+
+ ▪ project frameworks/av/
+ ▪ 04f9c28 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_av into nbackup
+ ▪ f9bce6f Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
+
+ ▪ project frameworks/base/
+ ▪ ba78c1f Touch to add tiles label instead of Drag to add tiles in QS Edit mode.
+ ▪ ad09af0 stop granting location to Chromium by default
+ ▪ 7daf419 add a NETWORK permission group for INTERNET
+ ▪ 30920da mark INTERNET as a special dangerous permission
+ ▪ eca1a48 enable config_permissionReviewRequired
+ ▪ 825b1dc flashlight: work around race by re-attempting init
+ ▪ ef079a3 Renamed Notification tile label to Heads up as Heads up tile is removed.
+ ▪ d22079c Permissions: Fix permissons for ContactsProvider2
+ ▪ b4947a6 Core: Fix setupwizard FC
+ ▪ 3f443c3 Fixes Locale qs tile fc.
+ ▪ f2d6a2b Use Google Nexus Audio Files [2/2]
+ ▪ a57a39d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 04405fc Fix security hole in GateKeeperResponse.
+ ▪ 7fd68e0 Enforce policy for camera gesture in keyguard
+ ▪ ff5b93c Revert "Camera: ignore torch status update for aux or compsite camera"
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ f972bd4 fix toggling off current permissions in review
+ ▪ 4b8e6f1 add NETWORK permission group
+ ▪ 3f58e91 always treat INTERNET as a runtime permission
+
+ ▪ project packages/apps/Settings/
+ ▪ e15b8d8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 25b490d Disabling the activate button when paused
+ ▪ a2ff665 AppOpsState: Hide undeclared Privacy Guard OPs
+
+ ▪ project vendor/oneplus/
+ ▪ 8bf521b oneplus2: update graphic blobs
+
+ ▼ 10/04/2017
 
 
  ▪ project device/oneplus/oneplus2/
- ▪ 5b37a88 op2: Pin camera app in memory
- ▪ 0d56913 Accidental touch qs tile added.
- ▪ 1104a53 op2: enable burnIn protection support
+ ▪ a1af739 Revert "oneplus2: correct frp partition"
 
  ▪ project device/oneplus/oneplus3/
- ▪ be2b5c4 Accidental touch qs tile added.
- ▪ d7e741b op3: enable burnIn protection support
+ ▪ bea6f30 oneplus3: Add OneplusPocketMode
+ ▪ 8152025 Revert "(2/2) op3: Add pocketmode app"
 
  ▪ project frameworks/base/
- ▪ c033353 base: tiles: Accidental touch tile
- ▪ cd34a80 base: NotificationTile: Update icons
- ▪ 76ee928 base: NotificationTile: Show proper name in QS Customizer
- ▪ 104e686 Add a timer to screen record
- ▪ 74584a1 Fix issue in screenshot sound.
- ▪ fdb0383 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ bc1fff5 [2/2]Base: Configurations add a option to change fab button size
- ▪ 35a076b SystemUI: locked tasks should have a valid view
- ▪ 767857b Revert "SystemUI: locked tasks should have a valid view"
- ▪ ff0d789 QS Localtion tiles metrics added
+ ▪ 8de6e39 SystemUI: Improve battery icons
 
- ▪ project kernel/oneplus/msm8994/
- ▪ 18289d0 oneplus2: defconfig: add fingerprint boost
- ▪ 42b83a3 maple-iosched: Fix the -Wdeclaration-after-statement warnings
- ▪ 5b4fb4d oneplus2: defconfig: enable maple IOSCHED by default
- ▪ 87359a7 block: maple: Fix inverted logic
- ▪ bf50c6f block: maple: Make bools constant across functions
- ▪ 4328aa3 block: maple: Use native display state instead of PowerSuspend
- ▪ 62170c2 block: maple: Serve asynchronous requests before synchronous ones
- ▪ 1106a7f block: maple: Fix some logic, import former/latter request logic from SIO, and use some improved bits of SIO
- ▪ 5daa840 block: maple: Catch writes_starved sooner, increase limit.
- ▪ f78aa71 block: maple: Clean up and add patchlevel macro to keep track of commits
- ▪ 61feb9c block: maple: Remove CONFIG_HZ dependency, assume 300 for interrupt frequency
- ▪ 7f20abd block: Add Maple I/O Scheduler
- ▪ 69bb7353 cpufreq: Introduce fingerprint boost driver
- ▪ e5148c5 fs/exec: fix use after free in execve
- ▪ 8981a01 net: properly release sk_frag.page
- ▪ 4182701 crypto: lz4,lz4hc - fix decompression
- ▪ 7298b91 oneplus2: enable crypto lz4
- ▪ 2844aa1 crypto: add lz4 Cryptographic API
+ ▼ 10/03/2017
 
- ▪ project packages/apps/DUI/
- ▪ 581e9a6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_DUI into nougat
 
- ▪ project packages/apps/Settings/
- ▪ 06d597a [1/2]Settings: Configurations add a option to change fab button size
- ▪ 955e928 Settings: correct fab button RTL position
- ▪ 565914c Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ project device/oneplus/oneplus2/
+ ▪ 99996df oneplus2: Add OneplusPocketMode
 
- ▪ project system/sepolicy/
- ▪ b70bedc sepolicy: Allow exfat and ntfs access for sdcard
+ ▪ project external/dnsmasq/
+ ▪ 41e4b42 Add extra (size_t) cast to avoid compiler warning.
+ ▪ 0b7daf3 Make dnsmasq more stable.
 
- ▪ project vendor/cmsdk/
- ▪ 29e978b Merge branch 'nougat' of https://github.com/ResurrectionRemix/cm_platform_sdk into nougat
+ ▪ project external/libhevc/
+ ▪ 42469df Fix slice decrement for skipped slices
+ ▪ 6f57834 Ensure CTB size > 16 for clips with tiles and width/height >= 4096
 
- ▼ 09/29/2017
+ ▪ project external/libmpeg2/
+ ▪ c1edfa4 Fixed Memory Overflow Errors
 
+ ▪ project external/tremolo/
+ ▪ 166d5a3 Fix out of bounds access in codebook processing
+
+ ▪ project frameworks/av/
+ ▪ 019e77c Fix 'potential memory leak' compiler warning.
+ ▪ 223131d Check buffer size in useBuffer in software components
+ ▪ 2ca6228 stagefright: avoid buffer overflow in base64 decoder
+ ▪ 49e724e Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb
+ ▪ 8511171 Fix memory leak in OggExtractor
+ ▪ f1e2df1 Skip track if verification fails
 
  ▪ project frameworks/base/
- ▪ 3cc1a5a [1/4] SystemUI: add burnIn protection setting
+ ▪ 5e99be0 Single tap quick tile is set to default.
 
- ▪ project packages/apps/DUI/
- ▪ 7180a95 DUI: add burnIn protection setting [4/4]
+ ▪ project hardware/ril/
+ ▪ 4609708 DO NOT MERGE Fix security vulnerability in pre-O rild code.
 
- ▪ project packages/apps/Settings/
- ▪ 47d0991 [2/4] Settings: add burnIn protection setting
+ ▪ project hardware/ril-caf/
+ ▪ cc408d7 DO NOT MERGE Fix security vulnerability in pre-O rild code.
 
- ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/
- ▪ 4d5442c Initial commit
+ ▪ project libcore/
+ ▪ aa4fd2e Fix failing FileTest#test_canonicalCachesAreOff()
+ ▪ c1a58e9 Disable File.getCanonicalPath caches.
 
- ▪ project prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/
- ▪ 21e876d Initial commit
+ ▪ project packages/apps/Dialer/
+ ▪ 677ee84 Dialer: Provide upgrade path for removed lookup providers
+ ▪ f01e48f Dialer: Move padding from layout to spinner
+ ▪ 1f70547 BUGBASH-612: do not send phone numbers to non-ssl sites for reverse/forward/people lookups
+ ▪ 7e5560e Make missed call notification a noisy notification
 
- ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/
- ▪ 0ed6f4e Initial commit
+ ▪ project packages/apps/PackageInstaller/
+ ▪ cec631f DO NOT MERGE Disable overlays while installer is resumed
 
- ▼ 09/27/2017
+ ▼ 10/02/2017
 
 
- ▪ project vendor/cmsdk/
- ▪ 8f4f039 [3/3] cmsdk: add burnIn protection setting
- ▪ 10d64e7 Revert "cmsdk: Don't change ring volume or mode if DND is enabled"
- ▪ 253a12e cmsdk: Run in core apps only for poweroff alarm boot
- ▪ f4da7ec Make CMParts a protected component manager
- ▪ a5a86a8 cmsdk: Don't change ring volume or mode if DND is enabled
- ▪ 6f9c3e4 cmsdk: Use intent extradata for WiFi triggers
- ▪ cf42384 cmsdk: Disable unused services
+ ▪ project android/
+ ▪ 46fafaf manifest: use updated svox tag to fix picotts
+ ▪ 3aef973 Switch deqp, pdfium and speex to our forks
+ ▪ 208f9df cm: Remove libphonenumbergoogle

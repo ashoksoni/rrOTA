@@ -1,6 +1,65 @@
 Changelog
 
 
+06th October 2017
+
+Sources updated till 06th October 04.00pm IST.
+October Security Patches
+
+oneplus2: Add OneplusPocketMode
+- Now along with Screen Gestures, FP won't unlock phone if phone is in pocketmode state. (Might not work on a custom kernel)
+
+PicoTTS garbled sounds should be fixed for good now.
+flashlight: work around race by re-attempting init
+
+SystemUI: Improve battery icons
+- When the battery saver is on, always show the percentage (if option is set)
+- Change color of exclamation mark when the battery saver is on so it's visible)
+
+Use Google Nexus Audios
+- Add googles new alarm sounds
+- Add all Pixel sounds
+- Set new pixel sounds as defaults
+
+PackageInstaller and Permissions related changes.
+- Show old and new version on first tab when installing or updating packages.
+- Stop granting location permission to Chromium by default
+- Permissions: Fix permissions for ContactsProvider2
+- Core: Fix setupwizard FC
+- Always treat INTERNET as a runtime permission
+- Mark INTERNET as a special dangerous permission
+- Add a NETWORK permission group for INTERNET
+
+Quick Settings related changes:
+- Revert "Drop-down data switch through Cellular tile."
+- Using Radiobutton style data switch now through Cellular tile.
+- Fixed: Single tap quick tile is set to default. It wasn't working on clean flash earlier.
+- QS customizer 3dots menu: More options to configure qs layouts.
+- Drag to add tiles replaced with Touch to add tiles in QS Edit mode if touch to add is on, which is by default on clean flash.
+- Heads up qs tile removed, we already have a better tile called Notification which is now renamed to Heads up.
+- Fixes Locale (Language) qs tile fc.
+
+Notification slider:
+- Can be used to control Notifications/Ring/Flashlight/Rotation/Caffeine (Time out)
+- Each option has three options but notifications has two extra Vibrate and Ring mode.
+- Priority/Zen mode will be disabled when switching to Vibrate/Ring.
+- Fixed changing from "vibrate" to "all notifications" in some scenarios.
+**
+Torch mode may have some issues when use blink option, I am looking into it.
+
+Pocketmode:
+- Only listen for screen state if proximity check is enabled
+- Only listen for proximity changes if fingerprint enrolled
+- add pocketmode for checking proximity before fingerprint unlock
+- Use common path for proximity state reporting (for kernel purposes)
+
+Kernel is now based on CarbonROM's op2 kernel.
+- upstreamed to 107
+- merged latest caf tags
+- pulled latest commits from official lineage op2 kernel
+- have been testing from last few days and it has been quite stable.
+- will move to official los sources again in oreo builds.
+
 01st October 2017
 
 Sources updated till 01st October 5.06pm IST.
