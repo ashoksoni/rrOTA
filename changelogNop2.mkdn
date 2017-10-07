@@ -1,6 +1,17 @@
 Changelog
 
 
+07th October 2017
+
+Sources updated till 07th October 04.00pm IST.
+
+Fixed Bluetooth and Wifi QS tiles issues.
+Disable personalized dicts by default
+webm: avoid unnecessary variable-length arrays
+
+Fixed keystore related issue
+- Fixes java.security.ProviderException: Failed to load generated key pair from keystore
+
 06th October 2017
 
 Sources updated till 06th October 04.00pm IST.

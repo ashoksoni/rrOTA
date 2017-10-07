@@ -2,131 +2,19 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 10/05/2017
+ ▼ 10/07/2017
 
-
- ▪ project android/
- ▪ 516714f manifest: track our own dnsmasq and libmpeg2
- ▪ 6afec8e cm: Remove unused projects
-
- ▪ project build/
- ▪ 1483845 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ e2bf614 Use Google Nexus Audio Files [1/2]
- ▪ cb361ed [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)
- ▪ 9727f4f [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)
- ▪ d6b4f42 core: config: Use host bison if requested
- ▪ 68898f0 Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES
-
- ▪ project device/oneplus/oneplus2/
- ▪ 2011b6c Heads up qs tile removed, we already have a new better tile.
- ▪ 6ff9d38 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_oneplus_oneplus2 into cm-14.1
- ▪ cd9838c oneplus2: update graphic blobs
- ▪ 06d77e0 oneplus2: update core_ctl
-
- ▪ project device/oneplus/oneplus3/
- ▪ 91b90b8 Heads up qs tile removed, we already have a new better tile.
 
  ▪ project frameworks/av/
- ▪ 04f9c28 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_av into nbackup
- ▪ f9bce6f Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
+ ▪ a939b95 webm: avoid unnecessary variable-length arrays
 
  ▪ project frameworks/base/
- ▪ ba78c1f Touch to add tiles label instead of Drag to add tiles in QS Edit mode.
- ▪ ad09af0 stop granting location to Chromium by default
- ▪ 7daf419 add a NETWORK permission group for INTERNET
- ▪ 30920da mark INTERNET as a special dangerous permission
- ▪ eca1a48 enable config_permissionReviewRequired
- ▪ 825b1dc flashlight: work around race by re-attempting init
- ▪ ef079a3 Renamed Notification tile label to Heads up as Heads up tile is removed.
- ▪ d22079c Permissions: Fix permissons for ContactsProvider2
- ▪ b4947a6 Core: Fix setupwizard FC
- ▪ 3f443c3 Fixes Locale qs tile fc.
- ▪ f2d6a2b Use Google Nexus Audio Files [2/2]
- ▪ a57a39d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
- ▪ 04405fc Fix security hole in GateKeeperResponse.
- ▪ 7fd68e0 Enforce policy for camera gesture in keyguard
- ▪ ff5b93c Revert "Camera: ignore torch status update for aux or compsite camera"
+ ▪ 7653dbe Install keystore provider at app launch
+ java.security.ProviderException: Failed to load generated key pair from keystore
+ ▪ e2e2e27 set default journal mode to TRUNCATE, not PERSIST
 
- ▪ project packages/apps/PackageInstaller/
- ▪ f972bd4 fix toggling off current permissions in review
- ▪ 4b8e6f1 add NETWORK permission group
- ▪ 3f58e91 always treat INTERNET as a runtime permission
+ ▪ project kernel/oneplus/msm8996/
+ ▪ 53ac75e drivers:power: Allow max 2500ma draw from normal charger
 
- ▪ project packages/apps/Settings/
- ▪ e15b8d8 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
- ▪ 25b490d Disabling the activate button when paused
- ▪ a2ff665 AppOpsState: Hide undeclared Privacy Guard OPs
-
- ▪ project vendor/oneplus/
- ▪ 8bf521b oneplus2: update graphic blobs
-
- ▼ 10/04/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ a1af739 Revert "oneplus2: correct frp partition"
-
- ▪ project device/oneplus/oneplus3/
- ▪ bea6f30 oneplus3: Add OneplusPocketMode
- ▪ 8152025 Revert "(2/2) op3: Add pocketmode app"
-
- ▪ project frameworks/base/
- ▪ 8de6e39 SystemUI: Improve battery icons
-
- ▼ 10/03/2017
-
-
- ▪ project device/oneplus/oneplus2/
- ▪ 99996df oneplus2: Add OneplusPocketMode
-
- ▪ project external/dnsmasq/
- ▪ 41e4b42 Add extra (size_t) cast to avoid compiler warning.
- ▪ 0b7daf3 Make dnsmasq more stable.
-
- ▪ project external/libhevc/
- ▪ 42469df Fix slice decrement for skipped slices
- ▪ 6f57834 Ensure CTB size > 16 for clips with tiles and width/height >= 4096
-
- ▪ project external/libmpeg2/
- ▪ c1edfa4 Fixed Memory Overflow Errors
-
- ▪ project external/tremolo/
- ▪ 166d5a3 Fix out of bounds access in codebook processing
-
- ▪ project frameworks/av/
- ▪ 019e77c Fix 'potential memory leak' compiler warning.
- ▪ 223131d Check buffer size in useBuffer in software components
- ▪ 2ca6228 stagefright: avoid buffer overflow in base64 decoder
- ▪ 49e724e Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb
- ▪ 8511171 Fix memory leak in OggExtractor
- ▪ f1e2df1 Skip track if verification fails
-
- ▪ project frameworks/base/
- ▪ 5e99be0 Single tap quick tile is set to default.
-
- ▪ project hardware/ril/
- ▪ 4609708 DO NOT MERGE Fix security vulnerability in pre-O rild code.
-
- ▪ project hardware/ril-caf/
- ▪ cc408d7 DO NOT MERGE Fix security vulnerability in pre-O rild code.
-
- ▪ project libcore/
- ▪ aa4fd2e Fix failing FileTest#test_canonicalCachesAreOff()
- ▪ c1a58e9 Disable File.getCanonicalPath caches.
-
- ▪ project packages/apps/Dialer/
- ▪ 677ee84 Dialer: Provide upgrade path for removed lookup providers
- ▪ f01e48f Dialer: Move padding from layout to spinner
- ▪ 1f70547 BUGBASH-612: do not send phone numbers to non-ssl sites for reverse/forward/people lookups
- ▪ 7e5560e Make missed call notification a noisy notification
-
- ▪ project packages/apps/PackageInstaller/
- ▪ cec631f DO NOT MERGE Disable overlays while installer is resumed
-
- ▼ 10/02/2017
-
-
- ▪ project android/
- ▪ 46fafaf manifest: use updated svox tag to fix picotts
- ▪ 3aef973 Switch deqp, pdfium and speex to our forks
- ▪ 208f9df cm: Remove libphonenumbergoogle
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 60ba6a8 Disable personalized dicts by default
