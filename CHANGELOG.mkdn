@@ -2,19 +2,40 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 10/07/2017
+ ▼ 10/11/2017
 
-
- ▪ project frameworks/av/
- ▪ a939b95 webm: avoid unnecessary variable-length arrays
 
  ▪ project frameworks/base/
- ▪ 7653dbe Install keystore provider at app launch
- java.security.ProviderException: Failed to load generated key pair from keystore
- ▪ e2e2e27 set default journal mode to TRUNCATE, not PERSIST
+ ▪ b87dde7 Fixed Full Brightness QS tile
+ ▪ 0e162be Fixed: Doze Brightness overwrite values
+ ▪ 3ef1e7e Recents: add pinch-in gesture on tasks to Clear All
+ ▪ 67d1dac Collapse Notification panel after tapping CLEAR ALL button
+ ▪ dfd31e9 QS rows and columns layout fixed.
 
- ▪ project kernel/oneplus/msm8996/
- ▪ 53ac75e drivers:power: Allow max 2500ma draw from normal charger
+ ▪ project packages/apps/Dialer/
+ ▪ c6688b1 Removed extra Add Call button from Calling screen
 
- ▪ project packages/inputmethods/LatinIME/
- ▪ 60ba6a8 Disable personalized dicts by default
+ ▪ project packages/apps/Settings/
+ ▪ 419f997 Replaced None with 2000 in SMS Sending limit values.
+ ▪ df54928 Add options for 60/120 mins screen off timeout
+
+ ▼ 10/10/2017
+
+
+ ▪ project build/
+ ▪ dd481f5 Build ScreenStabilization Demo app to set values.
+
+ ▪ project frameworks/native/
+ ▪ ae1335a Screen stabilization patches applied.
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 245bb43 usb: gadget: f_mtp: fix kernel panic on unplug/replug
+ ▪ 29caa77 usb: gadget: f_fs: Guard epfile->error
+ ▪ 7629d38 UPSTREAM: usb: gadget: f_fs: add "no_disconnect" mode
+ ▪ 7e7c4c6 fastcharge: added fastcharge drivers
+
+ ▼ 10/09/2017
+
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 4d52357 Removed SCHEME_CONTENT

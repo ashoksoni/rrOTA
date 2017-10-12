@@ -1,6 +1,47 @@
 Changelog
 
 
+12th October 2017
+
+Sources updated till 12th October 03.00pm IST.
+
+
+Screen Stabilization
+- ScreenStabilization app is added to adjust these parameters.
+- Switch it off and everything should be back to default.
+- [URL="https://forum.xda-developers.com/xposed/modules/mod-x-screen-stabilizer-t3686918"]This[/URL] xposed module will give you better insight.
+- Based on [URL="http://blog.lemberg.co.uk/no-shake-screen-stabilization-android"]this[/URL] concept - Read this, it's a must.
+- I will provide no further replies to what this is. Links are given, read them, understand them and use it. If you can't, simply remove the app.
+
+Fixed Full Brightness QS tile.
+- For now whenever you use this tile, Auto Brightness Icon in front of brightness slider in QS will disappear as I see no point of it being there.
+
+Fixed: Doze Brightness.
+Recents: add pinch-in gesture on tasks to Clear All.
+Collapse Notification panel after tapping CLEAR ALL button.
+- In few cases it wasn't working.
+
+QS rows and columns functions fixed.
+
+Added a master switch to Call recording.
+Removed extra Add Call button from Calling screen.
+- I am still confused why there are two add call buttons on some carriers and not on some.
+- However now add participant only works when you are in a conference call.
+- If there is something wrong logically here, like you could add call in certain conditions earlier but not now, let me know with proper explainations.
+- I tried with normal calls, adding them into a conference call and then again added a new participant and everything works.
+- Participant background changed to Add call as the default background wasn't good and now it looks all better.
+
+Replaced None with 2000 in SMS Sending limit values.
+- as apparantly none doesn't work which was reported by one of the user.
+Add options for 60/120 mins in screen-off timeout.
+
+Kernel changes:
+usb: gadget: f_mtp: fix kernel panic on unplug/replug
+usb: gadget: f_fs: Guard epfile->error
+UPSTREAM: usb: gadget: f_fs: add "no_disconnect" mode
+fastcharge: added fastcharge drivers
+- I have no idea how good this commit is or whether it really works, it may be a placebo. So don't report if this has no effect.
+
 07th October 2017
 
 Sources updated till 07th October 04.00pm IST.
