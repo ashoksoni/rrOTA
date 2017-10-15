@@ -1,6 +1,15 @@
 Changelog
 
 
+15th October 2017
+
+Sources updated till 15th October 09.00am IST.
+
+Minor update to fix Package Installer issues.
+Fixed Master Call recording switch.
+- Auto recording was still working even after master switch was disabled.
+
+
 12th October 2017
 
 Sources updated till 12th October 03.00pm IST.
