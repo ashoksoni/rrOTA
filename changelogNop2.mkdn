@@ -1,6 +1,22 @@
 Changelog
 
 
+17th October 2017
+
+Sources updated till 17th October 11.00am IST.
+
+
+Fixed a null pointer exception in Conference Manager fragment.
+- actionbar title color is light, not a major concern but will fix in next build.
+- Fixed add participant button's background color in conference manager.
+Fixed Ambient Display Qs tile Long press fc.
+Fixed changing User images through User options properly.
+
+(Comes with sources update)
+Kracks (Key Reinstallation Attacks) vunerablity fixed.
+oneplus2: update camera and media blobs from OxygenOS 3.6.0
+oneplus2: update qcom audio features
+ 
 15th October 2017
 
 Sources updated till 15th October 09.00am IST.

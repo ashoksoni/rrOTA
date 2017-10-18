@@ -2,11 +2,61 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 10/15/2017
+ ▼ 10/18/2017
 
 
  ▪ project frameworks/base/
- ▪ 7feed54 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 3f7e361 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
 
- ▪ project packages/apps/PackageInstaller/
- ▪ 0626384 Don't disable the install button permanently
+ ▪ project packages/apps/Dialer/
+ ▪ 2160de5 Fixing a null pointer exception in Conference Manager fragment.
+
+ ▪ project packages/apps/Settings/
+ ▪ 05b804e Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▼ 10/17/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ bcdb266 oneplus2: update camera and media blobs from OxygenOS 3.6.0
+
+ ▪ project external/wpa_supplicant_8/
+ ▪ ac78917 Clear PMK length and check for this when deriving PTK
+ ▪ a630551 Add debug prints on PMK configuration in WPA supplicant
+ ▪ fbf7ecc WPA: Extra defense against PTK reinstalls in 4-way handshake
+ ▪ 5c64f90 Remove all PeerKey functionality
+ ▪ 726e02c Add MGMT_TX_STATUS_PROCESS command for testing purposes
+ ▪ cda7ff1 FT: Do not allow multiple Reassociation Response frames
+ ▪ 8fb5fe9 WNM: Ignore WNM-Sleep Mode Response without pending request
+ ▪ b6fccd0 TDLS: Reject TPK-TK reconfiguration
+ ▪ 04d9c3d Fix PTK rekeying to generate a new ANonce
+ ▪ bab71fa Prevent installation of an all-zero TK
+ ▪ 812c80a Extend protection of GTK/IGTK reinstallation of WNM-Sleep Mode cases
+ ▪ 4326a42 Prevent reinstallation of an already in-use group key
+ ▪ 3edbf11 hostapd: Avoid key reinstallation in FT handshake
+ ▪ b075172 Set EAPOL-Key Key Length field to 0 for group message 1/2 in RSN
+
+ ▪ project packages/apps/Calendar/
+ ▪ 56dc4a8 Calendar: Show week start and end in title for Week view
+
+ ▪ project vendor/oneplus/
+ ▪ a592e37 Merge branch 'cm-14.1' of https://github.com/TheMuppets/proprietary_vendor_oneplus into cm-14.1
+ ▪ 3e68a74 oneplus2: fourth part of 3.6.0
+
+ ▼ 10/16/2017
+
+
+ ▪ project device/oneplus/oneplus2/
+ ▪ 0eab331 oneplus2: update qcom audio features
+ ▪ e84c268 oneplus2: update more blobs fro OxygenOS 3.6.0
+ ▪ 50bdd33 oneplus2: Tweak dalvik heap size and hwui values
+ ▪ ea13e9d oneplus2: Don't set obsolete dalvik heap size in system.prop
+ ▪ 3b8bf65 oneplus2: update blobs from OxygenOS 3.6.0
+
+ ▪ project packages/apps/Settings/
+ ▪ 04cfba9 Fixed Ambient Display Qs tile Long press fc.
+
+ ▪ project vendor/oneplus/
+ ▪ dbe1563 oneplus2: third part of 3.6.0
+ ▪ fc465dd oneplus2: second part of 3.6.0
+ ▪ 9e67947 oneplus2: first part of 3.6.0
